@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+  <channel>
+    <title>HL7 Lithuania Packages</title>
+    <description>New Packages published by HL7 Lithuania</description>
+    <link>https://hl7lt.github.io/registry/package-feed.xml</link>
+    <generator>HL7 Lithuania Publication tooling</generator>
+    <lastBuildDate>Tue, 23 September 2025 17:41:00 +0000</lastBuildDate>
+    <atom:link href="https://hl7lt.github.io/registry/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 23 September 2025 17:41:00 +0000</pubDate>
+    <language>en</language>
+    <ttl>600</ttl> 
+    <item>
+      <title>lt.fhir.terminology#0.1.0</title>
+      <description>Lithuanian Terminology resources 0.1.0</description>
+      <link>https://hl7lt.github.io/registry/terminology/0.1.0/site/package.tgz</link>
+      <guid isPermaLink="true">https://hl7lt.github.io/registry/terminology/0.1.0/site/package.tgz</guid>
+      <dc:creator>HL7 Lithuania</dc:creator>
+      <fhir:version>5.0.0</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Tue, 23 September 2025 17:41:00 +0200</pubDate>
+    </item>  
+  </channel>
+</rss>
