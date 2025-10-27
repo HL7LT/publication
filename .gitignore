@@ -12,6 +12,8 @@ Thumbs.db
 # project specific folders
 /webroot/.jekyll-cache
 /webroot/.jekyll-cache/*
+/docs/.jekyll-cache
+/docs/.jekyll-cache/*
 /temp
 /_site
 /fsh-generated
