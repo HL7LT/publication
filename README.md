@@ -1,2 +1,3 @@
 ## Availability
-The HL7 Lituanian registry is published on [hl7lt.github.io/registry](https://hl7lt.github.io/registry) using GitHub pages and available on [https://hl7.lt/fhir](https://hl7.lt/fhir) url.
+
+The HL7 Lituanian FHIR IG packages are published on [hl7lt.github.io/publication](https://hl7lt.github.io/publication) using GitPages build and available on [https://hl7.lt/fhir](https://hl7.lt/fhir) url.
