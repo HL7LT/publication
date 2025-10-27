@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="example-pencounter"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-encounter"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Encounter example-pencounter</b></p><a name="example-pencounter"> </a><a name="hcexample-pencounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-encounter.html">LT Base Encounter</a></p></div><p><b>status</b>: Completed</p><p><b>class</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode IMP}">Inpatient encounter</span></p><p><b>priority</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActPriority EM}">Emergency</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005 (use: usual, ))</a></p><p><b>serviceProvider</b>: <a href="Organization-example-organization.html">Organization Vilniaus miesto ligoninė</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Period</b></td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ATND}">attender</span></td><td>2024-02-01 09:00:00+0000 --&gt; 2024-02-12 10:30:00+0000</td><td><a href="Practitioner-example-practitioner.html">Practitioner Dr. Petras Kazlauskas(official)</a></td></tr></table><p><b>actualPeriod</b>: 2024-02-01 09:00:00+0000 --&gt; 2024-02-12 10:30:00+0000</p></div>
+  </text>
+  <status value="completed"/>
+  <class>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <code value="IMP"/>
+      <display value="Inpatient encounter"/>
+    </coding>
+  </class>
+  <priority>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
+      <code value="EM"/>
+      <display value="Emergency"/>
+    </coding>
+  </priority>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <serviceProvider>
+    <reference value="Organization/example-organization"/>
+  </serviceProvider>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+        <code value="ATND"/>
+        <display value="attender"/>
+      </coding>
+    </type>
+    <period>
+      <start value="2024-02-01T09:00:00Z"/>
+      <end value="2024-02-12T10:30:00Z"/>
+    </period>
+    <actor>
+      <reference value="Practitioner/example-practitioner"/>
+    </actor>
+  </participant>
+  <actualPeriod>
+    <start value="2024-02-01T09:00:00Z"/>
+    <end value="2024-02-12T10:30:00Z"/>
+  </actualPeriod>
+</Encounter>

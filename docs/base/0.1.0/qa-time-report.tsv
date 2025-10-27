@@ -1,0 +1,22 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.base.json	10546	-	0	0	0	0	0	0	4	52	0	0	0	0	0	0	0	1	0	0	6	46	54	0	0	0	0	0	1
+fsh-generated/resources/CodeSystem-identifier-domain.json	1233	9	0	0	0	0	0	0	0	7	0	0	1	0	0	0	0	0	0	0	3	13	254	0	0	0	1	0	0
+fsh-generated/resources/Condition-example-cancer.json	1575	10	0	0	0	0	0	0	1	142	0	0	0	0	0	0	0	0	0	0	2	13	14	0	0	0	0	0	0
+fsh-generated/resources/Encounter-example-encounter.json	2249	9	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	1	16	16	0	0	0	0	0	0
+fsh-generated/resources/Encounter-example-pencounter.json	1320	6	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	13	12	0	0	0	0	0	0
+fsh-generated/resources/Observation-example-LTBaseobservation-blood-pressure.json	3098	9	0	0	0	0	0	0	0	2147	0	0	0	0	0	0	0	0	0	0	1	18	17	0	0	0	0	0	0
+fsh-generated/resources/Organization-example-lmb.json	1245	8	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	1	11	13	0	0	0	0	0	0
+fsh-generated/resources/Organization-example-organization.json	897	6	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	10	9	0	0	0	0	0	0
+fsh-generated/resources/Patient-example-patient.json	939	7	0	0	0	0	0	0	1	37	0	0	0	0	0	0	0	0	0	0	1	11	11	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-example-practitioner.json	927	7	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	10	14	0	0	0	0	0	0
+fsh-generated/resources/PractitionerRole-example-practitioner-role.json	578	6	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	9	14	0	0	0	0	0	0
+fsh-generated/resources/RelatedPerson-example-related-person.json	610	7	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	9	12	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-lt-condition.json	3135	8	0	14	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	1	180	1264	0	0	0	2	1	1
+fsh-generated/resources/StructureDefinition-lt-encounter.json	6106	8	0	25	0	0	0	0	0	26	0	0	0	0	0	0	0	1	0	0	0	361	599	0	0	0	6	0	1
+fsh-generated/resources/StructureDefinition-lt-observation.json	6707	7	0	23	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	1	343	590	0	0	0	8	0	1
+fsh-generated/resources/StructureDefinition-lt-organization.json	4820	8	0	28	0	0	0	0	0	75	0	0	1	0	0	0	0	1	0	0	0	248	446	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-lt-patient.json	2318	6	0	22	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	207	395	0	0	0	4	0	1
+fsh-generated/resources/StructureDefinition-lt-practitioner-role.json	1499	6	0	10	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	1	85	195	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-lt-practitioner.json	732	6	0	13	0	0	0	0	0	8	0	0	0	0	0	0	0	1	0	0	0	90	206	0	0	0	1	0	1
+fsh-generated/resources/StructureDefinition-lt-related-person.json	1331	6	0	12	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	94	263	0	0	0	2	0	0
+fsh-generated/resources/ValueSet-organization-identifier.json	839	7	0	0	0	0	0	0	0	53	0	0	0	0	0	0	0	0	0	0	2	12	74	0	0	0	0	0	0

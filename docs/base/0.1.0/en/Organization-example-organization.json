@@ -1,0 +1,39 @@
+{
+  "resourceType" : "Organization",
+  "id" : "example-organization",
+  "meta" : {
+    "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-organization"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization example-organization</b></p><a name=\"example-organization\"> </a><a name=\"hcexample-organization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: lt</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-lt-organization.html\">LT Base Organization</a></p></div><p><b>identifier</b>: <code>http://esveikata.lt/classifiers/Identifier/JAR</code>/123456789\u00a0(use:\u00a0official,\u00a0)</p><p><b>active</b>: true</p><p><b>name</b>: Vilniaus miesto ligoninė</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Purpose</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">work</span></td><td><a href=\"tel:+37061234567\">+37061234567</a></td><td>Gedimino pr. 1 Vilnius 01103 LT (work)</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://esveikata.lt/classifiers/Identifier/JAR",
+    "value" : "123456789"
+  }],
+  "active" : true,
+  "name" : "Vilniaus miesto ligoninė",
+  "contact" : [{
+    "purpose" : {
+      "coding" : [{
+        "code" : "work"
+      }]
+    },
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "+37061234567",
+      "use" : "work"
+    }],
+    "address" : {
+      "use" : "work",
+      "type" : "both",
+      "line" : ["Gedimino pr. 1"],
+      "city" : "Vilnius",
+      "postalCode" : "01103",
+      "country" : "LT"
+    }
+  }]
+}

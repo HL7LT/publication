@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="identifier-domain"/>
+  <language value="lt"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem identifier-domain</b></p><a name="identifier-domain"> </a><a name="hcidentifier-domain"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: lt</p></div><p>This case-sensitive code system <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/SVEIDRAID<a name="identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID"> </a></td><td>VEIDRA identifier</td><td>VEIDRA identifier</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/classifiers/Identifier/JAR<a name="identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR"> </a></td><td>JAR code</td><td>JAR code</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/ESPBI<a name="identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI"> </a></td><td>ESPBI id</td><td>ESPBI id</td></tr></table></div><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem identifier-domain</b></p><a name="lt-identifier-domain"> </a><a name="lt-hcidentifier-domain"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: lt</p></div><p>This case-sensitive code system <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/SVEIDRAID<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID"> </a></td><td>VEIDRA identifier</td><td>VEIDRA identifier</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/classifiers/Identifier/JAR<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR"> </a></td><td>JAR code</td><td>JAR code</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/ESPBI<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI"> </a></td><td>ESPBI id</td><td>ESPBI id</td></tr></table></div></div>
+  </text>
+  <url value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+  <version value="0.1.0"/>
+  <name value="LTBaseIdentifierDomain"/>
+  <title value="Identifier Domain"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-27T15:58:38+02:00"/>
+  <publisher value="Lithuanian Medical Library">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="lt"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Lietuvos medicinos biblioteka"/>
+      </extension>
+    </extension>
+  </publisher>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="Identifier Domain with translations in Lithuanian"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="LT"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+    <display value="VEIDRA identifier"/>
+    <definition value="VEIDRA identifier"/>
+    <designation>
+      <language value="lt"/>
+      <value value="SVEIDRA identifikatorius"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/classifiers/Identifier/JAR"/>
+    <display value="JAR code"/>
+    <definition value="JAR code"/>
+    <designation>
+      <language value="lt"/>
+      <value value="JAR kodas"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/ESPBI"/>
+    <display value="ESPBI id"/>
+    <definition value="ESPBI id"/>
+    <designation>
+      <language value="lt"/>
+      <value value="ESPBI id"/>
+    </designation>
+  </concept>
+</CodeSystem>

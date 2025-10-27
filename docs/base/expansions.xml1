@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="14918b14-b619-4523-a936-4dbb6b145c65"/>
+  <meta>
+    <lastUpdated value="2025-10-27T15:58:50.030+02:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SVEIDRAID"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID">http://esveikata.lt/Identifier/SVEIDRAID</a>
+                </td>
+                <td>VEIDRA identifier</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;, &quot;display&quot;: &quot;VEIDRA identifier&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;&gt;&lt;display value=&quot;VEIDRA identifier&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/classifiers/Identifier/JAR"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR">http://esveikata.lt/classifiers/Identifier/JAR</a>
+                </td>
+                <td>JAR code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/classifiers/Identifier/JAR&quot;, &quot;display&quot;: &quot;JAR code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/classifiers/Identifier/JAR&quot;&gt;&lt;display value=&quot;JAR code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+        <version value="1.0.0"/>
+        <name value="LTBaseOrganizationIdentifier"/>
+        <title value="Organization Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-27T15:58:38+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:459b27b6-099f-4254-a90a-651128b1db08"/>
+          <timestamp value="2025-10-27T15:59:01+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+            <display value="VEIDRA identifier"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/classifiers/Identifier/JAR"/>
+            <display value="JAR code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SVEIDRAID"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID">http://esveikata.lt/Identifier/SVEIDRAID</a>
+                </td>
+                <td>VEIDRA identifier</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;, &quot;display&quot;: &quot;VEIDRA identifier&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;&gt;&lt;display value=&quot;VEIDRA identifier&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/classifiers/Identifier/JAR"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR">http://esveikata.lt/classifiers/Identifier/JAR</a>
+                </td>
+                <td>JAR code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/classifiers/Identifier/JAR&quot;, &quot;display&quot;: &quot;JAR code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/classifiers/Identifier/JAR&quot;&gt;&lt;display value=&quot;JAR code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+        <version value="1.0.0"/>
+        <name value="LTBaseOrganizationIdentifier"/>
+        <title value="Organization Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-27T15:58:38+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:459b27b6-099f-4254-a90a-651128b1db08"/>
+          <timestamp value="2025-10-27T15:59:01+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+            <display value="VEIDRA identifier"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/classifiers/Identifier/JAR"/>
+            <display value="JAR code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SVEIDRAID"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID">http://esveikata.lt/Identifier/SVEIDRAID</a>
+                </td>
+                <td>VEIDRA identifier</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;, &quot;display&quot;: &quot;VEIDRA identifier&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;&gt;&lt;display value=&quot;VEIDRA identifier&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/classifiers/Identifier/JAR"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR">http://esveikata.lt/classifiers/Identifier/JAR</a>
+                </td>
+                <td>JAR code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/classifiers/Identifier/JAR&quot;, &quot;display&quot;: &quot;JAR code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/classifiers/Identifier/JAR&quot;&gt;&lt;display value=&quot;JAR code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+        <version value="1.0.0"/>
+        <name value="LTBaseOrganizationIdentifier"/>
+        <title value="Organization Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-27T15:58:38+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ee3fd017-4169-4631-8941-06c9d2a2295f"/>
+          <timestamp value="2025-10-27T15:59:01+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="lt"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+            <display value="VEIDRA identifier"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/classifiers/Identifier/JAR"/>
+            <display value="JAR code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
