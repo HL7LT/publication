@@ -1,0 +1,907 @@
+# Resource Lithuanian Base Implementation Guide
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "lt.hl7.fhir.base",
+  "language" : "en",
+  "url" : "https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base",
+  "version" : "0.1.0",
+  "name" : "LTBase",
+  "_name" : {
+    "extension" : [
+      {
+        "extension" : [
+          {
+            "url" : "lang",
+            "valueCode" : "lt"
+          },
+          {
+            "url" : "content",
+            "valueString" : "LTBase"
+          }
+        ],
+        "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+      }
+    ]
+  },
+  "title" : "Lithuanian Base Implementation Guide",
+  "_title" : {
+    "extension" : [
+      {
+        "extension" : [
+          {
+            "url" : "lang",
+            "valueCode" : "lt"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Lietuvių bazės įgyvendinimo vadovas"
+          }
+        ],
+        "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+      }
+    ]
+  },
+  "status" : "draft",
+  "date" : "2025-10-27T14:29:14+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "_publisher" : {
+    "extension" : [
+      {
+        "extension" : [
+          {
+            "url" : "lang",
+            "valueCode" : "lt"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Lietuvos medicinos biblioteka"
+          }
+        ],
+        "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+      }
+    ]
+  },
+  "contact" : [
+    {
+      "name" : "Lithuanian Medical Library",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "https://medicinosnk.lt"
+        },
+        {
+          "system" : "email",
+          "value" : "info@medicinosnk.lt"
+        }
+      ]
+    }
+  ],
+  "description" : "Lithuanian Base Implementation Guide",
+  "_description" : {
+    "extension" : [
+      {
+        "extension" : [
+          {
+            "url" : "lang",
+            "valueCode" : "lt"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Lietuvių bazės įgyvendinimo vadovas"
+          }
+        ],
+        "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+      }
+    ]
+  },
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "LT"
+        }
+      ]
+    }
+  ],
+  "packageId" : "lt.hl7.fhir.base",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["5.0.0"],
+  "dependsOn" : [
+    {
+      "id" : "hl7tx",
+      "extension" : [
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+        }
+      ],
+      "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId" : "hl7.terminology.r5",
+      "version" : "6.5.0"
+    },
+    {
+      "id" : "hl7ext",
+      "extension" : [
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+        }
+      ],
+      "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "packageId" : "hl7.fhir.uv.extensions.r5",
+      "version" : "5.2.0"
+    }
+  ],
+  "definition" : {
+    "extension" : [
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+        "valueCode" : "hl7.fhir.uv.tools.r5#0.8.0"
+      }
+    ],
+    "resource" : [
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Practitioner"
+          }
+        ],
+        "reference" : {
+          "reference" : "Practitioner/example-practitioner"
+        },
+        "name" : "Dr. Petras Kazlauskas - LT Base Practitioner Example",
+        "description" : "An example Practitioner conforming to the Lithuanian Base Profile.",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "PractitionerRole"
+          }
+        ],
+        "reference" : {
+          "reference" : "PractitionerRole/example-practitioner-role"
+        },
+        "name" : "Dr. Petras Kazlauskas at Vilniaus miesto ligoninė - LT Base Practitioner Role Example",
+        "description" : "An example Practitioner Role conforming to the Lithuanian Base Profile.",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Encounter"
+          }
+        ],
+        "reference" : {
+          "reference" : "Encounter/example-encounter"
+        },
+        "name" : "Example Encounter",
+        "description" : "Example of an psychiatric encounter",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Condition"
+          }
+        ],
+        "reference" : {
+          "reference" : "Condition/example-cancer"
+        },
+        "name" : "Example LT Base Condition - Cancer",
+        "description" : "Example instance of a cancer diagnosis documented during a patient encounter",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Observation"
+          }
+        ],
+        "reference" : {
+          "reference" : "Observation/example-LTBaseobservation-blood-pressure"
+        },
+        "name" : "Example LT Base Observation - Blood Pressure",
+        "description" : "Example instance of a blood pressure measurement for a patient",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Encounter"
+          }
+        ],
+        "reference" : {
+          "reference" : "Encounter/example-pencounter"
+        },
+        "name" : "Example Psychiatric Encounter",
+        "description" : "Example of an psychiatric encounter",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Organization"
+          }
+        ],
+        "reference" : {
+          "reference" : "Organization/example-lmb"
+        },
+        "name" : "example-lmb",
+        "description" : "Example of a LMB organization",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Organization"
+          }
+        ],
+        "reference" : {
+          "reference" : "Organization/example-organization"
+        },
+        "name" : "example-organization",
+        "description" : "Example of a healthcare organization",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/identifier-domain"
+        },
+        "name" : "Identifier Domain",
+        "description" : "Identifier Domain with translations in Lithuanian",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Patient"
+          }
+        ],
+        "reference" : {
+          "reference" : "Patient/example-patient"
+        },
+        "name" : "Jonas Petrauskas - LT Base Patient Example",
+        "description" : "An example Patient conforming to the Lithuanian Base Profile.",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-condition"
+        },
+        "name" : "LT Base Condition",
+        "description" : "Lithuanian Base Condition profile, used for documenting general, symptoms, conditions, and their characteristics.",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-encounter"
+        },
+        "name" : "LT Base Encounter",
+        "description" : "Lithuanian Base Encounter profile, used to represent clinical encounters",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-observation"
+        },
+        "name" : "LT Base Observation",
+        "description" : "Lithuanian Base Observation profile, used to represent vitals, demographic, clinical and laboratory observations",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-organization"
+        },
+        "name" : "LT Base Organization",
+        "description" : "Lithuanian Base Organization profile, used to define healthcare organizations and sub-units",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-patient"
+        },
+        "name" : "LT Base Patient",
+        "description" : "Lithuanian Base Patient profile, used to represent patients administrative information",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-practitioner"
+        },
+        "name" : "LT Base Practitioner",
+        "description" : "Lithuanian Base Practitioner profile, used to define healthcare practitioners",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-practitioner-role"
+        },
+        "name" : "LT Base Practitioner Role",
+        "description" : "Lithuanian Base Practitioner Role profile, used to define roles of the healthcare practitioner in the healthcare facilities",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-related-person"
+        },
+        "name" : "LT Base Related Person",
+        "description" : "Lithuanian Base Related Person profile, used to define persons related to a patient",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "ValueSet"
+          }
+        ],
+        "reference" : {
+          "reference" : "ValueSet/organization-identifier"
+        },
+        "name" : "Organization Identifier",
+        "description" : "A curated list of identifier systems for organizations.",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "RelatedPerson"
+          }
+        ],
+        "reference" : {
+          "reference" : "RelatedPerson/example-related-person"
+        },
+        "name" : "Rūta Petrauskienė - LT Base Related Person Example",
+        "description" : "An example Related Person conforming to the Lithuanian Base Profile.",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0"
+        ]
+      }
+    ],
+    "page" : {
+      "sourceUrl" : "toc.html",
+      "name" : "toc.html",
+      "title" : "Table of Contents",
+      "_title" : {
+        "extension" : [
+          {
+            "extension" : [
+              {
+                "url" : "lang",
+                "valueCode" : "lt"
+              },
+              {
+                "url" : "content",
+                "valueString" : "Turinys"
+              }
+            ],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }
+        ]
+      },
+      "generation" : "html",
+      "page" : [
+        {
+          "sourceUrl" : "index.html",
+          "name" : "index.html",
+          "title" : "Home",
+          "_title" : {
+            "extension" : [
+              {
+                "extension" : [
+                  {
+                    "url" : "lang",
+                    "valueCode" : "lt"
+                  },
+                  {
+                    "url" : "content",
+                    "valueString" : "Pradžia"
+                  }
+                ],
+                "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+              }
+            ]
+          },
+          "generation" : "markdown"
+        },
+        {
+          "sourceUrl" : "changelog.html",
+          "name" : "changelog.html",
+          "title" : "Changelog",
+          "_title" : {
+            "extension" : [
+              {
+                "extension" : [
+                  {
+                    "url" : "lang",
+                    "valueCode" : "lt"
+                  },
+                  {
+                    "url" : "content",
+                    "valueString" : "Pakeitimų žurnalas"
+                  }
+                ],
+                "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+              }
+            ]
+          },
+          "generation" : "markdown"
+        },
+        {
+          "sourceUrl" : "translationinfo.html",
+          "name" : "translationinfo.html",
+          "title" : "Translationinfo",
+          "generation" : "markdown"
+        }
+      ]
+    },
+    "parameter" : [
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "copyrightyear"
+        },
+        "value" : "2025+"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "releaselabel"
+        },
+        "value" : "ci-build"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "special-url-base"
+        },
+        "value" : "https://hl7.lt/fhir"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "special-url"
+        },
+        "value" : "https://terminology.hl7.lt/fhir, http://hl7.org/fhir/us/vitals/StructureDefinition"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "excludettl"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "shownav"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "pin-canonicals"
+        },
+        "value" : "pin-all"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-version"
+        },
+        "value" : "false"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "default-version"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "i18n-default-lang"
+        },
+        "value" : "en"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "i18n-lang"
+        },
+        "value" : "lt"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "translation-sources"
+        },
+        "value" : "input/translations/lt"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "autoload-resources"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/capabilities"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/examples"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/extensions"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/models"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/operations"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/profiles"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/resources"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/vocabulary"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/maps"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/testing"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "input/history"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
+        "value" : "fsh-generated/resources"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-pages"
+        },
+        "value" : "template/config"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-pages"
+        },
+        "value" : "input/assets"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-pages"
+        },
+        "value" : "input/images"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-liquid"
+        },
+        "value" : "template/liquid"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-liquid"
+        },
+        "value" : "input/liquid"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-qa"
+        },
+        "value" : "temp/qa"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-temp"
+        },
+        "value" : "temp/pages"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-output"
+        },
+        "value" : "output"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-tx-cache"
+        },
+        "value" : "input-cache/txcache"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-suppressed-warnings"
+        },
+        "value" : "input/ignoreWarnings.txt"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-history"
+        },
+        "value" : "https://hl7.lt/fhir/base/history.html"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "template-html"
+        },
+        "value" : "template-page.html"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "template-md"
+        },
+        "value" : "template-page-md.html"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-contact"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-context"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-copyright"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-jurisdiction"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-license"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-publisher"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-wg"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "active-tables"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "fmm-definition"
+        },
+        "value" : "http://hl7.org/fhir/versions.html#maturity"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "propagate-status"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "excludelogbinaryformat"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "tabbed-snapshots"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "wantGen-ttl"
+        },
+        "value" : "false"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "wantGen-ttl-html"
+        },
+        "value" : "false"
+      }
+    ]
+  }
+}
+
+```

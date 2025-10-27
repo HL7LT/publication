@@ -1,0 +1,18 @@
+{
+  "packages" : [
+    {
+      "path" : "fhir/package-list.json",
+      "package-id" : "lt.hl7.fhir.base",
+      "title" : "Lithuanian Base FHIR Implementation Guide",
+      "canonical" : "https://hl7.lt/fhir/base",
+      "category" : "Infrastructure",
+      "ci-build" : "http://build.fhir.org/ig/HL7LT/base/base",
+      "version-count" : 1,
+      "latest" : {
+        "version" : "0.1.0",
+        "date" : "2025-10-27",
+        "path" : "https://hl7.lt/fhir/base/0.1.0"
+      }
+    }
+  ]
+}

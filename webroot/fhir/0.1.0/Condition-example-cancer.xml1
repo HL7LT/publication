@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="example-cancer"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-condition"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Condition example-cancer</b></p><a name="example-cancer"> </a><a name="hcexample-cancer"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-condition.html">LT Base Condition</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 254837009}">Malignant neoplasm of breast</span></p><p><b>bodySite</b>: <span title="Codes:{http://snomed.info/sct 76752008}">Breast structure</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005 (use: usual, ))</a></p><p><b>onset</b>: 2025-08-15</p><p><b>recordedDate</b>: 2025-09-01</p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/provenance-participant-type author}">Author</span></td><td><a href="Practitioner-example-practitioner.html">Practitioner Dr. Petras Kazlauskas(official)</a></td></tr></table><p><b>note</b>: </p><blockquote><div><p>Patient diagnosed with breast cancer. Staging and treatment plan to be determined.</p>
+</div></blockquote></div><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Condition example-cancer</b></p><a name="lt-example-cancer"> </a><a name="lt-hcexample-cancer"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-condition.html">LT Base Condition</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 254837009}">Malignant neoplasm of breast</span></p><p><b>bodySite</b>: <span title="Codes:{http://snomed.info/sct 76752008}">Breast structure</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005 (use: usual, ))</a></p><p><b>onset</b>: 2025-08-15</p><p><b>recordedDate</b>: 2025-09-01</p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/provenance-participant-type author}">Author</span></td><td><a href="Practitioner-example-practitioner.html">Practitioner Dr. Petras Kazlauskas(official)</a></td></tr></table><p><b>note</b>: </p><blockquote><div><p>Patient diagnosed with breast cancer. Staging and treatment plan to be determined.</p>
+</div></blockquote></div></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="254837009"/>
+      <display value="Malignant neoplasm of breast"/>
+    </coding>
+  </code>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="76752008"/>
+      <display value="Breast structure"/>
+    </coding>
+  </bodySite>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <onsetDateTime value="2025-08-15"/>
+  <recordedDate value="2025-09-01"/>
+  <participant>
+    <function>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+        <code value="author"/>
+        <display value="Author"/>
+      </coding>
+    </function>
+    <actor>
+      <reference value="Practitioner/example-practitioner"/>
+    </actor>
+  </participant>
+  <note>
+    <text value="Patient diagnosed with breast cancer. Staging and treatment plan to be determined."/>
+  </note>
+</Condition>

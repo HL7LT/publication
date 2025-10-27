@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="example-encounter"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-encounter"/>
+  </meta>
+  <language value="lt"/>
+  <text>
+    <status value="generated"/><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Encounter example-encounter</b></p><a name="lt-example-encounter"> </a><a name="lt-hcexample-encounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-encounter.html">LT Base Encounter</a></p></div><p><b>status</b>: Completed</p><p><b>class</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActCode IMP}">Inpatient encounter</span></p><p><b>priority</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActPriority EM}">Emergency</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005 (use: usual, ))</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Period</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType ATND}">attender</span></td><td>2024-01-01 10:00:00+0000 --&gt; 2024-01-01 11:00:00+0000</td></tr></table><p><b>actualPeriod</b>: 2024-01-01 10:00:00+0000 --&gt; 2024-01-01 11:00:00+0000</p><p><b>plannedStartDate</b>: 2024-01-01 10:00:00+0000</p><p><b>plannedEndDate</b>: 2024-01-01 11:00:00+0000</p><blockquote><p><b>reason</b></p><h3>Values</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="Condition-example-cancer.html">Condition Malignant neoplasm of breast</a></td></tr></table></blockquote><blockquote><p><b>diagnosis</b></p><h3>Conditions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="Condition-example-cancer.html">Condition Malignant neoplasm of breast</a></td></tr></table></blockquote><h3>Admissions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>AdmitSource</b></td><td><b>ReAdmission</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/admit-source psych}">From psychiatric hospital</span></td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0092 R}">Re-admission</span></td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/discharge-disposition home}">Home</span></td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <class>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <code value="IMP"/>
+      <display value="Inpatient encounter"/>
+    </coding>
+  </class>
+  <priority>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"/>
+      <code value="EM"/>
+      <display value="Emergency"/>
+    </coding>
+  </priority>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+        <code value="ATND"/>
+        <display value="attender"/>
+      </coding>
+    </type>
+    <period>
+      <start value="2024-01-01T10:00:00Z"/>
+      <end value="2024-01-01T11:00:00Z"/>
+    </period>
+  </participant>
+  <actualPeriod>
+    <start value="2024-01-01T10:00:00Z"/>
+    <end value="2024-01-01T11:00:00Z"/>
+  </actualPeriod>
+  <plannedStartDate value="2024-01-01T10:00:00Z"/>
+  <plannedEndDate value="2024-01-01T11:00:00Z"/>
+  <reason>
+    <value>
+      <reference>
+        <reference value="Condition/example-cancer"/>
+      </reference>
+    </value>
+  </reason>
+  <diagnosis>
+    <condition>
+      <reference>
+        <reference value="Condition/example-cancer"/>
+      </reference>
+    </condition>
+  </diagnosis>
+  <admission>
+    <admitSource>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/admit-source"/>
+        <code value="psych"/>
+        <display value="From psychiatric hospital"/>
+      </coding>
+    </admitSource>
+    <reAdmission>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0092"/>
+        <code value="R"/>
+        <display value="Re-admission"/>
+      </coding>
+    </reAdmission>
+    <dischargeDisposition>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/discharge-disposition"/>
+        <code value="home"/>
+        <display value="Home"/>
+      </coding>
+    </dischargeDisposition>
+  </admission>
+</Encounter>

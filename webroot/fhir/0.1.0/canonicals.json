@@ -1,0 +1,79 @@
+[
+  {
+    "id" : "identifier-domain",
+    "type" : "CodeSystem",
+    "url" : "https://hl7.lt/fhir/CodeSystem/identifier-domain",
+    "version" : "0.1.0",
+    "name" : "LTBaseIdentifierDomain"
+  },
+  {
+    "id" : "lt.hl7.fhir.base",
+    "type" : "ImplementationGuide",
+    "url" : "https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base",
+    "version" : "0.1.0",
+    "name" : "LTBase"
+  },
+  {
+    "id" : "lt-condition",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-condition",
+    "version" : "0.1.0",
+    "name" : "LTBaseCondition"
+  },
+  {
+    "id" : "lt-encounter",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter",
+    "version" : "0.1.0",
+    "name" : "LTBaseEncounter"
+  },
+  {
+    "id" : "lt-observation",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-observation",
+    "version" : "0.1.0",
+    "name" : "LTBaseObservation"
+  },
+  {
+    "id" : "lt-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-organization",
+    "version" : "0.1.0",
+    "name" : "LTBaseOrganization"
+  },
+  {
+    "id" : "lt-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-patient",
+    "version" : "0.1.0",
+    "name" : "LTBasePatient"
+  },
+  {
+    "id" : "lt-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner",
+    "version" : "0.1.0",
+    "name" : "LTBasePractitioner"
+  },
+  {
+    "id" : "lt-practitioner-role",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role",
+    "version" : "0.1.0",
+    "name" : "LTBasePractitionerRole"
+  },
+  {
+    "id" : "lt-related-person",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person",
+    "version" : "0.1.0",
+    "name" : "LTBaseRelatedPerson"
+  },
+  {
+    "id" : "organization-identifier",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
+    "version" : "1.0.0",
+    "name" : "LTBaseOrganizationIdentifier"
+  }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+   <channel>
+      <title>HL7 Lithuania FHIR Implementation Packages</title>
+      <description>FHIR Implementation Packages published by HL7 Lithuania</description>
+      <link>https://hl7.lt/fhir</link>
+      <generator>HL7 Lithuania</generator>
+      <lastBuildDate>Mon, 27 Oct 2025 02:29:14 +0200</lastBuildDate>
+      <atom:link href="https://hl7.lt/fhir/package-feed.xml" rel="self" type="application/rss+xml"/>
+      <pubDate>Mon, 27 Oct 2025 02:29:14 +0200</pubDate>
+      <language>en</language>
+      <ttl>600</ttl>
+      <item>
+      <title>lt.hl7.fhir.base#0.1.0</title>
+      <description>Initial release as LT Base IG.</description>
+      <link>https://hl7.lt/fhir/base/0.1.0/package.tgz</link>
+      <guid isPermaLink="true">https://hl7.lt/fhir/base/0.1.0/package.tgz</guid>
+      <dc:creator>HL7 Lithuania</dc:creator>
+      <fhir:version>5.0.0</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 27 Oct 2025 02:29:14 +0200</pubDate>
+      <fhir:details>Publication run at 27/10/2025 by igor using Version 2.0.22 (Git# 6bbdf7dc5537). Built 2025-10-22T10:27:38.176Z (5 days old) source id Unknown (todo)</fhir:details>
+    </item>
+    <item>
+      </item>
+   </channel>
+</rss>

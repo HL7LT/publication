@@ -1,0 +1,641 @@
+LTBase : Validation Results
+=========================================
+
+err = 0, warn = 22, info = 568
+$--
+Generated $--. FHIR version $-- for lt.hl7.fhir.base#$-- (canonical = https://hl7.lt/fhir/base)
+ Build Errors : 0 / 0 / 0
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/CodeSystem-identifier-domain : 0 / 3 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Condition-example-cancer : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Encounter-example-encounter : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Encounter-example-pencounter : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.base : 0 / 0 / 32
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Observation-example-LTBaseobservation-blood-pressure : 0 / 1 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Organization-example-lmb : 0 / 3 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Organization-example-organization : 0 / 3 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Patient-example-patient : 0 / 3 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/Practitioner-example-practitioner : 0 / 3 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/PractitionerRole-example-practitioner-role : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/RelatedPerson-example-related-person : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-condition : 0 / 0 / 62
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-encounter : 0 / 0 / 96
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-observation : 0 / 0 / 105
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-organization : 0 / 4 / 88
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-patient : 0 / 0 / 77
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-practitioner : 0 / 0 / 42
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-practitioner-role : 0 / 0 / 34
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/StructureDefinition-lt-related-person : 0 / 0 / 36
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.base#0.1.0/fsh-generated/resources/ValueSet-organization-identifier : 0 / 0 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/CodeSystem-identifier-domain.json ==
+INFORMATION: CodeSystem/identifier-domain: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: CodeSystem/identifier-domain: CodeSystem.concept[0].designation[0]: The designation 'SVEIDRA identifikatorius' has no use and is in the same language ('lt'), so is not differentiated from the base display ('VEIDRA identifier')
+WARNING: CodeSystem/identifier-domain: CodeSystem.concept[1].designation[0]: The designation 'JAR kodas' has no use and is in the same language ('lt'), so is not differentiated from the base display ('JAR code')
+== fsh-generated/resources/Condition-example-cancer.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Encounter-example-encounter.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Encounter-example-pencounter.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.base.json ==
+INFORMATION: ImplementationGuide.definition.resource[0].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[1].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[2].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-encounter to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[3].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-condition to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[4].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[5].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-encounter to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[6].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[7].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[9].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: ImplementationGuide.definition.resource[19].profile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-related-person to 0.1.0
+INFORMATION: ContactDetail.name: Unused 'lt' translation 'Lithuanian Medical Library' -> 'Lietuvos medicinos biblioteka'
+INFORMATION: ImplementationGuide.definition.page.source[x]: Unused 'lt' translation 'toc.html' -> 'toc.html'
+INFORMATION: ImplementationGuide.definition.page.source[x]: Unused 'lt' translation 'index.html' -> 'index.html'
+INFORMATION: ImplementationGuide.definition.page.source[x]: Unused 'lt' translation 'changelog.html' -> 'changelog.html'
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[13].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[14].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[17].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[18].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[19].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[20].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[21].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[23].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[24].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[25].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[26].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[27].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.base: ImplementationGuide.definition.parameter[33].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+== fsh-generated/resources/Observation-example-LTBaseobservation-blood-pressure.json ==
+INFORMATION: Observation/example-LTBaseobservation-blood-pressure: Observation.value.ofType(string): This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Organization-example-lmb.json ==
+WARNING: Organization/example-lmb: Organization.identifier[0].system: No definition could be found for URL value 'http://esveikata.lt/classifiers/Identifier/JAR'
+INFORMATION: Organization/example-lmb: Organization.identifier[0].system: Reference to experimental CodeSystem https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0
+WARNING: Organization/example-lmb: Organization.contact[0].purpose.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+== fsh-generated/resources/Organization-example-organization.json ==
+WARNING: Organization/example-organization: Organization.identifier[0].system: No definition could be found for URL value 'http://esveikata.lt/classifiers/Identifier/JAR'
+INFORMATION: Organization/example-organization: Organization.identifier[0].system: Reference to experimental CodeSystem https://hl7.lt/fhir/CodeSystem/identifier-domain|0.1.0
+WARNING: Organization/example-organization: Organization.contact[0].purpose.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+== fsh-generated/resources/Patient-example-patient.json ==
+WARNING: Patient/example-patient: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.3.4.5.6.7.8.9.11'
+WARNING: Patient/example-patient: Patient.identifier[1].system: No definition could be found for URL value 'http://hospital-lt.lt/patient-id'
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Practitioner-example-practitioner.json ==
+WARNING: Practitioner/example-practitioner: Practitioner.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.3.4.5.6.7.8.9.10'
+WARNING: Practitioner/example-practitioner: Practitioner.identifier[1].system: No definition could be found for URL value 'http://licensing.lt/medical-license'
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/PractitionerRole-example-practitioner-role.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/RelatedPerson-example-related-person.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/StructureDefinition-lt-condition.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Condition to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Condition to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Condition to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[6].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-encounter to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[1]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[2]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[3]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-related-person to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[4]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Condition to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-encounter to 0.1.0
+INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[1]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role to 0.1.0
+INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[2]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[3]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-related-person to 0.1.0
+INFORMATION: StructureDefinition.differential.element[12].type[0].targetProfile[4]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition/lt-condition: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-lt-encounter.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Encounter to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/encounter-class to 2.0.1
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v3-ActPriority to 3.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Encounter to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Encounter to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-condition to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/DiagnosticReport to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[2]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Procedure to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[3]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v2-0092 to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.differential.element[26].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-condition to 0.1.0
+INFORMATION: StructureDefinition.differential.element[26].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/DiagnosticReport to 5.0.0
+INFORMATION: StructureDefinition.differential.element[26].type[0].targetProfile[2]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Procedure to 5.0.0
+INFORMATION: StructureDefinition.differential.element[26].type[0].targetProfile[3]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition/lt-encounter: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-lt-observation.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[6].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[7].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[23].type[0].targetProfile[1]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[23].type[0].targetProfile[2]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Procedure to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].type[0].targetProfile[3]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Medication to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-encounter to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[28].type[0].targetProfile[1]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[28].type[0].targetProfile[2]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Observation to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[49].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/DocumentReference to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/ImagingStudy to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].type[0].targetProfile[2]: Pinned the version of http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].type[0].targetProfile[3]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[1]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[2]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Procedure to 5.0.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].targetProfile[3]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Medication to 5.0.0
+INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-encounter to 0.1.0
+INFORMATION: StructureDefinition.differential.element[16].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: StructureDefinition.differential.element[16].type[0].targetProfile[1]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role to 0.1.0
+INFORMATION: StructureDefinition.differential.element[16].type[0].targetProfile[2]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition.differential.element[28].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition.differential.element[28].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse to 5.0.0
+INFORMATION: StructureDefinition.differential.element[29].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/DocumentReference to 5.0.0
+INFORMATION: StructureDefinition.differential.element[29].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/ImagingStudy to 5.0.0
+INFORMATION: StructureDefinition.differential.element[29].type[0].targetProfile[2]: Pinned the version of http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse to 5.0.0
+INFORMATION: StructureDefinition.differential.element[29].type[0].targetProfile[3]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.1.0
+INFORMATION: StructureDefinition/lt-observation: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-lt-organization.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].binding.valueSet: Pinned the version of https://hl7.lt/fhir/base/ValueSet/organization-identifier to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/translation to 5.2.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/contactentity-type to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[42].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[50].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://hl7.lt/fhir/base/ValueSet/organization-identifier to 1.0.0
+INFORMATION: StructureDefinition.differential.element[6].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/translation to 5.2.0
+INFORMATION: StructureDefinition.differential.element[15].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition/lt-organization: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/lt-organization: StructureDefinition.snapshot.element[24].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+WARNING: StructureDefinition/lt-organization: StructureDefinition.snapshot.element[43]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/lt-organization: StructureDefinition.snapshot.element[51]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/lt-organization: StructureDefinition.differential.element[11]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/lt-organization: StructureDefinition.differential.element[13]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+== fsh-generated/resources/StructureDefinition-lt-patient.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Patient to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/data-absent-reason to 5.2.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Patient to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/data-absent-reason to 5.2.0
+INFORMATION: StructureDefinition/lt-patient: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-lt-practitioner.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Practitioner to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v2-0360 to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition/lt-practitioner: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-lt-practitioner-role.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/PractitionerRole to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[1].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner to 0.1.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-organization to 0.1.0
+INFORMATION: StructureDefinition/lt-practitioner-role: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/StructureDefinition-lt-related-person.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/RelatedPerson to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-patient to 0.1.0
+INFORMATION: StructureDefinition/lt-related-person: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-organization-identifier.json ==
+INFORMATION: ValueSet/organization-identifier: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0

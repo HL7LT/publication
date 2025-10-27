@@ -1,0 +1,46 @@
+# lt.hl7.fhir.base#0.1.0: Lithuanian Base Implementation Guide(lt)
+
+## Pages
+
+* [Pradžia](index.md)
+* [Translationinfo](translationinfo.md)
+* [Artefaktų santrauka](artifacts.md)
+* [Pakeitimų žurnalas](changelog.md)
+
+## Resources
+
+### CodeSystems
+
+* [Identifier Domain](CodeSystem-identifier-domain.md)
+
+### ValueSets
+
+* [Organization Identifier](ValueSet-organization-identifier.md)
+
+### Resource Profiles
+
+* [LT Base Condition](StructureDefinition-lt-condition.md)
+* [LT Base Encounter](StructureDefinition-lt-encounter.md)
+* [LT Base Observation](StructureDefinition-lt-observation.md)
+* [LT Base Organization](StructureDefinition-lt-organization.md)
+* [LT Base Patient](StructureDefinition-lt-patient.md)
+* [LT Base Practitioner Role](StructureDefinition-lt-practitioner-role.md)
+* [LT Base Practitioner](StructureDefinition-lt-practitioner.md)
+* [LT Base Related Person](StructureDefinition-lt-related-person.md)
+
+### ImplementationGuides
+
+* [Lithuanian Base Implementation Guide](ImplementationGuide-lt.hl7.fhir.base.md)
+
+### Examples
+
+* [example-cancer (Condition)](Condition-example-cancer.md)
+* [example-encounter (Encounter)](Encounter-example-encounter.md)
+* [example-pencounter (Encounter)](Encounter-example-pencounter.md)
+* [example-LTBaseobservation-blood-pressure (Observation)](Observation-example-LTBaseobservation-blood-pressure.md)
+* [Lietuvos Medicinos biblioteka (Organization)](Organization-example-lmb.md)
+* [Vilniaus miesto ligoninė (Organization)](Organization-example-organization.md)
+* [example-patient (Patient)](Patient-example-patient.md)
+* [example-practitioner (Practitioner)](Practitioner-example-practitioner.md)
+* [example-practitioner-role (PractitionerRole)](PractitionerRole-example-practitioner-role.md)
+* [example-related-person (RelatedPerson)](RelatedPerson-example-related-person.md)

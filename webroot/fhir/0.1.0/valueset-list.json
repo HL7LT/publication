@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "LTBaseOrganizationIdentifier",
+      "title" : "Organization Identifier",
+      "description" : "A curated list of identifier systems for organizations.",
+      "systems" : ["https://hl7.lt/fhir/CodeSystem/identifier-domain"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "package": "lt.hl7.fhir.base",
+  "version": "0.1.0",
+  "fhirVersion": "5.0.0",
+  "jurisdiction": "LT",
+  "extensions": [],
+  "profiles": {
+    "Condition": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-condition",
+        "title": "LT Base Condition"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter",
+        "title": "LT Base Encounter"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-observation",
+        "title": "LT Base Observation"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-organization",
+        "title": "LT Base Organization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-patient",
+        "title": "LT Base Patient"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner",
+        "title": "LT Base Practitioner"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role",
+        "title": "LT Base Practitioner Role"
+      }
+    ],
+    "RelatedPerson": [
+      {
+        "url": "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person",
+        "title": "LT Base Related Person"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/data-absent-reason|5.2.0": [
+      "Patient.identifier"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.differential.element.type",
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "CodeSystem.publisher",
+      "ImplementationGuide.definition.page.page.title",
+      "ImplementationGuide.definition.page.title",
+      "ImplementationGuide.description",
+      "ImplementationGuide.name",
+      "ImplementationGuide.publisher",
+      "ImplementationGuide.title",
+      "Organization.name",
+      "StructureDefinition.publisher",
+      "ValueSet.publisher"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation|5.2.0": [
+      "Organization.name"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ]
+  }
+}

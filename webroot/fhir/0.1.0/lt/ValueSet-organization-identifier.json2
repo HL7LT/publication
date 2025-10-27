@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "organization-identifier",
+  "language" : "lt",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet organization-identifier</b></p><a name=\"lt-organization-identifier\"> </a><a name=\"lt-hcorganization-identifier\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-identifier-domain.html\"><code>https://hl7.lt/fhir/CodeSystem/identifier-domain</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID\">http://esveikata.lt/Identifier/SVEIDRAID</a></td><td style=\"color: #cccccc\">VEIDRA identifier</td><td>VEIDRA identifier</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR\">http://esveikata.lt/classifiers/Identifier/JAR</a></td><td style=\"color: #cccccc\">JAR code</td><td>JAR code</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI\">http://esveikata.lt/Identifier/ESPBI</a></td><td style=\"color: #cccccc\">ESPBI id</td><td>ESPBI id</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
+  "version" : "1.0.0",
+  "name" : "LTBaseOrganizationIdentifier",
+  "title" : "Organization Identifier",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-10-27T14:29:14+02:00",
+  "publisher" : "Lietuvos medicinos biblioteka",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "A curated list of identifier systems for organizations.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.lt/fhir/CodeSystem/identifier-domain",
+      "concept" : [{
+        "code" : "http://esveikata.lt/Identifier/SVEIDRAID"
+      },
+      {
+        "code" : "http://esveikata.lt/classifiers/Identifier/JAR"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/ESPBI"
+      }]
+    }]
+  }
+}

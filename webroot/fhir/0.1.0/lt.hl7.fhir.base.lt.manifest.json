@@ -1,0 +1,7 @@
+{
+  "version" : "0.1.0",
+  "fhirVersion" : ["5.0.0"],
+  "date" : "20251027142914",
+  "name" : "lt.hl7.fhir.base",
+  "jurisdiction" : "urn:iso:std:iso:3166#LT"
+}
