@@ -10,28 +10,15 @@
       <language>en</language>
       <ttl>600</ttl>
       <item>
-      <title>Lithuanian Base FHIR Implementation Guide version 0.1.0</title>
-      <description>Initial release as LT Base IG.</description>
-      <link>https://hl7.lt/fhir/base/0.1.0/index.html</link>
-      <guid isPermaLink="true">https://hl7.lt/fhir/base/0.1.0/index.html</guid>
-      <dc:creator>HL7 Lithuania</dc:creator>
-      <fhir:version>5.0.0</fhir:version>
-      <fhir:kind>IG</fhir:kind>
-      <pubDate>Mon, 27 Oct 2025 03:57:00 +0200</pubDate>
-      <fhir:details>Publication run at 27/10/2025 by igor using Version 2.0.22 (Git# 6bbdf7dc5537). Built 2025-10-22T10:27:38.176Z (5 days old) source id Unknown (todo)</fhir:details>
-    </item>
-    <item>
-      <title>Lithuanian Base FHIR Implementation Guide version 0.1.0</title>
-      <description>Initial release as LT Base IG.</description>
-      <link>https://hl7.lt/fhir/base/0.1.0/index.html</link>
-      <guid isPermaLink="true">https://hl7.lt/fhir/base/0.1.0/index.html</guid>
-      <dc:creator>HL7 Lithuania</dc:creator>
-      <fhir:version>5.0.0</fhir:version>
-      <fhir:kind>IG</fhir:kind>
-      <pubDate>Mon, 27 Oct 2025 02:29:14 +0200</pubDate>
-      <fhir:details>Publication run at 27/10/2025 by igor using Version 2.0.22 (Git# 6bbdf7dc5537). Built 2025-10-22T10:27:38.176Z (5 days old) source id Unknown (todo)</fhir:details>
-    </item>
-    <item>
+        <title>Lithuanian Base FHIR Implementation Guide version 0.1.0</title>
+        <description>Initial release as LT Base IG.</description>
+        <link>https://hl7.lt/fhir/base/0.1.0/index.html</link>
+        <guid isPermaLink="true">https://hl7.lt/fhir/base/0.1.0/index.html</guid>
+        <dc:creator>HL7 Lithuania</dc:creator>
+        <fhir:version>5.0.0</fhir:version>
+        <fhir:kind>IG</fhir:kind>
+        <pubDate>Mon, 27 Oct 2025 03:57:00 +0200</pubDate>
+        <fhir:details>Publication run at 27/10/2025 by igor using Version 2.0.22 (Git# 6bbdf7dc5537). Built 2025-10-22T10:27:38.176Z (5 days old) source id Unknown (todo)</fhir:details>
       </item>
    </channel>
 </rss>
