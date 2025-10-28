@@ -3,8 +3,6 @@ layout: home
 title: HL7 Lithuania Registry website
 ---
 
-<div align="left">
-
 > This page is under construction. {.is-warning}
 
 This is the HL7 Lithuania Registry site that provides an overview of the published Implementation Guides and available resources.
@@ -44,4 +42,3 @@ The running builds are visible under [FHIR IG Builds](https://fhir.github.io/aut
 
 Read ...
 
-</div>
