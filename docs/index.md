@@ -1,6 +1,9 @@
+---
+layout: home
+title: HL7 Lithuania Registry website
+---
+
 <div align="left">
-  
-# HL7 Lithuania Registry 🌟
 
 > This page is under construction. {.is-warning}
 
