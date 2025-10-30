@@ -12,9 +12,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-lt-related-person.html" : "LT Base Related Person",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
       "StructureDefinition-lt-patient.html" : "LT Base Patient",
-      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner"
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -28,14 +28,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.21"],
       "uses" : {
       },
-      "StructureDefinition-lt-condition.html" : "LT Base Condition",
-      "StructureDefinition-lt-observation.html" : "LT Base Observation",
-      "StructureDefinition-lt-related-person.html" : "LT Base Related Person",
       "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role",
-      "StructureDefinition-lt-patient.html" : "LT Base Patient",
       "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-condition.html" : "LT Base Condition",
       "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
-      "StructureDefinition-lt-organization.html" : "LT Base Organization"
+      "StructureDefinition-lt-location.html" : "LT Base Location",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient",
+      "StructureDefinition-lt-observation.html" : "LT Base Observation",
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -166,8 +167,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-lt-condition.html" : "LT Base Condition",
-      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -261,6 +262,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient",
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
     },
     {
@@ -275,6 +278,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient",
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
     },
     {
@@ -575,6 +580,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
       "StructureDefinition-lt-patient.html" : "LT Base Patient",
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
     },
@@ -590,6 +596,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
       "StructureDefinition-lt-patient.html" : "LT Base Patient",
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
     },
@@ -611,14 +618,15 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-lt-condition.html" : "LT Base Condition",
-      "StructureDefinition-lt-observation.html" : "LT Base Observation",
-      "StructureDefinition-lt-related-person.html" : "LT Base Related Person",
       "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role",
-      "StructureDefinition-lt-patient.html" : "LT Base Patient",
       "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-condition.html" : "LT Base Condition",
       "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
-      "StructureDefinition-lt-organization.html" : "LT Base Organization"
+      "StructureDefinition-lt-location.html" : "LT Base Location",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient",
+      "StructureDefinition-lt-observation.html" : "LT Base Observation",
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -643,6 +651,20 @@
       "StructureDefinition-lt-patient.html" : "LT Base Patient"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/location-characteristic",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationCharacteristic",
+      "title" : "Location Characteristic",
+      "description" : "Example Set of Location Characteristics",
+      "systems" : ["http://hl7.org/fhir/location-characteristic"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3079"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3079"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/location-form",
       "version" : "5.0.0",
       "status" : "draft",
@@ -656,7 +678,52 @@
       "sources" : ["2.16.840.1.113883.4.642.3.328"],
       "uses" : {
       },
-      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-mode",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationMode",
+      "title" : "Location Mode",
+      "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+      "systems" : ["http://hl7.org/fhir/location-mode"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.321",
+        "2.16.840.1.113883.4.642.2.181",
+        "2.16.840.1.113883.4.642.3.330"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.321",
+        "2.16.840.1.113883.4.642.2.181",
+        "2.16.840.1.113883.4.642.3.330"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationStatus",
+      "title" : "Location Status",
+      "description" : "Indicates whether the location is still in use.",
+      "systems" : ["http://hl7.org/fhir/location-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.323",
+        "2.16.840.1.113883.4.642.3.332",
+        "2.16.840.1.113883.4.642.2.182"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.323",
+        "2.16.840.1.113883.4.642.3.332",
+        "2.16.840.1.113883.4.642.2.182"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -687,6 +754,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
       "StructureDefinition-lt-patient.html" : "LT Base Patient"
     },
     {
@@ -1028,6 +1096,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.416"],
       "uses" : {
       },
+      "StructureDefinition-lt-location.html" : "LT Base Location",
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
     },
     {
@@ -1055,6 +1124,20 @@
       "uses" : {
       },
       "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSBedStatus",
+      "title" : "hl7VS-bedStatus",
+      "description" : "Value Set of codes that specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0116"],
+      "oids" : ["2.16.840.1.113883.21.51"],
+      "sources" : ["2.16.840.1.113883.21.51"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0360",
@@ -1085,16 +1168,42 @@
       "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
     },
     {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ServiceDeliveryLocationRoleType",
+      "title" : "ServiceDeliveryLocationRoleType",
+      "description" : "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.17660"],
+      "sources" : ["2.16.840.1.113883.1.11.17660"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
       "url" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "LTBaseOrganizationIdentifier",
       "title" : "Organization Identifier",
       "description" : "A curated list of identifier systems for organizations.",
-      "systems" : ["https://hl7.lt/fhir/CodeSystem/identifier-domain"],
+      "systems" : ["https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"],
       "uses" : {
       },
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/base/ValueSet/patient-identifier",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "PatientIdentifier",
+      "title" : "Patient Identifier",
+      "description" : "A curated list of identifier systems for patients.",
+      "systems" : ["https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
     }
   ]
 }

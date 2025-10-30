@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "patient-identifier",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet patient-identifier</b></p><a name=\"patient-identifier\"> </a><a name=\"hcpatient-identifier\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-identifier-domain.html\"><code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI\">http://esveikata.lt/Identifier/ESPBI</a></td><td style=\"color: #cccccc\">ESPBI id</td><td>ESPBI id</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47PersonalCode\">http://esveikata.lt/Identifier/PersonalCode</a></td><td style=\"color: #cccccc\">Personal Code</td><td>Personal Code</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ESI\">http://esveikata.lt/Identifier/Patient/ESI</a></td><td style=\"color: #cccccc\">ESI code</td><td>ESI code</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47DIK\">http://esveikata.lt/Identifier/Patient/DIK</a></td><td style=\"color: #cccccc\">DIK</td><td>DIK</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47SveidraID\">http://esveikata.lt/Identifier/Patient/SveidraID</a></td><td style=\"color: #cccccc\">SveidraID</td><td>SveidraID</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47eFormNumber\">http://esveikata.lt/Identifier/Patient/eFormNumber</a></td><td style=\"color: #cccccc\">eFormNumber</td><td>eFormNumber</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ForeignPersonalCode\">http://esveikata.lt/Identifier/Patient/ForeignPersonalCode</a></td><td style=\"color: #cccccc\">ForeignPersonalCode</td><td>ForeignPersonalCode</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47eDelivery\">http://esveikata.lt/Identifier/eDelivery</a></td><td style=\"color: #cccccc\">eDelivery</td><td>eDelivery</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47IdentityDocument.47SerieNumber\">http://esveikata.lt/classifiers/IdentityDocument/SerieNumber</a></td><td style=\"color: #cccccc\">SerieNumber</td><td>SerieNumber</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.lt/fhir/base/ValueSet/patient-identifier",
+  "version" : "1.0.0",
+  "name" : "PatientIdentifier",
+  "title" : "Patient Identifier",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-10-30T19:04:29+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "A curated list of identifier systems for patients.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.lt/fhir/tx/CodeSystem/identifier-domain",
+      "concept" : [{
+        "code" : "http://esveikata.lt/Identifier/ESPBI"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/PersonalCode"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/Patient/ESI"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/Patient/DIK"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/Patient/SveidraID"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/Patient/eFormNumber"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/eDelivery"
+      },
+      {
+        "code" : "http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"
+      }]
+    }]
+  }
+}

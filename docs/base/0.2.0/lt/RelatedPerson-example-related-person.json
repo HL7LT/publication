@@ -1,0 +1,27 @@
+{
+  "resourceType" : "RelatedPerson",
+  "id" : "example-related-person",
+  "meta" : {
+    "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-related-person"]
+  },
+  "language" : "lt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson example-related-person</b></p><a name=\"lt-example-related-person\"> </a><a name=\"lt-hcexample-related-person\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-lt-related-person.html\">LT Base Related Person</a></p></div><p><b>patient</b>: <a href=\"Patient-example-patient.html\">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleClass ECON}\">emergency contact</span></p><p><b>name</b>: Rūta Petrauskienė</p></div>"
+  },
+  "patient" : {
+    "reference" : "Patient/example-patient"
+  },
+  "relationship" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+      "code" : "ECON",
+      "display" : "emergency contact"
+    }]
+  }],
+  "name" : [{
+    "text" : "Rūta Petrauskienė",
+    "family" : "Petrauskienė",
+    "given" : ["Rūta"]
+  }]
+}

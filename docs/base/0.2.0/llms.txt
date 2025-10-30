@@ -1,0 +1,49 @@
+# lt.hl7.fhir.base#0.2.0: Lithuanian Base Implementation Guide(en)
+
+## Pages
+
+* [Home](en/index.md)
+* [Translationinfo](en/translationinfo.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Changelog](en/changelog.md)
+
+## Resources
+
+### CodeSystems
+
+* [Identifier Domain](en/CodeSystem-identifier-domain.md)
+
+### ValueSets
+
+* [Organization Identifier](en/ValueSet-organization-identifier.md)
+* [Patient Identifier](en/ValueSet-patient-identifier.md)
+
+### Resource Profiles
+
+* [LT Base Condition](en/StructureDefinition-lt-condition.md)
+* [LT Base Encounter](en/StructureDefinition-lt-encounter.md)
+* [LT Base Location](en/StructureDefinition-lt-location.md)
+* [LT Base Observation](en/StructureDefinition-lt-observation.md)
+* [LT Base Organization](en/StructureDefinition-lt-organization.md)
+* [LT Base Patient](en/StructureDefinition-lt-patient.md)
+* [LT Base Practitioner Role](en/StructureDefinition-lt-practitioner-role.md)
+* [LT Base Practitioner](en/StructureDefinition-lt-practitioner.md)
+* [LT Base Related Person](en/StructureDefinition-lt-related-person.md)
+
+### ImplementationGuides
+
+* [Lithuanian Base Implementation Guide](en/ImplementationGuide-lt.hl7.fhir.base.md)
+
+### Examples
+
+* [example-cancer (Condition)](en/Condition-example-cancer.md)
+* [example-encounter (Encounter)](en/Encounter-example-encounter.md)
+* [example-pencounter (Encounter)](en/Encounter-example-pencounter.md)
+* [Vilniaus miesto ligoninė (Location)](en/Location-example-location.md)
+* [example-LTBaseobservation-blood-pressure (Observation)](en/Observation-example-LTBaseobservation-blood-pressure.md)
+* [Lietuvos Medicinos biblioteka (Organization)](en/Organization-example-lmb.md)
+* [Vilniaus miesto ligoninė (Organization)](en/Organization-example-organization.md)
+* [example-patient (Patient)](en/Patient-example-patient.md)
+* [example-practitioner (Practitioner)](en/Practitioner-example-practitioner.md)
+* [example-practitioner-role (PractitionerRole)](en/PractitionerRole-example-practitioner-role.md)
+* [example-related-person (RelatedPerson)](en/RelatedPerson-example-related-person.md)

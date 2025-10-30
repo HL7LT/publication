@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "organization-identifier",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet organization-identifier</b></p><a name=\"organization-identifier\"> </a><a name=\"hcorganization-identifier\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-identifier-domain.html\"><code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID\">http://esveikata.lt/Identifier/SVEIDRAID</a></td><td style=\"color: #cccccc\">SVEIDRA identifier</td><td>SVEIDRA identifier</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS\">http://esveikata.lt/Identifier/SPILIS</a></td><td style=\"color: #cccccc\">SPĮLIS</td><td>SPĮLIS veiklos vietos identifikatorius</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI\">http://esveikata.lt/Identifier/ESPBI</a></td><td style=\"color: #cccccc\">ESPBI id</td><td>ESPBI id</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS\">http://esveikata.lt/Identifier/VAPRIS</a></td><td style=\"color: #cccccc\">VAPRIS</td><td>VAPRIS</td></tr></table></li></ul></div><div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet organization-identifier</b></p><a name=\"lt-organization-identifier\"> </a><a name=\"lt-hcorganization-identifier\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-identifier-domain.html\"><code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID\">http://esveikata.lt/Identifier/SVEIDRAID</a></td><td style=\"color: #cccccc\">SVEIDRA identifier</td><td>SVEIDRA identifier</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS\">http://esveikata.lt/Identifier/SPILIS</a></td><td style=\"color: #cccccc\">SPĮLIS</td><td>SPĮLIS veiklos vietos identifikatorius</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI\">http://esveikata.lt/Identifier/ESPBI</a></td><td style=\"color: #cccccc\">ESPBI id</td><td>ESPBI id</td></tr><tr><td><a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS\">http://esveikata.lt/Identifier/VAPRIS</a></td><td style=\"color: #cccccc\">VAPRIS</td><td>VAPRIS</td></tr></table></li></ul></div></div>"
+  },
+  "url" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
+  "version" : "1.0.0",
+  "name" : "LTBaseOrganizationIdentifier",
+  "title" : "Organization Identifier",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-10-30T19:02:48+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "lt"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Lietuvos medicinos biblioteka"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "A curated list of identifier systems for organizations.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7.lt/fhir/tx/CodeSystem/identifier-domain",
+      "concept" : [{
+        "code" : "http://esveikata.lt/Identifier/SVEIDRAID"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/SPILIS"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/ESPBI"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/VAPRIS"
+      }]
+    }]
+  }
+}

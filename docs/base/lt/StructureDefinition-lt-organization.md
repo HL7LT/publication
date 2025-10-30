@@ -1,4 +1,4 @@
-# LT Base Organization - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Organization - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resursų profilis: LT Base Organization ( Eksperimentinis ) 
 
@@ -7,7 +7,7 @@ Lithuanian Base Organization profile, used to define healthcare organizations an
 
 **Usages:**
 
-* Refer to this Profile: [LT Base Observation](StructureDefinition-lt-observation.md), [LT Base Organization](StructureDefinition-lt-organization.md) and [LT Base Practitioner Role](StructureDefinition-lt-practitioner-role.md)
+* Refer to this Profile: [LT Base Observation](StructureDefinition-lt-observation.md), [LT Base Organization](StructureDefinition-lt-organization.md), [LT Base Patient](StructureDefinition-lt-patient.md), [LT Base Practitioner Role](StructureDefinition-lt-practitioner-role.md) and [LT Base Practitioner](StructureDefinition-lt-practitioner.md)
 * Examples for this Profile: [Lietuvos Medicinos biblioteka](Organization-example-lmb.md) and [Vilniaus miesto ligoninė](Organization-example-organization.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.base|current/StructureDefinition/lt-organization)
@@ -34,15 +34,15 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 **Summary**
 
-Mandatory: 6 elements(3 nested mandatory elements)
- Must-Support: 9 elements
+Mandatory: 2 elements(3 nested mandatory elements)
+ Must-Support: 14 elements
  Fixed: 2 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0)](StructureDefinition-lt-organization.md)
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
 
 **Extensions**
 
@@ -74,15 +74,15 @@ This structure defines the following [Slices](http://hl7.org/fhir/R5/profiling.h
 
 **Summary**
 
-Mandatory: 6 elements(3 nested mandatory elements)
- Must-Support: 9 elements
+Mandatory: 2 elements(3 nested mandatory elements)
+ Must-Support: 14 elements
  Fixed: 2 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0)](StructureDefinition-lt-organization.md)
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
 
 **Extensions**
 
@@ -110,12 +110,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
   "id" : "lt-organization",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-organization",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseOrganization",
   "title" : "LT Base Organization",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -191,7 +191,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
   "kind" : "resource",
   "abstract" : false,
   "type" : "Organization",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Organization|5.0.0",
+  "baseDefinition" : "http://hl7.eu/fhir/base-r5/StructureDefinition/organization-eu-core|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -209,10 +209,16 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
       {
         "id" : "Organization.identifier.system",
         "path" : "Organization.identifier.system",
+        "mustSupport" : true,
         "binding" : {
           "strength" : "extensible",
           "valueSet" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier|1.0.0"
         }
+      },
+      {
+        "id" : "Organization.identifier.value",
+        "path" : "Organization.identifier.value",
+        "mustSupport" : true
       },
       {
         "id" : "Organization.active",
@@ -225,7 +231,6 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
         "id" : "Organization.name",
         "path" : "Organization.name",
         "short" : "Name organizations (in Lithuanian)",
-        "min" : 1,
         "mustSupport" : true
       },
       {
@@ -261,7 +266,6 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
         "id" : "Organization.contact",
         "path" : "Organization.contact",
         "short" : "Įstaigos kontaktinė informacija / Official contact details for the Organization",
-        "min" : 1,
         "mustSupport" : true
       },
       {
@@ -276,40 +280,50 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
           ],
           "rules" : "open"
         },
-        "short" : "Contact details (phone/email and more)",
-        "min" : 1
+        "short" : "Contact details (phone/email and more)"
+      },
+      {
+        "id" : "Organization.contact.telecom.system",
+        "path" : "Organization.contact.telecom.system",
+        "mustSupport" : true
       },
       {
         "id" : "Organization.contact.telecom.value",
         "path" : "Organization.contact.telecom.value",
-        "min" : 1
+        "min" : 1,
+        "mustSupport" : true
       },
       {
-        "id" : "Organization.contact.telecom:Phone",
+        "id" : "Organization.contact.telecom.use",
+        "path" : "Organization.contact.telecom.use",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Organization.contact.telecom:phone",
         "path" : "Organization.contact.telecom",
-        "sliceName" : "Phone",
+        "sliceName" : "phone",
         "short" : "Telefono numeris / Phone number",
         "min" : 0,
         "max" : "*",
         "mustSupport" : true
       },
       {
-        "id" : "Organization.contact.telecom:Phone.system",
+        "id" : "Organization.contact.telecom:phone.system",
         "path" : "Organization.contact.telecom.system",
         "min" : 1,
         "fixedCode" : "phone"
       },
       {
-        "id" : "Organization.contact.telecom:Email",
+        "id" : "Organization.contact.telecom:email",
         "path" : "Organization.contact.telecom",
-        "sliceName" : "Email",
+        "sliceName" : "email",
         "short" : "Elektroninio pašto adresas / Email",
         "min" : 0,
         "max" : "*",
         "mustSupport" : true
       },
       {
-        "id" : "Organization.contact.telecom:Email.system",
+        "id" : "Organization.contact.telecom:email.system",
         "path" : "Organization.contact.telecom.system",
         "min" : 1,
         "fixedCode" : "email"
@@ -318,7 +332,6 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
         "id" : "Organization.contact.address",
         "path" : "Organization.contact.address",
         "short" : "Įstaigos adresas / Adress",
-        "min" : 1,
         "mustSupport" : true
       },
       {
@@ -335,7 +348,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-organization.csv
             ],
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
             ]
           }
         ],

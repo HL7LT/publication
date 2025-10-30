@@ -1,4 +1,4 @@
-# LT Base Condition - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Condition - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resursų profilis: LT Base Condition ( Eksperimentinis ) 
 
@@ -38,11 +38,11 @@ Must-Support: 12 elements
 
 This structure refers to these other structures:
 
-* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0)](StructureDefinition-lt-patient.md)
-* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0)](StructureDefinition-lt-encounter.md)
-* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0)](StructureDefinition-lt-practitioner.md)
-* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0)](StructureDefinition-lt-practitioner-role.md)
-* [LT Base Related Person(https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0)](StructureDefinition-lt-related-person.md)
+* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0)](StructureDefinition-lt-patient.md)
+* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0)](StructureDefinition-lt-encounter.md)
+* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0)](StructureDefinition-lt-practitioner.md)
+* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0)](StructureDefinition-lt-practitioner-role.md)
+* [LT Base Related Person(https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0)](StructureDefinition-lt-related-person.md)
 * [Device(http://hl7.org/fhir/StructureDefinition/Device|5.0.0)](http://hl7.org/fhir/R5/device.html)
 
  **Pagrindinių elementų peržiūra** 
@@ -67,11 +67,11 @@ Must-Support: 12 elements
 
 This structure refers to these other structures:
 
-* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0)](StructureDefinition-lt-patient.md)
-* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0)](StructureDefinition-lt-encounter.md)
-* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0)](StructureDefinition-lt-practitioner.md)
-* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0)](StructureDefinition-lt-practitioner-role.md)
-* [LT Base Related Person(https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0)](StructureDefinition-lt-related-person.md)
+* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0)](StructureDefinition-lt-patient.md)
+* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0)](StructureDefinition-lt-encounter.md)
+* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0)](StructureDefinition-lt-practitioner.md)
+* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0)](StructureDefinition-lt-practitioner-role.md)
+* [LT Base Related Person(https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0)](StructureDefinition-lt-related-person.md)
 * [Device(http://hl7.org/fhir/StructureDefinition/Device|5.0.0)](http://hl7.org/fhir/R5/device.html)
 
  
@@ -88,12 +88,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-condition.csv), 
   "id" : "lt-condition",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-condition",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseCondition",
   "title" : "LT Base Condition",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -204,7 +204,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-condition.csv), 
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"
             ]
           }
         ],
@@ -217,7 +217,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-condition.csv), 
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"
             ]
           }
         ],
@@ -255,10 +255,10 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-condition.csv), 
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0",
               "http://hl7.org/fhir/StructureDefinition/Device|5.0.0"
             ]
           }

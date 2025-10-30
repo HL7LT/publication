@@ -1,4 +1,4 @@
-# LT Base Practitioner - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Practitioner - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resursų profilis: LT Base Practitioner ( Eksperimentinis ) 
 
@@ -7,7 +7,7 @@ Lithuanian Base Practitioner profile, used to define healthcare practitioners
 
 **Usages:**
 
-* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md), [LT Base Observation](StructureDefinition-lt-observation.md) and [LT Base Practitioner Role](StructureDefinition-lt-practitioner-role.md)
+* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md), [LT Base Observation](StructureDefinition-lt-observation.md), [LT Base Patient](StructureDefinition-lt-patient.md) and [LT Base Practitioner Role](StructureDefinition-lt-practitioner-role.md)
 * Examples for this Profile: [Practitioner/example-practitioner](Practitioner-example-practitioner.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.base|current/StructureDefinition/lt-practitioner)
@@ -22,6 +22,8 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 *  [Statistika/Nuorodos](#tabs-summ) 
 *  [Viskas](#tabs-all) 
 
+#### Terminology Bindings
+
 #### Constraints
 
 #### Terminology Bindings
@@ -30,9 +32,18 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 **Summary**
 
-Must-Support: 1 element
+Mandatory: 1 element(1 nested mandatory element)
+ Must-Support: 16 elements
+
+**Structures**
+
+This structure refers to these other structures:
+
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
 
  **Pagrindinių elementų peržiūra** 
+
+#### Terminology Bindings
 
 #### Constraints
 
@@ -46,7 +57,14 @@ Must-Support: 1 element
 
 **Summary**
 
-Must-Support: 1 element
+Mandatory: 1 element(1 nested mandatory element)
+ Must-Support: 16 elements
+
+**Structures**
+
+This structure refers to these other structures:
+
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
 
  
 
@@ -62,12 +80,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner.csv
   "id" : "lt-practitioner",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBasePractitioner",
   "title" : "LT Base Practitioner",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -143,7 +161,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner.csv
   "kind" : "resource",
   "abstract" : false,
   "type" : "Practitioner",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0",
+  "baseDefinition" : "http://hl7.eu/fhir/base-r5/StructureDefinition/practitioner-eu-core|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -154,6 +172,91 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner.csv
       {
         "id" : "Practitioner.identifier",
         "path" : "Practitioner.identifier",
+        "min" : 1,
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.identifier.system",
+        "path" : "Practitioner.identifier.system",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.identifier.value",
+        "path" : "Practitioner.identifier.value",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.active",
+        "path" : "Practitioner.active",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.name",
+        "path" : "Practitioner.name",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.name.family",
+        "path" : "Practitioner.name.family",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.name.given",
+        "path" : "Practitioner.name.given",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.telecom",
+        "path" : "Practitioner.telecom",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.telecom.system",
+        "path" : "Practitioner.telecom.system",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.telecom.value",
+        "path" : "Practitioner.telecom.value",
+        "min" : 1,
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.telecom.use",
+        "path" : "Practitioner.telecom.use",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.qualification",
+        "path" : "Practitioner.qualification",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.qualification.identifier",
+        "path" : "Practitioner.qualification.identifier",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.qualification.code",
+        "path" : "Practitioner.qualification.code",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.qualification.period",
+        "path" : "Practitioner.qualification.period",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Practitioner.qualification.issuer",
+        "path" : "Practitioner.qualification.issuer",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
+            ]
+          }
+        ],
         "mustSupport" : true
       }
     ]

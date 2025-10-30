@@ -1,15 +1,16 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://hl7.lt/fhir/CodeSystem/identifier-domain",
-      "version" : "0.1.0",
+      "url" : "https://hl7.lt/fhir/tx/CodeSystem/identifier-domain",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "LTBaseIdentifierDomain",
       "title" : "Identifier Domain",
       "description" : "Identifier Domain with translations in Lithuanian",
       "uses" : {
       },
-      "ValueSet-organization-identifier.html" : "Organization Identifier"
+      "ValueSet-organization-identifier.html" : "Organization Identifier",
+      "ValueSet-patient-identifier.html" : "Patient Identifier"
     }
   ]
 }

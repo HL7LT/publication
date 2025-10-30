@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="example-lmb"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-organization"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Organization example-lmb</b></p><a name="example-lmb"> </a><a name="hcexample-lmb"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: lt</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-organization.html">LT Base Organization</a></p></div><p><b>identifier</b>: <code>http://esveikata.lt/classifiers/Identifier/JAR</code>/200935935 (use: official, )</p><p><b>active</b>: true</p><p><b>name</b>: Lietuvos Medicinos biblioteka</p><h3>Contacts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Purpose</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">work</span></td><td><a href="tel:+37061234567">+37061234567</a></td><td>Vilniaus g. 1 Vilnius 12345 LT (work)</td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://esveikata.lt/classifiers/Identifier/JAR"/>
+    <value value="200935935"/>
+  </identifier>
+  <active value="true"/>
+  <name value="Lietuvos Medicinos biblioteka"/>
+  <contact>
+    <purpose>
+      <coding>
+        <code value="work"/>
+      </coding>
+    </purpose>
+    <telecom>
+      <system value="phone"/>
+      <value value="+37061234567"/>
+      <use value="work"/>
+    </telecom>
+    <address>
+      <use value="work"/>
+      <type value="both"/>
+      <line value="Vilniaus g. 1"/>
+      <city value="Vilnius"/>
+      <postalCode value="12345"/>
+      <country value="LT"/>
+    </address>
+  </contact>
+</Organization>

@@ -1,4 +1,4 @@
-# LT Base Patient - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Patient - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resource Profile: LT Base Patient ( Experimental ) 
 
@@ -7,7 +7,7 @@ Lithuanian Base Patient profile, used to represent patients administrative infor
 
 **Usages:**
 
-* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md), [LT Base Encounter](StructureDefinition-lt-encounter.md), [LT Base Observation](StructureDefinition-lt-observation.md) and [LT Base Related Person](StructureDefinition-lt-related-person.md)
+* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md), [LT Base Encounter](StructureDefinition-lt-encounter.md), [LT Base Observation](StructureDefinition-lt-observation.md), [LT Base Patient](StructureDefinition-lt-patient.md) and [LT Base Related Person](StructureDefinition-lt-related-person.md)
 * Examples for this Profile: [Patient/example-patient](Patient-example-patient.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.base|current/StructureDefinition/lt-patient)
@@ -30,12 +30,12 @@ Other representations of profile: [CSV](../StructureDefinition-lt-patient.csv), 
   "id" : "lt-patient",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-patient",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBasePatient",
   "title" : "LT Base Patient",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -116,7 +116,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-patient.csv), 
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Patient|5.0.0",
+  "baseDefinition" : "http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -144,6 +144,20 @@ Other representations of profile: [CSV](../StructureDefinition-lt-patient.csv), 
             ]
           }
         ],
+        "mustSupport" : true
+      },
+      {
+        "id" : "Patient.identifier.system",
+        "path" : "Patient.identifier.system",
+        "mustSupport" : true,
+        "binding" : {
+          "strength" : "extensible",
+          "valueSet" : "https://hl7.lt/fhir/base/ValueSet/patient-identifier|1.0.0"
+        }
+      },
+      {
+        "id" : "Patient.identifier.value",
+        "path" : "Patient.identifier.value",
         "mustSupport" : true
       },
       {
@@ -177,13 +191,28 @@ Other representations of profile: [CSV](../StructureDefinition-lt-patient.csv), 
         "mustSupport" : true
       },
       {
-        "id" : "Patient.name.suffix",
-        "path" : "Patient.name.suffix",
+        "id" : "Patient.name.period",
+        "path" : "Patient.name.period",
         "mustSupport" : true
       },
       {
-        "id" : "Patient.name.period",
-        "path" : "Patient.name.period",
+        "id" : "Patient.telecom",
+        "path" : "Patient.telecom",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Patient.telecom.system",
+        "path" : "Patient.telecom.system",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Patient.telecom.value",
+        "path" : "Patient.telecom.value",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Patient.telecom.use",
+        "path" : "Patient.telecom.use",
         "mustSupport" : true
       },
       {
@@ -195,6 +224,56 @@ Other representations of profile: [CSV](../StructureDefinition-lt-patient.csv), 
         "id" : "Patient.birthDate",
         "path" : "Patient.birthDate",
         "mustSupport" : true
+      },
+      {
+        "id" : "Patient.deceased[x]",
+        "path" : "Patient.deceased[x]",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Patient.generalPractitioner",
+        "path" : "Patient.generalPractitioner",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Patient.managingOrganization",
+        "path" : "Patient.managingOrganization",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Patient.link.other",
+        "path" : "Patient.link.other",
+        "type" : [
+          {
+            "extension" : [
+              {
+                "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy",
+                "valueBoolean" : false
+              }
+            ],
+            "code" : "Reference",
+            "targetProfile" : [
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0"
+            ]
+          }
+        ]
       }
     ]
   }

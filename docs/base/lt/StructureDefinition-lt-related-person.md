@@ -1,4 +1,4 @@
-# LT Base Related Person - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Related Person - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resursų profilis: LT Base Related Person ( Eksperimentinis ) 
 
@@ -7,7 +7,7 @@ Lithuanian Base Related Person profile, used to define persons related to a pati
 
 **Usages:**
 
-* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md)
+* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md) and [LT Base Patient](StructureDefinition-lt-patient.md)
 * Examples for this Profile: [RelatedPerson/example-related-person](RelatedPerson-example-related-person.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.base|current/StructureDefinition/lt-related-person)
@@ -38,7 +38,7 @@ Must-Support: 4 elements
 
 This structure refers to these other structures:
 
-* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0)](StructureDefinition-lt-patient.md)
+* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0)](StructureDefinition-lt-patient.md)
 
  **Pagrindinių elementų peržiūra** 
 
@@ -62,7 +62,7 @@ Must-Support: 4 elements
 
 This structure refers to these other structures:
 
-* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0)](StructureDefinition-lt-patient.md)
+* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0)](StructureDefinition-lt-patient.md)
 
  
 
@@ -78,12 +78,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-related-person.c
   "id" : "lt-related-person",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseRelatedPerson",
   "title" : "LT Base Related Person",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -174,7 +174,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-related-person.c
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"
             ]
           }
         ],

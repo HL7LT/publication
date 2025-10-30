@@ -1,0 +1,34 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "255c90a0-d11c-41de-b810-51b97cdb9e16-29",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/255c90a0-d11c-41de-b810-51b97cdb9e16-29",
+  "name" : "UnionLTBaseOrganizationIdentifierAndLTBaseOrganizationIdentifier",
+  "title" : "Union of Organization Identifier And Organization Identifier",
+  "status" : "draft",
+  "date" : "2025-10-30T19:03:27+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "http://esveikata.lt/Identifier/SVEIDRAID"
+      },
+      {
+        "code" : "http://esveikata.lt/classifiers/Identifier/JAR"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/ESPBI"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/SPILIS"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/VAPRIS"
+      }]
+    }]
+  }
+}

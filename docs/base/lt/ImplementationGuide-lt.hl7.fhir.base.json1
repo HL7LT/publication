@@ -7,11 +7,11 @@
     "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.base</b></p><a name=\"lt-lt.hl7.fhir.base\"> </a><a name=\"lt-hclt.hl7.fhir.base\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>LTBase</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base</pre><div><p>Lithuanian Base Implementation Guide</p>\n</div></div>"
   },
   "url" : "https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBase",
   "title" : "Lietuvių bazės įgyvendinimo vadovas",
   "status" : "draft",
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lietuvos medicinos biblioteka",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -53,6 +53,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r5",
     "version" : "5.2.0"
+  },
+  {
+    "id" : "hl7_fhir_eu_base_r5",
+    "uri" : "http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5",
+    "packageId" : "hl7.fhir.eu.base-r5",
+    "version" : "0.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -70,7 +76,7 @@
       "name" : "Dr. Petras Kazlauskas - LT Base Practitioner Example",
       "description" : "An example Practitioner conforming to the Lithuanian Base Profile.",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0"]
     },
     {
       "extension" : [{
@@ -83,7 +89,7 @@
       "name" : "Dr. Petras Kazlauskas at Vilniaus miesto ligoninė - LT Base Practitioner Role Example",
       "description" : "An example Practitioner Role conforming to the Lithuanian Base Profile.",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0"]
     },
     {
       "extension" : [{
@@ -96,7 +102,7 @@
       "name" : "Example Encounter",
       "description" : "Example of an psychiatric encounter",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"]
     },
     {
       "extension" : [{
@@ -109,7 +115,20 @@
       "name" : "Example LT Base Condition - Cancer",
       "description" : "Example instance of a cancer diagnosis documented during a patient encounter",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.2.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/example-location"
+      },
+      "name" : "Example LT Base Location",
+      "description" : "Example instance of a healthcare location",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-location|0.2.0"]
     },
     {
       "extension" : [{
@@ -122,7 +141,7 @@
       "name" : "Example LT Base Observation - Blood Pressure",
       "description" : "Example instance of a blood pressure measurement for a patient",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"]
     },
     {
       "extension" : [{
@@ -135,7 +154,7 @@
       "name" : "Example Psychiatric Encounter",
       "description" : "Example of an psychiatric encounter",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"]
     },
     {
       "extension" : [{
@@ -148,7 +167,7 @@
       "name" : "example-lmb",
       "description" : "Example of a LMB organization",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"]
     },
     {
       "extension" : [{
@@ -161,7 +180,7 @@
       "name" : "example-organization",
       "description" : "Example of a healthcare organization",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"]
     },
     {
       "extension" : [{
@@ -186,7 +205,7 @@
       "name" : "Jonas Petrauskas - LT Base Patient Example",
       "description" : "An example Patient conforming to the Lithuanian Base Profile.",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"]
     },
     {
       "extension" : [{
@@ -210,6 +229,18 @@
       },
       "name" : "LT Base Encounter",
       "description" : "Lithuanian Base Encounter profile, used to represent clinical encounters",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/lt-location"
+      },
+      "name" : "LT Base Location",
+      "description" : "Lithuanian Base Location profile, used for documenting healthcare locations.",
       "isExample" : false
     },
     {
@@ -299,6 +330,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/patient-identifier"
+      },
+      "name" : "Patient Identifier",
+      "description" : "A curated list of identifier systems for patients.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "RelatedPerson"
       }],
       "reference" : {
@@ -307,7 +350,7 @@
       "name" : "Rūta Petrauskienė - LT Base Related Person Example",
       "description" : "An example Related Person conforming to the Lithuanian Base Profile.",
       "isExample" : true,
-      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0"]
+      "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0"]
     }],
     "page" : {
       "sourceUrl" : "toc.html",

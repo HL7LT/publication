@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for LTBase</h1>
- <p>Generated Mon Oct 27 15:59:18 EET 2025, FHIR version 5.0.0 for lt.hl7.fhir.base#0.1.0 (canonical = <a href="https://hl7.lt/fhir/base">https://hl7.lt/fhir/base</a> (<a href="https://hl7.lt/fhir/base/history.html">history</a>))</p>
+ <p>Generated Thu Oct 30 19:05:19 EET 2025, FHIR version 5.0.0 for lt.hl7.fhir.base#0.2.0 (canonical = <a href="https://hl7.lt/fhir/base">https://hl7.lt/fhir/base</a> (<a href="https://hl7.lt/fhir/base/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -48,11 +48,11 @@
     </td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r5</td>
-    <td>http://tx.fhir.org/r5</td>
+    <td>Found candidate server https://tx.fhir.org/r5</td>
+    <td>https://tx.fhir.org/r5</td>
     <td>null</td>
     <td>urn:iso:std:iso:3166</td>
-    <td>auth = , candidates=http://tx.fhir.org/r5|http://tx.hl7europe.eu/r5</td>
+    <td>auth = , candidates=https://tx.fhir.org/r5</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r5</td>
@@ -67,6 +67,25 @@
     <td>null</td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r5|http://tx.hl7europe.eu/r5</td>
+  </tr>
+</table>
+<p>
+  <b>Errors</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>URL</b>
+    </td>
+    <td>
+      <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>urn:iso:std:iso:3166</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=5.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication">Error resolving system urn:iso:std:iso:3166: Bad Request</span>
+    </td>
   </tr>
 </table>
 <h2>Primary Server: https://tx.fhir.org/r5</h2>

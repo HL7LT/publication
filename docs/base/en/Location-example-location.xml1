@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="example-location"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-location"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Location example-location</b></p><a name="example-location"> </a><a name="hcexample-location"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-location.html">LT Base Location</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Vilniaus miesto ligoninė</p><p><b>description</b>: </p><div><p>Pagrindinė Vilniaus miesto ligoninė, teikianti įvairias sveikatos priežiūros paslaugas.</p>
+</div><p><b>address</b>: Santariškių g. 2 Vilnius 08661 LT </p><p><b>form</b>: <span title="Codes:">Building</span></p><p><b>managingOrganization</b>: <a href="Organization-example-organization.html">Organization Vilniaus miesto ligoninė</a></p></div>
+  </text>
+  <status value="active"/>
+  <name value="Vilniaus miesto ligoninė"/>
+  <description value="Pagrindinė Vilniaus miesto ligoninė, teikianti įvairias sveikatos priežiūros paslaugas."/>
+  <address>
+    <line value="Santariškių g. 2"/>
+    <city value="Vilnius"/>
+    <postalCode value="08661"/>
+    <country value="LT"/>
+  </address>
+  <form>
+    <coding>
+      <code value="building"/>
+      <display value="Building"/>
+    </coding>
+  </form>
+  <managingOrganization>
+    <reference value="Organization/example-organization"/>
+  </managingOrganization>
+</Location>

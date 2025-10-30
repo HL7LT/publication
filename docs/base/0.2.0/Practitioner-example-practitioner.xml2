@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="example-practitioner"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner example-practitioner</b></p><a name="example-practitioner"> </a><a name="hcexample-practitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-practitioner.html">LT Base Practitioner</a></p></div><p><b>identifier</b>: <code>urn:oid:1.2.3.4.5.6.7.8.9.10</code>/19750515-LT12345 (use: official, ), <code>http://licensing.lt/medical-license</code>/MED-LT-54321 (use: secondary, )</p><p><b>active</b>: true</p><p><b>name</b>: Dr. Petras Kazlauskas(Official)</p><p><b>telecom</b>: <a href="tel:+37051234567">+370 5 123 4567</a>, <a href="mailto:p.kazlauskas@clinic.lt">p.kazlauskas@clinic.lt</a></p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1975-05-15</p></div><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner example-practitioner</b></p><a name="lt-example-practitioner"> </a><a name="lt-hcexample-practitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lt-practitioner.html">LT Base Practitioner</a></p></div><p><b>identifier</b>: <code>urn:oid:1.2.3.4.5.6.7.8.9.10</code>/19750515-LT12345 (use: official, ), <code>http://licensing.lt/medical-license</code>/MED-LT-54321 (use: secondary, )</p><p><b>active</b>: true</p><p><b>name</b>: Dr. Petras Kazlauskas(Official)</p><p><b>telecom</b>: <a href="tel:+37051234567">+370 5 123 4567</a>, <a href="mailto:p.kazlauskas@clinic.lt">p.kazlauskas@clinic.lt</a></p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1975-05-15</p></div></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="urn:oid:1.2.3.4.5.6.7.8.9.10"/>
+    <value value="19750515-LT12345"/>
+  </identifier>
+  <identifier>
+    <use value="secondary"/>
+    <system value="http://licensing.lt/medical-license"/>
+    <value value="MED-LT-54321"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <text value="Dr. Petras Kazlauskas"/>
+    <family value="Kazlauskas"/>
+    <given value="Petras"/>
+    <prefix value="Dr."/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="+370 5 123 4567"/>
+    <use value="work"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="p.kazlauskas@clinic.lt"/>
+    <use value="work"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1975-05-15"/>
+</Practitioner>

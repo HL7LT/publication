@@ -7,10 +7,22 @@
       "name" : "LTBaseOrganizationIdentifier",
       "title" : "Organization Identifier",
       "description" : "A curated list of identifier systems for organizations.",
-      "systems" : ["https://hl7.lt/fhir/CodeSystem/identifier-domain"],
+      "systems" : ["https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"],
       "uses" : {
       },
       "StructureDefinition-lt-organization.html" : "LT Base Organization"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/base/ValueSet/patient-identifier",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "PatientIdentifier",
+      "title" : "Patient Identifier",
+      "description" : "A curated list of identifier systems for patients.",
+      "systems" : ["https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# Organization Identifier - Lithuanian Base Implementation Guide v0.1.0
+# Organization Identifier - Lithuanian Base Implementation Guide v0.2.0
 
 ## ValueSet: Organization Identifier 
 
@@ -34,7 +34,7 @@ A curated list of identifier systems for organizations.
   "title" : "Organization Identifier",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -82,16 +82,19 @@ A curated list of identifier systems for organizations.
   "compose" : {
     "include" : [
       {
-        "system" : "https://hl7.lt/fhir/CodeSystem/identifier-domain",
+        "system" : "https://hl7.lt/fhir/tx/CodeSystem/identifier-domain",
         "concept" : [
           {
             "code" : "http://esveikata.lt/Identifier/SVEIDRAID"
           },
           {
-            "code" : "http://esveikata.lt/classifiers/Identifier/JAR"
+            "code" : "http://esveikata.lt/Identifier/SPILIS"
           },
           {
             "code" : "http://esveikata.lt/Identifier/ESPBI"
+          },
+          {
+            "code" : "http://esveikata.lt/Identifier/VAPRIS"
           }
         ]
       }

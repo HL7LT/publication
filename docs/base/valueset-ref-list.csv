@@ -1,2 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
 https://hl7.lt/fhir/base/ValueSet/organization-identifier,1.0.0,draft,,LTBaseOrganizationIdentifier,Organization Identifier,"A curated list of identifier systems for organizations.","StructureDefinition/lt-organization","Internal"
+https://hl7.lt/fhir/base/ValueSet/patient-identifier,1.0.0,draft,,PatientIdentifier,Patient Identifier,"A curated list of identifier systems for patients.","StructureDefinition/lt-patient","Internal"

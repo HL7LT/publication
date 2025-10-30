@@ -1,4 +1,4 @@
-# LT Base Condition - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Condition - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resource Profile: LT Base Condition ( Experimental ) 
 
@@ -30,12 +30,12 @@ Other representations of profile: [CSV](../StructureDefinition-lt-condition.csv)
   "id" : "lt-condition",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-condition",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseCondition",
   "title" : "LT Base Condition",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -146,7 +146,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-condition.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"
             ]
           }
         ],
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-condition.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"
             ]
           }
         ],
@@ -197,10 +197,10 @@ Other representations of profile: [CSV](../StructureDefinition-lt-condition.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0",
               "http://hl7.org/fhir/StructureDefinition/Device|5.0.0"
             ]
           }

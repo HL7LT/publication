@@ -9,7 +9,7 @@
 </div></div></div>
   </text>
   <url value="https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="LTBase">
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
       <extension url="lang">
@@ -31,7 +31,7 @@
     </extension>
   </title>
   <status value="draft"/>
-  <date value="2025-10-27T15:58:38+02:00"/>
+  <date value="2025-10-30T19:04:29+02:00"/>
   <publisher value="Lithuanian Medical Library">
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
       <extension url="lang">
@@ -88,6 +88,11 @@
     <packageId value="hl7.fhir.uv.extensions.r5"/>
     <version value="5.2.0"/>
   </dependsOn>
+  <dependsOn id="hl7_fhir_eu_base_r5">
+    <uri value="http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5"/>
+    <packageId value="hl7.fhir.eu.base-r5"/>
+    <version value="0.1.0"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
       <valueCode value="hl7.fhir.uv.tools.r5#0.8.0"/>
@@ -102,7 +107,7 @@
       <name value="Dr. Petras Kazlauskas - LT Base Practitioner Example"/>
       <description value="An example Practitioner conforming to the Lithuanian Base Profile."/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -114,7 +119,7 @@
       <name value="Dr. Petras Kazlauskas at Vilniaus miesto ligoninė - LT Base Practitioner Role Example"/>
       <description value="An example Practitioner Role conforming to the Lithuanian Base Profile."/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -126,7 +131,7 @@
       <name value="Example Encounter"/>
       <description value="Example of an psychiatric encounter"/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -138,7 +143,19 @@
       <name value="Example LT Base Condition - Cancer"/>
       <description value="Example instance of a cancer diagnosis documented during a patient encounter"/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.2.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/example-location"/>
+      </reference>
+      <name value="Example LT Base Location"/>
+      <description value="Example instance of a healthcare location"/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-location|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -150,7 +167,7 @@
       <name value="Example LT Base Observation - Blood Pressure"/>
       <description value="Example instance of a blood pressure measurement for a patient"/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -162,7 +179,7 @@
       <name value="Example Psychiatric Encounter"/>
       <description value="Example of an psychiatric encounter"/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -174,7 +191,7 @@
       <name value="example-lmb"/>
       <description value="Example of a LMB organization"/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -186,7 +203,7 @@
       <name value="example-organization"/>
       <description value="Example of a healthcare organization"/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -209,7 +226,7 @@
       <name value="Jonas Petrauskas - LT Base Patient Example"/>
       <description value="An example Patient conforming to the Lithuanian Base Profile."/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -231,6 +248,17 @@
       </reference>
       <name value="LT Base Encounter"/>
       <description value="Lithuanian Base Encounter profile, used to represent clinical encounters"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/lt-location"/>
+      </reference>
+      <name value="LT Base Location"/>
+      <description value="Lithuanian Base Location profile, used for documenting healthcare locations."/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -312,6 +340,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/patient-identifier"/>
+      </reference>
+      <name value="Patient Identifier"/>
+      <description value="A curated list of identifier systems for patients."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="RelatedPerson"/>
       </extension>
       <reference>
@@ -320,7 +359,7 @@
       <name value="Rūta Petrauskienė - LT Base Related Person Example"/>
       <description value="An example Related Person conforming to the Lithuanian Base Profile."/>
       <isExample value="true"/>
-      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0"/>
+      <profile value="https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0"/>
     </resource>
     <page>
       <sourceUrl value="toc.html"/>

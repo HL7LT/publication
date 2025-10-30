@@ -1,4 +1,4 @@
-# LT Base Practitioner Role - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Practitioner Role - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resursų profilis: LT Base Practitioner Role ( Eksperimentinis ) 
 
@@ -7,7 +7,7 @@ Lithuanian Base Practitioner Role profile, used to define roles of the healthcar
 
 **Usages:**
 
-* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md) and [LT Base Observation](StructureDefinition-lt-observation.md)
+* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md), [LT Base Observation](StructureDefinition-lt-observation.md) and [LT Base Patient](StructureDefinition-lt-patient.md)
 * Examples for this Profile: [PractitionerRole/example-practitioner-role](PractitionerRole-example-practitioner-role.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.base|current/StructureDefinition/lt-practitioner-role)
@@ -32,14 +32,15 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 **Summary**
 
-Must-Support: 3 elements
+Must-Support: 5 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0)](StructureDefinition-lt-practitioner.md)
-* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0)](StructureDefinition-lt-organization.md)
+* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0)](StructureDefinition-lt-practitioner.md)
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
+* [LT Base Location(https://hl7.lt/fhir/base/StructureDefinition/lt-location|0.2.0)](StructureDefinition-lt-location.md)
 
  **Pagrindinių elementų peržiūra** 
 
@@ -57,14 +58,15 @@ This structure refers to these other structures:
 
 **Summary**
 
-Must-Support: 3 elements
+Must-Support: 5 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0)](StructureDefinition-lt-practitioner.md)
-* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0)](StructureDefinition-lt-organization.md)
+* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0)](StructureDefinition-lt-practitioner.md)
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
+* [LT Base Location(https://hl7.lt/fhir/base/StructureDefinition/lt-location|0.2.0)](StructureDefinition-lt-location.md)
 
  
 
@@ -80,12 +82,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner-rol
   "id" : "lt-practitioner-role",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBasePractitionerRole",
   "title" : "LT Base Practitioner Role",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -161,7 +163,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner-rol
   "kind" : "resource",
   "abstract" : false,
   "type" : "PractitionerRole",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0",
+  "baseDefinition" : "http://hl7.eu/fhir/base-r5/StructureDefinition/practitionerRole-eu-core|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -176,7 +178,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner-rol
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0"
             ]
           }
         ],
@@ -189,7 +191,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner-rol
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
             ]
           }
         ],
@@ -198,6 +200,24 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-practitioner-rol
       {
         "id" : "PractitionerRole.code",
         "path" : "PractitionerRole.code",
+        "mustSupport" : true
+      },
+      {
+        "id" : "PractitionerRole.specialty",
+        "path" : "PractitionerRole.specialty",
+        "mustSupport" : true
+      },
+      {
+        "id" : "PractitionerRole.location",
+        "path" : "PractitionerRole.location",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-location|0.2.0"
+            ]
+          }
+        ],
         "mustSupport" : true
       }
     ]

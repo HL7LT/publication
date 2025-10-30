@@ -9,14 +9,14 @@
       "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-base",
       "version-count" : 1,
       "latest" : {
-        "version" : "0.1.0",
-        "date" : "2025-10-27",
-        "path" : "https://hl7.lt/fhir/base/0.1.0"
+        "version" : "0.2.0",
+        "date" : "2025-10-30",
+        "path" : "https://hl7.lt/fhir/base/0.2.0"
       },
       "milestone" : {
-        "version" : "0.1.0",
-        "date" : "2025-10-27",
-        "path" : "https://hl7.lt/fhir/base/0.1.0"
+        "version" : "0.2.0",
+        "date" : "2025-10-30",
+        "path" : "https://hl7.lt/fhir/base/0.2.0"
       }
     }
   ]

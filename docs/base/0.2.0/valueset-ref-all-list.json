@@ -1,0 +1,1209 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person",
+      "StructureDefinition-lt-observation.html" : "LT Base Observation",
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-condition.html" : "LT Base Condition",
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role",
+      "StructureDefinition-lt-location.html" : "LT Base Location",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation",
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PracticeSettingCodeValueSet",
+      "title" : "Practice Setting Code Value Set",
+      "description" : "This is the code representing the clinical specialty of the clinician or provider who    interacted with, treated, or provided a service to/for the patient. The value set used    for clinical specialty has been limited by HITSP to the value set reproduced from HITSP    C80 Table 2-149 Clinical Specialty Value Set Definition.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.134",
+        "2.16.840.1.113883.3.88.12.80.72"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.134",
+        "2.16.840.1.113883.3.88.12.80.72"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.232",
+        "2.16.840.1.113883.4.642.3.227",
+        "2.16.840.1.113883.4.642.2.115"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.232",
+        "2.16.840.1.113883.4.642.3.227",
+        "2.16.840.1.113883.4.642.2.115"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.153",
+        "2.16.840.1.113883.4.642.3.162",
+        "2.16.840.1.113883.4.642.2.73"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.153",
+        "2.16.840.1.113883.4.642.3.162",
+        "2.16.840.1.113883.4.642.2.73"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.155",
+        "2.16.840.1.113883.4.642.3.164",
+        "2.16.840.1.113883.4.642.2.74"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.155",
+        "2.16.840.1.113883.4.642.3.164",
+        "2.16.840.1.113883.4.642.2.74"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionProblemDiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.2.72",
+        "2.16.840.1.113883.4.642.3.152"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.2.72",
+        "2.16.840.1.113883.4.642.3.152"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition",
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionDiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.168",
+        "2.16.840.1.113883.4.642.2.76",
+        "2.16.840.1.113883.4.642.3.159"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.168",
+        "2.16.840.1.113883.4.642.2.76",
+        "2.16.840.1.113883.4.642.3.159"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.3.170",
+        "2.16.840.1.113883.4.642.2.408"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.161",
+        "2.16.840.1.113883.4.642.3.170",
+        "2.16.840.1.113883.4.642.2.408"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "Condition Verification Status",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.157",
+        "2.16.840.1.113883.4.642.2.75",
+        "2.16.840.1.113883.4.642.3.166"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.157",
+        "2.16.840.1.113883.4.642.2.75",
+        "2.16.840.1.113883.4.642.3.166"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ContactPointSystem",
+      "title" : "ContactPointSystem",
+      "description" : "Telecommunications form for contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-system"],
+      "oids" : ["2.16.840.1.113883.4.642.3.71"],
+      "sources" : ["2.16.840.1.113883.4.642.3.71"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ContactPointUse",
+      "title" : "ContactPointUse",
+      "description" : "Use of contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.73"],
+      "sources" : ["2.16.840.1.113883.4.642.3.73"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "Data Absent Reason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "AdmitSource",
+      "title" : "Admit Source",
+      "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.144",
+        "2.16.840.1.113883.4.642.3.252"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.144",
+        "2.16.840.1.113883.4.642.3.252"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diagnosis-use",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterDiagnosisUse",
+      "title" : "Encounter Diagnosis Use",
+      "description" : "What a specific Encounter/EpisodeOfCare `diagnosis.condition` is to be used for.",
+      "systems" : ["http://hl7.org/fhir/encounter-diagnosis-use"],
+      "oids" : ["2.16.840.1.113883.4.642.4.3321"],
+      "sources" : ["2.16.840.1.113883.4.642.4.3321"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterDiet",
+      "title" : "Diet",
+      "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.255",
+        "2.16.840.1.113883.4.642.2.142",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.255",
+        "2.16.840.1.113883.4.642.2.142",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DischargeDisposition",
+      "title" : "Discharge Disposition",
+      "description" : "This value set defines a set of codes that can be used to where the patient left the hospital.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.254",
+        "2.16.840.1.113883.4.642.2.145",
+        "2.16.840.1.113883.4.642.3.259"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.254",
+        "2.16.840.1.113883.4.642.2.145",
+        "2.16.840.1.113883.4.642.3.259"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterLocationStatus",
+      "title" : "Encounter Location Status",
+      "description" : "The status of the location.",
+      "systems" : ["http://hl7.org/fhir/encounter-location-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.147",
+        "2.16.840.1.113883.4.642.3.262"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.257",
+        "2.16.840.1.113883.4.642.2.147",
+        "2.16.840.1.113883.4.642.3.262"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ParticipantType",
+      "title" : "Participant Type",
+      "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/participant-type",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.245",
+        "2.16.840.1.113883.4.642.2.139",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.245",
+        "2.16.840.1.113883.4.642.2.139",
+        "2.16.840.1.113883.4.642.3.250"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterReasonCodes",
+      "title" : "Encounter Reason Codes",
+      "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.256",
+        "2.16.840.1.113883.4.642.2.146",
+        "2.16.840.1.113883.4.642.3.261"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.256",
+        "2.16.840.1.113883.4.642.2.146",
+        "2.16.840.1.113883.4.642.3.261"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason-use",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterReasonUse",
+      "title" : "Encounter Reason Use",
+      "description" : "What a specific Encounter/EpisodeOfCare `reason.value` is to be used for.",
+      "systems" : ["http://hl7.org/fhir/encounter-reason-use"],
+      "oids" : ["2.16.840.1.113883.4.642.4.3320"],
+      "sources" : ["2.16.840.1.113883.4.642.4.3320"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SpecialArrangements",
+      "title" : "Special Arrangements",
+      "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.141",
+        "2.16.840.1.113883.4.642.3.253"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.141",
+        "2.16.840.1.113883.4.642.3.253"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SpecialCourtesy",
+      "title" : "Special Courtesy",
+      "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.247",
+        "2.16.840.1.113883.4.642.3.252",
+        "2.16.840.1.113883.4.642.2.140"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.247",
+        "2.16.840.1.113883.4.642.3.252",
+        "2.16.840.1.113883.4.642.2.140"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterStatus",
+      "title" : "Encounter Status",
+      "description" : "Current state of the encounter.",
+      "systems" : ["http://hl7.org/fhir/encounter-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.246",
+        "2.16.840.1.113883.4.642.3.241"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.246",
+        "2.16.840.1.113883.4.642.3.241"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-subject-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterSubjectStatus",
+      "title" : "Encounter Subject Status",
+      "description" : "This example value set defines a set of codes that can be used to indicate the status of the subject within the encounter",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-subject-status"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3159"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3159"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "EncounterType",
+      "title" : "Encounter Type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.243",
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.137"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.243",
+        "2.16.840.1.113883.4.642.3.248",
+        "2.16.840.1.113883.4.642.2.137"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierTypeCodes",
+      "title" : "Identifier Type Codes",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person",
+      "StructureDefinition-lt-observation.html" : "LT Base Observation",
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-condition.html" : "LT Base Condition",
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role",
+      "StructureDefinition-lt-location.html" : "LT Base Location",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "Link Type",
+      "description" : "The type of link between this Patient resource and another Patient/RelatedPerson resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.234",
+        "2.16.840.1.113883.4.642.3.423",
+        "2.16.840.1.113883.4.642.3.412"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.234",
+        "2.16.840.1.113883.4.642.3.423",
+        "2.16.840.1.113883.4.642.3.412"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-characteristic",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationCharacteristic",
+      "title" : "Location Characteristic",
+      "description" : "Example Set of Location Characteristics",
+      "systems" : ["http://hl7.org/fhir/location-characteristic"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3079"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3079"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-form",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationForm",
+      "title" : "Location Form",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/location-physical-type"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.328"],
+      "sources" : ["2.16.840.1.113883.4.642.3.328"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter",
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-mode",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationMode",
+      "title" : "Location Mode",
+      "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+      "systems" : ["http://hl7.org/fhir/location-mode"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.321",
+        "2.16.840.1.113883.4.642.2.181",
+        "2.16.840.1.113883.4.642.3.330"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.321",
+        "2.16.840.1.113883.4.642.2.181",
+        "2.16.840.1.113883.4.642.3.330"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LocationStatus",
+      "title" : "Location Status",
+      "description" : "Indicates whether the location is still in use.",
+      "systems" : ["http://hl7.org/fhir/location-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.323",
+        "2.16.840.1.113883.4.642.3.332",
+        "2.16.840.1.113883.4.642.2.182"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.323",
+        "2.16.840.1.113883.4.642.3.332",
+        "2.16.840.1.113883.4.642.2.182"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "MaritalStatusCodes",
+      "title" : "Marital Status Codes",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner",
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeNormalValueCodes",
+      "title" : "Observation Reference Range Normal Value Codes",
+      "description" : "Codes that describe the normal value in the reference range, such as “Negative” or “Absent”",
+      "systems" : ["http://hl7.org/fhir/observation-referencerange-normalvalue"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3264"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3264"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "Observation Status",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "TriggeredBytype",
+      "title" : "triggered Bytype",
+      "description" : "Codes providing the type of triggeredBy observation.",
+      "systems" : ["http://hl7.org/fhir/observation-triggeredbytype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3265"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3265"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/organization-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "OrganizationType",
+      "title" : "Organization Type",
+      "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/organization-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.228",
+        "2.16.840.1.113883.4.642.3.414",
+        "2.16.840.1.113883.4.642.3.403"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.228",
+        "2.16.840.1.113883.4.642.3.414",
+        "2.16.840.1.113883.4.642.3.403"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participation-role-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ParticipationRoleType",
+      "title" : "Participation Role Type",
+      "description" : "This FHIR value set is comprised of Actor participation Type codes, which can be used to value FHIR agents, actors, and other role elements. The codes are intended to express how the agent participated in some activity. Sometimes refered to the agent functional-role relative to the activity.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+        "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+        "http://dicom.nema.org/resources/ontology/DCM"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.54"],
+      "sources" : ["2.16.840.1.113883.4.642.3.54"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-condition.html" : "LT Base Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/practitioner-role",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "PractitionerRole",
+      "title" : "Practitioner Role",
+      "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/practitioner-role",
+        "http://snomed.info/sct"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.430",
+        "2.16.840.1.113883.4.642.2.251",
+        "2.16.840.1.113883.4.642.3.439"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.430",
+        "2.16.840.1.113883.4.642.2.251",
+        "2.16.840.1.113883.4.642.3.439"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-observation.html" : "LT Base Observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "PatientRelationshipType",
+      "title" : "Patient Relationship Type",
+      "description" : "A set of codes that can be used to indicate the relationship between a Patient and a Related Person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "http://terminology.hl7.org/CodeSystem/v2-0131",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.259",
+        "2.16.840.1.113883.4.642.3.442",
+        "2.16.840.1.113883.4.642.3.449"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.259",
+        "2.16.840.1.113883.4.642.3.442",
+        "2.16.840.1.113883.4.642.3.449"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-related-person.html" : "LT Base Related Person"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-mode",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ServiceMode",
+      "title" : "Service Mode",
+      "description" : "An example set of Service Modes that could be applicable to use to characterize HealthcareServices or PractitionerRoles while searching",
+      "systems" : ["http://hl7.org/fhir/service-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.4.3322"],
+      "sources" : ["2.16.840.1.113883.4.642.4.3322"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-practitioner-role.html" : "LT Base Practitioner Role"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service Type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.512",
+        "2.16.840.1.113883.4.642.3.518"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.512",
+        "2.16.840.1.113883.4.642.3.518"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/contactentity-type",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ContactEntityType",
+      "title" : "Contact entity type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/contactentity-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.416"],
+      "sources" : ["2.16.840.1.113883.4.642.3.416"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization",
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "EncounterClass",
+      "title" : "Encounter class",
+      "description" : "This value set defines a set of codes that can be used to indicate the class of encounter: a specific code indicating class of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSReAdmissionIndicator",
+      "title" : "hl7VS-re-admissionIndicator",
+      "description" : "Value Set of codes which are used to specify that a patient is being re-admitted to a healthcare facility from which they were discharged, and indicates the circumstances around such re-admission.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
+      "oids" : ["2.16.840.1.113883.21.40"],
+      "sources" : ["2.16.840.1.113883.21.40"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSBedStatus",
+      "title" : "hl7VS-bedStatus",
+      "description" : "Value Set of codes that specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0116"],
+      "oids" : ["2.16.840.1.113883.21.51"],
+      "sources" : ["2.16.840.1.113883.21.51"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0360",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSDegreeLicenseCertificate",
+      "title" : "hl7VS-degreeLicenseCertificate",
+      "description" : "Concepts specifying an educational degree (e.g., MD).  Used in the CNN datatype (names and identifiers of clinicians) in Version 2 messaging.  Used in Version 2 messaging; note that in releases of HL7 prior to 2.3.1, was also used in person names (XPN), but this use was deprecated, then withdrawn in 2.7.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0360"],
+      "oids" : ["2.16.840.1.113883.21.236"],
+      "sources" : ["2.16.840.1.113883.21.236"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-practitioner.html" : "LT Base Practitioner"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActPriority",
+      "title" : "ActPriority",
+      "description" : "A code or set of codes (e.g., for routine, emergency,) specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.\r\n\r\n*Discussion:* This attribute is used in orders to indicate the ordered priority, and in event documentation it indicates the actual priority used to perform the act. In definition mood it indicates the available priorities.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActPriority"],
+      "oids" : ["2.16.840.1.113883.1.11.16866"],
+      "sources" : ["2.16.840.1.113883.1.11.16866"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-encounter.html" : "LT Base Encounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ServiceDeliveryLocationRoleType",
+      "title" : "ServiceDeliveryLocationRoleType",
+      "description" : "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.17660"],
+      "sources" : ["2.16.840.1.113883.1.11.17660"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-location.html" : "LT Base Location"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "LTBaseOrganizationIdentifier",
+      "title" : "Organization Identifier",
+      "description" : "A curated list of identifier systems for organizations.",
+      "systems" : ["https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-organization.html" : "LT Base Organization"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/base/ValueSet/patient-identifier",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "PatientIdentifier",
+      "title" : "Patient Identifier",
+      "description" : "A curated list of identifier systems for patients.",
+      "systems" : ["https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"],
+      "uses" : {
+      },
+      "StructureDefinition-lt-patient.html" : "LT Base Patient"
+    }
+  ]
+}

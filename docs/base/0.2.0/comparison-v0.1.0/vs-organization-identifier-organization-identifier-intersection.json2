@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "255c90a0-d11c-41de-b810-51b97cdb9e16-30",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/255c90a0-d11c-41de-b810-51b97cdb9e16-30",
+  "name" : "IntersectionLTBaseOrganizationIdentifierAndLTBaseOrganizationIdentifier",
+  "title" : "Intersection of Organization Identifier And Organization Identifier",
+  "status" : "draft",
+  "date" : "2025-10-30T19:03:27+02:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "http://esveikata.lt/Identifier/SVEIDRAID"
+      },
+      {
+        "code" : "http://esveikata.lt/Identifier/ESPBI"
+      }]
+    }]
+  }
+}

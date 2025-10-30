@@ -1,4 +1,4 @@
-# LT Base Observation - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Observation - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resursų profilis: LT Base Observation ( Eksperimentinis ) 
 
@@ -32,20 +32,21 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 **Summary**
 
-Must-Support: 31 elements
+Must-Support: 32 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [LT Base Observation(https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0)](StructureDefinition-lt-observation.md)
-* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0)](StructureDefinition-lt-patient.md)
-* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0)](StructureDefinition-lt-organization.md)
+* [LT Base Observation(https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0)](StructureDefinition-lt-observation.md)
+* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0)](StructureDefinition-lt-patient.md)
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
 * [Procedure(http://hl7.org/fhir/StructureDefinition/Procedure|5.0.0)](http://hl7.org/fhir/R5/procedure.html)
 * [Medication(http://hl7.org/fhir/StructureDefinition/Medication|5.0.0)](http://hl7.org/fhir/R5/medication.html)
-* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0)](StructureDefinition-lt-encounter.md)
-* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0)](StructureDefinition-lt-practitioner.md)
-* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0)](StructureDefinition-lt-practitioner-role.md)
+* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0)](StructureDefinition-lt-encounter.md)
+* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0)](StructureDefinition-lt-practitioner.md)
+* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0)](StructureDefinition-lt-practitioner-role.md)
+* [BodyStructure (EU core)(http://hl7.eu/fhir/base-r5/StructureDefinition/bodyStructure-eu-core|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-bodyStructure-eu-core.html)
 * [QuestionnaireResponse(http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0)](http://hl7.org/fhir/R5/questionnaireresponse.html)
 * [DocumentReference(http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0)](http://hl7.org/fhir/R5/documentreference.html)
 * [ImagingStudy(http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0)](http://hl7.org/fhir/R5/imagingstudy.html)
@@ -66,20 +67,21 @@ This structure refers to these other structures:
 
 **Summary**
 
-Must-Support: 31 elements
+Must-Support: 32 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [LT Base Observation(https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0)](StructureDefinition-lt-observation.md)
-* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0)](StructureDefinition-lt-patient.md)
-* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0)](StructureDefinition-lt-organization.md)
+* [LT Base Observation(https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0)](StructureDefinition-lt-observation.md)
+* [LT Base Patient(https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0)](StructureDefinition-lt-patient.md)
+* [LT Base Organization(https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0)](StructureDefinition-lt-organization.md)
 * [Procedure(http://hl7.org/fhir/StructureDefinition/Procedure|5.0.0)](http://hl7.org/fhir/R5/procedure.html)
 * [Medication(http://hl7.org/fhir/StructureDefinition/Medication|5.0.0)](http://hl7.org/fhir/R5/medication.html)
-* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0)](StructureDefinition-lt-encounter.md)
-* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0)](StructureDefinition-lt-practitioner.md)
-* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0)](StructureDefinition-lt-practitioner-role.md)
+* [LT Base Encounter(https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0)](StructureDefinition-lt-encounter.md)
+* [LT Base Practitioner(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0)](StructureDefinition-lt-practitioner.md)
+* [LT Base Practitioner Role(https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0)](StructureDefinition-lt-practitioner-role.md)
+* [BodyStructure (EU core)(http://hl7.eu/fhir/base-r5/StructureDefinition/bodyStructure-eu-core|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-bodyStructure-eu-core.html)
 * [QuestionnaireResponse(http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0)](http://hl7.org/fhir/R5/questionnaireresponse.html)
 * [DocumentReference(http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0)](http://hl7.org/fhir/R5/documentreference.html)
 * [ImagingStudy(http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0)](http://hl7.org/fhir/R5/imagingstudy.html)
@@ -98,12 +100,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
   "id" : "lt-observation",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-observation",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseObservation",
   "title" : "LT Base Observation",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -220,7 +222,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"
             ]
           }
         ]
@@ -257,8 +259,8 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0",
               "http://hl7.org/fhir/StructureDefinition/Procedure|5.0.0",
               "http://hl7.org/fhir/StructureDefinition/Medication|5.0.0"
             ]
@@ -278,7 +280,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"
             ]
           }
         ],
@@ -301,9 +303,9 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
             ]
           }
         ],
@@ -322,6 +324,19 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
       {
         "id" : "Observation.note",
         "path" : "Observation.note",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.bodyStructure",
+        "path" : "Observation.bodyStructure",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.eu/fhir/base-r5/StructureDefinition/bodyStructure-eu-core|0.1.0"
+            ]
+          }
+        ],
         "mustSupport" : true
       },
       {
@@ -371,7 +386,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0",
               "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0"
             ]
           }
@@ -388,7 +403,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-lt-observation.csv)
               "http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0",
               "http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0",
               "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"
             ]
           }
         ],

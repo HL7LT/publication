@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="f56ac71a-5cc2-4355-9c37-6705d080b88b"/>
+  <meta>
+    <lastUpdated value="2025-10-30T19:02:48.761+02:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.2.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SVEIDRAID"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID">http://esveikata.lt/Identifier/SVEIDRAID</a>
+                </td>
+                <td>SVEIDRA identifier</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;, &quot;display&quot;: &quot;SVEIDRA identifier&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;&gt;&lt;display value=&quot;SVEIDRA identifier&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SPILIS"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS">http://esveikata.lt/Identifier/SPILIS</a>
+                </td>
+                <td>SPĮLIS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SPILIS&quot;, &quot;display&quot;: &quot;SPĮLIS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SPILIS&quot;&gt;&lt;display value=&quot;SPĮLIS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/VAPRIS"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS">http://esveikata.lt/Identifier/VAPRIS</a>
+                </td>
+                <td>VAPRIS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/VAPRIS&quot;, &quot;display&quot;: &quot;VAPRIS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/VAPRIS&quot;&gt;&lt;display value=&quot;VAPRIS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+        <version value="1.0.0"/>
+        <name value="LTBaseOrganizationIdentifier"/>
+        <title value="Organization Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-30T19:02:48+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:293d6821-8636-4b9a-8d7c-4576fee63dfb"/>
+          <timestamp value="2025-10-30T19:03:50+02:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+            <display value="SVEIDRA identifier"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SPILIS"/>
+            <display value="SPĮLIS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/VAPRIS"/>
+            <display value="VAPRIS"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.2.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SVEIDRAID"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID">http://esveikata.lt/Identifier/SVEIDRAID</a>
+                </td>
+                <td>SVEIDRA identifier</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;, &quot;display&quot;: &quot;SVEIDRA identifier&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;&gt;&lt;display value=&quot;SVEIDRA identifier&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SPILIS"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS">http://esveikata.lt/Identifier/SPILIS</a>
+                </td>
+                <td>SPĮLIS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SPILIS&quot;, &quot;display&quot;: &quot;SPĮLIS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SPILIS&quot;&gt;&lt;display value=&quot;SPĮLIS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/VAPRIS"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS">http://esveikata.lt/Identifier/VAPRIS</a>
+                </td>
+                <td>VAPRIS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/VAPRIS&quot;, &quot;display&quot;: &quot;VAPRIS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/VAPRIS&quot;&gt;&lt;display value=&quot;VAPRIS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+        <version value="1.0.0"/>
+        <name value="LTBaseOrganizationIdentifier"/>
+        <title value="Organization Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-30T19:02:48+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:293d6821-8636-4b9a-8d7c-4576fee63dfb"/>
+          <timestamp value="2025-10-30T19:03:50+02:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+            <display value="SVEIDRA identifier"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SPILIS"/>
+            <display value="SPĮLIS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/VAPRIS"/>
+            <display value="VAPRIS"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.2.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SVEIDRAID"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID">http://esveikata.lt/Identifier/SVEIDRAID</a>
+                </td>
+                <td>SVEIDRA identifier</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;, &quot;display&quot;: &quot;SVEIDRA identifier&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SVEIDRAID&quot;&gt;&lt;display value=&quot;SVEIDRA identifier&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/SPILIS"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS">http://esveikata.lt/Identifier/SPILIS</a>
+                </td>
+                <td>SPĮLIS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/SPILIS&quot;, &quot;display&quot;: &quot;SPĮLIS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/SPILIS&quot;&gt;&lt;display value=&quot;SPĮLIS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/VAPRIS"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS">http://esveikata.lt/Identifier/VAPRIS</a>
+                </td>
+                <td>VAPRIS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/VAPRIS&quot;, &quot;display&quot;: &quot;VAPRIS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/VAPRIS&quot;&gt;&lt;display value=&quot;VAPRIS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/organization-identifier"/>
+        <version value="1.0.0"/>
+        <name value="LTBaseOrganizationIdentifier"/>
+        <title value="Organization Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-30T19:02:48+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:fde00e94-f488-418f-9e6d-1d81c5153b67"/>
+          <timestamp value="2025-10-30T19:03:50+02:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="lt"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+            <display value="SVEIDRA identifier"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/SPILIS"/>
+            <display value="SPĮLIS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/VAPRIS"/>
+            <display value="VAPRIS"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/patient-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.2.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/PersonalCode"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47PersonalCode">http://esveikata.lt/Identifier/PersonalCode</a>
+                </td>
+                <td>Personal Code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/PersonalCode&quot;, &quot;display&quot;: &quot;Personal Code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/PersonalCode&quot;&gt;&lt;display value=&quot;Personal Code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/ESI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ESI">http://esveikata.lt/Identifier/Patient/ESI</a>
+                </td>
+                <td>ESI code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/ESI&quot;, &quot;display&quot;: &quot;ESI code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/ESI&quot;&gt;&lt;display value=&quot;ESI code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/DIK"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47DIK">http://esveikata.lt/Identifier/Patient/DIK</a>
+                </td>
+                <td>DIK</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/DIK&quot;, &quot;display&quot;: &quot;DIK&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/DIK&quot;&gt;&lt;display value=&quot;DIK&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/SveidraID"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47SveidraID">http://esveikata.lt/Identifier/Patient/SveidraID</a>
+                </td>
+                <td>SveidraID</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/SveidraID&quot;, &quot;display&quot;: &quot;SveidraID&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/SveidraID&quot;&gt;&lt;display value=&quot;SveidraID&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/eFormNumber"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47eFormNumber">http://esveikata.lt/Identifier/Patient/eFormNumber</a>
+                </td>
+                <td>eFormNumber</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/eFormNumber&quot;, &quot;display&quot;: &quot;eFormNumber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/eFormNumber&quot;&gt;&lt;display value=&quot;eFormNumber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ForeignPersonalCode">http://esveikata.lt/Identifier/Patient/ForeignPersonalCode</a>
+                </td>
+                <td>ForeignPersonalCode</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/ForeignPersonalCode&quot;, &quot;display&quot;: &quot;ForeignPersonalCode&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/ForeignPersonalCode&quot;&gt;&lt;display value=&quot;ForeignPersonalCode&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/eDelivery"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47eDelivery">http://esveikata.lt/Identifier/eDelivery</a>
+                </td>
+                <td>eDelivery</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/eDelivery&quot;, &quot;display&quot;: &quot;eDelivery&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/eDelivery&quot;&gt;&lt;display value=&quot;eDelivery&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47IdentityDocument.47SerieNumber">http://esveikata.lt/classifiers/IdentityDocument/SerieNumber</a>
+                </td>
+                <td>SerieNumber</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/classifiers/IdentityDocument/SerieNumber&quot;, &quot;display&quot;: &quot;SerieNumber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/classifiers/IdentityDocument/SerieNumber&quot;&gt;&lt;display value=&quot;SerieNumber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/patient-identifier"/>
+        <version value="1.0.0"/>
+        <name value="PatientIdentifier"/>
+        <title value="Patient Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-30T19:02:48+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c26d1e22-622f-46f3-970c-2f9ac1ae9aac"/>
+          <timestamp value="2025-10-30T19:03:48+02:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/PersonalCode"/>
+            <display value="Personal Code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/ESI"/>
+            <display value="ESI code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/DIK"/>
+            <display value="DIK"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/SveidraID"/>
+            <display value="SveidraID"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/eFormNumber"/>
+            <display value="eFormNumber"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"/>
+            <display value="ForeignPersonalCode"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/eDelivery"/>
+            <display value="eDelivery"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"/>
+            <display value="SerieNumber"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/patient-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.2.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/PersonalCode"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47PersonalCode">http://esveikata.lt/Identifier/PersonalCode</a>
+                </td>
+                <td>Personal Code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/PersonalCode&quot;, &quot;display&quot;: &quot;Personal Code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/PersonalCode&quot;&gt;&lt;display value=&quot;Personal Code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/ESI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ESI">http://esveikata.lt/Identifier/Patient/ESI</a>
+                </td>
+                <td>ESI code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/ESI&quot;, &quot;display&quot;: &quot;ESI code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/ESI&quot;&gt;&lt;display value=&quot;ESI code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/DIK"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47DIK">http://esveikata.lt/Identifier/Patient/DIK</a>
+                </td>
+                <td>DIK</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/DIK&quot;, &quot;display&quot;: &quot;DIK&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/DIK&quot;&gt;&lt;display value=&quot;DIK&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/SveidraID"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47SveidraID">http://esveikata.lt/Identifier/Patient/SveidraID</a>
+                </td>
+                <td>SveidraID</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/SveidraID&quot;, &quot;display&quot;: &quot;SveidraID&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/SveidraID&quot;&gt;&lt;display value=&quot;SveidraID&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/eFormNumber"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47eFormNumber">http://esveikata.lt/Identifier/Patient/eFormNumber</a>
+                </td>
+                <td>eFormNumber</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/eFormNumber&quot;, &quot;display&quot;: &quot;eFormNumber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/eFormNumber&quot;&gt;&lt;display value=&quot;eFormNumber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ForeignPersonalCode">http://esveikata.lt/Identifier/Patient/ForeignPersonalCode</a>
+                </td>
+                <td>ForeignPersonalCode</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/ForeignPersonalCode&quot;, &quot;display&quot;: &quot;ForeignPersonalCode&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/ForeignPersonalCode&quot;&gt;&lt;display value=&quot;ForeignPersonalCode&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/eDelivery"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47eDelivery">http://esveikata.lt/Identifier/eDelivery</a>
+                </td>
+                <td>eDelivery</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/eDelivery&quot;, &quot;display&quot;: &quot;eDelivery&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/eDelivery&quot;&gt;&lt;display value=&quot;eDelivery&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47IdentityDocument.47SerieNumber">http://esveikata.lt/classifiers/IdentityDocument/SerieNumber</a>
+                </td>
+                <td>SerieNumber</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/classifiers/IdentityDocument/SerieNumber&quot;, &quot;display&quot;: &quot;SerieNumber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/classifiers/IdentityDocument/SerieNumber&quot;&gt;&lt;display value=&quot;SerieNumber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/patient-identifier"/>
+        <version value="1.0.0"/>
+        <name value="PatientIdentifier"/>
+        <title value="Patient Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-30T19:02:48+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c26d1e22-622f-46f3-970c-2f9ac1ae9aac"/>
+          <timestamp value="2025-10-30T19:03:48+02:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/PersonalCode"/>
+            <display value="Personal Code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/ESI"/>
+            <display value="ESI code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/DIK"/>
+            <display value="DIK"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/SveidraID"/>
+            <display value="SveidraID"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/eFormNumber"/>
+            <display value="eFormNumber"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"/>
+            <display value="ForeignPersonalCode"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/eDelivery"/>
+            <display value="eDelivery"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"/>
+            <display value="SerieNumber"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.lt/fhir/base/ValueSet/patient-identifier"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-identifier-domain.html">codesystem Identifier Domain v0.2.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/ESPBI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI">http://esveikata.lt/Identifier/ESPBI</a>
+                </td>
+                <td>ESPBI id</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/ESPBI&quot;, &quot;display&quot;: &quot;ESPBI id&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/ESPBI&quot;&gt;&lt;display value=&quot;ESPBI id&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/PersonalCode"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47PersonalCode">http://esveikata.lt/Identifier/PersonalCode</a>
+                </td>
+                <td>Personal Code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/PersonalCode&quot;, &quot;display&quot;: &quot;Personal Code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/PersonalCode&quot;&gt;&lt;display value=&quot;Personal Code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/ESI"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ESI">http://esveikata.lt/Identifier/Patient/ESI</a>
+                </td>
+                <td>ESI code</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/ESI&quot;, &quot;display&quot;: &quot;ESI code&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/ESI&quot;&gt;&lt;display value=&quot;ESI code&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/DIK"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47DIK">http://esveikata.lt/Identifier/Patient/DIK</a>
+                </td>
+                <td>DIK</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/DIK&quot;, &quot;display&quot;: &quot;DIK&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/DIK&quot;&gt;&lt;display value=&quot;DIK&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/SveidraID"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47SveidraID">http://esveikata.lt/Identifier/Patient/SveidraID</a>
+                </td>
+                <td>SveidraID</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/SveidraID&quot;, &quot;display&quot;: &quot;SveidraID&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/SveidraID&quot;&gt;&lt;display value=&quot;SveidraID&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/eFormNumber"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47eFormNumber">http://esveikata.lt/Identifier/Patient/eFormNumber</a>
+                </td>
+                <td>eFormNumber</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/eFormNumber&quot;, &quot;display&quot;: &quot;eFormNumber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/eFormNumber&quot;&gt;&lt;display value=&quot;eFormNumber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ForeignPersonalCode">http://esveikata.lt/Identifier/Patient/ForeignPersonalCode</a>
+                </td>
+                <td>ForeignPersonalCode</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/Patient/ForeignPersonalCode&quot;, &quot;display&quot;: &quot;ForeignPersonalCode&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/Patient/ForeignPersonalCode&quot;&gt;&lt;display value=&quot;ForeignPersonalCode&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/Identifier/eDelivery"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47eDelivery">http://esveikata.lt/Identifier/eDelivery</a>
+                </td>
+                <td>eDelivery</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/Identifier/eDelivery&quot;, &quot;display&quot;: &quot;eDelivery&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/Identifier/eDelivery&quot;&gt;&lt;display value=&quot;eDelivery&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.lt/fhir/tx/CodeSystem/identifier-domain-http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"> </a>
+                  <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47IdentityDocument.47SerieNumber">http://esveikata.lt/classifiers/IdentityDocument/SerieNumber</a>
+                </td>
+                <td>SerieNumber</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;http://esveikata.lt/classifiers/IdentityDocument/SerieNumber&quot;, &quot;display&quot;: &quot;SerieNumber&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;http://esveikata.lt/classifiers/IdentityDocument/SerieNumber&quot;&gt;&lt;display value=&quot;SerieNumber&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.lt/fhir/base/ValueSet/patient-identifier"/>
+        <version value="1.0.0"/>
+        <name value="PatientIdentifier"/>
+        <title value="Patient Identifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-10-30T19:02:48+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="LT"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:22d304ca-bf21-46ca-a978-207d4a00792f"/>
+          <timestamp value="2025-10-30T19:03:49+02:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="lt"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/ESPBI"/>
+            <display value="ESPBI id"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/PersonalCode"/>
+            <display value="Personal Code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/ESI"/>
+            <display value="ESI code"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/DIK"/>
+            <display value="DIK"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/SveidraID"/>
+            <display value="SveidraID"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/eFormNumber"/>
+            <display value="eFormNumber"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"/>
+            <display value="ForeignPersonalCode"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/Identifier/eDelivery"/>
+            <display value="eDelivery"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+            <code value="http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"/>
+            <display value="SerieNumber"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

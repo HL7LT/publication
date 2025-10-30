@@ -1,4 +1,4 @@
-# LT Base Observation - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Observation - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resource Profile: LT Base Observation ( Experimental ) 
 
@@ -30,12 +30,12 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
   "id" : "lt-observation",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-observation",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseObservation",
   "title" : "LT Base Observation",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -152,7 +152,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"
             ]
           }
         ]
@@ -189,8 +189,8 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0",
               "http://hl7.org/fhir/StructureDefinition/Procedure|5.0.0",
               "http://hl7.org/fhir/StructureDefinition/Medication|5.0.0"
             ]
@@ -210,7 +210,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"
             ]
           }
         ],
@@ -233,9 +233,9 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
             ]
           }
         ],
@@ -254,6 +254,19 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
       {
         "id" : "Observation.note",
         "path" : "Observation.note",
+        "mustSupport" : true
+      },
+      {
+        "id" : "Observation.bodyStructure",
+        "path" : "Observation.bodyStructure",
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.eu/fhir/base-r5/StructureDefinition/bodyStructure-eu-core|0.1.0"
+            ]
+          }
+        ],
         "mustSupport" : true
       },
       {
@@ -303,7 +316,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0",
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0",
               "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0"
             ]
           }
@@ -320,7 +333,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-observation.cs
               "http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0",
               "http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0",
               "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0",
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"
             ]
           }
         ],

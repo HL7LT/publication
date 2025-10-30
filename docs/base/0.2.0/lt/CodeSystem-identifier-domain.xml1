@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="identifier-domain"/>
+  <language value="lt"/>
+  <text>
+    <status value="generated"/><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem identifier-domain</b></p><a name="lt-identifier-domain"> </a><a name="lt-hcidentifier-domain"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: lt</p></div><p>This case-sensitive code system <code>https://hl7.lt/fhir/tx/CodeSystem/identifier-domain</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/SVEIDRAID<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID"> </a></td><td>SVEIDRA identifier</td><td>SVEIDRA identifier</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/classifiers/Identifier/JAR<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR"> </a></td><td>JAR code</td><td>JAR code</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/ESPBI<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI"> </a></td><td>ESPBI id</td><td>ESPBI id</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/VAPRIS<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS"> </a></td><td>VAPRIS</td><td>VAPRIS</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/SPILIS<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS"> </a></td><td>SPĮLIS</td><td>SPĮLIS veiklos vietos identifikatorius</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/PersonalCode<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47PersonalCode"> </a></td><td>Personal Code</td><td>Personal Code</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/Patient/ESI<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ESI"> </a></td><td>ESI code</td><td>ESI code</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/Patient/DIK<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47DIK"> </a></td><td>DIK</td><td>DIK</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/Patient/SveidraID<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47SveidraID"> </a></td><td>SveidraID</td><td>SveidraID</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/Patient/eFormNumber<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47eFormNumber"> </a></td><td>eFormNumber</td><td>eFormNumber</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/Patient/ForeignPersonalCode<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47Patient.47ForeignPersonalCode"> </a></td><td>ForeignPersonalCode</td><td>ForeignPersonalCode</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/Identifier/eDelivery<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47eDelivery"> </a></td><td>eDelivery</td><td>eDelivery</td></tr><tr><td style="white-space:nowrap">http://esveikata.lt/classifiers/IdentityDocument/SerieNumber<a name="lt-identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47IdentityDocument.47SerieNumber"> </a></td><td>SerieNumber</td><td>SerieNumber</td></tr></table></div>
+  </text>
+  <url value="https://hl7.lt/fhir/tx/CodeSystem/identifier-domain"/>
+  <version value="0.2.0"/>
+  <name value="LTBaseIdentifierDomain"/>
+  <title value="Identifier Domain"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-30T19:02:48+02:00"/>
+  <publisher value="Lietuvos medicinos biblioteka"/>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="Identifier Domain with translations in Lithuanian"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="LT"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <count value="13"/>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/SVEIDRAID"/>
+    <display value="SVEIDRA identifier"/>
+    <definition value="SVEIDRA identifier"/>
+    <designation>
+      <language value="lt"/>
+      <value value="SVEIDRA identifikatorius"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/classifiers/Identifier/JAR"/>
+    <display value="JAR code"/>
+    <definition value="JAR code"/>
+    <designation>
+      <language value="lt"/>
+      <value value="JAR kodas"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/ESPBI"/>
+    <display value="ESPBI id"/>
+    <definition value="ESPBI id"/>
+    <designation>
+      <language value="lt"/>
+      <value value="ESPBI id"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/VAPRIS"/>
+    <display value="VAPRIS"/>
+    <definition value="VAPRIS"/>
+    <designation>
+      <language value="lt"/>
+      <value value="VAPRIS"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/SPILIS"/>
+    <display value="SPĮLIS"/>
+    <definition value="SPĮLIS veiklos vietos identifikatorius"/>
+    <designation>
+      <language value="lt"/>
+      <value value="SPĮLIS veiklos vietos identifikatorius"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/PersonalCode"/>
+    <display value="Personal Code"/>
+    <definition value="Personal Code"/>
+    <designation>
+      <language value="lt"/>
+      <value value="Asmens kodas"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/Patient/ESI"/>
+    <display value="ESI code"/>
+    <definition value="ESI code"/>
+    <designation>
+      <language value="lt"/>
+      <value value="ESI code"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/Patient/DIK"/>
+    <display value="DIK"/>
+    <definition value="DIK"/>
+    <designation>
+      <language value="lt"/>
+      <value value="DIK"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/Patient/SveidraID"/>
+    <display value="SveidraID"/>
+    <definition value="SveidraID"/>
+    <designation>
+      <language value="lt"/>
+      <value value="SveidraID"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/Patient/eFormNumber"/>
+    <display value="eFormNumber"/>
+    <definition value="eFormNumber"/>
+    <designation>
+      <language value="lt"/>
+      <value value="eFormNumber"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/Patient/ForeignPersonalCode"/>
+    <display value="ForeignPersonalCode"/>
+    <definition value="ForeignPersonalCode"/>
+    <designation>
+      <language value="lt"/>
+      <value value="ForeignPersonalCode"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/Identifier/eDelivery"/>
+    <display value="eDelivery"/>
+    <definition value="eDelivery"/>
+    <designation>
+      <language value="lt"/>
+      <value value="eDelivery"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="http://esveikata.lt/classifiers/IdentityDocument/SerieNumber"/>
+    <display value="SerieNumber"/>
+    <definition value="SerieNumber"/>
+    <designation>
+      <language value="lt"/>
+      <value value="SerieNumber"/>
+    </designation>
+  </concept>
+</CodeSystem>

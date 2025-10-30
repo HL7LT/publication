@@ -10,7 +10,7 @@
   "id" : "lt.hl7.fhir.base",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBase",
   "_name" : {
     "extension" : [
@@ -48,7 +48,7 @@
     ]
   },
   "status" : "draft",
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -137,6 +137,12 @@
       "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
       "packageId" : "hl7.fhir.uv.extensions.r5",
       "version" : "5.2.0"
+    },
+    {
+      "id" : "hl7_fhir_eu_base_r5",
+      "uri" : "http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5",
+      "packageId" : "hl7.fhir.eu.base-r5",
+      "version" : "0.1.0"
     }
   ],
   "definition" : {
@@ -161,7 +167,7 @@
         "description" : "An example Practitioner conforming to the Lithuanian Base Profile.",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner|0.2.0"
         ]
       },
       {
@@ -178,7 +184,7 @@
         "description" : "An example Practitioner Role conforming to the Lithuanian Base Profile.",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-practitioner-role|0.2.0"
         ]
       },
       {
@@ -195,7 +201,7 @@
         "description" : "Example of an psychiatric encounter",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"
         ]
       },
       {
@@ -212,7 +218,24 @@
         "description" : "Example instance of a cancer diagnosis documented during a patient encounter",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-condition|0.2.0"
+        ]
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "Location"
+          }
+        ],
+        "reference" : {
+          "reference" : "Location/example-location"
+        },
+        "name" : "Example LT Base Location",
+        "description" : "Example instance of a healthcare location",
+        "isExample" : true,
+        "profile" : [
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-location|0.2.0"
         ]
       },
       {
@@ -229,7 +252,7 @@
         "description" : "Example instance of a blood pressure measurement for a patient",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0"
         ]
       },
       {
@@ -246,7 +269,7 @@
         "description" : "Example of an psychiatric encounter",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-encounter|0.2.0"
         ]
       },
       {
@@ -263,7 +286,7 @@
         "description" : "Example of a LMB organization",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
         ]
       },
       {
@@ -280,7 +303,7 @@
         "description" : "Example of a healthcare organization",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-organization|0.2.0"
         ]
       },
       {
@@ -311,7 +334,7 @@
         "description" : "An example Patient conforming to the Lithuanian Base Profile.",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"
         ]
       },
       {
@@ -340,6 +363,20 @@
         },
         "name" : "LT Base Encounter",
         "description" : "Lithuanian Base Encounter profile, used to represent clinical encounters",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/lt-location"
+        },
+        "name" : "LT Base Location",
+        "description" : "Lithuanian Base Location profile, used for documenting healthcare locations.",
         "isExample" : false
       },
       {
@@ -444,6 +481,20 @@
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "ValueSet"
+          }
+        ],
+        "reference" : {
+          "reference" : "ValueSet/patient-identifier"
+        },
+        "name" : "Patient Identifier",
+        "description" : "A curated list of identifier systems for patients.",
+        "isExample" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "RelatedPerson"
           }
         ],
@@ -454,7 +505,7 @@
         "description" : "An example Related Person conforming to the Lithuanian Base Profile.",
         "isExample" : true,
         "profile" : [
-          "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.1.0"
+          "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person|0.2.0"
         ]
       }
     ],

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Organization Identifier - JSON Representation - Lithuanian Base Implementation Guide v0.1.0</title>
+    <title>Organization Identifier - JSON Representation - Lithuanian Base Implementation Guide v0.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"4.9"}
-    h3,h4,h5,h6{--heading-prefix:"4.9"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.10"}
+    h3,h4,h5,h6{--heading-prefix:"4.10"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -53,7 +53,7 @@
         <div id="ig-status" data-fhir="generated">
           <p><span style="font-size:12pt;font-weight:bold">Lithuanian Base Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;"><a name="l89">​</a>0.1.0 - 
+            <span style="display:inline-block;"><a name="l89">​</a>0.2.0 - 
 
 
 
@@ -129,7 +129,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="CodeSystem-identifier-domain.html">next &gt;</a>
+          | <a href="ValueSet-patient-identifier.html">next &gt;</a>
 
           </span>
 
@@ -145,7 +145,7 @@
 
   <!-- layouts\layout-instance-format -->
 <div style="counter-reset: section 8" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">This page is part of the Lithuanian Base FHIR Implementation Guide (v0.1.0: <a data-no-external="true" href="https://confluence.hl7.org/display/HL7/HL7+Balloting" title="Draft Standard for Trial-Use">DSTU</a>1 Draft) based on <a data-no-external="true" href="http://hl7.org/fhir/R5">FHIR (HL7® FHIR® Standard) v5.0.0</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.lt/fhir/base/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!-- ReleaseHeader --><p id="publish-box">This page is part of the Lithuanian Base FHIR Implementation Guide (v0.2.0: <a data-no-external="true" href="https://confluence.hl7.org/display/HL7/HL7+Balloting" title="Draft Standard for Trial-Use">DSTU</a>1 Draft) based on <a data-no-external="true" href="http://hl7.org/fhir/R5">FHIR (HL7® FHIR® Standard) v5.0.0</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.lt/fhir/base/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -198,7 +198,7 @@
           
 
             as of 
-2025-10-27
+2025-10-30
 
           
         
@@ -221,7 +221,7 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.language">language</a>" : "en",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "extensions",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\"en\" lang=\"en\"&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;English&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet organization-identifier&lt;/b&gt;&lt;/p&gt;&lt;a name=\"organization-identifier\"&gt; &lt;/a&gt;&lt;a name=\"hcorganization-identifier\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Language: en&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-identifier-domain.html\"&gt;&lt;code&gt;https://hl7.lt/fhir/CodeSystem/identifier-domain&lt;/code&gt;&lt;/a&gt;&lt;span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"&gt; version &amp;#x1F4E6;0.1.0&lt;/span&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID\"&gt;http://esveikata.lt/Identifier/SVEIDRAID&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;VEIDRA identifier&lt;/td&gt;&lt;td&gt;VEIDRA identifier&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47classifiers.47Identifier.47JAR\"&gt;http://esveikata.lt/classifiers/Identifier/JAR&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;JAR code&lt;/td&gt;&lt;td&gt;JAR code&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI\"&gt;http://esveikata.lt/Identifier/ESPBI&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;ESPBI id&lt;/td&gt;&lt;td&gt;ESPBI id&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\"en\" lang=\"en\"&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;English&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: ValueSet organization-identifier&lt;/b&gt;&lt;/p&gt;&lt;a name=\"organization-identifier\"&gt; &lt;/a&gt;&lt;a name=\"hcorganization-identifier\"&gt; &lt;/a&gt;&lt;div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"&gt;&lt;p style=\"margin-bottom: 0px\"&gt;Language: en&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"CodeSystem-identifier-domain.html\"&gt;&lt;code&gt;https://hl7.lt/fhir/tx/CodeSystem/identifier-domain&lt;/code&gt;&lt;/a&gt;&lt;span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"&gt; version &amp;#x1F4E6;0.2.0&lt;/span&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SVEIDRAID\"&gt;http://esveikata.lt/Identifier/SVEIDRAID&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;SVEIDRA identifier&lt;/td&gt;&lt;td&gt;SVEIDRA identifier&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47SPILIS\"&gt;http://esveikata.lt/Identifier/SPILIS&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;SPĮLIS&lt;/td&gt;&lt;td&gt;SPĮLIS veiklos vietos identifikatorius&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47ESPBI\"&gt;http://esveikata.lt/Identifier/ESPBI&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;ESPBI id&lt;/td&gt;&lt;td&gt;ESPBI id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"CodeSystem-identifier-domain.html#identifier-domain-http.58.47.47esveikata.46lt.47Identifier.47VAPRIS\"&gt;http://esveikata.lt/Identifier/VAPRIS&lt;/a&gt;&lt;/td&gt;&lt;td style=\"color: #cccccc\"&gt;VAPRIS&lt;/td&gt;&lt;td&gt;VAPRIS&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">url</a>" : "https://hl7.lt/fhir/base/ValueSet/organization-identifier",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a>" : "1.0.0",
@@ -229,7 +229,7 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a>" : "Organization Identifier",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">status</a>" : "draft",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2025-10-27T15:58:38+02:00",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a>" : "2025-10-30T19:04:29+02:00",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.publisher">publisher</a>" : "Lithuanian Medical Library",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.contact">contact</a>" : [
     {
@@ -260,16 +260,19 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose">compose</a>" : {
     "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">include</a>" : [
       {
-        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "https://hl7.lt/fhir/CodeSystem/identifier-domain",
+        "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a>" : "https://hl7.lt/fhir/tx/CodeSystem/identifier-domain",
         "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
           {
             "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "http://esveikata.lt/Identifier/SVEIDRAID"
           },
           {
-            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "http://esveikata.lt/classifiers/Identifier/JAR"
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "http://esveikata.lt/Identifier/SPILIS"
           },
           {
             "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "http://esveikata.lt/Identifier/ESPBI"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "http://esveikata.lt/Identifier/VAPRIS"
           }
         ]
       }
@@ -312,7 +315,7 @@
               </td>
               <td style="text-align:var(--ig-right);">&nbsp;
 
-                <a href="CodeSystem-identifier-domain.html">next &gt;</a>
+                <a href="ValueSet-patient-identifier.html">next &gt;</a>
 
               </td>
             </tr>
@@ -326,8 +329,8 @@
 
 
           IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medicinosnk.lt">Lithuanian Medical Library</a>.  
-          Package lt.hl7.fhir.base#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
-          Generated <span title="Mon, Oct 27, 2025 15:58+0200">2025-10-27</span>
+          Package lt.hl7.fhir.base#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
+          Generated <span title="Thu, Oct 30, 2025 19:04+0200">2025-10-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

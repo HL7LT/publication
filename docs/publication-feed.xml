@@ -4,12 +4,23 @@
       <description>FHIR Implementation Guides published by HL7 Lithuania</description>
       <link>https://hl7.lt/fhir</link>
       <generator>HL7 Lithuania</generator>
-      <lastBuildDate>Mon, 27 Oct 2025 03:57:00 +0200</lastBuildDate>
+      <lastBuildDate>Thu, 30 Oct 2025 07:02:48 +0200</lastBuildDate>
       <atom:link href="https://hl7.lt/fhir/publication-feed.xml" rel="self" type="application/rss+xml"/>
-      <pubDate>Mon, 27 Oct 2025 03:57:00 +0200</pubDate>
+      <pubDate>Thu, 30 Oct 2025 07:02:48 +0200</pubDate>
       <language>en</language>
       <ttl>600</ttl>
       <item>
+      <title>Lithuanian Base FHIR Implementation Guide version 0.2.0</title>
+      <description>Support for EHDS and HL7 Europe Base and Core FHIR IG.</description>
+      <link>https://hl7.lt/fhir/base/0.2.0/index.html</link>
+      <guid isPermaLink="true">https://hl7.lt/fhir/base/0.2.0/index.html</guid>
+      <dc:creator>HL7 Lithuania</dc:creator>
+      <fhir:version>5.0.0</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Thu, 30 Oct 2025 07:02:48 +0200</pubDate>
+      <fhir:details>Publication run at 30/10/2025 by igor using Version 2.0.24 (Git# f67b3ab6b4f9). Built 2025-10-28T17:45:50.25Z (47 hours old) source id Unknown (todo)</fhir:details>
+    </item>
+    <item>
         <title>Lithuanian Base FHIR Implementation Guide version 0.1.0</title>
         <description>Initial release as LT Base IG.</description>
         <link>https://hl7.lt/fhir/base/0.1.0/index.html</link>

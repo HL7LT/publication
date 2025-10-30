@@ -1,4 +1,4 @@
-# LT Base Related Person - Lithuanian Base Implementation Guide v0.1.0
+# LT Base Related Person - Lithuanian Base Implementation Guide v0.2.0
 
 ## Resource Profile: LT Base Related Person ( Experimental ) 
 
@@ -7,7 +7,7 @@ Lithuanian Base Related Person profile, used to define persons related to a pati
 
 **Usages:**
 
-* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md)
+* Refer to this Profile: [LT Base Condition](StructureDefinition-lt-condition.md) and [LT Base Patient](StructureDefinition-lt-patient.md)
 * Examples for this Profile: [RelatedPerson/example-related-person](RelatedPerson-example-related-person.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.base|current/StructureDefinition/lt-related-person)
@@ -30,12 +30,12 @@ Other representations of profile: [CSV](../StructureDefinition-lt-related-person
   "id" : "lt-related-person",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/base/StructureDefinition/lt-related-person",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "LTBaseRelatedPerson",
   "title" : "LT Base Related Person",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-10-27T15:58:38+02:00",
+  "date" : "2025-10-30T19:04:29+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](../StructureDefinition-lt-related-person
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.1.0"
+              "https://hl7.lt/fhir/base/StructureDefinition/lt-patient|0.2.0"
             ]
           }
         ],
