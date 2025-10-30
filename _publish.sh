@@ -6,11 +6,16 @@ java -jar ../publisher.jar -go-publish \
    -temp      /Users/igor/source/hl7lt/publication/temp \
    -templates /Users/igor/source/hl7lt/publication/templates
 
-echo "Press any key to delete docs/base except x.x.x folders ..."
+echo "Press any key to delete docs/base except x.x.x folders and package-list.json ..."
 pause
 
-# delete 
+# delete all except x.x.x folders and package-list.json
 find docs/base -type d -name '[0-9]*.[0-9]*.[0-9]*' -prune -o -type f -exec rm -f {} \;
+find docs/base \
+   -type d -name '[0-9]*.[0-9]*.[0-9]*' -prune \
+   -o \
+   -type f -not -name 'package-list.json' \
+   -exec rm -rf {} \;
 
 echo "Press any key to copy new files to docs/base ..."
 pause

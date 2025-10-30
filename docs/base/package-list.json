@@ -8,6 +8,16 @@
       "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
     },
     {
+      "version" : "0.1.0",
+      "path" : "https://hl7.lt/fhir/base/0.1.0",
+      "status" : "draft",
+      "sequence" : "DSTU1",
+      "fhirversion" : "5.0.0",
+      "date" : "2025-10-27",
+      "current" : true,
+      "desc" : "Initial version of the Lithuanian Base FHIR Implementation Guide."
+    },
+    {
       "version" : "0.2.0",
       "path" : "https://hl7.lt/fhir/base/0.2.0",
       "status" : "draft",
