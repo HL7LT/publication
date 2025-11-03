@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HL7 Lithuania Registry website | publication</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Body and Typography */
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        .page-header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #dee2e6;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .page-header h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2em;
+            color: maroon;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .page-header h1 a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        /* Main Content Area */
+        .container-lg {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .content-wrapper {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        h2, h3 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: black;
+            font-weight: 200;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 8px;
+            margin-top: 1.5em;
+            margin-bottom: 1em;
+        }
+		
+
+        h1{
+            font-family: verdana;
+            color: maroon;
+            font-weight: 900;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 8px;
+            margin-top: 1.5em;
+            margin-bottom: 1em;
+			text-align: center;
+        }
+		        
+        h1 { font-size: 1.8em; }
+        h2 { font-size: 1.6em; }
+        h3 { font-size: 1.3em; }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Warning Box Styling */
+        blockquote {
+            background-color: #e7f3fe;
+            border-left: 5px solid #0056b3;
+            padding: 15px 20px;
+            margin: 0 0 25px 0;
+            border-radius: 5px;
+            font-size: 0.95em;
+        }
+        blockquote p {
+            margin: 0;
+        }
+
+        /* List Styling */
+        ul {
+            padding-left: 25px;
+            list-style-type: disc;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styling */
+        .footer {
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="page-header">
+        <div class="container-lg">
+             <h1><a href="https://hl7lt.github.io/publication/">HL7 Lithuania Registry</a></h1>
+        </div>
+    </header>
+
+    <div class="container-lg">
+        <div class="content-wrapper">
+            <blockquote>
+                <p>This page is under construction.</p>
+            </blockquote>
+
+            <p>This is the HL7 Lithuania Registry site that provides an overview of the published Implementation Guides and available resources.</p>
+
+            <h2 id="implementation-guides-">Implementation Guides</h2>
+
+            <p>All HL7 LT implementation Guides follows next design principles:</p>
+            <ul>
+                <li>package id: lt.hl7.fhir.IGCODE</li>
+                <li>canonical url: <a href="https://hl7.lt/fhir/IGCODE">https://hl7.lt/fhir/IGCODE</a></li>
+            </ul>
+
+            <h3 id="published-packages-">Published packages</h3>
+
+            <p>Packages published in the FHIR Package Manager may be reused in the other IGs.</p>
+            <p>Published packages:</p>
+            <ul>
+                <li><a href="https://hl7.lt/fhir/base/history.html">LT Base</a></li>
+            </ul>
+
+            <p>The management of the publication is available through the <a href="https://github.com/HL7LT/publication">https://github.com/HL7LT/publication</a> GitHub repository.</p>
+            <p>The Implementation Guides available through latest build:</p>
+            <ul>
+                <li><a href="https://build.fhir.org/ig/HL7LT/ig-lt-base">LT Base</a></li>
+                <li><a href="https://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns">Vital Signs</a></li>
+                <li><a href="https://build.fhir.org/ig/HL7LT/ig-lt-lifestyle">Life Style</a></li>
+                <li>Prevention</li>
+            </ul>
+
+            <h3 id="latest-build">Latest build</h3>
+            <p>All HL7 Lithuania Implementation Guides use <a href="https://github.com/FHIR/auto-ig-builder">HL7 auto build</a> infrastructure. 
+            The FHIR IG autobuild ecosystem <a href="https://build.fhir.org/ig/HL7LT">https://build.fhir.org/ig/HL7LT</a> holds latest IG builds for 3 monthes since last commit.</p>
+            <p>The running builds are visible under <a href="https://fhir.github.io/auto-ig-builder/builds.html">FHIR IG Builds</a>.</p>
+
+            <h3 id="-whats-next">What’s Next?</h3>
+            <p>Read …</p>
+        </div>
+        
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+</body>
+</html>
