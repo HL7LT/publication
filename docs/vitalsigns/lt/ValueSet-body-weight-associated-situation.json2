@@ -1,0 +1,68 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "body-weight-associated-situation",
+  "language" : "lt",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet body-weight-associated-situation</b></p><a name=\"lt-body-weight-associated-situation\"> </a><a name=\"lt-hcbody-weight-associated-situation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/118643004\">118643004</a></td><td>Cast device (physical object)</td></tr><tr><td><a href=\"http://snomed.info/id/257308009\">257308009</a></td><td>Oxygenator (physical object)</td></tr><tr><td><a href=\"http://snomed.info/id/53350007\">53350007</a></td><td>Prosthesis (physical object)</td></tr><tr><td><a href=\"http://snomed.info/id/248160001\">248160001</a></td><td>Undressed (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-solor-temporary-codesystem.html\"><code>https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-solor-temporary-codesystem.html#solor-temporary-codesystem-961000205106\">961000205106</a></td><td>Wearing street clothes, no shoes (finding)</td><td>The subject is wearing clothing but not shoes.</td></tr><tr><td><a href=\"CodeSystem-solor-temporary-codesystem.html#solor-temporary-codesystem-971000205103\">971000205103</a></td><td>Wearing street clothes with shoes (finding)</td><td>The subject is wearing clothing and shoes.</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-associated-situation",
+  "version" : "1.0.0",
+  "name" : "BodyWeightAssociatedSituation",
+  "title" : "Body Weight Associated Situation",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T15:59:23+02:00",
+  "publisher" : "Lietuvos medicinos biblioteka",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "SELECT SNOMED CT code system values and temporary code system values that describe situations to be considered when interpreting measured values.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "118643004",
+        "display" : "Cast device (physical object)"
+      },
+      {
+        "code" : "257308009",
+        "display" : "Oxygenator (physical object)"
+      },
+      {
+        "code" : "53350007",
+        "display" : "Prosthesis (physical object)"
+      },
+      {
+        "code" : "248160001",
+        "display" : "Undressed (finding)"
+      }]
+    },
+    {
+      "system" : "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+      "concept" : [{
+        "code" : "961000205106",
+        "display" : "Wearing street clothes, no shoes (finding)"
+      },
+      {
+        "code" : "971000205103",
+        "display" : "Wearing street clothes with shoes (finding)"
+      }]
+    }]
+  }
+}

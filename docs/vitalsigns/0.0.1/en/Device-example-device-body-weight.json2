@@ -1,0 +1,16 @@
+{
+  "resourceType" : "Device",
+  "id" : "example-device-body-weight",
+  "meta" : {
+    "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Device example-device-body-weight</b></p><a name=\"example-device-body-weight\"> </a><a name=\"hcexample-device-body-weight\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-device-body-weight.html\">Body Weight Measurement Device</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:\">Weighing scale</span></p></div>"
+  },
+  "status" : "active",
+  "type" : [{
+    "text" : "Weighing scale"
+  }]
+}

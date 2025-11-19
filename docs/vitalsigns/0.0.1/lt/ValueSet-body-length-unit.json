@@ -1,0 +1,68 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "body-length-unit",
+  "meta" : {
+    "lastUpdated" : "2025-10-26T17:42:56.640+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0"]
+  },
+  "language" : "lt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet body-length-unit</b></p><a name=\"lt-body-length-unit\"> </a><a name=\"lt-hcbody-length-unit\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-10-26 17:42:56+0000; Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R5/shareablevalueset.html\">Shareable ValueSetversion: null5.0.0)</a></p></div><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>cm</td><td/></tr><tr><td>[in_i]</td><td/></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+    "valueBoolean" : false
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "oo"
+  }],
+  "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-length-unit",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.958"
+  },
+  {
+    "use" : "old",
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.873"
+  }],
+  "version" : "6.0.0",
+  "name" : "BodyLengthUnit",
+  "title" : "Body Length Units",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T15:54:38+02:00",
+  "publisher" : "Lietuvos medicinos biblioteka",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "UCUM units for recording body length measures such as height and head circumference",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "copyright" : "UCUM is Copyright © 1999-2013 Regenstrief Institute, Inc. and The UCUM Organization, Indianapolis, IN. All rights reserved. See http://unitsofmeasure.org/trac//wiki/TermsOfUse for details",
+  "compose" : {
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "cm"
+      },
+      {
+        "code" : "[in_i]"
+      }]
+    }]
+  }
+}

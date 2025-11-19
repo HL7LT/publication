@@ -1,0 +1,373 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7.lt/fhir/tx/ValueSet/bp-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressureUnit",
+      "title" : "Blood Pressure Units",
+      "description" : "UCUM units for recording blood pressure.",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bmi-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BMIUnit",
+      "title" : "BMI Units",
+      "description" : "UCUM units for recording BMI",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-bmi.html" : "Body Mass Index"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-height-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BodyHeightObservation",
+      "title" : "Body Height observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing body height (including body length) vital sign measurements in Observation.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-length-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BodyLengthUnit",
+      "title" : "Body Length Units",
+      "description" : "UCUM units for recording body length measures such as height and head circumference",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.873",
+        "2.16.840.1.113883.4.642.3.958"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.873",
+        "2.16.840.1.113883.4.642.3.958"
+      ]
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-associated-situation",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BodyWeightAssociatedSituation",
+      "title" : "Body Weight Associated Situation",
+      "description" : "SELECT SNOMED CT code system values and temporary code system values that describe situations to be considered when interpreting measured values.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BodyWeightObservation",
+      "title" : "Body Weight observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing body weight vital sign measurements in Observation.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-cuff-size",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BloodPressureCuffSize",
+      "title" : "Blood Pressure Cuff Size",
+      "description" : "SELECT SNOMED CT code system values that describe the size of blood pressure cuff in use.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-diastolic-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressureDiastolicObservation",
+      "title" : "BP Diastolic observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial diastolic BP vital sign measurement in Observation.component.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-body-location",
+      "version" : "2.0.0",
+      "status" : "draft",
+      "name" : "BloodPressureMeasurementBodyLocation",
+      "title" : "Blood Pressure Measurement Body Location",
+      "description" : "SELECT SNOMED CT code system values that describe the location on the body where the blood pressure was measured.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-method",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BloodPressureMeasurementMethod",
+      "title" : "Blood Pressure Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how a blood pressure was measured.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-panel-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressurePanelObservation",
+      "title" : "BP Panel observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial szstolic and diastolic BP panel of vital signs measurements in Observation.component.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-systolic-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressureSystolicObservation",
+      "title" : "BP Systolic observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial systolic BP vital sign measurement in Observation.component.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-blood-pressure",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeBloodPressure",
+      "title" : "Device Types for Blood Pressure Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the isntrument used to measure the blood pressure.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-heart-rate",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeHeartRate",
+      "title" : "Device Types for Heart Rate Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the heart rate.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-height-length",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeHeightLength",
+      "title" : "Device Types for Height Length Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the body height/length.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-weight",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeWeight",
+      "title" : "Device Types for Weight Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the body weight.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/exertion-phase",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ExertionPhase",
+      "title" : "Exertion Phase",
+      "description" : "SELECT SNOMED CT code system values that contains terms for exercise associated with a measurement.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-exercise-association.html" : "Exercise Association Extension"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-body-location",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HeartRateMeasurementBodyLocation",
+      "title" : "Heart Rate Measurement Body Location",
+      "description" : "SELECT SNOMED CT code system values that describe where on the body the heart rate was measured.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-method",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HeartRateMeasurementMethod",
+      "title" : "Heart Rate Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how the heart rate was measured.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "HeartRateObservation",
+      "title" : "Heart Rate observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing heart rate vital sign measurements in Observation.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/height-length-measurement-method",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HeightLengthMeasurementMethod",
+      "title" : "Height Length Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how the height/length was measured.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/measurement-environment",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MeasurementEnvironment",
+      "title" : "Measurement Environment",
+      "description" : "Environment that indicate the surroundings the individual was in during the measurement (i.e. home, clinic, hospital, etc.).",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-measurement-setting.html" : "Measurement Setting Extension"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "NumericResultInterpretation",
+      "title" : "Numeric Result Interpretation value set",
+      "description" : "The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "NumericResultInterpretationNonPanic",
+      "title" : "Numeric Result Interpretation without panic values, value set",
+      "description" : "The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value, constrained to terms that are not those associated with 'panic' terms.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "VitalSignsBodyPosition",
+      "title" : "Body Position used in Vital Signs Measurements",
+      "description" : "SELECT SNOMED CT code system values the position in which the individual was in during a measurement.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-position.html" : "Body Position Extension",
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-rate-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "VitalSignsRateUnit",
+      "title" : "Rate Units",
+      "description" : "UCUM rate units for recording vital signs including heart and respiratory rate.",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-sleep-status",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "VitalSignsSleepStatus",
+      "title" : "Sleep Status in Vital Signs Measurements",
+      "description" : "SELECT SNOMED CT code system values that contains terms used to indicate the state of wakefulness during measurement.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-sleep-status.html" : "Sleep Status Extension"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/waist-circumference-obervation",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "WaistCircumferenceObservation",
+      "title" : "Waist Circumference observation codes",
+      "description" : "Waist circumference observations.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference"
+    }
+  ]
+}

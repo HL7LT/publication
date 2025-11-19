@@ -4,12 +4,23 @@
       <description>FHIR Implementation Packages published by HL7 Lithuania</description>
       <link>https://hl7.lt/fhir</link>
       <generator>HL7 Lithuania</generator>
-      <lastBuildDate>Thu, 30 Oct 2025 07:02:48 +0200</lastBuildDate>
+      <lastBuildDate>Wed, 19 Nov 2025 03:54:38 +0200</lastBuildDate>
       <atom:link href="https://hl7.lt/fhir/package-feed.xml" rel="self" type="application/rss+xml"/>
-      <pubDate>Thu, 30 Oct 2025 07:02:48 +0200</pubDate>
+      <pubDate>Wed, 19 Nov 2025 03:54:38 +0200</pubDate>
       <language>en</language>
       <ttl>600</ttl>
       <item>
+      <title>lt.hl7.fhir.vitalsigns#0.0.1</title>
+      <description>Initial release as LT Vital Signs IG.</description>
+      <link>https://hl7.lt/fhir/vitalsigns/0.0.1/package.tgz</link>
+      <guid isPermaLink="true">https://hl7.lt/fhir/vitalsigns/0.0.1/package.tgz</guid>
+      <dc:creator>HL7 Lithuania</dc:creator>
+      <fhir:version>5.0.0</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Wed, 19 Nov 2025 03:54:38 +0200</pubDate>
+      <fhir:details>Publication run at 19/11/2025 by igor using Version 2.0.26 (Git# 0a43ac207d1f). Built 2025-11-06T09:21:35.314Z (13 days old) source id Unknown (todo)</fhir:details>
+    </item>
+    <item>
       <title>lt.hl7.fhir.base#0.2.0</title>
       <description>Support for EHDS and HL7 Europe Base and Core FHIR IG.</description>
       <link>https://hl7.lt/fhir/base/0.2.0/package.tgz</link>

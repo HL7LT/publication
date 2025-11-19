@@ -1,0 +1,9 @@
+# Pakeitimų žurnalas - Lithuanian Vital Signs Implementation Guide v0.0.1
+
+## Pakeitimų žurnalas
+
+ 
+Šiame puslapyje pateikiami vertimai iš originalo kalbos, kuria buvo parašytas vadovas. Informaciją apie šiuos vertimus ir instrukcijas, kaip pateikti atsiliepimus apie vertimus, galite rasti[čia](translationinfo.md). 
+
+### In Development
+

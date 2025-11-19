@@ -1,0 +1,20 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+      "version" : "2.0.0",
+      "status" : "draft",
+      "name" : "SolorTemporaryCodeSystem",
+      "title" : "SNOMED CT Solor Extension Temporary Code System",
+      "description" : "A set of codes that are defined in the Solor extension to the SNOMED CT code system. To be used until they are adopted by SNOMED CT.",
+      "uses" : {
+      },
+      "ValueSet-device-type-weight.html" : "Device Types for Weight Measurement",
+      "ValueSet-device-type-height-length.html" : "Device Types for Height Length Measurement",
+      "ValueSet-heart-rate-measurement-method.html" : "Heart Rate Measurement Method",
+      "ValueSet-bp-measurement-method.html" : "Blood Pressure Measurement Method",
+      "ValueSet-body-weight-associated-situation.html" : "Body Weight Associated Situation",
+      "ValueSet-heart-rate-measurement-body-location.html" : "Heart Rate Measurement Body Location"
+    }
+  ]
+}

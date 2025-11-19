@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="body-height-observation"/>
+  <meta>
+    <lastUpdated value="2025-10-26T17:42:56.640+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet body-height-observation</b></p><a name="body-height-observation"> </a><a name="hcbody-height-observation"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2025-10-26 17:42:56+0000; Language: en</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R5/shareablevalueset.html">Shareable ValueSetversion: null5.0.0)</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where CLASS  in LP7768-7,LP7769-5, PROPERTY  = LP6822-3 (Len), TIME_ASPCT  = LP6960-1 (Pt), SYSTEM  = LP310005-6 (^Patient) and SCALE_TYP  = LP7753-9 (Qn)</li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude codes from<a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where COMPONENT  = LP343922-3 (Upper segment)</li><li>Exclude codes from<a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where COMPONENT  = LP343921-5 (Lower segment)</li></ul></div><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet body-height-observation</b></p><a name="lt-body-height-observation"> </a><a name="lt-hcbody-height-observation"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2025-10-26 17:42:56+0000; Language: en</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R5/shareablevalueset.html">Shareable ValueSetversion: null5.0.0)</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where CLASS  in LP7768-7,LP7769-5, PROPERTY  = LP6822-3 (Len), TIME_ASPCT  = LP6960-1 (Pt), SYSTEM  = LP310005-6 (^Patient) and SCALE_TYP  = LP7753-9 (Qn)</li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude codes from<a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where COMPONENT  = LP343922-3 (Upper segment)</li><li>Exclude codes from<a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where COMPONENT  = LP343921-5 (Lower segment)</li></ul></div></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="https://hl7.lt/fhir/vitalsigns/ValueSet/body-height-observation"/>
+  <version value="6.0.0"/>
+  <name value="BodyHeightObservation"/>
+  <title value="Body Height observation codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T15:54:38+02:00"/>
+  <publisher value="Lithuanian Medical Library">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="lt"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Lietuvos medicinos biblioteka"/>
+      </extension>
+    </extension>
+  </publisher>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="This value set defines the set of LOINC codes considered to be appropriate for representing body height (including body length) vital sign measurements in Observation.code."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="LT"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <filter>
+        <property value="CLASS"/>
+        <op value="in"/>
+        <value value="LP7768-7,LP7769-5"/>
+      </filter>
+      <filter>
+        <property value="PROPERTY"/>
+        <op value="="/>
+        <value value="LP6822-3"/>
+      </filter>
+      <filter>
+        <property value="TIME_ASPCT"/>
+        <op value="="/>
+        <value value="LP6960-1"/>
+      </filter>
+      <filter>
+        <property value="SYSTEM"/>
+        <op value="="/>
+        <value value="LP310005-6"/>
+      </filter>
+      <filter>
+        <property value="SCALE_TYP"/>
+        <op value="="/>
+        <value value="LP7753-9"/>
+      </filter>
+    </include>
+    <exclude>
+      <system value="http://loinc.org"/>
+      <filter>
+        <property value="COMPONENT"/>
+        <op value="="/>
+        <value value="LP343922-3"/>
+      </filter>
+    </exclude>
+    <exclude>
+      <system value="http://loinc.org"/>
+      <filter>
+        <property value="COMPONENT"/>
+        <op value="="/>
+        <value value="LP343921-5"/>
+      </filter>
+    </exclude>
+  </compose>
+</ValueSet>

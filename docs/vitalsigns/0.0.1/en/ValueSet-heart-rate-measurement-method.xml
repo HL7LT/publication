@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="heart-rate-measurement-method"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet heart-rate-measurement-method</b></p><a name="heart-rate-measurement-method"> </a><a name="hcheart-rate-measurement-method"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/37931006">37931006</a></td><td>Auscultation (procedure)</td></tr><tr><td><a href="http://snomed.info/id/268447006">268447006</a></td><td>Doppler studies (procedure)</td></tr><tr><td><a href="http://snomed.info/id/29303009">29303009</a></td><td>Electrocardiographic procedure (procedure)</td></tr><tr><td><a href="http://snomed.info/id/13385008">13385008</a></td><td>Mediate auscultation (procedure)</td></tr><tr><td><a href="http://snomed.info/id/264598005">264598005</a></td><td>Oximetry (procedure)</td></tr><tr><td><a href="http://snomed.info/id/113011001">113011001</a></td><td>Palpation (procedure)</td></tr><tr><td><a href="http://snomed.info/id/277917001">277917001</a></td><td>Thoracic impedance cardiography (procedure)</td></tr><tr><td><a href="http://snomed.info/id/239516002">239516002</a></td><td>Monitoring procedure (regime/therapy)</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-solor-temporary-codesystem.html"><code>https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-solor-temporary-codesystem.html#solor-temporary-codesystem-641000205104">641000205104</a></td><td>Auscultation - automatic (procedure)</td><td>A procedure that uses a computer aided device to measure blood pressure.</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-method"/>
+  <version value="1.0.0"/>
+  <name value="HeartRateMeasurementMethod"/>
+  <title value="Heart Rate Measurement Method"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T15:54:38+02:00"/>
+  <publisher value="Lithuanian Medical Library"/>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="SELECT SNOMED CT code system values that describe how the heart rate was measured."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="LT"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="37931006"/>
+        <display value="Auscultation (procedure)"/>
+      </concept>
+      <concept>
+        <code value="268447006"/>
+        <display value="Doppler studies (procedure)"/>
+      </concept>
+      <concept>
+        <code value="29303009"/>
+        <display value="Electrocardiographic procedure (procedure)"/>
+      </concept>
+      <concept>
+        <code value="13385008"/>
+        <display value="Mediate auscultation (procedure)"/>
+      </concept>
+      <concept>
+        <code value="264598005"/>
+        <display value="Oximetry (procedure)"/>
+      </concept>
+      <concept>
+        <code value="113011001"/>
+        <display value="Palpation (procedure)"/>
+      </concept>
+      <concept>
+        <code value="277917001"/>
+        <display value="Thoracic impedance cardiography (procedure)"/>
+      </concept>
+      <concept>
+        <code value="239516002"/>
+        <display value="Monitoring procedure (regime/therapy)"/>
+      </concept>
+    </include>
+    <include>
+      <system value="https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem"/>
+      <concept>
+        <code value="641000205104"/>
+        <display value="Auscultation - automatic (procedure)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

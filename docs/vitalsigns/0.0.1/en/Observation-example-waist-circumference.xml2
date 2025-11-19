@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="example-waist-circumference"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation example-waist-circumference</b></p><a name="example-waist-circumference"> </a><a name="hcexample-waist-circumference"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-waist-circumference.html">Waist Circumference</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span>, <span title="Codes:{http://loinc.org 8280-0}">Waist Circumference at umbilicus by Tape measure</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 276361009}">Waist circumference (observable entity)</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005 (use: usual, ))</a></p><p><b>effective</b>: 2019-10-16 12:12:29-0900</p><p><b>value</b>: 90 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM  codecm = 'cm')</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8280-0"/>
+      <display value="Waist Circumference at umbilicus by Tape measure"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="276361009"/>
+      <display value="Waist circumference (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <effectiveDateTime value="2019-10-16T12:12:29-09:00"/>
+  <valueQuantity>
+    <value value="90"/>
+    <unit value="cm"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="cm"/>
+  </valueQuantity>
+</Observation>

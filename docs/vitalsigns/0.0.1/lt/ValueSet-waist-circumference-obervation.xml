@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="waist-circumference-obervation"/>
+  <language value="lt"/>
+  <text>
+    <status value="generated"/><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet waist-circumference-obervation</b></p><a name="lt-waist-circumference-obervation"> </a><a name="lt-hcwaist-circumference-obervation"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/276361009">276361009</a></td><td>Waist circumference (observable entity)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://hl7.lt/fhir/vitalsigns/ValueSet/waist-circumference-obervation"/>
+  <version value="1.0.0"/>
+  <name value="WaistCircumferenceObservation"/>
+  <title value="Waist Circumference observation codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-19T15:54:38+02:00"/>
+  <publisher value="Lietuvos medicinos biblioteka"/>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="Waist circumference observations."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="LT"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="276361009"/>
+        <display value="Waist circumference (observable entity)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

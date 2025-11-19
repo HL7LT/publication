@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="lt.hl7.fhir.vitalsigns"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.vitalsigns</b></p><a name="lt.hl7.fhir.vitalsigns"> </a><a name="hclt.hl7.fhir.vitalsigns"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>LTVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns</pre><div><p>Lithuanian Vital Signs Implementation Guide</p>
+</div></div>
+  </text>
+  <url value="https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns"/>
+  <version value="0.0.1"/>
+  <name value="LTVitalSigns"/>
+  <title value="Lithuanian Vital Signs Implementation Guide"/>
+  <status value="draft"/>
+  <date value="2025-11-19T15:59:23+02:00"/>
+  <publisher value="Lithuanian Medical Library"/>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="Lithuanian Vital Signs Implementation Guide"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="LT"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="lt.hl7.fhir.vitalsigns"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="5.0.0"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r5"/>
+    <version value="7.0.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r5"/>
+    <version value="5.2.0"/>
+  </dependsOn>
+  <dependsOn id="lt_hl7_fhir_base">
+    <uri value="https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base"/>
+    <packageId value="lt.hl7.fhir.base"/>
+    <version value="0.2.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_eu_base_r5">
+    <uri value="http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5"/>
+    <packageId value="hl7.fhir.eu.base-r5"/>
+    <version value="0.1.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r5#0.8.0"/>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/associated-situation"/>
+      </reference>
+      <name value="Associated Situation Extension"/>
+      <description value="Situations that may affect the measurement or assessment."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-cuff-size"/>
+      </reference>
+      <name value="Blood Pressure Cuff Size"/>
+      <description value="SELECT SNOMED CT code system values that describe the size of blood pressure cuff in use."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-measurement-body-location"/>
+      </reference>
+      <name value="Blood Pressure Measurement Body Location"/>
+      <description value="SELECT SNOMED CT code system values that describe the location on the body where the blood pressure was measured."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-measurement-method"/>
+      </reference>
+      <name value="Blood Pressure Measurement Method"/>
+      <description value="SELECT SNOMED CT code system values that describe how a blood pressure was measured."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/blood-pressure-panel"/>
+      </reference>
+      <name value="Blood Pressure Panel"/>
+      <description value="Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-unit"/>
+      </reference>
+      <name value="Blood Pressure Units"/>
+      <description value="UCUM units for recording blood pressure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bmi-unit"/>
+      </reference>
+      <name value="BMI Units"/>
+      <description value="UCUM units for recording BMI"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/body-height"/>
+      </reference>
+      <name value="Body Height"/>
+      <description value="The measurement in centimeters or feet and inches from the top of the head to the heel, usually while standing."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/body-height-observation"/>
+      </reference>
+      <name value="Body Height observation codes"/>
+      <description value="This value set defines the set of LOINC codes considered to be appropriate for representing body height (including body length) vital sign measurements in Observation.code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/body-length-unit"/>
+      </reference>
+      <name value="Body Length Units"/>
+      <description value="UCUM units for recording body length measures such as height and head circumference"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/bmi"/>
+      </reference>
+      <name value="Body Mass Index"/>
+      <description value="Body Mass Index (BMI) is a measure of body fat based on height and weight."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/body-position"/>
+      </reference>
+      <name value="Body Position Extension"/>
+      <description value="The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vital-signs-body-position"/>
+      </reference>
+      <name value="Body Position used in Vital Signs Measurements"/>
+      <description value="SELECT SNOMED CT code system values the position in which the individual was in during a measurement."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/body-structure-blood-pressure"/>
+      </reference>
+      <name value="Body Structure for Blood Pressure"/>
+      <description value="Body Structure profile to describe where on the body a blood pressure measurement was taken."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/body-weight"/>
+      </reference>
+      <name value="Body Weight"/>
+      <description value="The measured mass of an individual's body."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/body-weight-associated-situation"/>
+      </reference>
+      <name value="Body Weight Associated Situation"/>
+      <description value="SELECT SNOMED CT code system values and temporary code system values that describe situations to be considered when interpreting measured values."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-body-weight"/>
+      </reference>
+      <name value="Body Weight Measurement Device"/>
+      <description value="Device used to measure body weight."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/body-weight-observation"/>
+      </reference>
+      <name value="Body Weight observation codes"/>
+      <description value="This value set defines the set of LOINC codes considered to be appropriate for representing body weight vital sign measurements in Observation.code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-diastolic-observation"/>
+      </reference>
+      <name value="BP Diastolic observation codes"/>
+      <description value="This value set defines the set of LOINC codes considered to be appropriate for representing an arterial diastolic BP vital sign measurement in Observation.component.code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-panel-observation"/>
+      </reference>
+      <name value="BP Panel observation codes"/>
+      <description value="This value set defines the set of LOINC codes considered to be appropriate for representing an arterial szstolic and diastolic BP panel of vital signs measurements in Observation.component.code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bp-systolic-observation"/>
+      </reference>
+      <name value="BP Systolic observation codes"/>
+      <description value="This value set defines the set of LOINC codes considered to be appropriate for representing an arterial systolic BP vital sign measurement in Observation.component.code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-blood-pressure"/>
+      </reference>
+      <name value="Device for Blood Pressure Measurement"/>
+      <description value="Device used to measure blood pressure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-body-height"/>
+      </reference>
+      <name value="Device for Body Height Measurement"/>
+      <description value="Device used to measure body height."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-heart-rate"/>
+      </reference>
+      <name value="Device for Heart Rate Measurement"/>
+      <description value="Device used to measure heart rate."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/device-type-blood-pressure"/>
+      </reference>
+      <name value="Device Types for Blood Pressure Measurement"/>
+      <description value="SELECT SNOMED CT code system values that describe the isntrument used to measure the blood pressure."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/device-type-heart-rate"/>
+      </reference>
+      <name value="Device Types for Heart Rate Measurement"/>
+      <description value="SELECT SNOMED CT code system values that describe the instrument used to measure the heart rate."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/device-type-height-length"/>
+      </reference>
+      <name value="Device Types for Height Length Measurement"/>
+      <description value="SELECT SNOMED CT code system values that describe the instrument used to measure the body height/length."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/device-type-weight"/>
+      </reference>
+      <name value="Device Types for Weight Measurement"/>
+      <description value="SELECT SNOMED CT code system values that describe the instrument used to measure the body weight."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-blood-pressure"/>
+      </reference>
+      <name value="Example Blood Pressure Observation"/>
+      <description value="Example observation representing a patient’s blood pressure measurement."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-body-height"/>
+      </reference>
+      <name value="Example Body Height Observation"/>
+      <description value="Example observation representing the patient's body height measured in centimeters."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-bmi"/>
+      </reference>
+      <name value="Example Body Mass Index Observation"/>
+      <description value="An example BMI measurement for a patient."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/bmi|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="BodyStructure"/>
+      </extension>
+      <reference>
+        <reference value="BodyStructure/example-body-structure-blood-pressure"/>
+      </reference>
+      <name value="Example Body Structure for Blood Pressure"/>
+      <description value="Example showing where on the body a blood pressure measurement was taken."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure|0.0.1"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-body-weight"/>
+      </reference>
+      <name value="Example Body Weight Observation"/>
+      <description value="Example observation representing the patient's body weight measured in kilograms."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/example-device-blood-pressure"/>
+      </reference>
+      <name value="Example Device - Blood Pressure Measurement"/>
+      <description value="Automated digital blood pressure monitor with adult cuff."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/example-device-body-height"/>
+      </reference>
+      <name value="Example Device - Body Height Measurement"/>
+      <description value="A stadiometer used to measure the patient’s height."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-height|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/example-device-body-weight"/>
+      </reference>
+      <name value="Example Device - Body Weight Measurement"/>
+      <description value="A weighing scale used to measure the patient's body weight."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/example-device-heart-rate"/>
+      </reference>
+      <name value="Example Device - Heart Rate Measurement"/>
+      <description value="An automated digital heart rate monitor used for the measurement."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-head-circumference"/>
+      </reference>
+      <name value="Example Head Circumference Observation"/>
+      <description value="Measured head circumference using a tape measure."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/head-circumference|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-heart-rate"/>
+      </reference>
+      <name value="Example Heart Rate Observation"/>
+      <description value="Example observation representing the patient's heart rate measured at rest."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/heart-rate|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-patient"/>
+      </reference>
+      <name value="Example Patient - Jonas Petrauskas"/>
+      <description value="An example Patient conforming to the Lithuanian Base Profile."/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-waist-circumference"/>
+      </reference>
+      <name value="Example Waist Circumference Observation"/>
+      <description value="Measured waist circumference using a tape measure."/>
+      <isExample value="true"/>
+      <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference|1.0.0"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/exercise-association"/>
+      </reference>
+      <name value="Exercise Association Extension"/>
+      <description value="The exercise state associated with the measurement."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/exertion-phase"/>
+      </reference>
+      <name value="Exertion Phase"/>
+      <description value="SELECT SNOMED CT code system values that contains terms for exercise associated with a measurement."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/head-circumference"/>
+      </reference>
+      <name value="Head Circumference"/>
+      <description value="Head Occipital-frontal circumference by Tape measure. The measurement in centimeters or inches around the largest part of the head."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/heart-rate"/>
+      </reference>
+      <name value="Heart Rate"/>
+      <description value="The number of heart beats in a minute."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/heart-rate-measurement-body-location"/>
+      </reference>
+      <name value="Heart Rate Measurement Body Location"/>
+      <description value="SELECT SNOMED CT code system values that describe where on the body the heart rate was measured."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/heart-rate-measurement-method"/>
+      </reference>
+      <name value="Heart Rate Measurement Method"/>
+      <description value="SELECT SNOMED CT code system values that describe how the heart rate was measured."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/heart-rate-observation"/>
+      </reference>
+      <name value="Heart Rate observation codes"/>
+      <description value="This value set defines the set of LOINC codes considered to be appropriate for representing heart rate vital sign measurements in Observation.code."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/height-length-measurement-method"/>
+      </reference>
+      <name value="Height Length Measurement Method"/>
+      <description value="SELECT SNOMED CT code system values that describe how the height/length was measured."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/measurement-environment"/>
+      </reference>
+      <name value="Measurement Environment"/>
+      <description value="Environment that indicate the surroundings the individual was in during the measurement (i.e. home, clinic, hospital, etc.)."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/measurement-setting"/>
+      </reference>
+      <name value="Measurement Setting Extension"/>
+      <description value="The location or setting the subject was in when the measurement was obtained. For example, home, clinic, hospital. etc."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/numeric-result-interpretation"/>
+      </reference>
+      <name value="Numeric Result Interpretation value set"/>
+      <description value="The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/numeric-result-interpretation-non-panic"/>
+      </reference>
+      <name value="Numeric Result Interpretation without panic values, value set"/>
+      <description value="The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value, constrained to terms that are not those associated with 'panic' terms."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vital-signs-rate-unit"/>
+      </reference>
+      <name value="Rate Units"/>
+      <description value="UCUM rate units for recording vital signs including heart and respiratory rate."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sleep-status"/>
+      </reference>
+      <name value="Sleep Status Extension"/>
+      <description value="The state of wakefulness during the measurement."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vital-signs-sleep-status"/>
+      </reference>
+      <name value="Sleep Status in Vital Signs Measurements"/>
+      <description value="SELECT SNOMED CT code system values that contains terms used to indicate the state of wakefulness during measurement."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/solor-temporary-codesystem"/>
+      </reference>
+      <name value="SNOMED CT Solor Extension Temporary Code System"/>
+      <description value="A set of codes that are defined in the Solor extension to the SNOMED CT code system. To be used until they are adopted by SNOMED CT."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/waist-circumference"/>
+      </reference>
+      <name value="Waist Circumference"/>
+      <description value="Waist circumference by Tape measure. The measurement in centimeters or inches around the narrowest part of the waist."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/waist-circumference-obervation"/>
+      </reference>
+      <name value="Waist Circumference observation codes"/>
+      <description value="Waist circumference observations."/>
+      <isExample value="false"/>
+    </resource>
+    <page>
+      <sourceUrl value="toc.html"/>
+      <name value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <sourceUrl value="index.html"/>
+        <name value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="changelog.html"/>
+        <name value="changelog.html"/>
+        <title value="Changelog"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="translationinfo.html"/>
+        <name value="translationinfo.html"/>
+        <title value="Translationinfo"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>
+      <value value="2025+"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="special-url-base"/>
+      </code>
+      <value value="https://hl7.lt/fhir"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="special-url"/>
+      </code>
+      <value value="https://hl7.lt/fhir/tx"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludettl"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="shownav"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="pin-canonicals"/>
+      </code>
+      <value value="pin-all"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-version"/>
+      </code>
+      <value value="false"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="default-version"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="i18n-default-lang"/>
+      </code>
+      <value value="en"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="i18n-lang"/>
+      </code>
+      <value value="lt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="translation-sources"/>
+      </code>
+      <value value="input/translations/lt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="input/assets"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-qa"/>
+      </code>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-temp"/>
+      </code>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-output"/>
+      </code>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-tx-cache"/>
+      </code>
+      <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-suppressed-warnings"/>
+      </code>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-history"/>
+      </code>
+      <value value="https://hl7.lt/fhir/vitalsigns/history.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-html"/>
+      </code>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-md"/>
+      </code>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-contact"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-context"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-copyright"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-jurisdiction"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-license"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-publisher"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-wg"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="active-tables"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="fmm-definition"/>
+      </code>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="propagate-status"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludelogbinaryformat"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="tabbed-snapshots"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="wantGen-ttl"/>
+      </code>
+      <value value="false"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="wantGen-ttl-html"/>
+      </code>
+      <value value="false"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

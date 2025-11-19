@@ -1,0 +1,74 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bp-systolic-observation",
+  "meta" : {
+    "lastUpdated" : "2025-10-26T17:42:56.640+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet bp-systolic-observation</b></p><a name=\"bp-systolic-observation\"> </a><a name=\"hcbp-systolic-observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-10-26 17:42:56+0000; Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R5/shareablevalueset.html\">Shareable ValueSetversion: null5.0.0)</a></p></div><ul><li>Include codes from<a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where COMPONENT  in LP72836-7,LP304522-8,LP304524-4,LP304523-6,LP304513-7, PROPERTY  = LP6847-0 (Pres), TIME_ASPCT  = LP6960-1 (Pt), SYSTEM  = LP7034-4 (Arterial system) and SCALE_TYP  = LP7753-9 (Qn)</li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "oo"
+  }],
+  "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-systolic-observation",
+  "version" : "6.0.0",
+  "name" : "BloodPressureSystolicObservation",
+  "title" : "BP Systolic observation codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T15:59:23+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial systolic BP vital sign measurement in Observation.component.code.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "copyright" : "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "filter" : [{
+        "property" : "COMPONENT",
+        "op" : "in",
+        "value" : "LP72836-7,LP304522-8,LP304524-4,LP304523-6,LP304513-7"
+      },
+      {
+        "property" : "PROPERTY",
+        "op" : "=",
+        "value" : "LP6847-0"
+      },
+      {
+        "property" : "TIME_ASPCT",
+        "op" : "=",
+        "value" : "LP6960-1"
+      },
+      {
+        "property" : "SYSTEM",
+        "op" : "=",
+        "value" : "LP7034-4"
+      },
+      {
+        "property" : "SCALE_TYP",
+        "op" : "=",
+        "value" : "LP7753-9"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bp-panel-observation",
+  "meta" : {
+    "lastUpdated" : "2025-10-26T17:42:56.640+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0"]
+  },
+  "language" : "lt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet bp-panel-observation</b></p><a name=\"lt-bp-panel-observation\"> </a><a name=\"lt-hcbp-panel-observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2025-10-26 17:42:56+0000; Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R5/shareablevalueset.html\">Shareable ValueSetversion: null5.0.0)</a></p></div><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/35094-2/\">35094-2</a></td><td>Blood pressure panel</td></tr><tr><td><a href=\"https://loinc.org/55417-0/\">55417-0</a></td><td>Short blood pressure panel</td></tr><tr><td><a href=\"https://loinc.org/85354-9/\">85354-9</a></td><td>Blood pressure panel with all children optional</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "oo"
+  }],
+  "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-panel-observation",
+  "version" : "6.0.0",
+  "name" : "BloodPressurePanelObservation",
+  "title" : "BP Panel observation codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-19T15:54:38+02:00",
+  "publisher" : "Lietuvos medicinos biblioteka",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial szstolic and diastolic BP panel of vital signs measurements in Observation.component.code.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "copyright" : "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "35094-2",
+        "display" : "Blood pressure panel"
+      },
+      {
+        "code" : "55417-0",
+        "display" : "Short blood pressure panel"
+      },
+      {
+        "code" : "85354-9",
+        "display" : "Blood pressure panel with all children optional"
+      }]
+    }]
+  }
+}

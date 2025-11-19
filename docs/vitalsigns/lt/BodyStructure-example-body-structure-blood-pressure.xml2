@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BodyStructure xmlns="http://hl7.org/fhir">
+  <id value="example-body-structure-blood-pressure"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure"/>
+  </meta>
+  <language value="lt"/>
+  <text>
+    <status value="generated"/><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: BodyStructure example-body-structure-blood-pressure</b></p><a name="lt-example-body-structure-blood-pressure"> </a><a name="lt-hcexample-body-structure-blood-pressure"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-body-structure-blood-pressure.html">Body Structure for Blood Pressure</a></p></div><blockquote><p><b>includedStructure</b></p><p><b>structure</b>: <span title="Codes:{http://snomed.info/sct 7657000}">Structure of femoral artery (body structure)</span></p><p><b>laterality</b>: <span title="Codes:{http://snomed.info/sct 24028007}">Right</span></p><h3>BodyLandmarkOrientations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>LandmarkDescription</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://snomed.info/sct 33586001}">Sitting position (finding)</span></td></tr></table></blockquote><p><b>patient</b>: <a href="Patient-example-patient.html">Jonas Petrauskas(official) Male, DoB: 1985-01-01 ( http://hospital-lt.lt/patient-id#HOSPLT-10005 (use: usual, ))</a></p></div>
+  </text>
+  <includedStructure>
+    <structure>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="7657000"/>
+        <display value="Structure of femoral artery (body structure)"/>
+      </coding>
+    </structure>
+    <laterality>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="24028007"/>
+        <display value="Right"/>
+      </coding>
+    </laterality>
+    <bodyLandmarkOrientation>
+      <landmarkDescription>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="33586001"/>
+          <display value="Sitting position (finding)"/>
+        </coding>
+      </landmarkDescription>
+    </bodyLandmarkOrientation>
+  </includedStructure>
+  <patient>
+    <reference value="Patient/example-patient"/>
+  </patient>
+</BodyStructure>

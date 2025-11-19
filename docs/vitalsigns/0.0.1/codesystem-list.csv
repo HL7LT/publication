@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem,2.0.0,draft,,SolorTemporaryCodeSystem,SNOMED CT Solor Extension Temporary Code System,"A set of codes that are defined in the Solor extension to the SNOMED CT code system. To be used until they are adopted by SNOMED CT.","ValueSet/device-type-weight,ValueSet/heart-rate-measurement-body-location,ValueSet/heart-rate-measurement-method,ValueSet/body-weight-associated-situation,ValueSet/device-type-height-length,ValueSet/bp-measurement-method"

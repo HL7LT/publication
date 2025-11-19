@@ -1,0 +1,1061 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.eu/fhir/base-r5/ValueSet/siteLaterality-eu",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SiteLateralityEuVs",
+      "title" : "Body Structure Laterality",
+      "description" : "Body Structure site laterality qualifier. It indicates - for example - the body site laterality from which a laboratory specimen is collected. (based on SNOMED CT)",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "http://hl7.eu/fhir/base-r5/ValueSet/siteQualifier-eu",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SiteQualifierEuVs",
+      "title" : "Body Structure Qualifier",
+      "description" : "Body Structure site qualifier. It indicates - for example - the body site qualifier from which a laboratory specimen is collected. (based on SNOMED CT)",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/bodystructure-bodylandmarkorientation-clockface-position",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "BodystructureBodyLandmarkClockFacePosition",
+      "title" : "Bodystructure  Body Landmark  Clock  Face  Position",
+      "description" : "Select SNOMED CT codes. A set of codes that describe a things orientation based on a hourly positions of a clock face.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/bodystructure-code",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "SNOMEDCTMorphologicAbnormalities",
+      "title" : "SNOMED CT Morphologic Abnormalities",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.142"],
+      "sources" : ["2.16.840.1.113883.4.642.3.142"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/bodystructure-relative-location",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "BodystructureLocationQualifier",
+      "title" : "Bodystructure Location Qualifier",
+      "description" : "SNOMED-CT concepts modifying the anatomic location",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.140"],
+      "sources" : ["2.16.840.1.113883.4.642.3.140"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "Data Absent Reason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-availability-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceAvailabilityStatus",
+      "title" : "FHIR Device Availability Status",
+      "description" : "The availability status of the device.",
+      "systems" : ["http://hl7.org/fhir/device-availability-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3198"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3198"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceCategory",
+      "title" : "FHIR Device Category",
+      "description" : "The association state of the device.",
+      "systems" : ["http://hl7.org/fhir/device-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3307"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3307"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-nametype",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceNameType",
+      "title" : "Device Name Type",
+      "description" : "The type of name the device is referred by.",
+      "systems" : ["http://hl7.org/fhir/device-nametype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1083"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1083"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-operation-mode",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceOperationMode",
+      "title" : "FHIR Device Operation Mode",
+      "description" : "The operation mode of the device.",
+      "systems" : ["http://hl7.org/fhir/device-operation-mode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3309"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3309"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-property-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceType",
+      "title" : "Device Property Type",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : [
+        "urn:iso:std:iso:11073:10101",
+        "urn:oid:2.16.840.1.113883.6.276",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3195"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3195"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-safety",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceSafety",
+      "title" : "Device Safety",
+      "description" : "Codes used to identify medical devices safety characteristics. These codes are taken from the [NCI Thesaurus](https://ncit.nci.nih.gov/ncitbrowser/pages/home.jsf) and are provided here as a suggestive example.",
+      "systems" : ["urn:oid:2.16.840.1.113883.3.26.1.1"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.213",
+        "2.16.840.1.113883.4.642.3.893"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.213",
+        "2.16.840.1.113883.4.642.3.893"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-specification-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceSpecificationCategory",
+      "title" : "Device Specification Category",
+      "description" : "The kind of standards used by the device.",
+      "systems" : ["http://hl7.org/fhir/device-specification-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3197"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3197"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-specification-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceSpecificationType",
+      "title" : "Device Specification Type",
+      "description" : "The type or specification of a standard that devices can adhere to",
+      "systems" : ["urn:iso:std:iso:11073:10101"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3204"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3204"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-status",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceStatus",
+      "title" : "FHIR Device Status",
+      "description" : "The status of the Device record.",
+      "systems" : ["http://hl7.org/fhir/device-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.199",
+        "2.16.840.1.113883.4.642.3.209"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.199",
+        "2.16.840.1.113883.4.642.3.209"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceType",
+      "title" : "Device Type",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : [
+        "urn:iso:std:iso:11073:10101",
+        "urn:oid:2.16.840.1.113883.6.276",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1376"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1376"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-versiontype",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "DeviceVersionType",
+      "title" : "Device Version Type",
+      "description" : "Describes the type of version",
+      "systems" : ["urn:iso:std:iso:11073:10101"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3202"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3202"],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeNormalValueCodes",
+      "title" : "Observation Reference Range Normal Value Codes",
+      "description" : "Codes that describe the normal value in the reference range, such as “Negative” or “Absent”",
+      "systems" : ["http://hl7.org/fhir/observation-referencerange-normalvalue"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3264"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3264"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "Observation Status",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "TriggeredBytype",
+      "title" : "triggered Bytype",
+      "description" : "Codes providing the type of triggeredBy observation.",
+      "systems" : ["http://hl7.org/fhir/observation-triggeredbytype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3265"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3265"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.59"],
+      "sources" : ["2.16.840.1.113883.4.642.3.59"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodylength",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "BodyLengthUnits",
+      "title" : "Body Length Units",
+      "description" : "UCUM units for recording body length measures such as height and head circumference",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.873",
+        "2.16.840.1.113883.4.642.3.958"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.873",
+        "2.16.840.1.113883.4.642.3.958"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodyweight",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "BodyWeightUnits",
+      "title" : "Body Weight Units",
+      "description" : "UCUM units for recording Body Weight",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.871",
+        "2.16.840.1.113883.4.642.3.956"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.871",
+        "2.16.840.1.113883.4.642.3.956"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/udi-entry-type",
+      "version" : "5.0.0",
+      "status" : "draft",
+      "name" : "UDIEntryType",
+      "title" : "UDI Entry Type",
+      "description" : "Codes to identify how UDI data was entered.",
+      "systems" : ["http://hl7.org/fhir/udi-entry-type"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.201",
+        "2.16.840.1.113883.4.642.3.211"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.201",
+        "2.16.840.1.113883.4.642.3.211"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement",
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device",
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement",
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/tx/ValueSet/bp-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressureUnit",
+      "title" : "Blood Pressure Units",
+      "description" : "UCUM units for recording blood pressure.",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bmi-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BMIUnit",
+      "title" : "BMI Units",
+      "description" : "UCUM units for recording BMI",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-bmi.html" : "Body Mass Index"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-height-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BodyHeightObservation",
+      "title" : "Body Height observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing body height (including body length) vital sign measurements in Observation.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-length-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BodyLengthUnit",
+      "title" : "Body Length Units",
+      "description" : "UCUM units for recording body length measures such as height and head circumference",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.873",
+        "2.16.840.1.113883.4.642.3.958"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.873",
+        "2.16.840.1.113883.4.642.3.958"
+      ]
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-associated-situation",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BodyWeightAssociatedSituation",
+      "title" : "Body Weight Associated Situation",
+      "description" : "SELECT SNOMED CT code system values and temporary code system values that describe situations to be considered when interpreting measured values.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BodyWeightObservation",
+      "title" : "Body Weight observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing body weight vital sign measurements in Observation.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-cuff-size",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BloodPressureCuffSize",
+      "title" : "Blood Pressure Cuff Size",
+      "description" : "SELECT SNOMED CT code system values that describe the size of blood pressure cuff in use.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-diastolic-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressureDiastolicObservation",
+      "title" : "BP Diastolic observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial diastolic BP vital sign measurement in Observation.component.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-body-location",
+      "version" : "2.0.0",
+      "status" : "draft",
+      "name" : "BloodPressureMeasurementBodyLocation",
+      "title" : "Blood Pressure Measurement Body Location",
+      "description" : "SELECT SNOMED CT code system values that describe the location on the body where the blood pressure was measured.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-method",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BloodPressureMeasurementMethod",
+      "title" : "Blood Pressure Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how a blood pressure was measured.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-panel-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressurePanelObservation",
+      "title" : "BP Panel observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial szstolic and diastolic BP panel of vital signs measurements in Observation.component.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-systolic-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "BloodPressureSystolicObservation",
+      "title" : "BP Systolic observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial systolic BP vital sign measurement in Observation.component.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-blood-pressure",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeBloodPressure",
+      "title" : "Device Types for Blood Pressure Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the isntrument used to measure the blood pressure.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-device-blood-pressure.html" : "Device for Blood Pressure Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-heart-rate",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeHeartRate",
+      "title" : "Device Types for Heart Rate Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the heart rate.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-device-heart-rate.html" : "Device for Heart Rate Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-height-length",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeHeightLength",
+      "title" : "Device Types for Height Length Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the body height/length.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-height.html" : "Device for Body Height Measurement"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-weight",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DeviceTypeWeight",
+      "title" : "Device Types for Weight Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the body weight.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-device-body-weight.html" : "Body Weight Measurement Device"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/exertion-phase",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ExertionPhase",
+      "title" : "Exertion Phase",
+      "description" : "SELECT SNOMED CT code system values that contains terms for exercise associated with a measurement.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-exercise-association.html" : "Exercise Association Extension"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-body-location",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HeartRateMeasurementBodyLocation",
+      "title" : "Heart Rate Measurement Body Location",
+      "description" : "SELECT SNOMED CT code system values that describe where on the body the heart rate was measured.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-method",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HeartRateMeasurementMethod",
+      "title" : "Heart Rate Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how the heart rate was measured.",
+      "systems" : [
+        "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-observation",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "HeartRateObservation",
+      "title" : "Heart Rate observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing heart rate vital sign measurements in Observation.code.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/height-length-measurement-method",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HeightLengthMeasurementMethod",
+      "title" : "Height Length Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how the height/length was measured.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/measurement-environment",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MeasurementEnvironment",
+      "title" : "Measurement Environment",
+      "description" : "Environment that indicate the surroundings the individual was in during the measurement (i.e. home, clinic, hospital, etc.).",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-measurement-setting.html" : "Measurement Setting Extension"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "NumericResultInterpretation",
+      "title" : "Numeric Result Interpretation value set",
+      "description" : "The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate",
+      "StructureDefinition-blood-pressure-panel.html" : "Blood Pressure Panel"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "NumericResultInterpretationNonPanic",
+      "title" : "Numeric Result Interpretation without panic values, value set",
+      "description" : "The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value, constrained to terms that are not those associated with 'panic' terms.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-body-height.html" : "Body Height",
+      "StructureDefinition-head-circumference.html" : "Head Circumference",
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference",
+      "StructureDefinition-bmi.html" : "Body Mass Index",
+      "StructureDefinition-body-weight.html" : "Body Weight"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "VitalSignsBodyPosition",
+      "title" : "Body Position used in Vital Signs Measurements",
+      "description" : "SELECT SNOMED CT code system values the position in which the individual was in during a measurement.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-body-position.html" : "Body Position Extension",
+      "StructureDefinition-body-structure-blood-pressure.html" : "Body Structure for Blood Pressure"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-rate-unit",
+      "version" : "6.0.0",
+      "status" : "active",
+      "name" : "VitalSignsRateUnit",
+      "title" : "Rate Units",
+      "description" : "UCUM rate units for recording vital signs including heart and respiratory rate.",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-heart-rate.html" : "Heart Rate"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-sleep-status",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "VitalSignsSleepStatus",
+      "title" : "Sleep Status in Vital Signs Measurements",
+      "description" : "SELECT SNOMED CT code system values that contains terms used to indicate the state of wakefulness during measurement.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-sleep-status.html" : "Sleep Status Extension"
+    },
+    {
+      "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/waist-circumference-obervation",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "WaistCircumferenceObservation",
+      "title" : "Waist Circumference observation codes",
+      "description" : "Waist circumference observations.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-waist-circumference.html" : "Waist Circumference"
+    }
+  ]
+}

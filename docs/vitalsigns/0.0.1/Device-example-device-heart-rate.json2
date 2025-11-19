@@ -1,0 +1,16 @@
+{
+  "resourceType" : "Device",
+  "id" : "example-device-heart-rate",
+  "meta" : {
+    "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Device example-device-heart-rate</b></p><a name=\"example-device-heart-rate\"> </a><a name=\"hcexample-device-heart-rate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-device-heart-rate.html\">Device for Heart Rate Measurement</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:\">Digital heart rate monitor</span></p></div><div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Device example-device-heart-rate</b></p><a name=\"lt-example-device-heart-rate\"> </a><a name=\"lt-hcexample-device-heart-rate\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-device-heart-rate.html\">Device for Heart Rate Measurement</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title=\"Codes:\">Digital heart rate monitor</span></p></div></div>"
+  },
+  "status" : "active",
+  "type" : [{
+    "text" : "Digital heart rate monitor"
+  }]
+}

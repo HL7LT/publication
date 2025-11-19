@@ -1,0 +1,88 @@
+# lt.hl7.fhir.vitalsigns#0.0.1: Lithuanian Vital Signs Implementation Guide(en)
+
+## Pages
+
+* [Home](index.md)
+* [Translationinfo](translationinfo.md)
+* [Artifacts Summary](artifacts.md)
+* [Changelog](changelog.md)
+
+## Resources
+
+### CodeSystems
+
+* [SNOMED CT Solor Extension Temporary Code System](CodeSystem-solor-temporary-codesystem.md)
+
+### ValueSets
+
+* [BMI Units](ValueSet-bmi-unit.md)
+* [Body Height observation codes](ValueSet-body-height-observation.md)
+* [Body Length Units](ValueSet-body-length-unit.md)
+* [Body Weight Associated Situation](ValueSet-body-weight-associated-situation.md)
+* [Body Weight observation codes](ValueSet-body-weight-observation.md)
+* [Blood Pressure Cuff Size](ValueSet-bp-cuff-size.md)
+* [BP Diastolic observation codes](ValueSet-bp-diastolic-observation.md)
+* [Blood Pressure Measurement Body Location](ValueSet-bp-measurement-body-location.md)
+* [Blood Pressure Measurement Method](ValueSet-bp-measurement-method.md)
+* [BP Panel observation codes](ValueSet-bp-panel-observation.md)
+* [BP Systolic observation codes](ValueSet-bp-systolic-observation.md)
+* [Blood Pressure Units](ValueSet-bp-unit.md)
+* [Device Types for Blood Pressure Measurement](ValueSet-device-type-blood-pressure.md)
+* [Device Types for Heart Rate Measurement](ValueSet-device-type-heart-rate.md)
+* [Device Types for Height Length Measurement](ValueSet-device-type-height-length.md)
+* [Device Types for Weight Measurement](ValueSet-device-type-weight.md)
+* [Exertion Phase](ValueSet-exertion-phase.md)
+* [Heart Rate Measurement Body Location](ValueSet-heart-rate-measurement-body-location.md)
+* [Heart Rate Measurement Method](ValueSet-heart-rate-measurement-method.md)
+* [Heart Rate observation codes](ValueSet-heart-rate-observation.md)
+* [Height Length Measurement Method](ValueSet-height-length-measurement-method.md)
+* [Measurement Environment](ValueSet-measurement-environment.md)
+* [Numeric Result Interpretation without panic values, value set](ValueSet-numeric-result-interpretation-non-panic.md)
+* [Numeric Result Interpretation value set](ValueSet-numeric-result-interpretation.md)
+* [Body Position used in Vital Signs Measurements](ValueSet-vital-signs-body-position.md)
+* [Rate Units](ValueSet-vital-signs-rate-unit.md)
+* [Sleep Status in Vital Signs Measurements](ValueSet-vital-signs-sleep-status.md)
+* [Waist Circumference observation codes](ValueSet-waist-circumference-obervation.md)
+
+### Resource Profiles
+
+* [Blood Pressure Panel](StructureDefinition-blood-pressure-panel.md)
+* [Body Mass Index](StructureDefinition-bmi.md)
+* [Body Height](StructureDefinition-body-height.md)
+* [Body Structure for Blood Pressure](StructureDefinition-body-structure-blood-pressure.md)
+* [Body Weight](StructureDefinition-body-weight.md)
+* [Device for Blood Pressure Measurement](StructureDefinition-device-blood-pressure.md)
+* [Device for Body Height Measurement](StructureDefinition-device-body-height.md)
+* [Body Weight Measurement Device](StructureDefinition-device-body-weight.md)
+* [Device for Heart Rate Measurement](StructureDefinition-device-heart-rate.md)
+* [Head Circumference](StructureDefinition-head-circumference.md)
+* [Heart Rate](StructureDefinition-heart-rate.md)
+* [Waist Circumference](StructureDefinition-waist-circumference.md)
+
+### Extensions
+
+* [Associated Situation Extension](StructureDefinition-associated-situation.md)
+* [Body Position Extension](StructureDefinition-body-position.md)
+* [Exercise Association Extension](StructureDefinition-exercise-association.md)
+* [Measurement Setting Extension](StructureDefinition-measurement-setting.md)
+* [Sleep Status Extension](StructureDefinition-sleep-status.md)
+
+### ImplementationGuides
+
+* [Lithuanian Vital Signs Implementation Guide](ImplementationGuide-lt.hl7.fhir.vitalsigns.md)
+
+### Examples
+
+* [example-body-structure-blood-pressure (BodyStructure)](BodyStructure-example-body-structure-blood-pressure.md)
+* [example-device-blood-pressure (Device)](Device-example-device-blood-pressure.md)
+* [example-device-body-height (Device)](Device-example-device-body-height.md)
+* [example-device-body-weight (Device)](Device-example-device-body-weight.md)
+* [example-device-heart-rate (Device)](Device-example-device-heart-rate.md)
+* [example-blood-pressure (Observation)](Observation-example-blood-pressure.md)
+* [example-bmi (Observation)](Observation-example-bmi.md)
+* [example-body-height (Observation)](Observation-example-body-height.md)
+* [example-body-weight (Observation)](Observation-example-body-weight.md)
+* [example-head-circumference (Observation)](Observation-example-head-circumference.md)
+* [example-heart-rate (Observation)](Observation-example-heart-rate.md)
+* [example-waist-circumference (Observation)](Observation-example-waist-circumference.md)
+* [example-patient (Patient)](Patient-example-patient.md)

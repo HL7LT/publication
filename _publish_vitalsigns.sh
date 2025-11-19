@@ -1,0 +1,30 @@
+java -jar ../publisher.jar -go-publish \
+   -source    /Users/igor/source/hl7lt/ig-lt-vitalsigns \
+   -web       /Users/igor/source/hl7lt/publication/docs \
+   -history   /Users/igor/source/hl7lt/ig-history \
+   -registry  /Users/igor/source/hl7lt/ig-registry/fhir-ig-list.json \
+   -temp      /Users/igor/source/hl7lt/publication/temp \
+   -templates /Users/igor/source/hl7lt/publication/templates
+
+echo "Press any key to delete docs/base except x.x.x folders and package-list.json ..."
+pause
+
+# delete all except x.x.x folders and package-list.json
+find docs/vitalsigns -type d -name '[0-9]*.[0-9]*.[0-9]*' -prune -o -type f -exec rm -f {} \;
+find docs/vitalsigns \
+   -type d -name '[0-9]*.[0-9]*.[0-9]*' -prune \
+   -o \
+   -type f -not -name 'package-list.json' \
+   -exec rm -rf {} \;
+
+echo "Press any key to copy new files to docs/vitalsigns ..."
+pause
+
+# copy new files
+rsync -a docs/fhir/ docs/vitalsigns/
+
+echo "Press any key to clean up ..."
+pause
+
+# clean up
+rm -rf docs/fhir

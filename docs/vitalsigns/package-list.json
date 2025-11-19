@@ -1,0 +1,26 @@
+{
+  "list" : [
+    {
+      "version" : "current",
+      "path" : "http://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns",
+      "status" : "ci-build",
+      "sequence" : "ci-build",
+      "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
+    },
+    {
+      "version" : "0.0.1",
+      "path" : "https://hl7.lt/fhir/vitalsigns/0.0.1",
+      "status" : "draft",
+      "sequence" : "DSTU1",
+      "fhirversion" : "5.0.0",
+      "date" : "2025-11-19",
+      "current" : true,
+      "desc" : "Initial release as LT Vital Signs IG."
+    }
+  ],
+  "package-id" : "lt.hl7.fhir.vitalsigns",
+  "canonical" : "https://hl7.lt/fhir/vitalsigns",
+  "title" : "Lithuanian Vital Signs FHIR Implementation Guide",
+  "category" : "Diagnostics",
+  "introduction" : "A set of Vital Signs measurements used in the Lithuania."
+}

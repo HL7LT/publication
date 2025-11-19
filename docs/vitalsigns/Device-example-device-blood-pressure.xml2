@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="example-device-blood-pressure"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Device example-device-blood-pressure</b></p><a name="example-device-blood-pressure"> </a><a name="hcexample-device-blood-pressure"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-device-blood-pressure.html">Device for Blood Pressure Measurement</a></p></div><p><b>status</b>: Active</p><p><b>manufacturer</b>: Omron Healthcare</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 258057004}">Non-invasive blood pressure monitor (physical object)</span></p><h3>Properties</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{urn:iso:std:iso:11073:10101 528391}">MDC_DEV_SPEC_PROFILE_BP</span></td><td><span title="Codes:{http://snomed.info/sct 720737000}">Blood pressure cuff, adult size (physical object)</span></td></tr></table></div><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Device example-device-blood-pressure</b></p><a name="lt-example-device-blood-pressure"> </a><a name="lt-hcexample-device-blood-pressure"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-device-blood-pressure.html">Device for Blood Pressure Measurement</a></p></div><p><b>status</b>: Active</p><p><b>manufacturer</b>: Omron Healthcare</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 258057004}">Non-invasive blood pressure monitor (physical object)</span></p><h3>Properties</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{urn:iso:std:iso:11073:10101 528391}">MDC_DEV_SPEC_PROFILE_BP</span></td><td><span title="Codes:{http://snomed.info/sct 720737000}">Blood pressure cuff, adult size (physical object)</span></td></tr></table></div></div>
+  </text>
+  <status value="active"/>
+  <manufacturer value="Omron Healthcare"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="258057004"/>
+      <display value="Non-invasive blood pressure monitor (physical object)"/>
+    </coding>
+  </type>
+  <property>
+    <type>
+      <coding>
+        <system value="urn:iso:std:iso:11073:10101"/>
+        <code value="528391"/>
+      </coding>
+    </type>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="720737000"/>
+        <display value="Blood pressure cuff, adult size (physical object)"/>
+      </coding>
+    </valueCodeableConcept>
+  </property>
+</Device>

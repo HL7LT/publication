@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="example-device-heart-rate"/>
+  <meta>
+    <profile value="https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Device example-device-heart-rate</b></p><a name="example-device-heart-rate"> </a><a name="hcexample-device-heart-rate"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-device-heart-rate.html">Device for Heart Rate Measurement</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title="Codes:">Digital heart rate monitor</span></p></div>
+  </text>
+  <status value="active"/>
+  <type>
+    <text value="Digital heart rate monitor"/>
+  </type>
+</Device>

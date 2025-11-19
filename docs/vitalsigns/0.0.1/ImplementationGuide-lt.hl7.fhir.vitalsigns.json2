@@ -1,0 +1,1235 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "lt.hl7.fhir.vitalsigns",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.vitalsigns</b></p><a name=\"lt.hl7.fhir.vitalsigns\"> </a><a name=\"hclt.hl7.fhir.vitalsigns\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>LTVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns</pre><div><p>Lithuanian Vital Signs Implementation Guide</p>\n</div></div><div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.vitalsigns</b></p><a name=\"lt-lt.hl7.fhir.vitalsigns\"> </a><a name=\"lt-hclt.hl7.fhir.vitalsigns\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>LTVitalSigns</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns</pre><div><p>Lithuanian Vital Signs Implementation Guide</p>\n</div></div></div>"
+  },
+  "url" : "https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns",
+  "version" : "0.0.1",
+  "name" : "LTVitalSigns",
+  "title" : "Lithuanian Vital Signs Implementation Guide",
+  "status" : "draft",
+  "date" : "2025-11-19T15:54:38+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "lt"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Lietuvos medicinos biblioteka"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "Lithuanian Vital Signs Implementation Guide",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "packageId" : "lt.hl7.fhir.vitalsigns",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["5.0.0"],
+  "dependsOn" : [{
+    "id" : "hl7tx",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+    }],
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r5",
+    "version" : "7.0.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r5",
+    "version" : "5.2.0"
+  },
+  {
+    "id" : "lt_hl7_fhir_base",
+    "uri" : "https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base",
+    "packageId" : "lt.hl7.fhir.base",
+    "version" : "0.2.0"
+  },
+  {
+    "id" : "hl7_fhir_eu_base_r5",
+    "uri" : "http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5",
+    "packageId" : "hl7.fhir.eu.base-r5",
+    "version" : "0.1.0"
+  }],
+  "definition" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools.r5#0.8.0"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/associated-situation"
+      },
+      "name" : "Associated Situation Extension",
+      "description" : "Situations that may affect the measurement or assessment.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-cuff-size"
+      },
+      "name" : "Blood Pressure Cuff Size",
+      "description" : "SELECT SNOMED CT code system values that describe the size of blood pressure cuff in use.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-measurement-body-location"
+      },
+      "name" : "Blood Pressure Measurement Body Location",
+      "description" : "SELECT SNOMED CT code system values that describe the location on the body where the blood pressure was measured.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-measurement-method"
+      },
+      "name" : "Blood Pressure Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how a blood pressure was measured.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/blood-pressure-panel"
+      },
+      "name" : "Blood Pressure Panel",
+      "description" : "Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-unit"
+      },
+      "name" : "Blood Pressure Units",
+      "description" : "UCUM units for recording blood pressure.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bmi-unit"
+      },
+      "name" : "BMI Units",
+      "description" : "UCUM units for recording BMI",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/body-height"
+      },
+      "name" : "Body Height",
+      "description" : "The measurement in centimeters or feet and inches from the top of the head to the heel, usually while standing.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/body-height-observation"
+      },
+      "name" : "Body Height observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing body height (including body length) vital sign measurements in Observation.code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/body-length-unit"
+      },
+      "name" : "Body Length Units",
+      "description" : "UCUM units for recording body length measures such as height and head circumference",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/bmi"
+      },
+      "name" : "Body Mass Index",
+      "description" : "Body Mass Index (BMI) is a measure of body fat based on height and weight.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/body-position"
+      },
+      "name" : "Body Position Extension",
+      "description" : "The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vital-signs-body-position"
+      },
+      "name" : "Body Position used in Vital Signs Measurements",
+      "description" : "SELECT SNOMED CT code system values the position in which the individual was in during a measurement.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/body-structure-blood-pressure"
+      },
+      "name" : "Body Structure for Blood Pressure",
+      "description" : "Body Structure profile to describe where on the body a blood pressure measurement was taken.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/body-weight"
+      },
+      "name" : "Body Weight",
+      "description" : "The measured mass of an individual's body.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/body-weight-associated-situation"
+      },
+      "name" : "Body Weight Associated Situation",
+      "description" : "SELECT SNOMED CT code system values and temporary code system values that describe situations to be considered when interpreting measured values.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/device-body-weight"
+      },
+      "name" : "Body Weight Measurement Device",
+      "description" : "Device used to measure body weight.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/body-weight-observation"
+      },
+      "name" : "Body Weight observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing body weight vital sign measurements in Observation.code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-diastolic-observation"
+      },
+      "name" : "BP Diastolic observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial diastolic BP vital sign measurement in Observation.component.code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-panel-observation"
+      },
+      "name" : "BP Panel observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial szstolic and diastolic BP panel of vital signs measurements in Observation.component.code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/bp-systolic-observation"
+      },
+      "name" : "BP Systolic observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing an arterial systolic BP vital sign measurement in Observation.component.code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/device-blood-pressure"
+      },
+      "name" : "Device for Blood Pressure Measurement",
+      "description" : "Device used to measure blood pressure.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/device-body-height"
+      },
+      "name" : "Device for Body Height Measurement",
+      "description" : "Device used to measure body height.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/device-heart-rate"
+      },
+      "name" : "Device for Heart Rate Measurement",
+      "description" : "Device used to measure heart rate.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/device-type-blood-pressure"
+      },
+      "name" : "Device Types for Blood Pressure Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the isntrument used to measure the blood pressure.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/device-type-heart-rate"
+      },
+      "name" : "Device Types for Heart Rate Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the heart rate.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/device-type-height-length"
+      },
+      "name" : "Device Types for Height Length Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the body height/length.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/device-type-weight"
+      },
+      "name" : "Device Types for Weight Measurement",
+      "description" : "SELECT SNOMED CT code system values that describe the instrument used to measure the body weight.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-blood-pressure"
+      },
+      "name" : "Example Blood Pressure Observation",
+      "description" : "Example observation representing a patient’s blood pressure measurement.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-body-height"
+      },
+      "name" : "Example Body Height Observation",
+      "description" : "Example observation representing the patient's body height measured in centimeters.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-bmi"
+      },
+      "name" : "Example Body Mass Index Observation",
+      "description" : "An example BMI measurement for a patient.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/bmi|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "BodyStructure"
+      }],
+      "reference" : {
+        "reference" : "BodyStructure/example-body-structure-blood-pressure"
+      },
+      "name" : "Example Body Structure for Blood Pressure",
+      "description" : "Example showing where on the body a blood pressure measurement was taken.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure|0.0.1"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-body-weight"
+      },
+      "name" : "Example Body Weight Observation",
+      "description" : "Example observation representing the patient's body weight measured in kilograms.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Device"
+      }],
+      "reference" : {
+        "reference" : "Device/example-device-blood-pressure"
+      },
+      "name" : "Example Device - Blood Pressure Measurement",
+      "description" : "Automated digital blood pressure monitor with adult cuff.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Device"
+      }],
+      "reference" : {
+        "reference" : "Device/example-device-body-height"
+      },
+      "name" : "Example Device - Body Height Measurement",
+      "description" : "A stadiometer used to measure the patient’s height.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-height|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Device"
+      }],
+      "reference" : {
+        "reference" : "Device/example-device-body-weight"
+      },
+      "name" : "Example Device - Body Weight Measurement",
+      "description" : "A weighing scale used to measure the patient's body weight.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Device"
+      }],
+      "reference" : {
+        "reference" : "Device/example-device-heart-rate"
+      },
+      "name" : "Example Device - Heart Rate Measurement",
+      "description" : "An automated digital heart rate monitor used for the measurement.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-head-circumference"
+      },
+      "name" : "Example Head Circumference Observation",
+      "description" : "Measured head circumference using a tape measure.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/head-circumference|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-heart-rate"
+      },
+      "name" : "Example Heart Rate Observation",
+      "description" : "Example observation representing the patient's heart rate measured at rest.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/heart-rate|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example-patient"
+      },
+      "name" : "Example Patient - Jonas Petrauskas",
+      "description" : "An example Patient conforming to the Lithuanian Base Profile.",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-waist-circumference"
+      },
+      "name" : "Example Waist Circumference Observation",
+      "description" : "Measured waist circumference using a tape measure.",
+      "isExample" : true,
+      "profile" : ["https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference|1.0.0"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/exercise-association"
+      },
+      "name" : "Exercise Association Extension",
+      "description" : "The exercise state associated with the measurement.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/exertion-phase"
+      },
+      "name" : "Exertion Phase",
+      "description" : "SELECT SNOMED CT code system values that contains terms for exercise associated with a measurement.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/head-circumference"
+      },
+      "name" : "Head Circumference",
+      "description" : "Head Occipital-frontal circumference by Tape measure. The measurement in centimeters or inches around the largest part of the head.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/heart-rate"
+      },
+      "name" : "Heart Rate",
+      "description" : "The number of heart beats in a minute.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/heart-rate-measurement-body-location"
+      },
+      "name" : "Heart Rate Measurement Body Location",
+      "description" : "SELECT SNOMED CT code system values that describe where on the body the heart rate was measured.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/heart-rate-measurement-method"
+      },
+      "name" : "Heart Rate Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how the heart rate was measured.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/heart-rate-observation"
+      },
+      "name" : "Heart Rate observation codes",
+      "description" : "This value set defines the set of LOINC codes considered to be appropriate for representing heart rate vital sign measurements in Observation.code.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/height-length-measurement-method"
+      },
+      "name" : "Height Length Measurement Method",
+      "description" : "SELECT SNOMED CT code system values that describe how the height/length was measured.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/measurement-environment"
+      },
+      "name" : "Measurement Environment",
+      "description" : "Environment that indicate the surroundings the individual was in during the measurement (i.e. home, clinic, hospital, etc.).",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/measurement-setting"
+      },
+      "name" : "Measurement Setting Extension",
+      "description" : "The location or setting the subject was in when the measurement was obtained. For example, home, clinic, hospital. etc.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/numeric-result-interpretation"
+      },
+      "name" : "Numeric Result Interpretation value set",
+      "description" : "The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/numeric-result-interpretation-non-panic"
+      },
+      "name" : "Numeric Result Interpretation without panic values, value set",
+      "description" : "The HL7 V3:ObservationInterpretation code set (OID: 2.16.840.1.113883.5.83) that describes interpretations associated with a measured value, constrained to terms that are not those associated with 'panic' terms.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vital-signs-rate-unit"
+      },
+      "name" : "Rate Units",
+      "description" : "UCUM rate units for recording vital signs including heart and respiratory rate.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/sleep-status"
+      },
+      "name" : "Sleep Status Extension",
+      "description" : "The state of wakefulness during the measurement.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vital-signs-sleep-status"
+      },
+      "name" : "Sleep Status in Vital Signs Measurements",
+      "description" : "SELECT SNOMED CT code system values that contains terms used to indicate the state of wakefulness during measurement.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/solor-temporary-codesystem"
+      },
+      "name" : "SNOMED CT Solor Extension Temporary Code System",
+      "description" : "A set of codes that are defined in the Solor extension to the SNOMED CT code system. To be used until they are adopted by SNOMED CT.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/waist-circumference"
+      },
+      "name" : "Waist Circumference",
+      "description" : "Waist circumference by Tape measure. The measurement in centimeters or inches around the narrowest part of the waist.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/waist-circumference-obervation"
+      },
+      "name" : "Waist Circumference observation codes",
+      "description" : "Waist circumference observations.",
+      "isExample" : false
+    }],
+    "page" : {
+      "sourceUrl" : "toc.html",
+      "name" : "toc.html",
+      "title" : "Table of Contents",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "lt"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Turinys"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "generation" : "html",
+      "page" : [{
+        "sourceUrl" : "index.html",
+        "name" : "index.html",
+        "title" : "Home",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "lt"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Pradžia"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "changelog.html",
+        "name" : "changelog.html",
+        "title" : "Changelog",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "lt"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Pakeitimų žurnalas"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "translationinfo.html",
+        "name" : "translationinfo.html",
+        "title" : "Translationinfo",
+        "generation" : "markdown"
+      }]
+    },
+    "parameter" : [{
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "copyrightyear"
+      },
+      "value" : "2025+"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "releaselabel"
+      },
+      "value" : "ci-build"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "special-url-base"
+      },
+      "value" : "https://hl7.lt/fhir"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "special-url"
+      },
+      "value" : "https://hl7.lt/fhir/tx"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "excludettl"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "shownav"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "pin-canonicals"
+      },
+      "value" : "pin-all"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-version"
+      },
+      "value" : "false"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "default-version"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "i18n-default-lang"
+      },
+      "value" : "en"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "i18n-lang"
+      },
+      "value" : "lt"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "translation-sources"
+      },
+      "value" : "input/translations/lt"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "autoload-resources"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/capabilities"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/examples"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/extensions"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/models"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/operations"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/profiles"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/resources"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/vocabulary"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/maps"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/testing"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "input/history"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
+      "value" : "fsh-generated/resources"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
+      "value" : "template/config"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
+      "value" : "input/assets"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
+      "value" : "input/images"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-liquid"
+      },
+      "value" : "template/liquid"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-liquid"
+      },
+      "value" : "input/liquid"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-qa"
+      },
+      "value" : "temp/qa"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-temp"
+      },
+      "value" : "temp/pages"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-output"
+      },
+      "value" : "output"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-tx-cache"
+      },
+      "value" : "input-cache/txcache"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-suppressed-warnings"
+      },
+      "value" : "input/ignoreWarnings.txt"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-history"
+      },
+      "value" : "https://hl7.lt/fhir/vitalsigns/history.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "template-html"
+      },
+      "value" : "template-page.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "template-md"
+      },
+      "value" : "template-page-md.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-contact"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-context"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-copyright"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-jurisdiction"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-license"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-publisher"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-wg"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "active-tables"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "fmm-definition"
+      },
+      "value" : "http://hl7.org/fhir/versions.html#maturity"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "propagate-status"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "excludelogbinaryformat"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "tabbed-snapshots"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "wantGen-ttl"
+      },
+      "value" : "false"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "wantGen-ttl-html"
+      },
+      "value" : "false"
+    }]
+  }
+}

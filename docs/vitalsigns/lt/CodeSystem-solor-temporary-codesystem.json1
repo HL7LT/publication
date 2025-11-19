@@ -1,0 +1,104 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "solor-temporary-codesystem",
+  "language" : "lt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem solor-temporary-codesystem</b></p><a name=\"lt-solor-temporary-codesystem\"> </a><a name=\"lt-hcsolor-temporary-codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-insensitive code system <code>https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1461000205102<a name=\"lt-solor-temporary-codesystem-1461000205102\"> </a></td><td>Digital thermometer (physical object)</td><td>A device used to measure temperature with digital readout.</td></tr><tr><td style=\"white-space:nowrap\">2331000205106<a name=\"lt-solor-temporary-codesystem-2331000205106\"> </a></td><td>Non-contact infrared thermometer (physical object)</td><td>A device used to measure temperature via infrared technology that does not come into contact with the skin.</td></tr><tr><td style=\"white-space:nowrap\">24031000205108<a name=\"lt-solor-temporary-codesystem-24031000205108\"> </a></td><td>Thermoluminescent diode thermometer (physical object)</td><td>A device used to measure temperature that uses a thermoluminescent diode.</td></tr><tr><td style=\"white-space:nowrap\">641000205104<a name=\"lt-solor-temporary-codesystem-641000205104\"> </a></td><td>Computer aided auscultation (procedure)</td><td>A procedure that uses a computer aided device to measure blood pressure.</td></tr><tr><td style=\"white-space:nowrap\">911000205109<a name=\"lt-solor-temporary-codesystem-911000205109\"> </a></td><td>Measurement of blood pressure using intravascular transducer (procedure)</td><td>A device that measures blood pressure intravascularly via a trandsducer.</td></tr><tr><td style=\"white-space:nowrap\">961000205106<a name=\"lt-solor-temporary-codesystem-961000205106\"> </a></td><td>Wearing street clothes, no shoes (finding)</td><td>The subject is wearing clothing but not shoes.</td></tr><tr><td style=\"white-space:nowrap\">971000205103<a name=\"lt-solor-temporary-codesystem-971000205103\"> </a></td><td>Wearing street clothes with shoes (finding)</td><td>The subject is wearing clothing and shoes.</td></tr><tr><td style=\"white-space:nowrap\">24311000205101<a name=\"lt-solor-temporary-codesystem-24311000205101\"> </a></td><td>Stadiometer (physical object)</td><td>A device used to measure a subject's height.</td></tr><tr><td style=\"white-space:nowrap\">23861000205107<a name=\"lt-solor-temporary-codesystem-23861000205107\"> </a></td><td>Capnograph sensor device (physical object)</td><td>A device that captures expelled air, either via nasal prongs or CPAP and is used to measure the number of breaths taken per minute.</td></tr><tr><td style=\"white-space:nowrap\">23921000205109<a name=\"lt-solor-temporary-codesystem-23921000205109\"> </a></td><td>Respiration strain gauge (physical object)</td><td>A device wrapped around a subject chest that measures the number of times a subject's chest expands with each inhalation.  This counts the breaths per minute.</td></tr><tr><td style=\"white-space:nowrap\">24181000205106<a name=\"lt-solor-temporary-codesystem-24181000205106\"> </a></td><td>Patient lift scale (physical object)</td><td>A device used to lift a patient out of or into bed and also has a scale to measure the subject's weight.</td></tr><tr><td style=\"white-space:nowrap\">24781000205105<a name=\"lt-solor-temporary-codesystem-24781000205105\"> </a></td><td>Structure of left superficial temporal artery (body structure)</td><td>A body structure of the superficial tempral artery on the left side of the body.  Currently part of the Solor SNOMED CT extension.</td></tr><tr><td style=\"white-space:nowrap\">24791000205107<a name=\"lt-solor-temporary-codesystem-24791000205107\"> </a></td><td>Structure of right superficial temporal artery (body structure)</td><td>A body structure of the superficial tempral artery on the right side of the body.  Currently part of the Solor SNOMED CT extension.</td></tr></table></div>"
+  },
+  "url" : "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+  "version" : "2.0.0",
+  "name" : "SolorTemporaryCodeSystem",
+  "title" : "SNOMED CT Solor Extension Temporary Code System",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-11-19T15:59:23+02:00",
+  "publisher" : "Lietuvos medicinos biblioteka",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "A set of codes that are defined in the Solor extension to the SNOMED CT code system. To be used until they are adopted by SNOMED CT.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT"
+    }]
+  }],
+  "copyright" : "Logica Health, all rights reserved Creative Commons License",
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 13,
+  "concept" : [{
+    "code" : "1461000205102",
+    "display" : "Digital thermometer (physical object)",
+    "definition" : "A device used to measure temperature with digital readout."
+  },
+  {
+    "code" : "2331000205106",
+    "display" : "Non-contact infrared thermometer (physical object)",
+    "definition" : "A device used to measure temperature via infrared technology that does not come into contact with the skin."
+  },
+  {
+    "code" : "24031000205108",
+    "display" : "Thermoluminescent diode thermometer (physical object)",
+    "definition" : "A device used to measure temperature that uses a thermoluminescent diode."
+  },
+  {
+    "code" : "641000205104",
+    "display" : "Computer aided auscultation (procedure)",
+    "definition" : "A procedure that uses a computer aided device to measure blood pressure."
+  },
+  {
+    "code" : "911000205109",
+    "display" : "Measurement of blood pressure using intravascular transducer (procedure)",
+    "definition" : "A device that measures blood pressure intravascularly via a trandsducer."
+  },
+  {
+    "code" : "961000205106",
+    "display" : "Wearing street clothes, no shoes (finding)",
+    "definition" : "The subject is wearing clothing but not shoes."
+  },
+  {
+    "code" : "971000205103",
+    "display" : "Wearing street clothes with shoes (finding)",
+    "definition" : "The subject is wearing clothing and shoes."
+  },
+  {
+    "code" : "24311000205101",
+    "display" : "Stadiometer (physical object)",
+    "definition" : "A device used to measure a subject's height."
+  },
+  {
+    "code" : "23861000205107",
+    "display" : "Capnograph sensor device (physical object)",
+    "definition" : "A device that captures expelled air, either via nasal prongs or CPAP and is used to measure the number of breaths taken per minute."
+  },
+  {
+    "code" : "23921000205109",
+    "display" : "Respiration strain gauge (physical object)",
+    "definition" : "A device wrapped around a subject chest that measures the number of times a subject's chest expands with each inhalation.  This counts the breaths per minute."
+  },
+  {
+    "code" : "24181000205106",
+    "display" : "Patient lift scale (physical object)",
+    "definition" : "A device used to lift a patient out of or into bed and also has a scale to measure the subject's weight."
+  },
+  {
+    "code" : "24781000205105",
+    "display" : "Structure of left superficial temporal artery (body structure)",
+    "definition" : "A body structure of the superficial tempral artery on the left side of the body.  Currently part of the Solor SNOMED CT extension."
+  },
+  {
+    "code" : "24791000205107",
+    "display" : "Structure of right superficial temporal artery (body structure)",
+    "definition" : "A body structure of the superficial tempral artery on the right side of the body.  Currently part of the Solor SNOMED CT extension."
+  }]
+}

@@ -1,0 +1,336 @@
+[
+  {
+    "id" : "bp-unit",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/tx/ValueSet/bp-unit",
+    "version" : "6.0.0",
+    "name" : "BloodPressureUnit"
+  },
+  {
+    "id" : "solor-temporary-codesystem",
+    "type" : "CodeSystem",
+    "url" : "https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem",
+    "version" : "2.0.0",
+    "name" : "SolorTemporaryCodeSystem"
+  },
+  {
+    "id" : "lt.hl7.fhir.vitalsigns",
+    "type" : "ImplementationGuide",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ImplementationGuide/lt.hl7.fhir.vitalsigns",
+    "version" : "0.0.1",
+    "name" : "LTVitalSigns"
+  },
+  {
+    "id" : "associated-situation",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/associated-situation",
+    "version" : "2.0.0",
+    "name" : "AssociatedSituation"
+  },
+  {
+    "id" : "blood-pressure-panel",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel",
+    "version" : "1.0.0",
+    "name" : "BloodPressurePanel"
+  },
+  {
+    "id" : "bmi",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/bmi",
+    "version" : "1.0.0",
+    "name" : "BMI"
+  },
+  {
+    "id" : "body-height",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height",
+    "version" : "1.0.0",
+    "name" : "BodyHeight"
+  },
+  {
+    "id" : "body-position",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-position",
+    "version" : "5.1.0",
+    "name" : "BodyPosition",
+    "oids" : ["2.16.840.1.113883.4.642.5.1472"]
+  },
+  {
+    "id" : "body-structure-blood-pressure",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure",
+    "version" : "0.0.1",
+    "name" : "BodyStructureBloodPressure"
+  },
+  {
+    "id" : "body-weight",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight",
+    "version" : "1.0.0",
+    "name" : "BodyWeight"
+  },
+  {
+    "id" : "device-blood-pressure",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure",
+    "version" : "1.0.0",
+    "name" : "DeviceBloodPressure"
+  },
+  {
+    "id" : "device-body-height",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-height",
+    "version" : "1.0.0",
+    "name" : "DeviceBodyHeight"
+  },
+  {
+    "id" : "device-body-weight",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight",
+    "version" : "1.0.0",
+    "name" : "DeviceBodyWeight"
+  },
+  {
+    "id" : "device-heart-rate",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate",
+    "version" : "1.0.0",
+    "name" : "DeviceHeartRate"
+  },
+  {
+    "id" : "exercise-association",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/exercise-association",
+    "version" : "2.0.0",
+    "name" : "ExerciseAssociation"
+  },
+  {
+    "id" : "head-circumference",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/head-circumference",
+    "version" : "1.0.0",
+    "name" : "HeadCircumference"
+  },
+  {
+    "id" : "heart-rate",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/heart-rate",
+    "version" : "1.0.0",
+    "name" : "HeartRate"
+  },
+  {
+    "id" : "measurement-setting",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting",
+    "version" : "2.0.0",
+    "name" : "MeasurementSetting"
+  },
+  {
+    "id" : "sleep-status",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/sleep-status",
+    "version" : "2.0.0",
+    "name" : "SleepStatus"
+  },
+  {
+    "id" : "waist-circumference",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference",
+    "version" : "1.0.0",
+    "name" : "WaistCircumference"
+  },
+  {
+    "id" : "bmi-unit",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bmi-unit",
+    "version" : "6.0.0",
+    "name" : "BMIUnit"
+  },
+  {
+    "id" : "body-height-observation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-height-observation",
+    "version" : "6.0.0",
+    "name" : "BodyHeightObservation"
+  },
+  {
+    "id" : "body-length-unit",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-length-unit",
+    "version" : "6.0.0",
+    "name" : "BodyLengthUnit",
+    "oids" : [
+      "2.16.840.1.113883.4.642.3.958",
+      "2.16.840.1.113883.4.642.3.873"
+    ]
+  },
+  {
+    "id" : "body-weight-associated-situation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-associated-situation",
+    "version" : "1.0.0",
+    "name" : "BodyWeightAssociatedSituation"
+  },
+  {
+    "id" : "body-weight-observation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-observation",
+    "version" : "6.0.0",
+    "name" : "BodyWeightObservation"
+  },
+  {
+    "id" : "bp-cuff-size",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-cuff-size",
+    "version" : "1.0.0",
+    "name" : "BloodPressureCuffSize"
+  },
+  {
+    "id" : "bp-diastolic-observation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-diastolic-observation",
+    "version" : "6.0.0",
+    "name" : "BloodPressureDiastolicObservation"
+  },
+  {
+    "id" : "bp-measurement-body-location",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-body-location",
+    "version" : "2.0.0",
+    "name" : "BloodPressureMeasurementBodyLocation"
+  },
+  {
+    "id" : "bp-measurement-method",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-method",
+    "version" : "1.0.0",
+    "name" : "BloodPressureMeasurementMethod"
+  },
+  {
+    "id" : "bp-panel-observation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-panel-observation",
+    "version" : "6.0.0",
+    "name" : "BloodPressurePanelObservation"
+  },
+  {
+    "id" : "bp-systolic-observation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/bp-systolic-observation",
+    "version" : "6.0.0",
+    "name" : "BloodPressureSystolicObservation"
+  },
+  {
+    "id" : "device-type-blood-pressure",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-blood-pressure",
+    "version" : "1.0.0",
+    "name" : "DeviceTypeBloodPressure"
+  },
+  {
+    "id" : "device-type-heart-rate",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-heart-rate",
+    "version" : "1.0.0",
+    "name" : "DeviceTypeHeartRate"
+  },
+  {
+    "id" : "device-type-height-length",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-height-length",
+    "version" : "1.0.0",
+    "name" : "DeviceTypeHeightLength"
+  },
+  {
+    "id" : "device-type-weight",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-weight",
+    "version" : "1.0.0",
+    "name" : "DeviceTypeWeight"
+  },
+  {
+    "id" : "exertion-phase",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/exertion-phase",
+    "version" : "1.0.0",
+    "name" : "ExertionPhase"
+  },
+  {
+    "id" : "heart-rate-measurement-body-location",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-body-location",
+    "version" : "1.0.0",
+    "name" : "HeartRateMeasurementBodyLocation"
+  },
+  {
+    "id" : "heart-rate-measurement-method",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-method",
+    "version" : "1.0.0",
+    "name" : "HeartRateMeasurementMethod"
+  },
+  {
+    "id" : "heart-rate-observation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-observation",
+    "version" : "6.0.0",
+    "name" : "HeartRateObservation"
+  },
+  {
+    "id" : "height-length-measurement-method",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/height-length-measurement-method",
+    "version" : "1.0.0",
+    "name" : "HeightLengthMeasurementMethod"
+  },
+  {
+    "id" : "measurement-environment",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/measurement-environment",
+    "version" : "1.0.0",
+    "name" : "MeasurementEnvironment"
+  },
+  {
+    "id" : "numeric-result-interpretation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation",
+    "version" : "1.0.0",
+    "name" : "NumericResultInterpretation"
+  },
+  {
+    "id" : "numeric-result-interpretation-non-panic",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic",
+    "version" : "1.0.0",
+    "name" : "NumericResultInterpretationNonPanic"
+  },
+  {
+    "id" : "vital-signs-body-position",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position",
+    "version" : "1.0.0",
+    "name" : "VitalSignsBodyPosition"
+  },
+  {
+    "id" : "vital-signs-rate-unit",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-rate-unit",
+    "version" : "6.0.0",
+    "name" : "VitalSignsRateUnit"
+  },
+  {
+    "id" : "vital-signs-sleep-status",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-sleep-status",
+    "version" : "1.0.0",
+    "name" : "VitalSignsSleepStatus"
+  },
+  {
+    "id" : "waist-circumference-obervation",
+    "type" : "ValueSet",
+    "url" : "https://hl7.lt/fhir/vitalsigns/ValueSet/waist-circumference-obervation",
+    "version" : "1.0.0",
+    "name" : "WaistCircumferenceObservation"
+  }
+]

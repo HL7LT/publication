@@ -1,0 +1,1027 @@
+LTVitalSigns : Validation Results
+=========================================
+
+err = 2, warn = 107, info = 789
+$--
+Generated $--. FHIR version $-- for lt.hl7.fhir.vitalsigns#$-- (canonical = https://hl7.lt/fhir/vitalsigns)
+ Build Errors : 0 / 0 / 0
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/BodyStructure-example-body-structure-blood-pressure : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/CodeSystem-solor-temporary-codesystem : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Device-example-device-blood-pressure : 0 / 1 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Device-example-device-body-height : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Device-example-device-body-weight : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Device-example-device-heart-rate : 0 / 1 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.vitalsigns : 0 / 0 / 64
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-blood-pressure : 0 / 2 / 4
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-bmi : 0 / 2 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-body-height : 0 / 2 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-body-weight : 0 / 2 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-head-circumference : 0 / 2 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-heart-rate : 0 / 2 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Observation-example-waist-circumference : 0 / 2 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/Patient-example-patient : 0 / 3 / 1
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-associated-situation : 0 / 1 / 10
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-blood-pressure-panel : 0 / 32 / 82
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-bmi : 0 / 4 / 7
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-body-height : 0 / 5 / 21
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-body-position : 0 / 1 / 12
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-body-structure-blood-pressure : 0 / 2 / 54
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-body-weight : 0 / 9 / 23
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-device-blood-pressure : 0 / 4 / 100
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-device-body-height : 0 / 1 / 89
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-device-body-weight : 0 / 1 / 89
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-device-heart-rate : 0 / 1 / 89
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-exercise-association : 0 / 1 / 12
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-head-circumference : 0 / 8 / 7
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-heart-rate : 0 / 9 / 29
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-measurement-setting : 0 / 2 / 12
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-sleep-status : 0 / 1 / 12
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/StructureDefinition-waist-circumference : 0 / 9 / 11
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bmi-unit : 0 / 0 / 7
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-body-height-observation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-body-length-unit : 0 / 0 / 6
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-body-weight-associated-situation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-body-weight-observation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-cuff-size : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-diastolic-observation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-measurement-body-location : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-measurement-method : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-panel-observation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-systolic-observation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-unit : 2 / 0 / 7
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-device-type-blood-pressure : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-device-type-heart-rate : 0 / 0 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-device-type-height-length : 0 / 0 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-device-type-weight : 0 / 0 / 4
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-exertion-phase : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-heart-rate-measurement-body-location : 0 / 0 / 6
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-heart-rate-measurement-method : 0 / 1 / 4
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-heart-rate-observation : 0 / 0 / 5
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-height-length-measurement-method : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-measurement-environment : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-numeric-result-interpretation : 0 / 0 / 6
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-numeric-result-interpretation-non-panic : 0 / 0 / 4
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-vital-signs-body-position : 0 / 0 / 3
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-vital-signs-rate-unit : 0 / 0 / 6
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-vital-signs-sleep-status : 0 / 0 / 2
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-waist-circumference-obervation : 0 / 0 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/BodyStructure-example-body-structure-blood-pressure.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/CodeSystem-solor-temporary-codesystem.json ==
+INFORMATION: CodeSystem/solor-temporary-codesystem: CodeSystem.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Device-example-device-blood-pressure.json ==
+INFORMATION: Device/example-device-blood-pressure: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05 from fhir.tx.support.r4#0.32.0
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Device-example-device-body-height.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Device-example-device-body-weight.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Device-example-device-heart-rate.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.vitalsigns.json ==
+INFORMATION: ImplementationGuide.definition.resource[28].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[29].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[30].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/bmi to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[31].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure to 0.0.1
+INFORMATION: ImplementationGuide.definition.resource[32].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[33].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[34].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-height to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[35].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[36].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[37].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/head-circumference to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[38].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/heart-rate to 1.0.0
+INFORMATION: ImplementationGuide.definition.resource[40].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference to 1.0.0
+INFORMATION: ImplementationGuide.name: Unused 'lt' translation 'LTBase' -> 'LTBase'
+INFORMATION: ImplementationGuide.title: Unused 'lt' translation 'Lithuanian Base Implementation Guide' -> 'Lietuvių bazės įgyvendinimo vadovas'
+INFORMATION: ContactDetail.name: Unused 'lt' translation 'Lithuanian Medical Library' -> 'Lietuvos medicinos biblioteka'
+INFORMATION: ImplementationGuide.description: Unused 'lt' translation 'Lithuanian Base Implementation Guide' -> 'Lietuvių bazės įgyvendinimo vadovas'
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'Dr. Petras Kazlauskas - LT Base Practitioner Example' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'An example Practitioner conforming to the Lithuanian Base Profile.' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'Example Encounter' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Example of an psychiatric encounter' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'Example LT Base Condition - Cancer' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Example instance of a cancer diagnosis documented during a patient encounter' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'Example LT Base Observation - Blood Pressure' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Example instance of a blood pressure measurement for a patient' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'example-lmb' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Example of a LMB organization' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'Jonas Petrauskas - LT Base Patient Example' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Condition' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Condition profile, used for documenting general, symptoms, conditions, and their characteristics.' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Encounter' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Encounter profile, used to represent clinical encounters' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Observation' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Observation profile, used to represent vitals, demographic, clinical and laboratory observations' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Organization' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Organization profile, used to define healthcare organizations and sub-units' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Patient' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Patient profile, used to represent patients administrative information' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Practitioner' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Practitioner profile, used to define healthcare practitioners' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Practitioner Role' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Practitioner Role profile, used to define roles of the healthcare practitioner in the healthcare facilities' -> ''
+INFORMATION: ImplementationGuide.definition.resource.name: Unused 'lt' translation 'LT Base Related Person' -> ''
+INFORMATION: ImplementationGuide.definition.resource.description: Unused 'lt' translation 'Lithuanian Base Related Person profile, used to define persons related to a patient' -> ''
+INFORMATION: ImplementationGuide.definition.page.source[x]: Unused 'lt' translation 'toc.html' -> 'toc.html'
+INFORMATION: ImplementationGuide.definition.page.source[x]: Unused 'lt' translation 'index.html' -> 'index.html'
+INFORMATION: ImplementationGuide.definition.page.source[x]: Unused 'lt' translation 'changelog.html' -> 'changelog.html'
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[13].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[14].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[17].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[18].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[19].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[20].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[21].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[22].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[23].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[24].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[25].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[26].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[27].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/lt.hl7.fhir.vitalsigns: ImplementationGuide.definition.parameter[33].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+== fsh-generated/resources/Observation-example-blood-pressure.json ==
+INFORMATION: Observation/example-blood-pressure: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Observation/example-blood-pressure: Observation.component[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Observation-example-bmi.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Observation-example-body-height.json ==
+INFORMATION: Observation/example-body-height: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bodyheight|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Observation-example-body-weight.json ==
+INFORMATION: Observation/example-body-weight: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bodyweight|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Observation-example-head-circumference.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Observation-example-heart-rate.json ==
+INFORMATION: Observation/example-heart-rate: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/heartrate|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Observation-example-waist-circumference.json ==
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/Patient-example-patient.json ==
+WARNING: Patient/example-patient: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.3.4.5.6.7.8.9.11'
+WARNING: Patient/example-patient: Patient.identifier[1].system: No definition could be found for URL value 'http://hospital-lt.lt/patient-id'
+WARNING: IG: "The narrative includes custom content for the default language (en), but does not include translated content for the lt language, so the default language has been used
+== fsh-generated/resources/StructureDefinition-associated-situation.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition/associated-situation: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/associated-situation: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition/associated-situation: StructureDefinition.context[0]: Review the extension type for associated-situation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-blood-pressure-panel.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/sleep-status to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/exercise-association to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-panel-observation to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure to 0.0.1
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-method to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[42].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[1].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/observation-componentCategory to 5.2.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[70].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[72].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-category to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[74].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-systolic-observation to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[75].binding.valueSet: Pinned the version of https://hl7.lt/fhir/tx/ValueSet/bp-unit to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[77].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[77].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[78].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[79].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[80].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[81].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[82].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[86].constraint[1].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[89].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/observation-componentCategory to 5.2.0
+INFORMATION: StructureDefinition.snapshot.element[89].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[89].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[91].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[91].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[93].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[93].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-category to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[95].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-diastolic-observation to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[96].binding.valueSet: Pinned the version of https://hl7.lt/fhir/tx/ValueSet/bp-unit to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[98].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[98].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[99].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[100].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[101].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[102].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[103].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[110].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/observation-componentCategory to 5.2.0
+INFORMATION: StructureDefinition.snapshot.element[110].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[110].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[112].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[112].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[114].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[114].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/observation-category to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[119].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[119].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[120].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[121].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[122].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[123].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[124].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/sleep-status to 2.0.0
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/exercise-association to 2.0.0
+INFORMATION: StructureDefinition.differential.element[4].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.differential.element[8].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-panel-observation to 6.0.0
+INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation to 1.0.0
+INFORMATION: StructureDefinition.differential.element[13].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure to 0.0.1
+INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-method to 1.0.0
+INFORMATION: StructureDefinition.differential.element[16].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-blood-pressure to 1.0.0
+INFORMATION: StructureDefinition.differential.element[18].constraint[0].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel to 1.0.0
+INFORMATION: StructureDefinition.differential.element[20].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/observation-componentCategory to 5.2.0
+INFORMATION: StructureDefinition.differential.element[22].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-systolic-observation to 6.0.0
+INFORMATION: StructureDefinition.differential.element[23].binding.valueSet: Pinned the version of https://hl7.lt/fhir/tx/ValueSet/bp-unit to 6.0.0
+INFORMATION: StructureDefinition.differential.element[29].constraint[0].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/blood-pressure-panel to 1.0.0
+INFORMATION: StructureDefinition.differential.element[31].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/observation-componentCategory to 5.2.0
+INFORMATION: StructureDefinition.differential.element[33].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-diastolic-observation to 6.0.0
+INFORMATION: StructureDefinition.differential.element[34].binding.valueSet: Pinned the version of https://hl7.lt/fhir/tx/ValueSet/bp-unit to 6.0.0
+INFORMATION: StructureDefinition.differential.element[42].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/observation-componentCategory to 5.2.0
+INFORMATION: StructureDefinition/blood-pressure-panel: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[24].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[56].slicing.discriminator[1].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[81]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[82]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[88].slicing.discriminator[1].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[102]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[103]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[123]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[124]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[5].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[17].slicing.discriminator[1].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[26]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[27]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[30].slicing.discriminator[1].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[37]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[38]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[48]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[49]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[5].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[17].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.differential.element[30].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[24].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[24].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[26].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[50].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[56].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[72].binding: The definition for the element 'Observation.component.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[88].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[93].binding: The definition for the element 'Observation.component.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/blood-pressure-panel: StructureDefinition.snapshot.element[114].binding: The definition for the element 'Observation.component.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-bmi.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[30].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bmi-unit to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bmi-unit to 6.0.0
+INFORMATION: StructureDefinition.differential.element[7].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition/bmi: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/bmi: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/bmi: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/bmi: StructureDefinition.snapshot.element[22].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/bmi: StructureDefinition.snapshot.element[46].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-body-height.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[8].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[9].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/body-height-observation to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodylength to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/height-length-measurement-method to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-height to 1.0.0
+INFORMATION: StructureDefinition.differential.element[0].constraint[0].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height to 1.0.0
+INFORMATION: StructureDefinition.differential.element[0].constraint[1].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-height to 1.0.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/body-height-observation to 6.0.0
+INFORMATION: StructureDefinition.differential.element[8].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodylength to 5.0.0
+INFORMATION: StructureDefinition.differential.element[10].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.differential.element[13].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/height-length-measurement-method to 1.0.0
+INFORMATION: StructureDefinition.differential.element[14].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-height to 1.0.0
+INFORMATION: StructureDefinition/body-height: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/body-height: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/body-height: StructureDefinition.snapshot.element[22].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-height: StructureDefinition.snapshot.element[23].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-height: StructureDefinition.snapshot.element[24].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-height: StructureDefinition.snapshot.element[48].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-body-position.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position to 1.0.0
+INFORMATION: StructureDefinition.differential.element[3].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position to 1.0.0
+INFORMATION: StructureDefinition/body-position: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/body-position: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition.where(url = 'https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-position'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-body-structure-blood-pressure.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.eu/fhir/base-r5/StructureDefinition/bodyStructure-eu-core to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/bodystructure-code to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-body-location to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].binding.valueSet: Pinned the version of http://hl7.eu/fhir/base-r5/ValueSet/siteLaterality-eu to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of http://hl7.eu/fhir/base-r5/ValueSet/siteQualifier-eu to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[2].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-measurement-body-location to 2.0.0
+INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-body-position to 1.0.0
+INFORMATION: StructureDefinition/body-structure-blood-pressure: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/body-structure-blood-pressure: StructureDefinition.snapshot.element[11].binding: The definition for the element 'BodyStructure.morphology' binds to the value set 'http://hl7.org/fhir/ValueSet/bodystructure-code|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-structure-blood-pressure: StructureDefinition.snapshot.element[30].binding: The definition for the element 'BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation' binds to the value set 'http://hl7.org/fhir/ValueSet/bodystructure-relative-location|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-body-weight.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[8].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[9].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/associated-situation to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[13].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-associated-situation to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-observation to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodyweight to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight to 1.0.0
+INFORMATION: StructureDefinition.differential.element[0].constraint[0].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight to 1.0.0
+INFORMATION: StructureDefinition.differential.element[0].constraint[1].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-weight to 1.0.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/associated-situation to 2.0.0
+INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-associated-situation to 1.0.0
+INFORMATION: StructureDefinition.differential.element[5].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/body-weight-observation to 6.0.0
+INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodyweight to 5.0.0
+INFORMATION: StructureDefinition.differential.element[13].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.differential.element[16].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-body-weight to 1.0.0
+INFORMATION: StructureDefinition/body-weight: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/body-weight: StructureDefinition.snapshot.element[28].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/body-weight: StructureDefinition.differential.element[6].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/body-weight: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/body-weight: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/body-weight: StructureDefinition.snapshot.element[28].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/body-weight: StructureDefinition.snapshot.element[28].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-weight: StructureDefinition.snapshot.element[29].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-weight: StructureDefinition.snapshot.element[30].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/body-weight: StructureDefinition.snapshot.element[54].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-device-blood-pressure.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-blood-pressure to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-cuff-size to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[71].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[74].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[75].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[76].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[77].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[78].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[79].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-blood-pressure to 1.0.0
+INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/bp-cuff-size to 1.0.0
+INFORMATION: StructureDefinition/device-blood-pressure: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/device-blood-pressure: StructureDefinition.snapshot.element[66].fixed.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05 from fhir.tx.support.r4#0.32.0
+WARNING: StructureDefinition/device-blood-pressure: StructureDefinition.snapshot.element[66]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+INFORMATION: StructureDefinition/device-blood-pressure: StructureDefinition.differential.element[4].fixed.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05 from fhir.tx.support.r4#0.32.0
+WARNING: StructureDefinition/device-blood-pressure: StructureDefinition.differential.element[4]: Constraint failed: eld-24: 'pattern[x] should be used rather than fixed[x]' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+WARNING: StructureDefinition/device-blood-pressure: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/device-blood-pressure: StructureDefinition.snapshot.element[66].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+== fsh-generated/resources/StructureDefinition-device-body-height.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-height-length to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[71].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-height-length to 1.0.0
+INFORMATION: StructureDefinition/device-body-height: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/device-body-height: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-device-body-weight.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-weight to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[71].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-weight to 1.0.0
+INFORMATION: StructureDefinition/device-body-weight: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/device-body-weight: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-device-heart-rate.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[3].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[4].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[5].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[29].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-heart-rate to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[48].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[49].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[51].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[52].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[58].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[69].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[70].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[71].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[72].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[73].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.differential.element[1].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/device-type-heart-rate to 1.0.0
+INFORMATION: StructureDefinition/device-heart-rate: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/device-heart-rate: StructureDefinition.snapshot.element[35].binding: The definition for the element 'Device.name.type' binds to the value set 'http://hl7.org/fhir/ValueSet/device-nametype|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-exercise-association.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/exertion-phase to 1.0.0
+INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/exertion-phase to 1.0.0
+INFORMATION: StructureDefinition/exercise-association: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/exercise-association: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition/exercise-association: StructureDefinition.context[0]: Review the extension type for exercise-association: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-head-circumference.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[30].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodylength to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[32].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodylength to 5.0.0
+INFORMATION: StructureDefinition.differential.element[7].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition/head-circumference: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/head-circumference: StructureDefinition.snapshot.element[21].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/head-circumference: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/head-circumference: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/head-circumference: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/head-circumference: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/head-circumference: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/head-circumference: StructureDefinition.snapshot.element[22].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/head-circumference: StructureDefinition.snapshot.element[46].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-heart-rate.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/exercise-association to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[9].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/sleep-status to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[10].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[11].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/associated-situation to 2.0.0
+INFORMATION: StructureDefinition.snapshot.element[28].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-observation to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[35].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-rate-unit to 6.0.0
+INFORMATION: StructureDefinition.snapshot.element[37].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[39].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-body-location to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[40].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure to 0.0.1
+INFORMATION: StructureDefinition.snapshot.element[41].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-method to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[43].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate to 1.0.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/exercise-association to 2.0.0
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting to 2.0.0
+INFORMATION: StructureDefinition.differential.element[4].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/sleep-status to 2.0.0
+INFORMATION: StructureDefinition.differential.element[5].type[0].profile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/associated-situation to 2.0.0
+INFORMATION: StructureDefinition.differential.element[9].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-observation to 6.0.0
+INFORMATION: StructureDefinition.differential.element[11].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-rate-unit to 6.0.0
+INFORMATION: StructureDefinition.differential.element[13].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation to 1.0.0
+INFORMATION: StructureDefinition.differential.element[14].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-body-location to 1.0.0
+INFORMATION: StructureDefinition.differential.element[15].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/body-structure-blood-pressure to 0.0.1
+INFORMATION: StructureDefinition.differential.element[16].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/heart-rate-measurement-method to 1.0.0
+INFORMATION: StructureDefinition.differential.element[17].type[0].targetProfile[0]: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/device-heart-rate to 1.0.0
+INFORMATION: StructureDefinition/heart-rate: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/heart-rate: StructureDefinition.snapshot.element[25].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/heart-rate: StructureDefinition.differential.element[6].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/heart-rate: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/heart-rate: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/heart-rate: StructureDefinition.snapshot.element[25].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/heart-rate: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/heart-rate: StructureDefinition.snapshot.element[26].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/heart-rate: StructureDefinition.snapshot.element[27].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/heart-rate: StructureDefinition.snapshot.element[51].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-measurement-setting.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/measurement-environment to 1.0.0
+INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/measurement-environment to 1.0.0
+INFORMATION: StructureDefinition/measurement-setting: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/measurement-setting: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition/measurement-setting: StructureDefinition.context[0]: Review the extension type for measurement-setting: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://hl7.lt/fhir/vitalsigns/StructureDefinition/measurement-setting'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-sleep-status.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[5].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-sleep-status to 1.0.0
+INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/vital-signs-sleep-status to 1.0.0
+INFORMATION: StructureDefinition/sleep-status: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: StructureDefinition/sleep-status: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+WARNING: StructureDefinition/sleep-status: StructureDefinition.context[0]: Review the extension type for sleep-status: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-waist-circumference.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.lt/fhir/base/StructureDefinition/lt-observation to 0.2.0
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[8].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[24].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/waist-circumference-obervation to 1.0.0
+INFORMATION: StructureDefinition.snapshot.element[31].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodylength to 5.0.0
+INFORMATION: StructureDefinition.snapshot.element[33].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition.differential.element[0].constraint[0].source: Pinned the version of https://hl7.lt/fhir/vitalsigns/StructureDefinition/waist-circumference to 1.0.0
+INFORMATION: StructureDefinition.differential.element[4].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/waist-circumference-obervation to 1.0.0
+INFORMATION: StructureDefinition.differential.element[6].binding.valueSet: Pinned the version of http://hl7.org/fhir/ValueSet/ucum-bodylength to 5.0.0
+INFORMATION: StructureDefinition.differential.element[8].binding.valueSet: Pinned the version of https://hl7.lt/fhir/vitalsigns/ValueSet/numeric-result-interpretation-non-panic to 1.0.0
+INFORMATION: StructureDefinition/waist-circumference: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.snapshot.element[21].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.differential.element[1].slicing.discriminator[0].type: The concept 'pattern' is deprecated and its use should be reviewed
+WARNING: StructureDefinition/waist-circumference: StructureDefinition: The definition builds on 'https://hl7.lt/fhir/base/StructureDefinition/lt-observation|0.2.0' which is experimental, but this definition is not labeled as experimental
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.snapshot.element[22].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.snapshot.element[23].binding: The definition for the element 'Observation.category' binds to the value set 'http://hl7.org/fhir/ValueSet/observation-category|5.0.0' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/waist-circumference: StructureDefinition.snapshot.element[47].binding: The definition for the element 'Observation.referenceRange.type' binds to the value set 'http://hl7.org/fhir/ValueSet/referencerange-meaning|5.0.0' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/ValueSet-bmi-unit.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/bmi-unit: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bmi-unit: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bmi-unit: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/bmi-unit: ValueSet.compose.include[0].concept[0]: The display 'kilogram / (meter ^ 2)' is not valid in the Code system 'kilogram / (meter ^ 2)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-body-height-observation.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/body-height-observation: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/body-height-observation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-body-length-unit.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/body-length-unit: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/body-length-unit: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/body-length-unit: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-body-weight-associated-situation.json ==
+INFORMATION: ValueSet/body-weight-associated-situation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/body-weight-associated-situation: ValueSet.compose.include[0].concept[2]: The display 'Prosthesis (physical object)' is not valid in the Code system 'Prosthesis (physical object)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/body-weight-associated-situation: ValueSet.compose.include[1].concept[0]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+INFORMATION: ValueSet/body-weight-associated-situation: ValueSet.compose.include[1].concept[1]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+== fsh-generated/resources/ValueSet-body-weight-observation.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/body-weight-observation: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/body-weight-observation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-bp-cuff-size.json ==
+INFORMATION: ValueSet/bp-cuff-size: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-bp-diastolic-observation.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/bp-diastolic-observation: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bp-diastolic-observation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-bp-measurement-body-location.json ==
+INFORMATION: ValueSet/bp-measurement-body-location: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-bp-measurement-method.json ==
+INFORMATION: ValueSet/bp-measurement-method: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/bp-measurement-method: ValueSet.compose.include[1].concept[0]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+INFORMATION: ValueSet/bp-measurement-method: ValueSet.compose.include[1].concept[1]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+INFORMATION: ValueSet/bp-measurement-method: ValueSet.compose.include[1].concept[1]: The display 'Auscultation - automatic (procedure)' is not valid in the Code system 'Auscultation - automatic (procedure)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-bp-panel-observation.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/bp-panel-observation: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bp-panel-observation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-bp-systolic-observation.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/bp-systolic-observation: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bp-systolic-observation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-bp-unit.json ==
+ERROR: ValueSet.where(url = 'https://hl7.lt/fhir/tx/ValueSet/bp-unit'): Conformance resource /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-unit.json - the canonical URL (https://hl7.lt/fhir/vitalsigns/ValueSet/bp-unit) does not match the URL (https://hl7.lt/fhir/tx/ValueSet/bp-unit). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/bp-unit: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bp-unit: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/bp-unit: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/bp-unit: ValueSet.compose.include[0].concept[0]: The display 'millimeter of mercury' is not valid in the Code system 'millimeter of mercury'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.vitalsigns#0.0.1-milestone/fsh-generated/resources/ValueSet-bp-unit: URL Mismatch https://hl7.lt/fhir/vitalsigns/ValueSet/bp-unit vs https://hl7.lt/fhir/tx/ValueSet/bp-unit
+== fsh-generated/resources/ValueSet-device-type-blood-pressure.json ==
+INFORMATION: ValueSet/device-type-blood-pressure: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-device-type-heart-rate.json ==
+INFORMATION: ValueSet/device-type-heart-rate: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/device-type-heart-rate: ValueSet.compose.include[0].concept[2]: The display 'Electrocardiographic monitor and recorder (physical object)' is not valid in the Code system 'Electrocardiographic monitor and recorder (physical object)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-device-type-height-length.json ==
+INFORMATION: ValueSet/device-type-height-length: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/device-type-height-length: ValueSet.compose.include[1].concept[0]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+== fsh-generated/resources/ValueSet-device-type-weight.json ==
+INFORMATION: ValueSet/device-type-weight: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/device-type-weight: ValueSet.compose.include[0].concept[5]: The display 'Infant scale (physical object)' is not valid in the Code system 'Infant scale (physical object)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/device-type-weight: ValueSet.compose.include[1].concept[0]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+== fsh-generated/resources/ValueSet-exertion-phase.json ==
+INFORMATION: ValueSet/exertion-phase: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-heart-rate-measurement-body-location.json ==
+INFORMATION: ValueSet/heart-rate-measurement-body-location: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/heart-rate-measurement-body-location: ValueSet.compose.include[0].concept[10]: The display 'Structure of left popliteal artery (body structure)' is not valid in the Code system 'Structure of left popliteal artery (body structure)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/heart-rate-measurement-body-location: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Common carotid artery structure (body structure), Left common carotid artery structure (body structure), Right common carotid artery structure (body structure), Structure of apex of heart (body structure), Structure of brachial artery (body structure)] and examples for no FSN: [Structure of left pulmonary artery])
+INFORMATION: ValueSet/heart-rate-measurement-body-location: ValueSet.compose.include[1].concept[0]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+INFORMATION: ValueSet/heart-rate-measurement-body-location: ValueSet.compose.include[1].concept[1]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+== fsh-generated/resources/ValueSet-heart-rate-measurement-method.json ==
+INFORMATION: ValueSet/heart-rate-measurement-method: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ValueSet/heart-rate-measurement-method: ValueSet.compose.include[0].concept[1]: The concept '268447006' has a status of inactive and its use should be reviewed
+INFORMATION: ValueSet/heart-rate-measurement-method: ValueSet.compose.include[1].concept[0]: Reference to experimental CodeSystem https://hl7.lt/fhir/vitalsigns/CodeSystem/solor-temporary-codesystem|2.0.0
+INFORMATION: ValueSet/heart-rate-measurement-method: ValueSet.compose.include[1].concept[0]: The display 'Auscultation - automatic (procedure)' is not valid in the Code system 'Auscultation - automatic (procedure)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-heart-rate-observation.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/heart-rate-observation: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/heart-rate-observation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-height-length-measurement-method.json ==
+INFORMATION: ValueSet/height-length-measurement-method: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-measurement-environment.json ==
+INFORMATION: ValueSet/measurement-environment: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-numeric-result-interpretation.json ==
+INFORMATION: ValueSet/numeric-result-interpretation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/numeric-result-interpretation: ValueSet.compose.include[0].concept[1]: The display 'Higher Than Normal' is not valid in the Code system 'Higher Than Normal'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/numeric-result-interpretation: ValueSet.compose.include[0].concept[2]: The display 'Lower Than Normal' is not valid in the Code system 'Lower Than Normal'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/numeric-result-interpretation: ValueSet.compose.include[0].concept[3]: The display 'Panic High' is not valid in the Code system 'Panic High'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/numeric-result-interpretation: ValueSet.compose.include[0].concept[4]: The display 'Panic Low' is not valid in the Code system 'Panic Low'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-numeric-result-interpretation-non-panic.json ==
+INFORMATION: ValueSet/numeric-result-interpretation-non-panic: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/numeric-result-interpretation-non-panic: ValueSet.compose.include[0].concept[1]: The display 'Higher Than Normal' is not valid in the Code system 'Higher Than Normal'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/numeric-result-interpretation-non-panic: ValueSet.compose.include[0].concept[2]: The display 'Lower Than Normal' is not valid in the Code system 'Lower Than Normal'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-vital-signs-body-position.json ==
+INFORMATION: ValueSet/vital-signs-body-position: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ValueSet/vital-signs-body-position: ValueSet.compose.include[0].concept[7]: The display 'Reverse trendelenburg positioning (finding)' is not valid in the Code system 'Reverse trendelenburg positioning (finding)'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+== fsh-generated/resources/ValueSet-vital-signs-rate-unit.json ==
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 5.0.0
+INFORMATION: ValueSet/vital-signs-rate-unit: ValueSet.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/vital-signs-rate-unit: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|5.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ValueSet/vital-signs-rate-unit: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-vital-signs-sleep-status.json ==
+INFORMATION: ValueSet/vital-signs-sleep-status: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ValueSet-waist-circumference-obervation.json ==
+INFORMATION: ValueSet/waist-circumference-obervation: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
