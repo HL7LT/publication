@@ -95,7 +95,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Quantity-eu-lab.csv
   "name" : "QuantityEuLab",
   "title" : "Quantity (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T17:10:39+02:00",
+  "date" : "2026-03-15T18:11:06+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

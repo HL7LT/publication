@@ -14,7 +14,7 @@
   "name" : "Hl7Eu",
   "title" : "HL7 Europe IG Snapshot",
   "status" : "draft",
-  "date" : "2026-03-15T17:07:07+02:00",
+  "date" : "2026-03-15T18:07:36+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -38,16 +38,6 @@
   "license" : "CC0-1.0",
   "fhirVersion" : ["5.0.0"],
   "dependsOn" : [{
-    "id" : "hl7tx",
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
-      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
-    }],
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r5",
-    "version" : "7.1.0"
-  },
-  {
     "id" : "hl7ext",
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
@@ -64,10 +54,16 @@
     "version" : "0.1.0"
   },
   {
-    "id" : "hl7_fhir_eu_extensions",
+    "id" : "hl7_fhir_eu_extensions_r5",
     "uri" : "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions",
-    "packageId" : "hl7.fhir.eu.extensions",
-    "version" : "0.1.0"
+    "packageId" : "hl7.fhir.eu.extensions.r5",
+    "version" : "1.2.0"
+  },
+  {
+    "id" : "hl7_terminology_r5",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r5",
+    "version" : "7.1.0"
   }],
   "definition" : {
     "extension" : [{

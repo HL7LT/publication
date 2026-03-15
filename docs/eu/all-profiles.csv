@@ -252,7 +252,7 @@ dom-4dom-3dom-5",""
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Composition-eu-lab","Composition.extension:information-recipient","Composition.extension","information-recipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1]]} {[]}
+"Composition-eu-lab","Composition.extension:information-recipient","Composition.extension","information-recipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0]]} {[]}
 ","Composition: Information recipient","This extension applies to the Composition resource and is used to represent an intended recipient of the composition.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Composition-eu-lab","Composition.extension:information-recipient.id","Composition.extension.id","","","",0,1,"","","","id {[]} {[]}
@@ -722,7 +722,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "CompositionEu","Composition.extension:basedOn","Composition.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/event-basedOn|5.2.0]]} {[]}
 ","Fulfills plan, proposal or order","A plan, proposal or order that is fulfilled in whole or in part by this event.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CompositionEu","Composition.extension:informationRecipient","Composition.extension","informationRecipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1]]} {[]}
+"CompositionEu","Composition.extension:informationRecipient","Composition.extension","informationRecipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0]]} {[]}
 ","Composition: Information recipient","This extension applies to the Composition resource and is used to represent an intended recipient of the composition.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CompositionEu","Composition.modifierExtension","Composition.modifierExtension","","extensions
@@ -1533,7 +1533,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ImComposition","Composition.extension:basedOn","Composition.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/event-basedOn|5.2.0]]} {[]}
 ","Fulfills plan, proposal or order","A plan, proposal or order that is fulfilled in whole or in part by this event.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ImComposition","Composition.extension:informationRecipient","Composition.extension","informationRecipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1]]} {[]}
+"ImComposition","Composition.extension:informationRecipient","Composition.extension","informationRecipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0]]} {[]}
 ","Composition: Information recipient","This extension applies to the Composition resource and is used to represent an intended recipient of the composition.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ImComposition","Composition.extension:diagnosticreport-reference","Composition.extension","diagnosticreport-reference","","",1,1,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-composition-diagnosticReportReference|0.1.0-ballot]]} {[]}

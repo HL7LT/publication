@@ -133,7 +133,7 @@
     ]
   },
   "usage": {
-    "http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1": [
+    "http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0": [
       "Composition"
     ],
     "http://hl7.eu/fhir/imaging-r5/StructureDefinition/CrossVersionMediaViewExtension|0.1.0-ballot": [

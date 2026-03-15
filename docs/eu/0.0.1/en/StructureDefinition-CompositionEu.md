@@ -129,7 +129,7 @@ Other representations of profile: [CSV](../StructureDefinition-CompositionEu.csv
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1"]
+        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0"]
       }]
     },
     {

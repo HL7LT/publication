@@ -57,7 +57,7 @@ This structure refers to these other structures:
 
 This structure refers to these extensions:
 
-* [http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1](http://hl7.eu/fhir/extensions/0.1.1/StructureDefinition-information-recipient.html)
+* [http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0](http://hl7.eu/fhir/extensions/1.2.0/StructureDefinition-information-recipient.html)
 * [http://hl7.eu/fhir/laboratory/StructureDefinition/composition-diagnosticReportReference|0.2.0-ci](StructureDefinition-composition-diagnosticReportReference.md)
 
 **Slices**
@@ -109,7 +109,7 @@ This structure refers to these other structures:
 
 This structure refers to these extensions:
 
-* [http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1](http://hl7.eu/fhir/extensions/0.1.1/StructureDefinition-information-recipient.html)
+* [http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0](http://hl7.eu/fhir/extensions/1.2.0/StructureDefinition-information-recipient.html)
 * [http://hl7.eu/fhir/laboratory/StructureDefinition/composition-diagnosticReportReference|0.2.0-ci](StructureDefinition-composition-diagnosticReportReference.md)
 
 **Slices**
@@ -137,7 +137,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Composition-eu-lab.
   "name" : "CompositionLabReportEu",
   "title" : "Composition: Laboratory Report (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T17:07:07+02:00",
+  "date" : "2026-03-15T18:07:36+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -222,7 +222,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Composition-eu-lab.
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1"]
+        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0"]
       }]
     },
     {

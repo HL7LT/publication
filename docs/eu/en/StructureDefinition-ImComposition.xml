@@ -565,7 +565,7 @@ The `text` field of each section SHALL contain a textual representation of all l
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1"/>
+        <profile value="http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0"/>
       </type>
       <constraint>
         <key value="ele-1"/>

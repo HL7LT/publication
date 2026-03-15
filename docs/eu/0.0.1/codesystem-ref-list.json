@@ -9,12 +9,12 @@
     "oids" : ["2.16.840.1.113883.6.1"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R5/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
-    "http://tx.hl7europe.eu/r5/ValueSet/results-laboratory-observations-uv-ips" : "Results Laboratory Observation - IPS",
-    "http://tx.fhir.org/r5/ValueSet/loinc-rsna-radiology-playbook" : "LOINC/RSNA Radiology Playbook",
     "http://hl7.org/fhir/R5/valueset-observation-codes.html" : "LOINC Codes",
-    "http://hl7.org/fhir/R5/valueset-referenced-item-category.html" : "Referenced Item Category Value Set",
+    "http://tx.fhir.org/r5/ValueSet/loinc-rsna-radiology-playbook" : "LOINC/RSNA Radiology Playbook",
+    "http://tx.hl7europe.eu/r5/ValueSet/results-laboratory-observations-uv-ips" : "Results Laboratory Observation - IPS",
     "http://hl7.org/fhir/R5/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
+    "http://hl7.org/fhir/R5/valueset-referenced-item-category.html" : "Referenced Item Category Value Set",
+    "http://hl7.org/fhir/R5/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
     "http://hl7.org/fhir/R5/valueset-doc-section-codes.html" : "Document Section Codes"
   }]
 }

@@ -162,7 +162,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Observation-results
   "title" : "Observation Results: laboratory (Eu Lab)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-15T17:07:07+02:00",
+  "date" : "2026-03-15T18:07:36+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

@@ -1,11 +1,11 @@
 Hl7Eu : Validation Results
 =========================================
 
-err = 169, warn = 203, info = 2431
+err = 168, warn = 201, info = 2431
 $--
 Generated $--. FHIR version $-- for lt.hl7.fhir.eu#$-- (canonical = https://hl7.lt/fhir/eu)
- Build Errors : 8 / 0 / 0
- /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.eu : 1 / 2 / 18
+ Build Errors : 7 / 0 / 0
+ /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/ImplementationGuide-lt.hl7.fhir.eu : 1 / 0 / 18
  /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/StructureDefinition-CarePlanEu : 3 / 2 / 87
  /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/StructureDefinition-CodeableConcept-uv-ips : 20 / 1 / 21
  /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/StructureDefinition-Coding-uv-ips : 12 / 1 / 22
@@ -54,7 +54,6 @@ Generated $--. FHIR version $-- for lt.hl7.fhir.eu#$-- (canonical = https://hl7.
  /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/ValueSet-report-code : 1 / 0 / 2
 </table>
 == n/a ==
-ERROR: ImplementationGuide/lt.hl7.fhir.eu: This IG is version 5.0.0, while the IG 'hl7.fhir.eu.extensions' is from version 4.0.1
 ERROR: en/StructureDefinition-ImOrder-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 451, column 1040: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
 ERROR: en/StructureDefinition-ImOrder.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1001, column 1221: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
 ERROR: en/StructureDefinition-ImOrder.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 2432, column 1221: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
@@ -81,8 +80,6 @@ INFORMATION: ImplementationGuide/lt.hl7.fhir.eu: ImplementationGuide.definition.
 INFORMATION: ImplementationGuide/lt.hl7.fhir.eu: ImplementationGuide.definition.parameter[26].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/lt.hl7.fhir.eu: ImplementationGuide.definition.parameter[27].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 INFORMATION: ImplementationGuide/lt.hl7.fhir.eu: ImplementationGuide.definition.parameter[33].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
-WARNING: ImplementationGuide/lt.hl7.fhir.eu: ImplementationGuide.dependsOn[3]: The ImplementationGuide is based on FHIR version 5.0.0 but package hl7.fhir.eu.extensions#0.1.0 is based on FHIR version 4.0.1. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
-WARNING: ImplementationGuide/lt.hl7.fhir.eu: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.eu.extensions#0.1.0 released on 2024-02-20, but the most recent appropriate version is 1.2.0. This reference is getting old and the more recent version should be considered
 == fsh-generated/resources/StructureDefinition-CarePlanEu.json ==
 ERROR: StructureDefinition.where(url = 'http://hl7.eu/fhir/imaging-r5/StructureDefinition/CarePlanEu'): Conformance resource /Users/igor/source/hl7lt/publication/temp/ig-builds/lt.hl7.fhir.eu#0.0.1/fsh-generated/resources/StructureDefinition-CarePlanEu.json - the canonical URL (https://hl7.lt/fhir/eu/StructureDefinition/CarePlanEu) does not match the URL (http://hl7.eu/fhir/imaging-r5/StructureDefinition/CarePlanEu). Use the special-url parameter if you really mean for it not to match
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/CarePlan to 5.0.0
@@ -266,7 +263,7 @@ INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
-INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 0.1.1
+INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 1.2.0
 INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
@@ -418,7 +415,7 @@ INFORMATION: StructureDefinition.snapshot.element[116].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[117].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[118].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[119].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
-INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 0.1.1
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 1.2.0
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[0]: Pinned the version of http://hl7.eu/fhir/base-r5/StructureDefinition/practitioner-eu to 0.1.0
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Device to 5.0.0
 INFORMATION: StructureDefinition.differential.element[4].type[0].targetProfile[2]: Pinned the version of http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu to 0.1.0
@@ -475,7 +472,7 @@ INFORMATION: StructureDefinition.snapshot.element[7].constraint[1].source: Pinne
 INFORMATION: StructureDefinition.snapshot.element[8].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/event-basedOn to 5.2.0
 INFORMATION: StructureDefinition.snapshot.element[8].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[8].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
-INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 0.1.1
+INFORMATION: StructureDefinition.snapshot.element[9].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 1.2.0
 INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[9].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
@@ -529,7 +526,7 @@ INFORMATION: StructureDefinition.snapshot.element[50].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[51].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 5.0.0
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/event-basedOn to 5.2.0
-INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 0.1.1
+INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.eu/fhir/StructureDefinition/information-recipient to 1.2.0
 INFORMATION: StructureDefinition/CompositionEu: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
 ERROR: StructureDefinition/CompositionEu: StructureDefinition.jurisdiction[0].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
 WARNING: StructureDefinition.where(url = 'https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu'): The Implementation Guide contains no examples for this profile

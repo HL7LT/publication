@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-Composition-eu-la
   "name" : "CompositionLabReportEu",
   "title" : "Composition: Laboratory Report (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T17:07:07+02:00",
+  "date" : "2026-03-15T18:07:36+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -118,7 +118,7 @@ Other representations of profile: [CSV](../StructureDefinition-Composition-eu-la
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1"]
+        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0"]
       }]
     },
     {

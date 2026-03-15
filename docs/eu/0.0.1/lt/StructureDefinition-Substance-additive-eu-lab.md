@@ -69,7 +69,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Substance-additive-
   "name" : "SpecimenAdditiveSubstance",
   "title" : "Substance: Specimen Additive Substance (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T17:07:07+02:00",
+  "date" : "2026-03-15T18:07:36+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

@@ -29,7 +29,7 @@ dom-4dom-3dom-5","","N/A"
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Composition.extension:information-recipient","Composition.extension","information-recipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1]]} {[]}
+"Composition.extension:information-recipient","Composition.extension","information-recipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0]]} {[]}
 ","Composition: Information recipient","This extension applies to the Composition resource and is used to represent an intended recipient of the composition.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Composition.extension:information-recipient.id","Composition.extension.id","","","",0,1,"","","","id {[]} {[]}

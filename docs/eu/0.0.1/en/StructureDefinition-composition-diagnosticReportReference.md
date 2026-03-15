@@ -40,7 +40,7 @@ Other representations of profile: [CSV](../StructureDefinition-composition-diagn
   "name" : "DiagnosticReportReference",
   "title" : "Extension: Document DiagnosticReport Reference (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T17:07:07+02:00",
+  "date" : "2026-03-15T18:07:36+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

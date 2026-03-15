@@ -38,7 +38,7 @@ Mandatory: 1 element
 This structure refers to these extensions:
 
 * [http://hl7.org/fhir/StructureDefinition/event-basedOn|5.2.0](http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-event-basedOn.html)
-* [http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1](http://hl7.eu/fhir/extensions/0.1.1/StructureDefinition-information-recipient.html)
+* [http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0](http://hl7.eu/fhir/extensions/1.2.0/StructureDefinition-information-recipient.html)
 
 **Slices**
 
@@ -71,7 +71,7 @@ Mandatory: 1 element
 This structure refers to these extensions:
 
 * [http://hl7.org/fhir/StructureDefinition/event-basedOn|5.2.0](http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-event-basedOn.html)
-* [http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1](http://hl7.eu/fhir/extensions/0.1.1/StructureDefinition-information-recipient.html)
+* [http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0](http://hl7.eu/fhir/extensions/1.2.0/StructureDefinition-information-recipient.html)
 
 **Slices**
 
@@ -195,7 +195,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-CompositionEu.csv),
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1"]
+        "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0"]
       }]
     },
     {
