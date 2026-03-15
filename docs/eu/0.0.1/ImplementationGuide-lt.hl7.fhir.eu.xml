@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="lt.hl7.fhir.eu"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.eu</b></p><a name="lt.hl7.fhir.eu"> </a><a name="hclt.hl7.fhir.eu"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>HL7EU</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu</pre><div><p>HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles</p>
+</div></div><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.eu</b></p><a name="lt-lt.hl7.fhir.eu"> </a><a name="lt-hclt.hl7.fhir.eu"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>HL7EU</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu</pre><div><p>HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles</p>
+</div></div></div>
+  </text>
+  <url value="https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu"/>
+  <version value="0.0.1"/>
+  <name value="HL7EU"/>
+  <title value="HL7 Europe General Implementation Guide"/>
+  <status value="draft"/>
+  <date value="2026-03-15T14:53:25+02:00"/>
+  <publisher value="Lithuanian Medical Library"/>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="lt.hl7.fhir.eu"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="5.0.0"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r5"/>
+    <version value="7.1.0"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r5"/>
+    <version value="5.2.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_eu_base_r5">
+    <uri value="http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5"/>
+    <packageId value="hl7.fhir.eu.base-r5"/>
+    <version value="0.1.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_eu_extensions">
+    <uri value="http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions"/>
+    <packageId value="hl7.fhir.eu.extensions"/>
+    <version value="0.1.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r5#0.9.0"/>
+    </extension>
+    <grouping id="GroupA">
+      <name value="HL7 EU Base profiles"/>
+      <description value="Temporary copy of the EU profiles"/>
+    </grouping>
+    <grouping id="GroupB">
+      <name value="HL7 EU Imaging profiles"/>
+      <description value="HL7 EU Imaging profiles"/>
+    </grouping>
+    <grouping id="GroupC">
+      <name value="EU Lab profiles"/>
+      <description value="EU Lab profiles"/>
+    </grouping>
+    <grouping id="GroupD">
+      <name value="IPS data types"/>
+      <description value="IPS data types"/>
+    </grouping>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CodeableConcept-uv-ips"/>
+      </reference>
+      <name value="Codeable Concept (IPS)"/>
+      <description value="This profile represents the constraint applied to the CodeableConcept data type by the International Patient Summary (IPS) FHIR Implementation Guide to use the Coding-uv-ips data type profile."/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Coding-uv-ips"/>
+      </reference>
+      <name value="Coding with translations (IPS)"/>
+      <description value="This profile extends the capabilities of the coding data type to support multi-language designations (display).&#xA;It relies on the Translation extension."/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Composition-eu-lab"/>
+      </reference>
+      <name value="Composition: Laboratory Report (Eu Lab)"/>
+      <description value="Clinical document used to represent a Laboratory Report for the scope of the HL7 Europe project."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DiagnosticReport-eu-lab"/>
+      </reference>
+      <name value="DiagnosticReport: Laboratory Report (Eu Lab)"/>
+      <description value="DiagnosticReport used to represent an entry of a Laboratory Report, including its context, for the scope of the HL7 Europe project."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CarePlanEu"/>
+      </reference>
+      <name value="EU CarePlan"/>
+      <description value="Care plan for the patient. &#xA;Contains the narrative containing the plan including proposals, goals, and order requests for monitoring, tracking, or improving the condition of the patient. In the future it is expected that the care plan could be provided in a structured and coded format."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CompositionEu"/>
+      </reference>
+      <name value="EU Composition"/>
+      <description value="Clinical document used to represent a report for the scope of the HL7 Europe project."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ConditionEu"/>
+      </reference>
+      <name value="EU Condition"/>
+      <description value="A condition profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DocumentReferenceEu"/>
+      </reference>
+      <name value="EU DocumentReference"/>
+      <description value="A DocumentReference profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/EndpointEu"/>
+      </reference>
+      <name value="EU Endpoint"/>
+      <description value="The FHIR endpoint resource with EU specific references."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CrossVersionMediaViewExtension"/>
+      </reference>
+      <name value="EU Media.view extension"/>
+      <description value="This cross version extension includes the FHIR R4 version of the Media.view field which has at this point in time (April 18, 2025), not yet been included in the extension pack."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ObservationEu"/>
+      </reference>
+      <name value="EU Observation"/>
+      <description value="A observation profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ProcedureEu"/>
+      </reference>
+      <name value="EU Procedure"/>
+      <description value="A procedure profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/quantity-eu"/>
+      </reference>
+      <name value="EU Quantity"/>
+      <description value="A quantity profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/range-eu"/>
+      </reference>
+      <name value="EU Range"/>
+      <description value="A range profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SimpleQuantityEu"/>
+      </reference>
+      <name value="EU SimpleQuantity"/>
+      <description value="A simple quantity profile for the EU."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/composition-diagnosticReportReference"/>
+      </reference>
+      <name value="Extension: Document DiagnosticReport Reference (Eu Lab)"/>
+      <description value="This extension provides a reference to the DiagnosticReport instance that is associated with this Composition."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/specimen-container-type"/>
+      </reference>
+      <name value="Extension: Specimen Container Type"/>
+      <description value="Type of container used for the specimen."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImComposition"/>
+      </reference>
+      <name value="IM Composition"/>
+      <description value="Clinical document used to represent a Imaging Study Report for the scope of the HL7 Europe project."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImDiagnosticReport"/>
+      </reference>
+      <name value="IM Diagnostic Report"/>
+      <description value="Diagnostic Report profile for Imaging Reports. This document represents the report of an imaging study. It is the anchor resource that refers to all structured data as well as the `Composition` resource that contains the narrative text of the report."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/im-composition-diagnosticReportReference"/>
+      </reference>
+      <name value="IM Document DiagnosticReport Reference"/>
+      <description value="This extension provides a reference to the DiagnosticReport instance that is associated with this Composition."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImFinding"/>
+      </reference>
+      <name value="IM Finding"/>
+      <description value="Finding during imaging procedure."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImImageIidViewerEndpoint"/>
+      </reference>
+      <name value="IM Image Viewer Endpoint"/>
+      <description value="This profile defines a placeholder for an Endpoint for a viewer that can be used to access the study, serie it is present on.&#xA;The application is based on [IHE-IID](https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_IID.pdf)."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/im-accession-number-identifier"/>
+      </reference>
+      <name value="IM Imaging Accession Number Identifier"/>
+      <description value="This profile on Identifier represents the Accession Number for the Imaging Order."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImImagingDevice"/>
+      </reference>
+      <name value="IM Imaging Device"/>
+      <description value="The device the made the image."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImOrder"/>
+      </reference>
+      <name value="IM Imaging Order"/>
+      <description value="This profile on ServiceRequest represents the order for the Imaging Study and report."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImProcedure"/>
+      </reference>
+      <name value="IM Imaging Procedure"/>
+      <description value="This profile on Procedure represents the imaging procedure."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImImagingSelection"/>
+      </reference>
+      <name value="IM Imaging Selection"/>
+      <description value="Imaging Selection"/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImImagingStudy"/>
+      </reference>
+      <name value="IM Imaging Study"/>
+      <description value="This profile represents an imaging study instance."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/instance-description"/>
+      </reference>
+      <name value="IM Instance Description"/>
+      <description value="A description of the instance in an ImagingStudy."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImKeyImageDocumentReference"/>
+      </reference>
+      <name value="IM Key Image Document Reference"/>
+      <description value="A document containing key images for a patient. It can refer to a DICOM or non-DICOM image. When referring to a DICOM image, the DocumentReference.content.attachment.url should be a WADO-URI. When referring to a non-DICOM image, the DocumentReference.content.attachment.url should be a direct URL to the image.&#xA;&#xA;When the resource represents a DICOM instance it SHALL contain a the SOP Instance UID in the identifier element. When the resource represents a DICOM series it SHALL contain the Series Instance UID in the identifier element."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImKeyImageImagingSelection"/>
+      </reference>
+      <name value="IM Key images represented as an ImagingSelection"/>
+      <description value="Key images represented as an ImagingSelection"/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/im-study-instance-uid-identifier"/>
+      </reference>
+      <name value="IM Study Instance UID Identifier"/>
+      <description value="This profile on Identifier represents the Study Instance UID (0020,000D) for the Imaging Order."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ImWadoEndpoint"/>
+      </reference>
+      <name value="IM WADO Endpoint"/>
+      <description value="This profile defines the WADO endpoint for accessing imaging study content."/>
+      <isExample value="false"/>
+      <groupingId value="GroupB"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/location-eu-core"/>
+      </reference>
+      <name value="Location (EU core)"/>
+      <description value="This profile sets minimum expectations for the Location resource to be used for the purpose of this guide."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/medicalTestResult-eu-core"/>
+      </reference>
+      <name value="MedicalTestResult (EU core)"/>
+      <description value="This profile sets minimum expectations for the Observation resource for Medical Test Results common to most of the use cases."/>
+      <isExample value="false"/>
+      <groupingId value="GroupA"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Observation-resultslab-eu-lab"/>
+      </reference>
+      <name value="Observation Results: laboratory (Eu Lab)"/>
+      <description value="This profile constrains the Observation resource to represent results produced by laboratory tests or panels/studies for the  HL7 Europe project.&#xA;This observation may represent the result of a simple laboratory test such as hematocrit or it may group the set of results produced by a multi-test study or panel such as a complete blood count, a dynamic function test, a urine specimen study. In the latter case, the observation carries the overall conclusion of the study and or a global interpretation by the producer of the study, in the comment element; and references the atomic results of the study as &quot;has-member&quot; child observations."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Quantity-eu-lab"/>
+      </reference>
+      <name value="Quantity (Eu Lab)"/>
+      <description value="This profile constrains the Quantity data type to use UCUM as the code system for units and optionally share measurement uncertainty"/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Quantity-uv-ips"/>
+      </reference>
+      <name value="Quantity (IPS)"/>
+      <description value="Data type Quantity constrained to use UCUM as the code system for units"/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Range-uv-ips"/>
+      </reference>
+      <name value="Range (IPS)"/>
+      <description value="Range constrained to UCUM as the code system for units."/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Ratio-eu-lab"/>
+      </reference>
+      <name value="Ratio (Eu Lab)"/>
+      <description value="This profile constrains the Ratio data type to use UCUM as the code system for units and optionally share measurement uncertainty"/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Ratio-uv-ips"/>
+      </reference>
+      <name value="Ratio (IPS)"/>
+      <description value="Ratio data type, constrained to use UCUM as the code system for units."/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/report-code"/>
+      </reference>
+      <name value="Report Code"/>
+      <description value="Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself."/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ServiceRequest-eu-lab"/>
+      </reference>
+      <name value="ServiceRequest: Laboratory Order (Eu Lab)"/>
+      <description value="This profile defines how to represent an laboratory orders using the HL7 FHIR ServiceRequest for the purpose of this guide."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SimpleQuantity-uv-ips"/>
+      </reference>
+      <name value="SimpleQuantity (IPS)"/>
+      <description value="Data type profile SimpleQuantity constrained to use UCUM as the code system for units"/>
+      <isExample value="false"/>
+      <groupingId value="GroupD"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Specimen-eu-lab"/>
+      </reference>
+      <name value="Specimen: Laboratory (Eu Lab)"/>
+      <description value="This profile defines how to represent Specimens in HL7 FHIR for the purpose of this guide."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Substance-additive-eu-lab"/>
+      </reference>
+      <name value="Substance: Specimen Additive Substance (Eu Lab)"/>
+      <description value="This profile defines how to represent Specimen Additive Substances in HL7 FHIR for the purpose of this guide."/>
+      <isExample value="false"/>
+      <groupingId value="GroupC"/>
+    </resource>
+    <page>
+      <sourceUrl value="toc.html"/>
+      <name value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <sourceUrl value="index.html"/>
+        <name value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>
+      <value value="2025+"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="special-url-base"/>
+      </code>
+      <value value="https://hl7.eu/fhir"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="special-url"/>
+      </code>
+      <value value="https://terminology.hl7.lt/fhir"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludettl"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="shownav"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="pin-canonicals"/>
+      </code>
+      <value value="pin-all"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-version"/>
+      </code>
+      <value value="false"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="default-version"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="i18n-default-lang"/>
+      </code>
+      <value value="en"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="i18n-lang"/>
+      </code>
+      <value value="lt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="translation-sources"/>
+      </code>
+      <value value="input/translations/lt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-resource"/>
+      </code>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="input/assets"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-pages"/>
+      </code>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-liquid"/>
+      </code>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-qa"/>
+      </code>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-temp"/>
+      </code>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-output"/>
+      </code>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-tx-cache"/>
+      </code>
+      <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-suppressed-warnings"/>
+      </code>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-history"/>
+      </code>
+      <value value="https://hl7.eu/fhir/history.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-html"/>
+      </code>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="template-md"/>
+      </code>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-contact"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-context"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-copyright"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-jurisdiction"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-license"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-publisher"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="apply-wg"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="active-tables"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="fmm-definition"/>
+      </code>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="propagate-status"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="excludelogbinaryformat"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="tabbed-snapshots"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="wantGen-ttl"/>
+      </code>
+      <value value="false"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="wantGen-ttl-html"/>
+      </code>
+      <value value="false"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

@@ -14,6 +14,11 @@
    },
    "layout-rules": [
       {
+         "npm": "lt.hl7.fhir.eu",
+         "canonical": "https://hl7.eu/fhir",
+         "destination": "/eu"
+      },
+      {
          "npm": "lt.hl7.fhir.*",
          "canonical": "https://hl7.lt/fhir/{3}",
          "destination": "/{3}"

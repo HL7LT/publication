@@ -152,17 +152,93 @@
             <p>Packages published in the FHIR Package Manager may be reused in the other IGs.</p>
             <p>Published packages:</p>
             <ul>
-                <li><a href="https://hl7.lt/fhir/base/history.html">LT Base</a></li>
+                <li><a href="https://hl7.lt/fhir/base/history.html">LT Base</a> - Base profiles and extensions</li>
+                <li><a href="https://hl7.lt/fhir/vitalsigns/history.html">LT Vital Signs</a> - Vital signs profiles</li>
             </ul>
 
             <p>The management of the publication is available through the <a href="https://github.com/HL7LT/publication">https://github.com/HL7LT/publication</a> GitHub repository.</p>
-            <p>The Implementation Guides available through latest build:</p>
-            <ul>
-                <li><a href="https://build.fhir.org/ig/HL7LT/ig-lt-base">LT Base</a></li>
-                <li><a href="https://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns">Vital Signs</a></li>
-                <li><a href="https://build.fhir.org/ig/HL7LT/ig-lt-lifestyle">Life Style</a></li>
-                <li>Prevention</li>
-            </ul>
+            
+            <h3 id="all-implementation-guides">All Implementation Guides</h3>
+            <p>The following Implementation Guides are available. Published versions have release history pages, while others are available through CI builds.</p>
+            
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                <thead>
+                    <tr style="background-color: #f0f0f0; border-bottom: 2px solid #ddd;">
+                        <th style="padding: 10px; text-align: left;">Implementation Guide</th>
+                        <th style="padding: 10px; text-align: left;">Package ID</th>
+                        <th style="padding: 10px; text-align: center;">Published</th>
+                        <th style="padding: 10px; text-align: center;">CI Build</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Base</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.base</code></td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://hl7.lt/fhir/base/history.html">✓</a></td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-base">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Vital Signs</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.vitalsigns</code></td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://hl7.lt/fhir/vitalsigns/history.html">✓</a></td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Breast Diagnostics</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.breast</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-breast">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Cervical Cancer</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.cervical</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-cervical">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Colorectal Cancer</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.colorectal</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-colorectal">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT CVD</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.cvd</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-cvd">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Laboratory</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.lab</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-lab">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Lifestyle</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.lifestyle</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-lifestyle">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Lung Cancer</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.lung</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-lung">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">LT Prostate Diagnostics</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.prostate</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-lt-prostate">✓</a></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">HL7 Europe General</td>
+                        <td style="padding: 10px;"><code>lt.hl7.fhir.eu</code></td>
+                        <td style="padding: 10px; text-align: center;">-</td>
+                        <td style="padding: 10px; text-align: center;"><a href="https://build.fhir.org/ig/HL7LT/ig-eu-ehds">✓</a></td>
+                    </tr>
+                </tbody>
+            </table>
 
             <h3 id="latest-build">Latest build</h3>
             <p>All HL7 Lithuania Implementation Guides use <a href="https://github.com/FHIR/auto-ig-builder">HL7 auto build</a> infrastructure. 

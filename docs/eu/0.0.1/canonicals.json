@@ -1,0 +1,329 @@
+[{
+  "id" : "location-eu-core",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu",
+  "version" : "2.0.0-ballot",
+  "name" : "LocationEuCore"
+},
+{
+  "id" : "CarePlanEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/CarePlanEu",
+  "version" : "0.1.0-ballot",
+  "name" : "CarePlanEu"
+},
+{
+  "id" : "ConditionEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ConditionEu",
+  "version" : "0.1.0-ballot",
+  "name" : "ConditionEu"
+},
+{
+  "id" : "CrossVersionMediaViewExtension",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/CrossVersionMediaViewExtension",
+  "version" : "0.1.0-ballot",
+  "name" : "CrossVersionMediaViewExtension"
+},
+{
+  "id" : "DocumentReferenceEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/DocumentReferenceEu",
+  "version" : "0.1.0-ballot",
+  "name" : "DocumentReferenceEu"
+},
+{
+  "id" : "EndpointEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/EndpointEu",
+  "version" : "0.1.0-ballot",
+  "name" : "EndpointEu"
+},
+{
+  "id" : "ImComposition",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImComposition",
+  "version" : "0.0.1",
+  "name" : "ImComposition"
+},
+{
+  "id" : "ImDiagnosticReport",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImDiagnosticReport",
+  "version" : "0.1.0-ballot",
+  "name" : "ImDiagnosticReport"
+},
+{
+  "id" : "ImFinding",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImFinding",
+  "version" : "0.0.1",
+  "name" : "ImFinding"
+},
+{
+  "id" : "ImImageIidViewerEndpoint",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImageIidViewerEndpoint",
+  "version" : "0.0.1",
+  "name" : "ImImageIidViewerEndpoint"
+},
+{
+  "id" : "ImImagingDevice",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImagingDevice",
+  "version" : "0.1.0-ballot",
+  "name" : "ImImagingDevice"
+},
+{
+  "id" : "ImImagingSelection",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImagingSelection",
+  "version" : "0.1.0-ballot",
+  "name" : "ImImagingSelection"
+},
+{
+  "id" : "ImImagingStudy",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImImagingStudy",
+  "version" : "0.1.0-ballot",
+  "name" : "ImImagingStudy"
+},
+{
+  "id" : "ImKeyImageDocumentReference",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImKeyImageDocumentReference",
+  "version" : "0.0.1",
+  "name" : "ImKeyImageDocumentReference"
+},
+{
+  "id" : "ImKeyImageImagingSelection",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImKeyImageImagingSelection",
+  "version" : "0.0.1",
+  "name" : "ImKeyImageImagingSelection"
+},
+{
+  "id" : "ImOrder",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImOrder",
+  "version" : "0.1.0-ballot",
+  "name" : "ImOrder"
+},
+{
+  "id" : "ImProcedure",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImProcedure",
+  "version" : "0.0.1",
+  "name" : "ImProcedure"
+},
+{
+  "id" : "ImWadoEndpoint",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ImWadoEndpoint",
+  "version" : "0.0.1",
+  "name" : "ImWadoEndpoint"
+},
+{
+  "id" : "ObservationEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ObservationEu",
+  "version" : "0.1.0-ballot",
+  "name" : "ObservationEu"
+},
+{
+  "id" : "ProcedureEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/ProcedureEu",
+  "version" : "0.1.0-ballot",
+  "name" : "ProcedureEu"
+},
+{
+  "id" : "SimpleQuantityEu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/SimpleQuantityEu",
+  "version" : "0.1.0-ballot",
+  "name" : "SimpleQuantityEu"
+},
+{
+  "id" : "im-accession-number-identifier",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-accession-number-identifier",
+  "version" : "0.1.0-ballot",
+  "name" : "ImAccessionNumberIdentifier"
+},
+{
+  "id" : "im-composition-diagnosticReportReference",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-composition-diagnosticReportReference",
+  "version" : "0.1.0-ballot",
+  "name" : "ImDiagnosticReportReference"
+},
+{
+  "id" : "im-study-instance-uid-identifier",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-study-instance-uid-identifier",
+  "version" : "0.1.0-ballot",
+  "name" : "ImStudyInstanceUidIdentifier"
+},
+{
+  "id" : "instance-description",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/instance-description",
+  "version" : "0.1.0-ballot",
+  "name" : "ImImagingStudyInstanceDescription"
+},
+{
+  "id" : "quantity-eu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/quantity-eu",
+  "version" : "0.1.0-ballot",
+  "name" : "QuantityEu"
+},
+{
+  "id" : "range-eu",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/range-eu",
+  "version" : "0.1.0-ballot",
+  "name" : "RangeEu"
+},
+{
+  "id" : "Composition-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Composition-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "CompositionLabReportEu"
+},
+{
+  "id" : "DiagnosticReport-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/DiagnosticReport-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "DiagnosticReportLabEu"
+},
+{
+  "id" : "Observation-resultslab-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "ObservationResultsLaboratoryEu"
+},
+{
+  "id" : "Quantity-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab",
+  "version" : "0.0.1",
+  "name" : "QuantityEuLab"
+},
+{
+  "id" : "Ratio-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab",
+  "version" : "0.0.1",
+  "name" : "RatioEuLab"
+},
+{
+  "id" : "ServiceRequest-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "ServiceRequestLabEu"
+},
+{
+  "id" : "Specimen-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "SpecimenEu"
+},
+{
+  "id" : "Substance-additive-eu-lab",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Substance-additive-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "SpecimenAdditiveSubstance"
+},
+{
+  "id" : "composition-diagnosticReportReference",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/composition-diagnosticReportReference",
+  "version" : "0.2.0-ci",
+  "name" : "DiagnosticReportReference"
+},
+{
+  "id" : "specimen-container-type",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/StructureDefinition/specimen-container-type",
+  "version" : "5.2.0",
+  "name" : "SpecimenContainerType"
+},
+{
+  "id" : "CodeableConcept-uv-ips",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips",
+  "version" : "2.0.0",
+  "name" : "CodeableConceptIPS"
+},
+{
+  "id" : "Coding-uv-ips",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips",
+  "version" : "2.0.0",
+  "name" : "CodingIPS"
+},
+{
+  "id" : "Quantity-uv-ips",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Quantity-uv-ips",
+  "version" : "1.1.0",
+  "name" : "QuantityIPS"
+},
+{
+  "id" : "Range-uv-ips",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Range-uv-ips",
+  "version" : "1.1.0",
+  "name" : "RangeIPS"
+},
+{
+  "id" : "Ratio-uv-ips",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Ratio-uv-ips",
+  "version" : "1.1.0",
+  "name" : "RatioIPS"
+},
+{
+  "id" : "SimpleQuantity-uv-ips",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/uv/ips/StructureDefinition/SimpleQuantity-uv-ips",
+  "version" : "1.1.0",
+  "name" : "SimpleQuantityIPS"
+},
+{
+  "id" : "lt.hl7.fhir.eu",
+  "type" : "ImplementationGuide",
+  "url" : "https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu",
+  "version" : "0.0.1",
+  "name" : "HL7EU"
+},
+{
+  "id" : "CompositionEu",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.eu/fhir/StructureDefinition/CompositionEu",
+  "version" : "0.1.0-ballot",
+  "name" : "CompositionEu"
+},
+{
+  "id" : "medicalTestResult-eu-core",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core",
+  "version" : "2.0.0-ballot",
+  "name" : "MedicalTestResultEuCore"
+},
+{
+  "id" : "report-code",
+  "type" : "ValueSet",
+  "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+  "version" : "1.0.0",
+  "name" : "ReportCode"
+}]

@@ -1,0 +1,19 @@
+{
+  "url" : "https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu",
+  "name" : "HL7EU",
+  "title" : "HL7 Europe General Implementation Guide",
+  "description" : "HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles",
+  "status" : "draft",
+  "package-id" : "lt.hl7.fhir.eu",
+  "ig-ver" : "0.0.1",
+  "date" : "Sun, 15 Mar, 2026 14:53:25 +0200",
+  "dateISO8601" : "2026-03-15T14:53:25+02:00",
+  "errs" : 169,
+  "warnings" : 203,
+  "hints" : 2431,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 3,
+  "version" : "5.0.0",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2428933568
+}

@@ -1,0 +1,14 @@
+{
+   "package-id": "lt.hl7.fhir.{ig}",
+   "version": "0.0.1",
+   "path": "https://hl7.lt/fhir/{ig}/0.0.1",
+   "mode": "milestone",
+   "status": "draft",
+   "sequence": "Releases",
+   "desc": "Initial draft release.",
+   "first": true,
+   "title": "Lithuanian {Title} Implementation Guide",
+   "ci-build": "http://build.fhir.org/ig/HL7LT/ig-lt-{ig}",
+   "category": "??",
+   "introduction": "??"
+}
