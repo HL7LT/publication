@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="report-code"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet report-code</b></p><a name="report-code"> </a><a name="hcreport-code"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where concept  descends from 371525003 (Clinical procedure report (qualifier value))</li></ul></div>
+  </text>
+  <url value="https://hl7.eu/fhir/ValueSet/report-code"/>
+  <version value="1.0.0"/>
+  <name value="ReportCode"/>
+  <title value="Report Code"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-03-15T14:53:25+02:00"/>
+  <publisher value="Lithuanian Medical Library"/>
+  <contact>
+    <name value="Lithuanian Medical Library"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://medicinosnk.lt"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@medicinosnk.lt"/>
+    </telecom>
+  </contact>
+  <description value="Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="371525003"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

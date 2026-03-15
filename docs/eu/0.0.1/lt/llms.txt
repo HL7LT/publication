@@ -1,0 +1,70 @@
+# lt.hl7.fhir.eu#0.0.1: HL7 Europe General Implementation Guide(lt)
+
+## Pages
+
+* [Home](index.md)
+* [Artefaktų santrauka](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Report Code](ValueSet-report-code.md)
+
+### Complex-type Profiles
+
+* [Codeable Concept (IPS)](StructureDefinition-CodeableConcept-uv-ips.md)
+* [Coding with translations (IPS)](StructureDefinition-Coding-uv-ips.md)
+* [Quantity (Eu Lab)](StructureDefinition-Quantity-eu-lab.md)
+* [Quantity (IPS)](StructureDefinition-Quantity-uv-ips.md)
+* [Range (IPS)](StructureDefinition-Range-uv-ips.md)
+* [Ratio (Eu Lab)](StructureDefinition-Ratio-eu-lab.md)
+* [Ratio (IPS)](StructureDefinition-Ratio-uv-ips.md)
+* [SimpleQuantity (IPS)](StructureDefinition-SimpleQuantity-uv-ips.md)
+* [EU SimpleQuantity](StructureDefinition-SimpleQuantityEu.md)
+* [IM Imaging Accession Number Identifier](StructureDefinition-im-accession-number-identifier.md)
+* [IM Study Instance UID Identifier](StructureDefinition-im-study-instance-uid-identifier.md)
+* [EU Quantity](StructureDefinition-quantity-eu.md)
+* [EU Range](StructureDefinition-range-eu.md)
+
+### Resource Profiles
+
+* [EU CarePlan](StructureDefinition-CarePlanEu.md)
+* [Composition: Laboratory Report (Eu Lab)](StructureDefinition-Composition-eu-lab.md)
+* [EU Composition](StructureDefinition-CompositionEu.md)
+* [EU Condition](StructureDefinition-ConditionEu.md)
+* [DiagnosticReport: Laboratory Report (Eu Lab)](StructureDefinition-DiagnosticReport-eu-lab.md)
+* [EU DocumentReference](StructureDefinition-DocumentReferenceEu.md)
+* [EU Endpoint](StructureDefinition-EndpointEu.md)
+* [IM Composition](StructureDefinition-ImComposition.md)
+* [IM Diagnostic Report](StructureDefinition-ImDiagnosticReport.md)
+* [IM Finding](StructureDefinition-ImFinding.md)
+* [IM Image Viewer Endpoint](StructureDefinition-ImImageIidViewerEndpoint.md)
+* [IM Imaging Device](StructureDefinition-ImImagingDevice.md)
+* [IM Imaging Selection](StructureDefinition-ImImagingSelection.md)
+* [IM Imaging Study](StructureDefinition-ImImagingStudy.md)
+* [IM Key Image Document Reference](StructureDefinition-ImKeyImageDocumentReference.md)
+* [IM Key images represented as an ImagingSelection](StructureDefinition-ImKeyImageImagingSelection.md)
+* [IM Imaging Order](StructureDefinition-ImOrder.md)
+* [IM Imaging Procedure](StructureDefinition-ImProcedure.md)
+* [IM WADO Endpoint](StructureDefinition-ImWadoEndpoint.md)
+* [Observation Results: laboratory (Eu Lab)](StructureDefinition-Observation-resultslab-eu-lab.md)
+* [EU Observation](StructureDefinition-ObservationEu.md)
+* [EU Procedure](StructureDefinition-ProcedureEu.md)
+* [ServiceRequest: Laboratory Order (Eu Lab)](StructureDefinition-ServiceRequest-eu-lab.md)
+* [Specimen: Laboratory (Eu Lab)](StructureDefinition-Specimen-eu-lab.md)
+* [Substance: Specimen Additive Substance (Eu Lab)](StructureDefinition-Substance-additive-eu-lab.md)
+* [Location (EU core)](StructureDefinition-location-eu-core.md)
+* [MedicalTestResult (EU core)](StructureDefinition-medicalTestResult-eu-core.md)
+
+### Extensions
+
+* [EU Media.view extension](StructureDefinition-CrossVersionMediaViewExtension.md)
+* [Extension: Document DiagnosticReport Reference (Eu Lab)](StructureDefinition-composition-diagnosticReportReference.md)
+* [IM Document DiagnosticReport Reference](StructureDefinition-im-composition-diagnosticReportReference.md)
+* [IM Instance Description](StructureDefinition-instance-description.md)
+* [Extension: Specimen Container Type](StructureDefinition-specimen-container-type.md)
+
+### ImplementationGuides
+
+* [HL7 Europe General Implementation Guide](ImplementationGuide-lt.hl7.fhir.eu.md)

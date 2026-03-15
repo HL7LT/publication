@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "ReportCode",
+    "title" : "Report Code",
+    "description" : "Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself.",
+    "systems" : ["http://snomed.info/sct"]
+  }]
+}

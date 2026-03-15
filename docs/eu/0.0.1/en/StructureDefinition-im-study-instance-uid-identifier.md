@@ -1,0 +1,111 @@
+# IM Study Instance UID Identifier - HL7 Europe General Implementation Guide v0.0.1
+
+## Data Type Profile: IM Study Instance UID Identifier 
+
+ 
+This profile on Identifier represents the Study Instance UID (0020,000D) for the Imaging Order. 
+
+**Usages:**
+
+* Use this DataType Profile: [IM Imaging Study](StructureDefinition-ImImagingStudy.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.eu|current/StructureDefinition/im-study-instance-uid-identifier)
+
+### Formal Views of Profile Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-im-study-instance-uid-identifier.csv), [Excel](../StructureDefinition-im-study-instance-uid-identifier.xlsx), [Schematron](../StructureDefinition-im-study-instance-uid-identifier.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "im-study-instance-uid-identifier",
+  "language" : "en",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  }],
+  "url" : "http://hl7.eu/fhir/imaging-r5/StructureDefinition/im-study-instance-uid-identifier",
+  "version" : "0.1.0-ballot",
+  "name" : "ImStudyInstanceUidIdentifier",
+  "title" : "IM Study Instance UID Identifier",
+  "status" : "draft",
+  "date" : "2025-05-14T15:47:13+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "This profile on Identifier represents the Study Instance UID (0020,000D) for the Imaging Order.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EU"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 Europe, all rights reserved Creative Commons License",
+  "fhirVersion" : "5.0.0",
+  "mapping" : [{
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 V2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "servd",
+    "uri" : "http://www.omg.org/spec/ServD/1.0/",
+    "name" : "ServD"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "type" : "Identifier",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Identifier|5.0.0",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Identifier.type",
+      "path" : "Identifier.type",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.eu/fhir/imaging-r5/CodeSystem/codesystem-missing-dicom-terminology",
+          "code" : "0020000D",
+          "display" : "Study Instance UID"
+        }]
+      }
+    },
+    {
+      "id" : "Identifier.system",
+      "path" : "Identifier.system",
+      "patternUri" : "urn:dicom:uid"
+    },
+    {
+      "id" : "Identifier.value",
+      "path" : "Identifier.value",
+      "min" : 1
+    }]
+  }
+}
+
+```

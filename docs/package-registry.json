@@ -1,23 +1,40 @@
 {
-  "packages" : [
-    {
-      "path" : "fhir/package-list.json",
-      "package-id" : "lt.hl7.fhir.vitalsigns",
-      "title" : "Lithuanian Vital Signs FHIR Implementation Guide",
-      "canonical" : "https://hl7.lt/fhir/vitalsigns",
-      "category" : "Diagnostics",
-      "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns",
-      "version-count" : 1,
-      "latest" : {
-        "version" : "0.0.1",
-        "date" : "2025-11-19",
-        "path" : "https://hl7.lt/fhir/vitalsigns/0.0.1"
-      },
-      "milestone" : {
-        "version" : "0.0.1",
-        "date" : "2025-11-19",
-        "path" : "https://hl7.lt/fhir/vitalsigns/0.0.1"
-      }
+  "packages" : [{
+    "path" : "fhir/package-list.json",
+    "package-id" : "lt.hl7.fhir.vitalsigns",
+    "title" : "Lithuanian Vital Signs FHIR Implementation Guide",
+    "canonical" : "https://hl7.lt/fhir/vitalsigns",
+    "category" : "Diagnostics",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns",
+    "version-count" : 1,
+    "latest" : {
+      "version" : "0.0.1",
+      "date" : "2025-11-19",
+      "path" : "https://hl7.lt/fhir/vitalsigns/0.0.1"
+    },
+    "milestone" : {
+      "version" : "0.0.1",
+      "date" : "2025-11-19",
+      "path" : "https://hl7.lt/fhir/vitalsigns/0.0.1"
     }
-  ]
+  },
+  {
+    "path" : "eu/package-list.json",
+    "package-id" : "lt.hl7.fhir.eu",
+    "title" : "HL7 Europe General Implementation Guide",
+    "canonical" : "https://hl7.eu/fhir",
+    "category" : "Infrastructure",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-eu-ehds",
+    "version-count" : 1,
+    "latest" : {
+      "version" : "0.0.1",
+      "date" : "2026-03-15",
+      "path" : "https://hl7.eu/fhir/0.0.1"
+    },
+    "milestone" : {
+      "version" : "0.0.1",
+      "date" : "2026-03-15",
+      "path" : "https://hl7.eu/fhir/0.0.1"
+    }
+  }]
 }
