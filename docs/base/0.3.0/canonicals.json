@@ -1,0 +1,182 @@
+[{
+  "id" : "lt.hl7.fhir.base",
+  "type" : "ImplementationGuide",
+  "url" : "https://hl7.lt/fhir/base/ImplementationGuide/lt.hl7.fhir.base",
+  "version" : "0.3.0",
+  "name" : "LTBase"
+},
+{
+  "id" : "appointment-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/appointment-lt",
+  "version" : "0.3.0",
+  "name" : "AppointmentLt"
+},
+{
+  "id" : "care-plan-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/care-plan-lt",
+  "version" : "0.3.0",
+  "name" : "CarePlanLt"
+},
+{
+  "id" : "care-team-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/care-team-lt",
+  "version" : "0.3.0",
+  "name" : "CareTeamLt"
+},
+{
+  "id" : "composition-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/composition-lt",
+  "version" : "0.3.0",
+  "name" : "CompositionLt"
+},
+{
+  "id" : "condition-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/condition-lt",
+  "version" : "0.3.0",
+  "name" : "ConditionLt"
+},
+{
+  "id" : "diagnostic-report-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/diagnostic-report-lt",
+  "version" : "0.3.0",
+  "name" : "DiagnosticReportLt"
+},
+{
+  "id" : "document-reference-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/document-reference-lt",
+  "version" : "0.3.0",
+  "name" : "DocumentReferenceLt"
+},
+{
+  "id" : "encounter-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/encounter-lt",
+  "version" : "0.3.0",
+  "name" : "EncounterLt"
+},
+{
+  "id" : "episode-of-care-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/episode-of-care-lt",
+  "version" : "0.3.0",
+  "name" : "EpisodeOfCareLt"
+},
+{
+  "id" : "family-member-history-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/family-member-history-lt",
+  "version" : "0.3.0",
+  "name" : "FamilyMemberHistoryLt"
+},
+{
+  "id" : "goal-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/goal-lt",
+  "version" : "0.3.0",
+  "name" : "GoalLt"
+},
+{
+  "id" : "healthcare-service-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/healthcare-service-lt",
+  "version" : "0.3.0",
+  "name" : "HealthcareServiceLt"
+},
+{
+  "id" : "imagingstudy-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/imagingstudy-lt",
+  "version" : "0.3.0",
+  "name" : "ImagingStudyLt"
+},
+{
+  "id" : "location-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/location-lt",
+  "version" : "0.3.0",
+  "name" : "LocationLt"
+},
+{
+  "id" : "observation-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/observation-lt",
+  "version" : "0.3.0",
+  "name" : "ObservationLt"
+},
+{
+  "id" : "organization-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/organization-lt",
+  "version" : "0.3.0",
+  "name" : "OrganizationLt"
+},
+{
+  "id" : "patient-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/patient-lt",
+  "version" : "0.3.0",
+  "name" : "PatientLt"
+},
+{
+  "id" : "practitioner-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/practitioner-lt",
+  "version" : "0.3.0",
+  "name" : "PractitionerLt"
+},
+{
+  "id" : "practitioner-role-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/practitioner-role-lt",
+  "version" : "0.3.0",
+  "name" : "PractitionerRoleLt"
+},
+{
+  "id" : "procedure-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/procedure-lt",
+  "version" : "0.3.0",
+  "name" : "ProcedureLt"
+},
+{
+  "id" : "related-person-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/related-person-lt",
+  "version" : "0.3.0",
+  "name" : "RelatedPersonLt"
+},
+{
+  "id" : "service-request-lt",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.lt/fhir/base/StructureDefinition/service-request-lt",
+  "version" : "0.3.0",
+  "name" : "ServiceRequestLt"
+},
+{
+  "id" : "identifier-domain-lt",
+  "type" : "CodeSystem",
+  "url" : "https://tx.hl7.lt/fhir/CodeSystem/identifier-domain",
+  "version" : "0.3.0",
+  "name" : "IdentifierDomainLt"
+},
+{
+  "id" : "organization-identifier-lt",
+  "type" : "ValueSet",
+  "url" : "https://tx.hl7.lt/fhir/ValueSet/organization-identifier",
+  "version" : "1.0.0",
+  "name" : "OrganizationIdentifierLt"
+},
+{
+  "id" : "patient-identifier-lt",
+  "type" : "ValueSet",
+  "url" : "https://tx.hl7.lt/fhir/ValueSet/patient-identifier",
+  "version" : "1.0.0",
+  "name" : "PatientIdentifierLt"
+}]

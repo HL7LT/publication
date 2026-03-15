@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="lt" xmlns="http://www.w3.org/1999/xhtml" lang="lt" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Turinys - Lithuanian Base Implementation Guide v0.3.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"0"}
+    h3,h4,h5,h6{--heading-prefix:"0.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Lietuvių bazės įgyvendinimo vadovas</span>
+            <br/>
+            <span style="display:inline-block;">0.3.0 - ci-build
+
+
+
+  <img alt="Lithuania vėliava" src="../assets/images/ltu.svg" height="16" title="Lithuania"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="policy.html">Policy</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Links
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="download.html">Downloads</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R5/index.html">FHIR Spec </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="changes.html">Changes</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+
+<div style="float: var(--ig-right);padding: 8px 0px;" id="language">
+  <div id="select_flg" class="flaglist" style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="flag en" src="assets/images/lang-lt.png"/>Lietuvių</div>
+  </div>
+  <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Language:</div>
+ 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="flag lt" src="assets/images/lang-lt.png"/>Lietuvių</div>
+
+    <div><a href="../en/toc.html"><img class="flag" src="assets/images/lang-en.png" alt="flag en"/>English</a></div>
+
+  </div>
+</div>
+
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><b>Turinys</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="#bottom">apačia</a>
+
+          | <a href="index.html">kitas &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Lithuanian Base FHIR Implementation Guide (v0.3.0: <a data-no-external="true" href="https://confluence.hl7.org/display/HL7/HL7+Balloting" title="Draft Standard for Trial-Use">DSTU</a>1 Draft) based on <a data-no-external="true" href="http://hl7.org/fhir/R5">FHIR (HL7® FHIR® Standard) v5.0.0</a>. This is the current published version in its permanent home (it will always be available at this URL).  For a full list of available versions, see the <a data-no-external="true" href="https://hl7.lt/fhir/base/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Turinys</h2>
+  
+  <p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+  
+  <p>Dabartiniam puslapiui nėra vertimo puslapio, todėl jis pateiktas numatytąja kalba</p>
+
+  
+  </p>
+  
+  
+  
+  
+  <?xml version="1.0" encoding="UTF-8"?><div style="col-12"><table style="border:0px;font-size:11px;font-family:verdana;vertical-align:top;" cellpadding="0" border="0" cellspacing="0"><tbody><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page-child.gif"/><a title="Table of Contents" href="toc.html"> 0 Table of Contents</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&quot;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Home" href="index.html"> 1 Home</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!#"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Policy" href="policy.html"> 2 Policy</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!$"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Download" href="download.html"> 3 Download</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!%"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Changes" href="changes.html"> 4 Changes</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img onClick="tableRowAction(this)" src="tbl_vjoin_end-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page-child.gif"/><a title="Artifacts Summary" href="artifacts.html"> 5 Artifacts Summary</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;&quot;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="AppointmentLt" href="StructureDefinition-appointment-lt.html"> 5.1 AppointmentLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;#"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="CarePlanLt" href="StructureDefinition-care-plan-lt.html"> 5.2 CarePlanLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;$"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="CareTeamLt" href="StructureDefinition-care-team-lt.html"> 5.3 CareTeamLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;%"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="CompositionLt" href="StructureDefinition-composition-lt.html"> 5.4 CompositionLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;&amp;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="ConditionLt" href="StructureDefinition-condition-lt.html"> 5.5 ConditionLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;'"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="DiagnosticReportLt" href="StructureDefinition-diagnostic-report-lt.html"> 5.6 DiagnosticReportLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;("><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="DocumentReferenceLt" href="StructureDefinition-document-reference-lt.html"> 5.7 DocumentReferenceLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;)"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="EncounterLt" href="StructureDefinition-encounter-lt.html"> 5.8 EncounterLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;*"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="EpisodeOfCareLt" href="StructureDefinition-episode-of-care-lt.html"> 5.9 EpisodeOfCareLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;+"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="FamilyMemberHistoryLt" href="StructureDefinition-family-member-history-lt.html"> 5.10 FamilyMemberHistoryLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;,"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="GoalLt" href="StructureDefinition-goal-lt.html"> 5.11 GoalLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;-"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="HealthcareServiceLt" href="StructureDefinition-healthcare-service-lt.html"> 5.12 HealthcareServiceLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;."><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="ImagingStudyLt" href="StructureDefinition-imagingstudy-lt.html"> 5.13 ImagingStudyLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;/"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="LocationLt" href="StructureDefinition-location-lt.html"> 5.14 LocationLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;0"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="ObservationLt" href="StructureDefinition-observation-lt.html"> 5.15 ObservationLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;1"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="OrganizationLt" href="StructureDefinition-organization-lt.html"> 5.16 OrganizationLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;2"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="PatientLt" href="StructureDefinition-patient-lt.html"> 5.17 PatientLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;3"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="PractitionerLt" href="StructureDefinition-practitioner-lt.html"> 5.18 PractitionerLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;4"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="PractitionerRoleLt" href="StructureDefinition-practitioner-role-lt.html"> 5.19 PractitionerRoleLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;5"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="ProcedureLt" href="StructureDefinition-procedure-lt.html"> 5.20 ProcedureLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;6"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="RelatedPersonLt" href="StructureDefinition-related-person-lt.html"> 5.21 RelatedPersonLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;7"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="ServiceRequestLt" href="StructureDefinition-service-request-lt.html"> 5.22 ServiceRequestLt</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;8"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Organization Identifier" href="ValueSet-organization-identifier-lt.html"> 5.23 Organization Identifier</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;9"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Patient Identifier" href="ValueSet-patient-identifier-lt.html"> 5.24 Patient Identifier</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;:"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Identifier Domain" href="CodeSystem-identifier-domain-lt.html"> 5.25 Identifier Domain</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Condition: Cancer (example)" href="Condition-condition-cancer-example.html"> 5.26 Condition: Cancer (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;&lt;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Encounter: Psychiatric (example)" href="Encounter-encounter-psychiatric-example.html"> 5.27 Encounter: Psychiatric (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;="><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Location: Vilnius Hospital (example)" href="Location-location-vilnius-hospital-example.html"> 5.28 Location: Vilnius Hospital (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;&gt;"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Observation: Blood Pressure (example)" href="Observation-observation-blood-pressure-example.html"> 5.29 Observation: Blood Pressure (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;?"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Observation: Breast Density Fatty (example)" href="Observation-observation-breast-density-fatty-example.html"> 5.30 Observation: Breast Density Fatty (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;@"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Organization: Medical Library (example)" href="Organization-organization-example.html"> 5.31 Organization: Medical Library (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;A"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Organization: Vilnius Hospital (example)" href="Organization-organization-vilnius-hospital-example.html"> 5.32 Organization: Vilnius Hospital (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;B"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Patient: Jonas Petrauskas (example)" href="Patient-patient-example.html"> 5.33 Patient: Jonas Petrauskas (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;C"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="Practitioner: Petras Kazlauskas (example)" href="Practitioner-practitioner-example.html"> 5.34 Practitioner: Petras Kazlauskas (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;D"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="PractitionerRole: Doctor Vilnius Hospital (example)" href="PractitionerRole-practitioner-role-doctor-vilnius-hospital-example.html"> 5.35 PractitionerRole: Doctor Vilnius Hospital (example)</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:inherit;" id="!&amp;E"><td style="vertical-align:top;text-align:var(--ig-left,left);background-color:inherit;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_spacer.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_blank.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="tbl_vjoin_end.png"/><img style="background-color:inherit" alt="." class="hierarchy" src="icon_page.gif"/><a title="RelatedPerson: Rūta Petrauskienė (example)" href="RelatedPerson-related-person-ruta-petrauskiene-example.html"> 5.36 RelatedPerson: Rūta Petrauskienė (example)</a></td></tr></tbody></table></div>
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <span style="visibility:hidden">&lt; ankstesnis</span>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">viršus</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="index.html">kitas ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+. <a style="color:var(--footer-hyperlink-text-color)" href="https://medicinosnk.lt">Lithuanian Medical Library</a>.  
+          Paketas lt.hl7.fhir.base#0.3.0 pagrįstas <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>.
+          Sukurta 
+  <span title="2026-03-15 18:57:00 +0200">
+    2026-03-15
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Nuorodos: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Turinio lentelė</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">Kokybės patikrinimo ataskaita</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

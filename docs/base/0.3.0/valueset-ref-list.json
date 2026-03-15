@@ -1,0 +1,85 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ProcedureCodesSNOMEDCT",
+    "title" : "Procedure Codes (SNOMED CT)",
+    "description" : "Procedure Code: All SNOMED CT procedure codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.418",
+    "2.16.840.1.113883.4.642.3.427",
+    "2.16.840.1.113883.4.642.2.417"],
+    "sources" : ["2.16.840.1.113883.4.642.3.418",
+    "2.16.840.1.113883.4.642.3.427",
+    "2.16.840.1.113883.4.642.2.417"],
+    "uses" : {
+    },
+    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "EncounterClass",
+    "title" : "Encounter class",
+    "description" : "This value set defines a set of codes that can be used to indicate the class of encounter: a specific code indicating class of service provided.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+    "uses" : {
+    },
+    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
+    "StructureDefinition-encounter-lt.html" : "EncounterLt"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0074",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSDiagnosticServiceSectionId",
+    "title" : "hl7VS-diagnosticServiceSectionId",
+    "description" : "Concepts which specify a section of a diagnostic service where the observation may be performed.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0074"],
+    "oids" : ["2.16.840.1.113883.21.32"],
+    "sources" : ["2.16.840.1.113883.21.32"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt"
+  },
+  {
+    "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "ReportCode",
+    "title" : "Report Code",
+    "description" : "Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself.",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt"
+  },
+  {
+    "url" : "https://tx.hl7.lt/fhir/ValueSet/organization-identifier",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "OrganizationIdentifierLt",
+    "title" : "Organization Identifier",
+    "description" : "A curated list of identifier systems for organizations.",
+    "systems" : ["https://tx.hl7.lt/fhir/CodeSystem/identifier-domain"],
+    "uses" : {
+    },
+    "StructureDefinition-organization-lt.html" : "OrganizationLt"
+  },
+  {
+    "url" : "https://tx.hl7.lt/fhir/ValueSet/patient-identifier",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "PatientIdentifierLt",
+    "title" : "Patient Identifier",
+    "description" : "A curated list of identifier systems for patients.",
+    "systems" : ["https://tx.hl7.lt/fhir/CodeSystem/identifier-domain"],
+    "uses" : {
+    },
+    "StructureDefinition-patient-lt.html" : "PatientLt"
+  }]
+}

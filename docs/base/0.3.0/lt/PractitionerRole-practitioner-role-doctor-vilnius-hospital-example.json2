@@ -1,0 +1,26 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "practitioner-role-doctor-vilnius-hospital-example",
+  "meta" : {
+    "profile" : ["https://hl7.lt/fhir/base/StructureDefinition/practitioner-role-lt"]
+  },
+  "language" : "lt",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitioner-role-doctor-vilnius-hospital-example</b></p><a name=\"lt-practitioner-role-doctor-vilnius-hospital-example\"> </a><a name=\"lt-hcpractitioner-role-doctor-vilnius-hospital-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-practitioner-role-lt.html\">PractitionerRoleLt</a></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-practitioner-example.html\">Practitioner Dr. Petras Kazlauskas(official)</a></p><p><b>organization</b>: <a href=\"Organization-organization-example.html\">Organization Lithuanian Medical Library</a></p><p><b>code</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/practitioner-role doctor}\">Doctor</span></p></div>"
+  },
+  "active" : true,
+  "practitioner" : {
+    "reference" : "Practitioner/practitioner-example"
+  },
+  "organization" : {
+    "reference" : "Organization/organization-example"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "doctor",
+      "display" : "Doctor"
+    }]
+  }]
+}

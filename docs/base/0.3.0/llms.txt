@@ -1,0 +1,63 @@
+# lt.hl7.fhir.base#0.3.0: Lithuanian Base Implementation Guide(en)
+
+## Pages
+
+* [Home](en/index.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Changes](en/changes.md)
+* [Download](en/download.md)
+* [Policy](en/policy.md)
+
+## Resources
+
+### CodeSystems
+
+* [Identifier Domain](en/CodeSystem-identifier-domain-lt.md)
+
+### ValueSets
+
+* [Organization Identifier](en/ValueSet-organization-identifier-lt.md)
+* [Patient Identifier](en/ValueSet-patient-identifier-lt.md)
+
+### Resource Profiles
+
+* [AppointmentLt](en/StructureDefinition-appointment-lt.md)
+* [CarePlanLt](en/StructureDefinition-care-plan-lt.md)
+* [CareTeamLt](en/StructureDefinition-care-team-lt.md)
+* [CompositionLt](en/StructureDefinition-composition-lt.md)
+* [ConditionLt](en/StructureDefinition-condition-lt.md)
+* [DiagnosticReportLt](en/StructureDefinition-diagnostic-report-lt.md)
+* [DocumentReferenceLt](en/StructureDefinition-document-reference-lt.md)
+* [EncounterLt](en/StructureDefinition-encounter-lt.md)
+* [EpisodeOfCareLt](en/StructureDefinition-episode-of-care-lt.md)
+* [FamilyMemberHistoryLt](en/StructureDefinition-family-member-history-lt.md)
+* [GoalLt](en/StructureDefinition-goal-lt.md)
+* [HealthcareServiceLt](en/StructureDefinition-healthcare-service-lt.md)
+* [ImagingStudyLt](en/StructureDefinition-imagingstudy-lt.md)
+* [LocationLt](en/StructureDefinition-location-lt.md)
+* [ObservationLt](en/StructureDefinition-observation-lt.md)
+* [OrganizationLt](en/StructureDefinition-organization-lt.md)
+* [PatientLt](en/StructureDefinition-patient-lt.md)
+* [PractitionerLt](en/StructureDefinition-practitioner-lt.md)
+* [PractitionerRoleLt](en/StructureDefinition-practitioner-role-lt.md)
+* [ProcedureLt](en/StructureDefinition-procedure-lt.md)
+* [RelatedPersonLt](en/StructureDefinition-related-person-lt.md)
+* [ServiceRequestLt](en/StructureDefinition-service-request-lt.md)
+
+### ImplementationGuides
+
+* [Lithuanian Base Implementation Guide](en/ImplementationGuide-lt.hl7.fhir.base.md)
+
+### Examples
+
+* [condition-cancer-example (Condition)](en/Condition-condition-cancer-example.md)
+* [encounter-psychiatric-example (Encounter)](en/Encounter-encounter-psychiatric-example.md)
+* [Vilniaus miesto ligoninė (Location)](en/Location-location-vilnius-hospital-example.md)
+* [observation-blood-pressure-example (Observation)](en/Observation-observation-blood-pressure-example.md)
+* [observation-breast-density-fatty-example (Observation)](en/Observation-observation-breast-density-fatty-example.md)
+* [Lietuvos Medicinos biblioteka (Organization)](en/Organization-organization-example.md)
+* [Vilniaus miesto ligoninė (Organization)](en/Organization-organization-vilnius-hospital-example.md)
+* [patient-example (Patient)](en/Patient-patient-example.md)
+* [practitioner-example (Practitioner)](en/Practitioner-practitioner-example.md)
+* [practitioner-role-doctor-vilnius-hospital-example (PractitionerRole)](en/PractitionerRole-practitioner-role-doctor-vilnius-hospital-example.md)
+* [related-person-ruta-petrauskiene-example (RelatedPerson)](en/RelatedPerson-related-person-ruta-petrauskiene-example.md)

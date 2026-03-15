@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://tx.hl7.lt/fhir/CodeSystem/identifier-domain,0.3.0,draft,,IdentifierDomainLt,Identifier Domain,"Identifier Domain with translations in Lithuanian","ValueSet/patient-identifier-lt,ValueSet/organization-identifier-lt"

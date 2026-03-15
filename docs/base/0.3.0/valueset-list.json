@@ -1,0 +1,26 @@
+{
+  "codeSystems" : [{
+    "url" : "https://tx.hl7.lt/fhir/ValueSet/organization-identifier",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "OrganizationIdentifierLt",
+    "title" : "Organization Identifier",
+    "description" : "A curated list of identifier systems for organizations.",
+    "systems" : ["https://tx.hl7.lt/fhir/CodeSystem/identifier-domain"],
+    "uses" : {
+    },
+    "StructureDefinition-organization-lt.html" : "OrganizationLt"
+  },
+  {
+    "url" : "https://tx.hl7.lt/fhir/ValueSet/patient-identifier",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "PatientIdentifierLt",
+    "title" : "Patient Identifier",
+    "description" : "A curated list of identifier systems for patients.",
+    "systems" : ["https://tx.hl7.lt/fhir/CodeSystem/identifier-domain"],
+    "uses" : {
+    },
+    "StructureDefinition-patient-lt.html" : "PatientLt"
+  }]
+}

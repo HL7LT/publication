@@ -36,5 +36,24 @@
       "date" : "2026-03-15",
       "path" : "https://hl7.eu/fhir/0.0.1"
     }
+  },
+  {
+    "path" : "base/package-list.json",
+    "package-id" : "lt.hl7.fhir.base",
+    "title" : "Lithuanian Base FHIR Implementation Guide",
+    "canonical" : "https://hl7.lt/fhir/base",
+    "category" : "Infrastructure",
+    "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-lt-base",
+    "version-count" : 3,
+    "latest" : {
+      "version" : "0.3.0",
+      "date" : "2026-03-15",
+      "path" : "https://hl7.lt/fhir/base/0.3.0"
+    },
+    "milestone" : {
+      "version" : "0.3.0",
+      "date" : "2026-03-15",
+      "path" : "https://hl7.lt/fhir/base/0.3.0"
+    }
   }]
 }
