@@ -15,21 +15,21 @@
     "2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
     "StructureDefinition-ProcedureEu.html" : "EU Procedure",
-    "StructureDefinition-ImOrder.html" : "IM Imaging Order",
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
     "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
+    "StructureDefinition-ImOrder.html" : "IM Imaging Order",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
+    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
+    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
     "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
     "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
-    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
-    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
-    "StructureDefinition-ConditionEu.html" : "EU Condition",
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/uv/ips/ValueSet/pregnancy-status-uv-ips",
@@ -68,7 +68,7 @@
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)"
   },
   {
-    "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+    "url" : "https://hl7.lt/fhir/eu/ValueSet/report-code",
     "version" : "1.0.0",
     "status" : "draft",
     "name" : "ReportCode",

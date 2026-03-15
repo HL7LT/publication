@@ -4,15 +4,15 @@
   <id value="lt.hl7.fhir.eu"/>
   <language value="lt"/>
   <text>
-    <status value="generated"/><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.eu</b></p><a name="lt-lt.hl7.fhir.eu"> </a><a name="lt-hclt.hl7.fhir.eu"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>HL7EU</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu</pre><div><p>HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles</p>
+    <status value="generated"/><div xml:lang="lt" lang="lt"><hr/><p><b>Lithuanian</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.eu</b></p><a name="lt-lt.hl7.fhir.eu"> </a><a name="lt-hclt.hl7.fhir.eu"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>Hl7Eu</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu</pre><div><p>The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s.</p>
 </div></div>
   </text>
-  <url value="https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu"/>
+  <url value="https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu"/>
   <version value="0.0.1"/>
-  <name value="HL7EU"/>
-  <title value="HL7 Europe General Implementation Guide"/>
+  <name value="Hl7Eu"/>
+  <title value="HL7 Europe IG Snapshot"/>
   <status value="draft"/>
-  <date value="2026-03-15T14:53:25+02:00"/>
+  <date value="2026-03-15T17:07:07+02:00"/>
   <publisher value="Lithuanian Medical Library"/>
   <contact>
     <name value="Lithuanian Medical Library"/>
@@ -25,7 +25,7 @@
       <value value="info@medicinosnk.lt"/>
     </telecom>
   </contact>
-  <description value="HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles"/>
+  <description value="The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -894,7 +894,7 @@
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="path-history"/>
       </code>
-      <value value="https://hl7.eu/fhir/history.html"/>
+      <value value="https://hl7.lt/fhir/eu/history.html"/>
     </parameter>
     <parameter>
       <code>

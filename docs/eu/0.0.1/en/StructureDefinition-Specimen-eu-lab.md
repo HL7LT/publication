@@ -1,4 +1,4 @@
-# Specimen: Laboratory (Eu Lab) - HL7 Europe General Implementation Guide v0.0.1
+# Specimen: Laboratory (Eu Lab) - HL7 Europe IG Snapshot v0.0.1
 
 ## Resource Profile: Specimen: Laboratory (Eu Lab) 
 
@@ -33,7 +33,7 @@ Other representations of profile: [CSV](../StructureDefinition-Specimen-eu-lab.c
   "name" : "SpecimenEu",
   "title" : "Specimen: Laboratory (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T14:53:25+02:00",
+  "date" : "2026-03-15T17:07:07+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

@@ -25,8 +25,8 @@
     "sources" : ["1.2.840.10008.6.1.1283"],
     "uses" : {
     },
-    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
+    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
     "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference"
   },
   {
@@ -41,8 +41,8 @@
     "sources" : ["1.2.840.10008.6.1.490"],
     "uses" : {
     },
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection"
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -56,33 +56,33 @@
     "sources" : ["2.16.840.1.113883.4.642.3.21"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
-    "StructureDefinition-ImComposition.html" : "IM Composition",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
-    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
-    "StructureDefinition-DiagnosticReport-eu-lab.html" : "DiagnosticReport: Laboratory Report (Eu Lab)",
-    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
-    "StructureDefinition-ImImagingDevice.html" : "IM Imaging Device",
-    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
-    "StructureDefinition-ConditionEu.html" : "EU Condition",
-    "StructureDefinition-location-eu-core.html" : "Location (EU core)",
-    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding",
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
-    "StructureDefinition-CarePlanEu.html" : "EU CarePlan",
     "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
+    "StructureDefinition-Substance-additive-eu-lab.html" : "Substance: Specimen Additive Substance (Eu Lab)",
     "StructureDefinition-ImOrder.html" : "IM Imaging Order",
+    "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report",
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
+    "StructureDefinition-ImComposition.html" : "IM Composition",
+    "StructureDefinition-EndpointEu.html" : "EU Endpoint",
+    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
+    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
+    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
     "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-CompositionEu.html" : "EU Composition",
-    "StructureDefinition-EndpointEu.html" : "EU Endpoint",
-    "StructureDefinition-Substance-additive-eu-lab.html" : "Substance: Specimen Additive Substance (Eu Lab)",
-    "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report",
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference"
+    "StructureDefinition-DiagnosticReport-eu-lab.html" : "DiagnosticReport: Laboratory Report (Eu Lab)",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
+    "StructureDefinition-ImImagingDevice.html" : "IM Imaging Device",
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-CarePlanEu.html" : "EU CarePlan",
+    "StructureDefinition-location-eu-core.html" : "Location (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -100,21 +100,21 @@
     "2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
     "StructureDefinition-ProcedureEu.html" : "EU Procedure",
-    "StructureDefinition-ImOrder.html" : "IM Imaging Order",
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
     "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
+    "StructureDefinition-ImOrder.html" : "IM Imaging Order",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
+    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
+    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
     "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
     "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
-    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
-    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
-    "StructureDefinition-ConditionEu.html" : "EU Condition",
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/c80-facilitycodes",
@@ -214,9 +214,9 @@
     "2.16.840.1.113883.4.642.2.115"],
     "uses" : {
     },
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
     "StructureDefinition-DiagnosticReport-eu-lab.html" : "DiagnosticReport: Laboratory Report (Eu Lab)",
     "StructureDefinition-CarePlanEu.html" : "EU CarePlan",
-    "StructureDefinition-ConditionEu.html" : "EU Condition",
     "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report"
   },
   {
@@ -237,9 +237,9 @@
     },
     "StructureDefinition-ImComposition.html" : "IM Composition",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
     "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference"
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -259,9 +259,9 @@
     },
     "StructureDefinition-ImComposition.html" : "IM Composition",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
     "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference"
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -315,9 +315,9 @@
     "2.16.840.1.113883.4.642.3.152"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
     "StructureDefinition-ProcedureEu.html" : "EU Procedure",
-    "StructureDefinition-ConditionEu.html" : "EU Condition"
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -399,10 +399,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -420,8 +420,8 @@
     "2.16.840.1.113883.4.642.3.416"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-availability-status",
@@ -569,8 +569,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1376"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-versiontype",
@@ -641,8 +641,8 @@
     "uses" : {
     },
     "StructureDefinition-ImComposition.html" : "IM Composition",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
-    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)"
+    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
@@ -661,8 +661,8 @@
     "uses" : {
     },
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference"
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/document-reference-status",
@@ -712,9 +712,9 @@
     "2.16.840.1.113883.4.642.3.491"],
     "uses" : {
     },
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
     "StructureDefinition-EndpointEu.html" : "EU Endpoint",
-    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint"
+    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/endpoint-environment",
@@ -728,9 +728,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3184"],
     "uses" : {
     },
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
     "StructureDefinition-EndpointEu.html" : "EU Endpoint",
-    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint"
+    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/endpoint-payload-type",
@@ -748,9 +748,9 @@
     "2.16.840.1.113883.4.642.3.489"],
     "uses" : {
     },
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
     "StructureDefinition-EndpointEu.html" : "EU Endpoint",
-    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint"
+    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/endpoint-status",
@@ -766,9 +766,9 @@
     "2.16.840.1.113883.4.642.3.494"],
     "uses" : {
     },
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
     "StructureDefinition-EndpointEu.html" : "EU Endpoint",
-    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint"
+    "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/event-status",
@@ -782,8 +782,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.109"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -798,9 +798,9 @@
     "uses" : {
     },
     "StructureDefinition-im-accession-number-identifier.html" : "IM Imaging Accession Number Identifier",
-    "StructureDefinition-im-study-instance-uid-identifier.html" : "IM Study Instance UID Identifier",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-im-study-instance-uid-identifier.html" : "IM Study Instance UID Identifier"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -815,9 +815,9 @@
     "uses" : {
     },
     "StructureDefinition-im-accession-number-identifier.html" : "IM Imaging Accession Number Identifier",
-    "StructureDefinition-im-study-instance-uid-identifier.html" : "IM Study Instance UID Identifier",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-im-study-instance-uid-identifier.html" : "IM Study Instance UID Identifier"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/imagingselection-2dgraphictype",
@@ -831,8 +831,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3095"],
     "uses" : {
     },
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection"
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/imagingselection-3dgraphictype",
@@ -846,8 +846,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3097"],
     "uses" : {
     },
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection"
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/imagingselection-status",
@@ -861,8 +861,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3096"],
     "uses" : {
     },
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection"
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/imagingstudy-status",
@@ -892,33 +892,33 @@
     "2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
-    "StructureDefinition-ImComposition.html" : "IM Composition",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
-    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
-    "StructureDefinition-DiagnosticReport-eu-lab.html" : "DiagnosticReport: Laboratory Report (Eu Lab)",
-    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
-    "StructureDefinition-ImImagingDevice.html" : "IM Imaging Device",
-    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
-    "StructureDefinition-ConditionEu.html" : "EU Condition",
-    "StructureDefinition-location-eu-core.html" : "Location (EU core)",
-    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding",
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
-    "StructureDefinition-CarePlanEu.html" : "EU CarePlan",
     "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
+    "StructureDefinition-Substance-additive-eu-lab.html" : "Substance: Specimen Additive Substance (Eu Lab)",
     "StructureDefinition-ImOrder.html" : "IM Imaging Order",
+    "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report",
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
+    "StructureDefinition-ImComposition.html" : "IM Composition",
+    "StructureDefinition-EndpointEu.html" : "EU Endpoint",
+    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
+    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
+    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
     "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-CompositionEu.html" : "EU Composition",
-    "StructureDefinition-EndpointEu.html" : "EU Endpoint",
-    "StructureDefinition-Substance-additive-eu-lab.html" : "Substance: Specimen Additive Substance (Eu Lab)",
-    "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report",
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference"
+    "StructureDefinition-DiagnosticReport-eu-lab.html" : "DiagnosticReport: Laboratory Report (Eu Lab)",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
+    "StructureDefinition-ImImagingDevice.html" : "IM Imaging Device",
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-CarePlanEu.html" : "EU CarePlan",
+    "StructureDefinition-location-eu-core.html" : "Location (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -936,8 +936,8 @@
     "2.16.840.1.113883.4.642.2.176"],
     "uses" : {
     },
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
-    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)"
+    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-order",
@@ -956,8 +956,8 @@
     "uses" : {
     },
     "StructureDefinition-ImComposition.html" : "IM Composition",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
-    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)"
+    "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/location-characteristic",
@@ -1050,10 +1050,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1024"],
     "uses" : {
     },
-    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint",
     "StructureDefinition-EndpointEu.html" : "EU Endpoint",
+    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
     "StructureDefinition-ImImageIidViewerEndpoint.html" : "IM Image Viewer Endpoint",
-    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference"
+    "StructureDefinition-ImWadoEndpoint.html" : "IM WADO Endpoint"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -1071,10 +1071,10 @@
     "2.16.840.1.113883.4.642.3.392"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -1111,10 +1111,10 @@
     "2.16.840.1.113883.4.642.2.218"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -1132,9 +1132,9 @@
     "2.16.840.1.113883.4.642.3.382"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-ImFinding.html" : "IM Finding",
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
@@ -1148,10 +1148,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3264"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -1169,10 +1169,10 @@
     "2.16.840.1.113883.4.642.2.219"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
@@ -1186,10 +1186,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3265"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/participant-role",
@@ -1242,8 +1242,8 @@
     "2.16.840.1.113883.4.642.3.424"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -1261,8 +1261,8 @@
     "2.16.840.1.113883.4.642.2.241"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
@@ -1299,8 +1299,8 @@
     "2.16.840.1.113883.4.642.2.240"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
@@ -1318,8 +1318,8 @@
     "2.16.840.1.113883.4.642.2.418"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
@@ -1337,8 +1337,8 @@
     "2.16.840.1.113883.4.642.3.428"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
-    "StructureDefinition-ProcedureEu.html" : "EU Procedure"
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -1356,11 +1356,11 @@
     "2.16.840.1.113883.4.642.2.419"],
     "uses" : {
     },
-    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
     "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
     "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
     "StructureDefinition-ImOrder.html" : "IM Imaging Order",
-    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study"
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -1374,11 +1374,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.59"],
     "uses" : {
     },
-    "StructureDefinition-Quantity-uv-ips.html" : "Quantity (IPS)",
-    "StructureDefinition-SimpleQuantityEu.html" : "EU SimpleQuantity",
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
-    "StructureDefinition-quantity-eu.html" : "EU Quantity",
     "StructureDefinition-SimpleQuantity-uv-ips.html" : "SimpleQuantity (IPS)",
+    "StructureDefinition-SimpleQuantityEu.html" : "EU SimpleQuantity",
+    "StructureDefinition-quantity-eu.html" : "EU Quantity",
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
+    "StructureDefinition-Quantity-uv-ips.html" : "Quantity (IPS)",
     "StructureDefinition-Quantity-eu-lab.html" : "Quantity (Eu Lab)"
   },
   {
@@ -1396,9 +1396,9 @@
     },
     "StructureDefinition-ImComposition.html" : "IM Composition",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
     "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference"
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -1415,10 +1415,10 @@
     "2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -1436,10 +1436,10 @@
     "2.16.840.1.113883.4.642.3.384"],
     "uses" : {
     },
-    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)",
     "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/report-codes",
@@ -1501,9 +1501,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.111"],
     "uses" : {
     },
-    "StructureDefinition-CarePlanEu.html" : "EU CarePlan",
     "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
-    "StructureDefinition-ImOrder.html" : "IM Imaging Order"
+    "StructureDefinition-ImOrder.html" : "IM Imaging Order",
+    "StructureDefinition-CarePlanEu.html" : "EU CarePlan"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -1518,12 +1518,12 @@
     "uses" : {
     },
     "StructureDefinition-ObservationEu.html" : "EU Observation",
-    "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report",
-    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
-    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
     "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-ImFinding.html" : "IM Finding"
+    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
+    "StructureDefinition-ImDiagnosticReport.html" : "IM Diagnostic Report"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/security-label-examples",
@@ -1554,8 +1554,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.989"],
     "uses" : {
     },
-    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
-    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection"
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
@@ -1847,9 +1847,9 @@
     },
     "StructureDefinition-ImComposition.html" : "IM Composition",
     "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
-    "StructureDefinition-CompositionEu.html" : "EU Composition",
     "StructureDefinition-Composition-eu-lab.html" : "Composition: Laboratory Report (Eu Lab)",
-    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference"
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-CompositionEu.html" : "EU Composition"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-HL7FormatCodes",
@@ -1884,7 +1884,7 @@
     "StructureDefinition-location-eu-core.html" : "Location (EU core)"
   },
   {
-    "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+    "url" : "https://hl7.lt/fhir/eu/ValueSet/report-code",
     "version" : "1.0.0",
     "status" : "draft",
     "name" : "ReportCode",

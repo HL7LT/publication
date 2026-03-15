@@ -1,4 +1,4 @@
-# MedicalTestResult (EU core) - HL7 Europe General Implementation Guide v0.0.1
+# MedicalTestResult (EU core) - HL7 Europe IG Snapshot v0.0.1
 
 ## Resursų profilis: MedicalTestResult (EU core) 
 
@@ -47,7 +47,7 @@ This structure refers to these other structures:
 * [Practitioner (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/practitioner-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-practitioner-eu.html)
 * [PractitionerRole (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/practitionerRole-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-practitionerRole-eu.html)
 * [Organization (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/organization-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-organization-eu.html)
-* [MedicalTestResult (EU core) (https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot)](StructureDefinition-medicalTestResult-eu-core.md)
+* [MedicalTestResult (EU core) (https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot)](StructureDefinition-medicalTestResult-eu-core.md)
 * [QuestionnaireResponse (http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0)](http://hl7.org/fhir/R5/questionnaireresponse.html)
 * [ImagingStudy (http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0)](http://hl7.org/fhir/R5/imagingstudy.html)
 * [DocumentReference (http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0)](http://hl7.org/fhir/R5/documentreference.html)
@@ -100,7 +100,7 @@ This structure refers to these other structures:
 * [Practitioner (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/practitioner-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-practitioner-eu.html)
 * [PractitionerRole (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/practitionerRole-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-practitionerRole-eu.html)
 * [Organization (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/organization-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-organization-eu.html)
-* [MedicalTestResult (EU core) (https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot)](StructureDefinition-medicalTestResult-eu-core.md)
+* [MedicalTestResult (EU core) (https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot)](StructureDefinition-medicalTestResult-eu-core.md)
 * [QuestionnaireResponse (http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0)](http://hl7.org/fhir/R5/questionnaireresponse.html)
 * [ImagingStudy (http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0)](http://hl7.org/fhir/R5/imagingstudy.html)
 * [DocumentReference (http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0)](http://hl7.org/fhir/R5/documentreference.html)
@@ -142,12 +142,12 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-medicalTestResult-e
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "draft"
   }],
-  "url" : "https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core",
+  "url" : "https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core",
   "version" : "2.0.0-ballot",
   "name" : "MedicalTestResultEuCore",
   "title" : "MedicalTestResult (EU core)",
   "status" : "draft",
-  "date" : "2026-03-15T14:53:25+02:00",
+  "date" : "2026-03-15T17:07:07+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -400,7 +400,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-medicalTestResult-e
       "requirements" : "EHDSObservation.hasMember[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
+        "targetProfile" : ["https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
         "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0"]
       }]
     },
@@ -410,7 +410,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-medicalTestResult-e
       "requirements" : "EHDSObservation.derivedFrom[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
+        "targetProfile" : ["https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
         "http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0",
         "http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0",
         "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0"]

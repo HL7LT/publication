@@ -1,4 +1,4 @@
-# DiagnosticReport: Laboratory Report (Eu Lab) - HL7 Europe General Implementation Guide v0.0.1
+# DiagnosticReport: Laboratory Report (Eu Lab) - HL7 Europe IG Snapshot v0.0.1
 
 ## Resursų profilis: DiagnosticReport: Laboratory Report (Eu Lab) 
 
@@ -127,7 +127,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-DiagnosticReport-eu
   "name" : "DiagnosticReportLabEu",
   "title" : "DiagnosticReport: Laboratory Report (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T14:53:25+02:00",
+  "date" : "2026-03-15T17:07:07+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

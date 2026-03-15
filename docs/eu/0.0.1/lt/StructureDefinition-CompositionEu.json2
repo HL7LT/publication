@@ -14,7 +14,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "draft"
   }],
-  "url" : "https://hl7.eu/fhir/StructureDefinition/CompositionEu",
+  "url" : "https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu",
   "version" : "0.1.0-ballot",
   "name" : "CompositionEu",
   "title" : "EU Composition",

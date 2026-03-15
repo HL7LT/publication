@@ -1,4 +1,4 @@
-# MedicalTestResult (EU core) - HL7 Europe General Implementation Guide v0.0.1
+# MedicalTestResult (EU core) - HL7 Europe IG Snapshot v0.0.1
 
 ## Resource Profile: MedicalTestResult (EU core) 
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](../StructureDefinition-medicalTestResult
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "draft"
   }],
-  "url" : "https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core",
+  "url" : "https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core",
   "version" : "2.0.0-ballot",
   "name" : "MedicalTestResultEuCore",
   "title" : "MedicalTestResult (EU core)",
   "status" : "draft",
-  "date" : "2026-03-15T14:53:25+02:00",
+  "date" : "2026-03-15T17:07:07+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -294,7 +294,7 @@ Other representations of profile: [CSV](../StructureDefinition-medicalTestResult
       "requirements" : "EHDSObservation.hasMember[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
+        "targetProfile" : ["https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
         "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0"]
       }]
     },
@@ -304,7 +304,7 @@ Other representations of profile: [CSV](../StructureDefinition-medicalTestResult
       "requirements" : "EHDSObservation.derivedFrom[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.eu/fhir/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
+        "targetProfile" : ["https://hl7.lt/fhir/eu/StructureDefinition/medicalTestResult-eu-core|2.0.0-ballot",
         "http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0",
         "http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0",
         "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0"]

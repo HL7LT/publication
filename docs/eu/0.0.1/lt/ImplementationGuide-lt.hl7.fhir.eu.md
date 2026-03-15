@@ -1,4 +1,4 @@
-# Resource HL7 Europe General Implementation Guide
+# Resource HL7 Europe IG Snapshot
 
 
 
@@ -9,12 +9,12 @@
   "resourceType" : "ImplementationGuide",
   "id" : "lt.hl7.fhir.eu",
   "language" : "en",
-  "url" : "https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu",
+  "url" : "https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu",
   "version" : "0.0.1",
-  "name" : "HL7EU",
-  "title" : "HL7 Europe General Implementation Guide",
+  "name" : "Hl7Eu",
+  "title" : "HL7 Europe IG Snapshot",
   "status" : "draft",
-  "date" : "2026-03-15T14:53:25+02:00",
+  "date" : "2026-03-15T17:07:07+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -27,7 +27,7 @@
       "value" : "info@medicinosnk.lt"
     }]
   }],
-  "description" : "HL7 Europe General Implementation Guide including EU Imaging and EU Laboratory profiles",
+  "description" : "The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -953,7 +953,7 @@
         "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
         "code" : "path-history"
       },
-      "value" : "https://hl7.eu/fhir/history.html"
+      "value" : "https://hl7.lt/fhir/eu/history.html"
     },
     {
       "code" : {

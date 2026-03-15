@@ -1,0 +1,813 @@
+{
+  "codeSystems" : [{
+    "url" : "http://dicom.nema.org/resources/ontology/DCM",
+    "version" : "2025.3.20250714",
+    "status" : "active",
+    "name" : "DICOMTerminologyDefinitions",
+    "title" : "DICOM Controlled Terminology Definitions",
+    "description" : "DICOM Code Definitions (Coding Scheme Designator \"DCM\" Coding Scheme Version 2025.3.20250714",
+    "oids" : ["1.2.840.10008.2.16.4"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-participation-role-type.html" : "Participation Role Type",
+    "http://tx.fhir.org/r5/ValueSet/dicom-cid-7010-KeyObjectSelectionDocumentTitle" : "KeyObjectSelectionDocumentTitle",
+    "http://tx.fhir.org/r5/ValueSet/dicom-cid-33-Modality" : "Modality"
+  },
+  {
+    "url" : "http://hl7.org/fhir/composition-attestation-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "CompositionAttestationMode",
+    "title" : "Composition Attestation Mode",
+    "description" : "The way in which a person authenticated a composition.",
+    "oids" : ["2.16.840.1.113883.4.642.1.234",
+    "2.16.840.1.113883.4.642.4.239",
+    "2.16.840.1.113883.4.642.2.120"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-composition-attestation-mode.html" : "Composition Attestation Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/composition-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "CompositionStatus",
+    "title" : "Composition Status",
+    "description" : "The workflow/clinical status of the composition.",
+    "oids" : ["2.16.840.1.113883.4.642.4.242",
+    "2.16.840.1.113883.4.642.2.123",
+    "2.16.840.1.113883.4.642.1.237"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-composition-status.html" : "Composition Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-availability-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceAvailabilityStatus",
+    "title" : "FHIR Device Availability Status",
+    "description" : "The record status of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-availability-status.html" : "FHIR Device Availability Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-category",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceCategory",
+    "title" : "FHIR Device Category",
+    "description" : "The category of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2105"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-category.html" : "FHIR Device Category"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-nametype",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DeviceNameType",
+    "title" : "Device Name Type",
+    "description" : "The type of name the device is referred by.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1084"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-nametype.html" : "Device Name Type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-operation-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceOperationMode",
+    "title" : "FHIR Device Operation Mode",
+    "description" : "The operation mode of the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2107"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-operation-mode.html" : "FHIR Device Operation Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-specification-category",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceSpecializationCategory",
+    "title" : "FHIR Device Specialization Category",
+    "description" : "The kind of standards used by the device.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2054"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-specification-category.html" : "Device Specification Category"
+  },
+  {
+    "url" : "http://hl7.org/fhir/device-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRDeviceStatus",
+    "title" : "FHIR Device Status",
+    "description" : "The status of the Device record.",
+    "oids" : ["2.16.840.1.113883.4.642.4.210",
+    "2.16.840.1.113883.4.642.1.200"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-status.html" : "FHIR Device Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/diagnostic-report-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DiagnosticReportStatus",
+    "title" : "Diagnostic Report Status",
+    "description" : "The status of the diagnostic report.",
+    "oids" : ["2.16.840.1.113883.4.642.2.118",
+    "2.16.840.1.113883.4.642.4.236",
+    "2.16.840.1.113883.4.642.1.231"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-diagnostic-report-status.html" : "Diagnostic Report Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/document-reference-status",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "DocumentReferenceStatus",
+    "title" : "DocumentReferenceStatus",
+    "description" : "The status of the document reference.",
+    "oids" : ["2.16.840.1.113883.4.642.4.8"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-document-reference-status.html" : "DocumentReferenceStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/document-relationship-type",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DocumentRelationshipType",
+    "title" : "Document Relationship Type",
+    "description" : "The type of relationship between documents.",
+    "oids" : ["2.16.840.1.113883.4.642.4.245",
+    "2.16.840.1.113883.4.642.2.133",
+    "2.16.840.1.113883.4.642.1.240"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-document-relationship-type.html" : "Document Relationship Type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/endpoint-environment",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EndpointEnvironment",
+    "title" : "Endpoint Environment",
+    "description" : "The environment type of the endpoint.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2041"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-endpoint-environment.html" : "Endpoint Environment"
+  },
+  {
+    "url" : "http://hl7.org/fhir/endpoint-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "EndpointStatus",
+    "title" : "Endpoint Status",
+    "description" : "The status of the endpoint.",
+    "oids" : ["2.16.840.1.113883.4.642.4.495",
+    "2.16.840.1.113883.4.642.1.488"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-endpoint-status.html" : "Endpoint Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/event-status",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "oids" : ["2.16.840.1.113883.4.642.4.110"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-event-status.html" : "EventStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/fhir-types",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRTypes",
+    "title" : "All FHIR Types",
+    "description" : "One of the types defined as part of this version of FHIR.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1802"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-resource-types.html" : "Resource Types"
+  },
+  {
+    "url" : "http://hl7.org/fhir/identifier-use",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "oids" : ["2.16.840.1.113883.4.642.1.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-identifier-use.html" : "IdentifierUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/imagingselection-2dgraphictype",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ImagingSelection2DGraphicType",
+    "title" : "Imaging Selection2 D Graphic Type",
+    "description" : "The type of coordinates describing a 2D image region.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1984"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-imagingselection-2dgraphictype.html" : "Imaging Selection2 D Graphic Type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/imagingselection-3dgraphictype",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ImagingSelection3DGraphicType",
+    "title" : "Imaging Selection3 D Graphic Type",
+    "description" : "The type of coordinates describing an image region.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1983"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-imagingselection-3dgraphictype.html" : "Imaging Selection3 D Graphic Type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/imagingselection-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ImagingSelectionStatus",
+    "title" : "Imaging Selection Status",
+    "description" : "The status of the ImagingSelection.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1985"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-imagingselection-status.html" : "Imaging Selection Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/imagingstudy-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ImagingStudyStatus",
+    "title" : "Imaging Study Status",
+    "description" : "The status of the ImagingStudy.",
+    "oids" : ["2.16.840.1.113883.4.642.4.991"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-imagingstudy-status.html" : "Imaging Study Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/location-characteristic",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LocationCharacteristic",
+    "title" : "Location Characteristic",
+    "description" : "Example Set of Location Characteristics.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1970"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-characteristic.html" : "Location Characteristic"
+  },
+  {
+    "url" : "http://hl7.org/fhir/location-mode",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LocationMode",
+    "title" : "Location Mode",
+    "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+    "oids" : ["2.16.840.1.113883.4.642.4.331",
+    "2.16.840.1.113883.4.642.1.322",
+    "2.16.840.1.113883.4.642.2.181"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-mode.html" : "Location Mode"
+  },
+  {
+    "url" : "http://hl7.org/fhir/location-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "LocationStatus",
+    "title" : "Location Status",
+    "description" : "Indicates whether the location is still in use.",
+    "oids" : ["2.16.840.1.113883.4.642.4.333",
+    "2.16.840.1.113883.4.642.1.324",
+    "2.16.840.1.113883.4.642.2.182"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-status.html" : "Location Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-referencerange-normalvalue",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeNormalValue",
+    "title" : "ObservationreferenceRangeNormalValue",
+    "description" : "Codes that describe the normal value in the reference range.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2099"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-referencerange-normalvalue.html" : "Observation Reference Range Normal Value Codes"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "Observation Status",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401",
+    "2.16.840.1.113883.4.642.1.388",
+    "2.16.840.1.113883.4.642.2.219"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-status.html" : "Observation Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-triggeredbytype",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "TriggeredBytype",
+    "title" : "triggered Bytype",
+    "description" : "Codes providing the triggeredBy type of observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2098"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-triggeredbytype.html" : "triggered Bytype"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-intent",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestIntent",
+    "title" : "RequestIntent",
+    "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.114"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-care-plan-intent.html" : "Care Plan Intent",
+    "http://hl7.org/fhir/R5/valueset-request-intent.html" : "RequestIntent"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-priority",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestPriority",
+    "title" : "RequestPriority",
+    "description" : "Identifies the level of importance to be assigned to actioning the request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.116"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-request-priority.html" : "RequestPriority"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-status",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "RequestStatus",
+    "title" : "RequestStatus",
+    "description" : "Codes identifying the lifecycle stage of a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.112"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-request-status.html" : "RequestStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/servicerequest-orderdetail-parameter-code",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ServiceRequestOrderDetailParameterCode",
+    "title" : "Service Request Order Detail Parameter Code",
+    "description" : "Codes providing the parameter codes for service request details.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-servicerequest-orderdetail-parameter-code.html" : "Servicerequest OrderDetail Parameter Code"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-combined",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SpecimenCombined",
+    "title" : "Specimen Combined",
+    "description" : "Codes providing the combined status of the specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2061"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-specimen-combined.html" : "Specimen Combined"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-role",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SpecimenRole",
+    "title" : "Specimen Role",
+    "description" : "Codes providing the combined status of the specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2060"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-specimen-role.html" : "Specimen Role"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "SpecimenStatus",
+    "title" : "Specimen Status",
+    "description" : "Codes providing the status/availability of a specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.2.426",
+    "2.16.840.1.113883.4.642.1.465",
+    "2.16.840.1.113883.4.642.4.472"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-specimen-status.html" : "Specimen Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/substance-status",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "FHIRSubstanceStatus",
+    "title" : "FHIRSubstanceStatus",
+    "description" : "A code to indicate if the substance is actively used.",
+    "oids" : ["2.16.840.1.113883.4.642.4.475",
+    "2.16.840.1.113883.4.642.1.468"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-substance-status.html" : "FHIRSubstanceStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/udi-entry-type",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "UDIEntryType",
+    "title" : "UDI Entry Type",
+    "description" : "Codes to identify how UDI data was entered.",
+    "oids" : ["2.16.840.1.113883.4.642.4.212",
+    "2.16.840.1.113883.4.642.1.202"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-udi-entry-type.html" : "UDI Entry Type"
+  },
+  {
+    "url" : "http://loinc.org",
+    "version" : "3.1.0",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+    "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+    "oids" : ["2.16.840.1.113883.6.1"],
+    "uses" : {
+    },
+    "http://tx.hl7europe.eu/r5/ValueSet/results-laboratory-observations-uv-ips" : "Results Laboratory Observation - IPS",
+    "http://hl7.org/fhir/R5/valueset-referenced-item-category.html" : "Referenced Item Category Value Set",
+    "http://hl7.org/fhir/R5/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
+    "http://tx.fhir.org/r5/ValueSet/loinc-rsna-radiology-playbook" : "LOINC/RSNA Radiology Playbook",
+    "http://hl7.org/fhir/R5/valueset-observation-codes.html" : "LOINC Codes",
+    "http://hl7.org/fhir/R5/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
+    "http://hl7.org/fhir/R5/valueset-doc-section-codes.html" : "Document Section Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-category.html" : "Condition Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-ver-status.html" : "Condition Verification Status"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-data-absent-reason.html" : "Data Absent Reason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+    "version" : "2.1.1",
+    "status" : "active",
+    "name" : "EndpointConnectionType",
+    "title" : "Endpoint Connection Type",
+    "description" : "This is an example value set defined by the FHIR project, that could be used to represent possible connection type profile values.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1140"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-endpoint-connection-type.html" : "Endpoint Connection Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "EndpointPayloadType",
+    "title" : "Endpoint Payload Type",
+    "description" : "This is an example value set defined by the FHIR project, that could be used to represent possible payload document types.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1139"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-endpoint-payload-type.html" : "Endpoint Payload Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "SecurityRoleType",
+    "title" : "Security Role Type",
+    "description" : "This CodeSystem contains Additional FHIR-defined Security Role types not defined elsewhere",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-participation-role-type.html" : "Participation Role Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ListEmptyReasons",
+    "title" : "List Empty Reasons",
+    "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
+    "oids" : ["2.16.840.1.113883.4.642.1.1106"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-list-empty-reason.html" : "List Empty Reasons"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/list-order",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ListOrderCodes",
+    "title" : "List Order Codes",
+    "description" : "Base values for the order of item lists in resources.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1107"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-list-order.html" : "List Order Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "LocationType",
+    "title" : "Location type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.\r\rThis includes several 'non physical' codes which are still considered a location.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-location-form.html" : "Location Form"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/media-category",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DigitalMediaCategory",
+    "title" : "Digital Media Category",
+    "description" : "Codes for high level media types - whether the media is an image, video, or audio.",
+    "oids" : ["2.16.840.1.113883.4.642.1.326"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-referenced-item-category.html" : "Referenced Item Category Value Set"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/substance-category",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "SubstanceCategoryCodes",
+    "title" : "Substance Category Codes",
+    "description" : "Substance category codes",
+    "oids" : ["2.16.840.1.113883.4.642.1.1138"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-substance-category.html" : "Substance Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "DiagnosticServiceSectionId",
+    "title" : "diagnosticServiceSectionId",
+    "description" : "HL7-defined code system of concepts which specify a section of a diagnostic service where the observation may be performed.  Used in HL7 Version 2.x messaging in the OBR and OM4 segments.",
+    "oids" : ["2.16.840.1.113883.18.29"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-diagnostic-service-sections.html" : "Diagnostic Service Section Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "BedStatus",
+    "title" : "bedStatus",
+    "description" : "Code system of concepts which specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.  Used in HL7 Version 2.x messaging in the DLD and PV1 segments.",
+    "oids" : ["2.16.840.1.113883.18.47"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierType",
+    "title" : "identifierType",
+    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+    "oids" : ["2.16.840.1.113883.18.108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-identifier-type.html" : "Identifier Type Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "SpecimenCondition",
+    "title" : "specimenCondition",
+    "description" : "Code system of concepts specifying a mode or state of being that describes the nature of the specimen.  Used in HL7 Version 2.x messaging in the SPM segment.",
+    "oids" : ["2.16.840.1.113883.18.317"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "RelevantClincialInformation",
+    "title" : "relevantClincialInformation",
+    "description" : "Code system of concepts specifying additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies. Used in HL7 Version 2.x messaging in the OBR segment.",
+    "oids" : ["2.16.840.1.113883.18.422"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0936",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ObservationType",
+    "title" : "observationType",
+    "description" : "HL7-defined code system of concepts specifying types of observations to enable systems to distinguish between observations sent along with an order, versus observations sent as the result to an order. Used in HL7 Version 2.x messaging in the OBX segment.",
+    "oids" : ["2.16.840.1.113883.18.439"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v2-0936.html" : "hl7VS-VS-observationType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "version" : "10.0.0",
+    "status" : "active",
+    "name" : "ActCode",
+    "title" : "ActCode",
+    "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+    "oids" : ["2.16.840.1.113883.5.4"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+    "version" : "4.1.0",
+    "status" : "active",
+    "name" : "HL7DocumentFormatCodes",
+    "title" : "HL7 Document Format Codes",
+    "description" : "This codeSystem contains codes which specify the technical format of a document. Each code provides sufficient information to allow any potential document consumer to know if it will be able to process the document. The codes are sufficiently specific to ensure processing/display by identifying a document encoding, structure and template. For example, formatCodes can be used in the FHIR DocumentReference resource to characterize the document being referenced.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1407"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-HL7FormatCodes.html" : "HL7 ValueSet of Format Codes for use with Document Sharing"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "oids" : ["2.16.840.1.113883.5.83"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+    "version" : "6.0.0",
+    "status" : "active",
+    "name" : "ParticipationType",
+    "title" : "ParticipationType",
+    "description" : "A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.",
+    "oids" : ["2.16.840.1.113883.5.90"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-series-performer-function.html" : "ImagingStudy series performer function"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+    "oids" : ["2.16.840.1.113883.5.111"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "Ietf3066",
+    "title" : "Tags for the Identification of Languages",
+    "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+    "oids" : ["2.16.840.1.113883.6.121"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
+    "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+  },
+  {
+    "url" : "urn:iso:std:iso:11073:10101",
+    "version" : "20250520",
+    "status" : "active",
+    "name" : "Mdc",
+    "title" : "ISO/IEEE 11073 Medical Device Communication Nomenclature",
+    "description" : "The nomenclature relates primarily to vital signs monitoring, but also includes semantics of other medical devices that are commonly used in acute care settings. There are multiple coding partitions each of which has a systematic name consisting of a set of base concepts and differentiating criteria.",
+    "oids" : ["2.16.840.1.113883.6.24"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-device-property-type.html" : "Device Property Type",
+    "http://hl7.org/fhir/R5/valueset-device-specification-type.html" : "Device Specification Type",
+    "http://hl7.org/fhir/R5/valueset-device-versiontype.html" : "Device Version Type",
+    "http://hl7.org/fhir/R5/valueset-device-type.html" : "Device Type"
+  }]
+}

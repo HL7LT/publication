@@ -384,7 +384,7 @@ The `text` field of each section SHALL contain a textual representation of all l
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Composition"/>
-  <baseDefinition value="https://hl7.eu/fhir/StructureDefinition/CompositionEu|0.1.0-ballot"/>
+  <baseDefinition value="https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu|0.1.0-ballot"/>
   <derivation value="constraint"/>
   <snapshot>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">

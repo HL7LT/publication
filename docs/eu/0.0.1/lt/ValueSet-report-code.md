@@ -1,4 +1,4 @@
-# Report Code - HL7 Europe General Implementation Guide v0.0.1
+# Report Code - HL7 Europe IG Snapshot v0.0.1
 
 ## ValueSet: Report Code 
 
@@ -28,13 +28,13 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "resourceType" : "ValueSet",
   "id" : "report-code",
   "language" : "en",
-  "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+  "url" : "https://hl7.lt/fhir/eu/ValueSet/report-code",
   "version" : "1.0.0",
   "name" : "ReportCode",
   "title" : "Report Code",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-15T14:53:25+02:00",
+  "date" : "2026-03-15T17:07:07+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

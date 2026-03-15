@@ -21,7 +21,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="draft"/>
   </extension>
-  <url value="https://hl7.eu/fhir/StructureDefinition/CompositionEu"/>
+  <url value="https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu"/>
   <version value="0.1.0-ballot"/>
   <name value="CompositionEu"/>
   <title value="EU Composition"/>

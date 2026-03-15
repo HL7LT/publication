@@ -61,7 +61,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Composition",
-  "baseDefinition" : "https://hl7.eu/fhir/StructureDefinition/CompositionEu|0.1.0-ballot",
+  "baseDefinition" : "https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu|0.1.0-ballot",
   "derivation" : "constraint",
   "snapshot" : {
     "extension" : [{
