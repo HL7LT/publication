@@ -195,6 +195,21 @@ git push origin main
 
 GitHub Pages will automatically rebuild and deploy to https://hl7.lt/fhir.
 
+**Deployment Timing:**
+- GitHub Pages deployment takes **2-5 minutes** after push
+- Changes won't be visible immediately on the live site
+- Check deployment status: https://github.com/HL7LT/publication/actions
+- History pages, feeds, and packages update once deployment completes
+- NPM publication process runs at 8 PM and picks up packages from the live site
+
+**Verification:**
+```bash
+# Check if package is accessible (after deployment)
+curl -I https://hl7.lt/fhir/{ig}/{version}/package.tgz
+
+# Should return HTTP 200 when ready
+```
+
 ### Step 7: Update IG Registry
 
 The publication script updates `ig-registry/fhir-ig-list.json`. Now submit it to the official registry:
