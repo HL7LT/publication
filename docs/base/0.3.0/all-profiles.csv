@@ -578,7 +578,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "composition-lt","Composition.extension:basedOn","Composition.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/event-basedOn|5.2.0]]} {[]}
 ","Fulfills plan, proposal or order","A plan, proposal or order that is fulfilled in whole or in part by this event.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"composition-lt","Composition.extension:informationRecipient","Composition.extension","informationRecipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|0.1.1]]} {[]}
+"composition-lt","Composition.extension:informationRecipient","Composition.extension","informationRecipient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.eu/fhir/StructureDefinition/information-recipient|1.2.0]]} {[]}
 ","Composition: Information recipient","This extension applies to the Composition resource and is used to represent an intended recipient of the composition.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "composition-lt","Composition.modifierExtension","Composition.modifierExtension","","extensions
@@ -943,7 +943,7 @@ Sub-departmentServiceDiscipline","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
 "
 "diagnostic-report-lt","DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","","","","","","","","","",,"preferred","","https://hl7.eu/fhir/ValueSet/report-code|1.0.0","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","","","","","","","","","",,"preferred","","https://hl7.lt/fhir/eu/ValueSet/report-code|1.0.0","",,,,"DiagnosticReport.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "diagnostic-report-lt","DiagnosticReport.subject","DiagnosticReport.subject","","Patient
 ","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[https://hl7.lt/fhir/base/StructureDefinition/patient-lt|0.3.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Group|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|5.0.0], CanonicalType[https://hl7.lt/fhir/base/StructureDefinition/location-lt|0.3.0], CanonicalType[https://hl7.lt/fhir/base/StructureDefinition/organization-lt|0.3.0], CanonicalType[https://hl7.lt/fhir/base/StructureDefinition/practitioner-lt|0.3.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Medication|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance|5.0.0], CanonicalType[http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct|5.0.0]]}
@@ -2288,9 +2288,35 @@ For searching knowing previous names that the location was known by can be very 
 ","Location type","Indicates the type of function performed at the location.","","","","","","","","","",,"extensible","Indicates the type of function performed at the location.","http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0","",,,,"Location.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "location-lt","Location.contact","Location.contact","","","",0,*,"","","","ExtendedContactDetail {[]} {[]}
-","Location telecom","The contact details of communication devices available at the location. This can include addresses, phone numbers, fax numbers, mobile numbers, email addresses and web sites.","The address/telecom use code 'home' are not to be used. Note that these contacts are not the contact details of people who provide the service (that would be through PractitionerRole), these are official contacts for the Healthcare itself for specific purposes. E.g. Mailing Addresses, Billing Addresses, Contact numbers for Booking or Billing Enquiries, general web address, web address for online bookings etc.
+","Official contact details for the location","The contact details of communication devices available at the location. This can include addresses, phone numbers, fax numbers, mobile numbers, email addresses and web sites.","The address/telecom use code 'home' are not to be used. Note that these contacts are not the contact details of people who provide the service (that would be through PractitionerRole), these are official contacts for the Healthcare itself for specific purposes. E.g. Mailing Addresses, Billing Addresses, Contact numbers for Booking or Billing Enquiries, general web address, web address for online bookings etc.
 
 If this is empty (or the type of interest is empty), refer to the organization's contacts.","Need to keep track of both simple contact details and also assigned contacts within larger organizations.","","","","","","","",,,,,"",,,,"Location.contact",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"location-lt","Location.contact.id","Location.contact.id","","","",0,1,"","","","id {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+",""
+"location-lt","Location.contact.extension","Location.contact.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"location-lt","Location.contact.purpose","Location.contact.purpose","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
+","The type of contact","The purpose/type of contact.","If no purpose is defined, then these contact details may be used for any purpose.","","","","","","","","",,"preferred","The purpose for which an extended contact detail should be used.","http://terminology.hl7.org/ValueSet/contactentity-type|2.0.0","",,,,"ExtendedContactDetail.purpose",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"location-lt","Location.contact.name","Location.contact.name","","","",0,*,"","","Y","HumanName {[]} {[]}
+","Name of an individual to contact","The name of an individual to contact, some types of contact detail are usually blank.","If there is no named individual, the telecom/address information is not generally monitored by a specific individual.","","","","","","","","",,,,,"",,,,"ExtendedContactDetail.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"location-lt","Location.contact.telecom","Location.contact.telecom","","","",0,*,"","","Y","ContactPoint {[]} {[]}
+","Location telecom","The contact details application for the purpose defined.","","","","","","","","","",,,,,"",,,,"ExtendedContactDetail.telecom",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"location-lt","Location.contact.address","Location.contact.address","","","",0,1,"","","Y","Address {[]} {[]}
+","Address for the contact","Address for the contact.","More than 1 address would be for different purposes, and thus should be entered as a different entry,.","","","","","","","","",,,,,"",,,,"ExtendedContactDetail.address",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"location-lt","Location.contact.organization","Location.contact.organization","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|5.0.0]]}
+","This contact detail is handled/monitored by a specific organization","This contact detail is handled/monitored by a specific organization. If the name is provided in the contact, then it is referring to the named individual within this organization.","","Some specific types of contact information can be an handled by an organization (eg legal council is via a specific firm).","","","","","","","",,,,,"",,,,"ExtendedContactDetail.organization",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"location-lt","Location.contact.period","Location.contact.period","","","",0,1,"","","Y","Period {[]} {[]}
+","Period that this contact was valid for usage","Period that this contact was valid for usage.","If the details have multiple periods, then enter in a new ExtendedContact with the new period.","","","","","","","","",,,,,"",,,,"ExtendedContactDetail.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "location-lt","Location.address","Location.address","","","",0,1,"","","","Address {[CanonicalType[http://hl7.eu/fhir/base-r5/StructureDefinition/Address-eu|0.1.0]]} {[]}
 ","Physical location","Physical location.","Additional addresses should be recorded using another instance of the Location resource, or via the Organization.","If locations can be visited, we need to keep track of their address.","","","","","","","",,,,,"",,,,"Location.address",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

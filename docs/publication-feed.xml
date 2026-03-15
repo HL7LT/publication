@@ -4,12 +4,23 @@
       <description>FHIR Implementation Guides published by HL7 Lithuania</description>
       <link>https://hl7.lt/fhir</link>
       <generator>HL7 Lithuania</generator>
-      <lastBuildDate>Sun, 15 Mar 2026 09:19:00 +0200</lastBuildDate>
+      <lastBuildDate>Sun, 15 Mar 2026 10:56:00 +0200</lastBuildDate>
       <atom:link href="https://hl7.lt/fhir/publication-feed.xml" rel="self" type="application/rss+xml"/>
-      <pubDate>Sun, 15 Mar 2026 09:19:00 +0200</pubDate>
+      <pubDate>Sun, 15 Mar 2026 10:56:00 +0200</pubDate>
       <language>en</language>
       <ttl>600</ttl>
       <item>
+      <title>Lithuanian Base FHIR Implementation Guide version 0.3.0</title>
+      <description>Updated naming conventions and corrected dependencies.</description>
+      <link>https://hl7.lt/fhir/base/0.3.0/index.html</link>
+      <guid isPermaLink="true">https://hl7.lt/fhir/base/0.3.0/index.html</guid>
+      <dc:creator>HL7 Lithuania</dc:creator>
+      <fhir:version>5.0.0</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Sun, 15 Mar 2026 10:56:00 +0200</pubDate>
+      <fhir:details>Publication run at 15/03/2026 by igor using Version 2.1.2 (Git# 1fdde7f9e667). Built 2026-03-01T18:54:08.225Z (14 days old) source id Unknown (todo)</fhir:details>
+    </item>
+    <item>
       <title>HL7 Europe IG Snapshot version 0.0.2</title>
       <description>Corrected package dependency order for proper resolution.</description>
       <link>https://hl7.lt/fhir/eu/0.0.2/index.html</link>

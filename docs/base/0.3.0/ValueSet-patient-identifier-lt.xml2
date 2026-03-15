@@ -12,7 +12,7 @@
   <title value="Patient Identifier"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2026-03-15T18:57:53+02:00"/>
+  <date value="2026-03-15T22:56:00+02:00"/>
   <publisher value="Lithuanian Medical Library">
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
       <extension url="lang">

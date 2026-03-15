@@ -8,7 +8,7 @@
     "description" : "Identifier Domain with translations in Lithuanian",
     "uses" : {
     },
-    "ValueSet-organization-identifier-lt.html" : "Organization Identifier",
-    "ValueSet-patient-identifier-lt.html" : "Patient Identifier"
+    "ValueSet-patient-identifier-lt.html" : "Patient Identifier",
+    "ValueSet-organization-identifier-lt.html" : "Organization Identifier"
   }]
 }

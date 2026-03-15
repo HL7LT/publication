@@ -11,7 +11,7 @@
   "name" : "LTBase",
   "title" : "Lietuvių bazės įgyvendinimo vadovas",
   "status" : "draft",
-  "date" : "2026-03-15T18:57:53+02:00",
+  "date" : "2026-03-15T22:56:00+02:00",
   "publisher" : "Lietuvos medicinos biblioteka",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -45,6 +45,18 @@
     "version" : "5.2.0"
   },
   {
+    "id" : "lt_hl7_fhir_eu",
+    "uri" : "https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu",
+    "packageId" : "lt.hl7.fhir.eu",
+    "version" : "0.0.2"
+  },
+  {
+    "id" : "hl7_terminology_r5",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r5",
+    "version" : "7.1.0"
+  },
+  {
     "id" : "hl7_fhir_eu_base_r5",
     "uri" : "http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5",
     "packageId" : "hl7.fhir.eu.base-r5",
@@ -55,18 +67,6 @@
     "uri" : "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions",
     "packageId" : "hl7.fhir.eu.extensions.r5",
     "version" : "1.2.0"
-  },
-  {
-    "id" : "hl7_terminology_r5",
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r5",
-    "version" : "7.1.0"
-  },
-  {
-    "id" : "lt_hl7_fhir_eu",
-    "uri" : "https://hl7.eu/fhir/ImplementationGuide/lt.hl7.fhir.eu",
-    "packageId" : "lt.hl7.fhir.eu",
-    "version" : "0.0.1"
   }],
   "definition" : {
     "extension" : [{

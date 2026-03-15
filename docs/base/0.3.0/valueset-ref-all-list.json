@@ -25,8 +25,8 @@
     "sources" : ["1.2.840.10008.6.1.1283"],
     "uses" : {
     },
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt"
+    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -40,10 +40,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
-    "StructureDefinition-patient-lt.html" : "PatientLt",
     "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
-    "StructureDefinition-related-person-lt.html" : "RelatedPersonLt"
+    "StructureDefinition-related-person-lt.html" : "RelatedPersonLt",
+    "StructureDefinition-patient-lt.html" : "PatientLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/all-languages",
@@ -57,28 +57,28 @@
     "sources" : ["2.16.840.1.113883.4.642.3.21"],
     "uses" : {
     },
+    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
+    "StructureDefinition-organization-lt.html" : "OrganizationLt",
+    "StructureDefinition-observation-lt.html" : "ObservationLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
+    "StructureDefinition-encounter-lt.html" : "EncounterLt",
+    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
+    "StructureDefinition-goal-lt.html" : "GoalLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
+    "StructureDefinition-location-lt.html" : "LocationLt",
+    "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt",
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
+    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
     "StructureDefinition-care-plan-lt.html" : "CarePlanLt",
+    "StructureDefinition-condition-lt.html" : "ConditionLt",
+    "StructureDefinition-episode-of-care-lt.html" : "EpisodeOfCareLt",
     "StructureDefinition-composition-lt.html" : "CompositionLt",
     "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt",
-    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
-    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
-    "StructureDefinition-care-team-lt.html" : "CareTeamLt",
-    "StructureDefinition-condition-lt.html" : "ConditionLt",
-    "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt",
-    "StructureDefinition-encounter-lt.html" : "EncounterLt",
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-organization-lt.html" : "OrganizationLt",
-    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
-    "StructureDefinition-location-lt.html" : "LocationLt",
-    "StructureDefinition-practitioner-role-lt.html" : "PractitionerRoleLt",
-    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
-    "StructureDefinition-goal-lt.html" : "GoalLt",
-    "StructureDefinition-observation-lt.html" : "ObservationLt",
-    "StructureDefinition-episode-of-care-lt.html" : "EpisodeOfCareLt",
+    "StructureDefinition-related-person-lt.html" : "RelatedPersonLt",
     "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
-    "StructureDefinition-related-person-lt.html" : "RelatedPersonLt"
+    "StructureDefinition-practitioner-role-lt.html" : "PractitionerRoleLt",
+    "StructureDefinition-care-team-lt.html" : "CareTeamLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/appointment-cancellation-reason",
@@ -142,12 +142,12 @@
     "2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
+    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
+    "StructureDefinition-observation-lt.html" : "ObservationLt",
+    "StructureDefinition-condition-lt.html" : "ConditionLt",
     "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
     "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
-    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
-    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
-    "StructureDefinition-observation-lt.html" : "ObservationLt",
-    "StructureDefinition-condition-lt.html" : "ConditionLt"
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/c80-facilitycodes",
@@ -179,9 +179,9 @@
     "2.16.840.1.113883.3.88.12.80.72"],
     "uses" : {
     },
+    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
     "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
     "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt",
-    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
     "StructureDefinition-practitioner-role-lt.html" : "PractitionerRoleLt"
   },
   {
@@ -281,10 +281,10 @@
     "uses" : {
     },
     "StructureDefinition-care-plan-lt.html" : "CarePlanLt",
-    "StructureDefinition-care-team-lt.html" : "CareTeamLt",
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
-    "StructureDefinition-goal-lt.html" : "GoalLt",
     "StructureDefinition-condition-lt.html" : "ConditionLt",
+    "StructureDefinition-goal-lt.html" : "GoalLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
+    "StructureDefinition-care-team-lt.html" : "CareTeamLt",
     "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt"
   },
   {
@@ -303,8 +303,8 @@
     "2.16.840.1.113883.4.642.2.120"],
     "uses" : {
     },
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-composition-lt.html" : "CompositionLt"
+    "StructureDefinition-composition-lt.html" : "CompositionLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -322,8 +322,8 @@
     "2.16.840.1.113883.4.642.3.241"],
     "uses" : {
     },
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-composition-lt.html" : "CompositionLt"
+    "StructureDefinition-composition-lt.html" : "CompositionLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -377,11 +377,11 @@
     "2.16.840.1.113883.4.642.3.152"],
     "uses" : {
     },
-    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
-    "StructureDefinition-episode-of-care-lt.html" : "EpisodeOfCareLt",
     "StructureDefinition-condition-lt.html" : "ConditionLt",
-    "StructureDefinition-encounter-lt.html" : "EncounterLt"
+    "StructureDefinition-episode-of-care-lt.html" : "EpisodeOfCareLt",
+    "StructureDefinition-encounter-lt.html" : "EncounterLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-outcome",
@@ -482,8 +482,8 @@
     "uses" : {
     },
     "StructureDefinition-organization-lt.html" : "OrganizationLt",
-    "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt"
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
+    "StructureDefinition-patient-lt.html" : "PatientLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -498,8 +498,8 @@
     "uses" : {
     },
     "StructureDefinition-organization-lt.html" : "OrganizationLt",
-    "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt"
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
+    "StructureDefinition-patient-lt.html" : "PatientLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -619,8 +619,8 @@
     "2.16.840.1.113883.4.642.3.240"],
     "uses" : {
     },
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-composition-lt.html" : "CompositionLt"
+    "StructureDefinition-composition-lt.html" : "CompositionLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/document-reference-status",
@@ -1060,8 +1060,8 @@
     "uses" : {
     },
     "StructureDefinition-organization-lt.html" : "OrganizationLt",
-    "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt"
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
+    "StructureDefinition-patient-lt.html" : "PatientLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -1076,8 +1076,8 @@
     "uses" : {
     },
     "StructureDefinition-organization-lt.html" : "OrganizationLt",
-    "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt"
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
+    "StructureDefinition-patient-lt.html" : "PatientLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/imagingstudy-status",
@@ -1107,28 +1107,28 @@
     "2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
+    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
+    "StructureDefinition-organization-lt.html" : "OrganizationLt",
+    "StructureDefinition-observation-lt.html" : "ObservationLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
+    "StructureDefinition-encounter-lt.html" : "EncounterLt",
+    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
+    "StructureDefinition-goal-lt.html" : "GoalLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
+    "StructureDefinition-location-lt.html" : "LocationLt",
+    "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt",
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
+    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
     "StructureDefinition-care-plan-lt.html" : "CarePlanLt",
+    "StructureDefinition-condition-lt.html" : "ConditionLt",
+    "StructureDefinition-episode-of-care-lt.html" : "EpisodeOfCareLt",
     "StructureDefinition-composition-lt.html" : "CompositionLt",
     "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt",
-    "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
-    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
-    "StructureDefinition-care-team-lt.html" : "CareTeamLt",
-    "StructureDefinition-condition-lt.html" : "ConditionLt",
-    "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt",
-    "StructureDefinition-encounter-lt.html" : "EncounterLt",
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-organization-lt.html" : "OrganizationLt",
-    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
-    "StructureDefinition-location-lt.html" : "LocationLt",
-    "StructureDefinition-practitioner-role-lt.html" : "PractitionerRoleLt",
-    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
-    "StructureDefinition-goal-lt.html" : "GoalLt",
-    "StructureDefinition-observation-lt.html" : "ObservationLt",
-    "StructureDefinition-episode-of-care-lt.html" : "EpisodeOfCareLt",
+    "StructureDefinition-related-person-lt.html" : "RelatedPersonLt",
     "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
-    "StructureDefinition-related-person-lt.html" : "RelatedPersonLt"
+    "StructureDefinition-practitioner-role-lt.html" : "PractitionerRoleLt",
+    "StructureDefinition-care-team-lt.html" : "CareTeamLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -1210,8 +1210,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.328"],
     "uses" : {
     },
-    "StructureDefinition-location-lt.html" : "LocationLt",
-    "StructureDefinition-encounter-lt.html" : "EncounterLt"
+    "StructureDefinition-encounter-lt.html" : "EncounterLt",
+    "StructureDefinition-location-lt.html" : "LocationLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -1290,8 +1290,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.65"],
     "uses" : {
     },
-    "StructureDefinition-patient-lt.html" : "PatientLt",
-    "StructureDefinition-practitioner-lt.html" : "PractitionerLt"
+    "StructureDefinition-practitioner-lt.html" : "PractitionerLt",
+    "StructureDefinition-patient-lt.html" : "PatientLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -1327,8 +1327,8 @@
     "2.16.840.1.113883.4.642.3.383"],
     "uses" : {
     },
-    "StructureDefinition-goal-lt.html" : "GoalLt",
-    "StructureDefinition-observation-lt.html" : "ObservationLt"
+    "StructureDefinition-observation-lt.html" : "ObservationLt",
+    "StructureDefinition-goal-lt.html" : "GoalLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -1463,8 +1463,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.54"],
     "uses" : {
     },
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
-    "StructureDefinition-condition-lt.html" : "ConditionLt"
+    "StructureDefinition-condition-lt.html" : "ConditionLt",
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/participationstatus",
@@ -1570,8 +1570,8 @@
     "uses" : {
     },
     "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
-    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt"
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
@@ -1643,8 +1643,8 @@
     "2.16.840.1.113883.4.642.2.419"],
     "uses" : {
     },
-    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
     "StructureDefinition-imagingstudy-lt.html" : "ImagingStudyLt",
+    "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
     "StructureDefinition-procedure-lt.html" : "ProcedureLt"
   },
   {
@@ -1674,8 +1674,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3275"],
     "uses" : {
     },
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-composition-lt.html" : "CompositionLt"
+    "StructureDefinition-composition-lt.html" : "CompositionLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -1820,8 +1820,8 @@
     "2.16.840.1.113883.4.642.3.516"],
     "uses" : {
     },
-    "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt",
-    "StructureDefinition-appointment-lt.html" : "AppointmentLt"
+    "StructureDefinition-appointment-lt.html" : "AppointmentLt",
+    "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/service-mode",
@@ -1888,9 +1888,9 @@
     "2.16.840.1.113883.4.642.3.518"],
     "uses" : {
     },
-    "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt",
     "StructureDefinition-appointment-lt.html" : "AppointmentLt",
-    "StructureDefinition-encounter-lt.html" : "EncounterLt"
+    "StructureDefinition-encounter-lt.html" : "EncounterLt",
+    "StructureDefinition-healthcare-service-lt.html" : "HealthcareServiceLt"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
@@ -1970,7 +1970,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.416"],
     "uses" : {
     },
-    "StructureDefinition-organization-lt.html" : "OrganizationLt"
+    "StructureDefinition-organization-lt.html" : "OrganizationLt",
+    "StructureDefinition-location-lt.html" : "LocationLt"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
@@ -2079,8 +2080,8 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
     "uses" : {
     },
-    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt",
-    "StructureDefinition-composition-lt.html" : "CompositionLt"
+    "StructureDefinition-composition-lt.html" : "CompositionLt",
+    "StructureDefinition-document-reference-lt.html" : "DocumentReferenceLt"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
@@ -2142,7 +2143,7 @@
     "StructureDefinition-location-lt.html" : "LocationLt"
   },
   {
-    "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+    "url" : "https://hl7.lt/fhir/eu/ValueSet/report-code",
     "version" : "1.0.0",
     "status" : "draft",
     "name" : "ReportCode",

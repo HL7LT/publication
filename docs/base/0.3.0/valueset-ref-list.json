@@ -16,8 +16,8 @@
     "uses" : {
     },
     "StructureDefinition-service-request-lt.html" : "ServiceRequestLt",
-    "StructureDefinition-procedure-lt.html" : "ProcedureLt",
-    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt"
+    "StructureDefinition-family-member-history-lt.html" : "FamilyMemberHistoryLt",
+    "StructureDefinition-procedure-lt.html" : "ProcedureLt"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
@@ -47,7 +47,7 @@
     "StructureDefinition-diagnostic-report-lt.html" : "DiagnosticReportLt"
   },
   {
-    "url" : "https://hl7.eu/fhir/ValueSet/report-code",
+    "url" : "https://hl7.lt/fhir/eu/ValueSet/report-code",
     "version" : "1.0.0",
     "status" : "draft",
     "name" : "ReportCode",

@@ -86,7 +86,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-practitioner-role-l
   "name" : "PractitionerRoleLt",
   "title" : "PractitionerRoleLt",
   "status" : "active",
-  "date" : "2026-03-15T18:57:53+02:00",
+  "date" : "2026-03-15T22:56:00+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [{

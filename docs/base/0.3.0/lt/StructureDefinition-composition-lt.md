@@ -107,7 +107,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-composition-lt.csv)
   "name" : "CompositionLt",
   "title" : "CompositionLt",
   "status" : "active",
-  "date" : "2026-03-15T18:57:53+02:00",
+  "date" : "2026-03-15T22:56:00+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [{
@@ -169,7 +169,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-composition-lt.csv)
   "kind" : "resource",
   "abstract" : false,
   "type" : "Composition",
-  "baseDefinition" : "https://hl7.eu/fhir/StructureDefinition/CompositionEu|0.1.0-ballot",
+  "baseDefinition" : "https://hl7.lt/fhir/eu/StructureDefinition/CompositionEu|0.1.0-ballot",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

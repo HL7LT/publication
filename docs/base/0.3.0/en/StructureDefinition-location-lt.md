@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-location-lt.csv),
   "name" : "LocationLt",
   "title" : "LocationLt",
   "status" : "active",
-  "date" : "2026-03-15T18:57:53+02:00",
+  "date" : "2026-03-15T22:56:00+02:00",
   "publisher" : "Lithuanian Medical Library",
   "_publisher" : {
     "extension" : [{
@@ -86,7 +86,7 @@ Other representations of profile: [CSV](../StructureDefinition-location-lt.csv),
   "kind" : "resource",
   "abstract" : false,
   "type" : "Location",
-  "baseDefinition" : "http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu|2.0.0-ballot",
+  "baseDefinition" : "http://hl7.eu/fhir/base-r5/StructureDefinition/location-eu-core|0.1.0",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
