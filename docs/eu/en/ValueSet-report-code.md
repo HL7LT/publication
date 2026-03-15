@@ -1,4 +1,4 @@
-# Report Code - HL7 Europe IG Snapshot v0.0.1
+# Report Code - HL7 Europe IG Snapshot v0.0.2
 
 ## ValueSet: Report Code 
 
@@ -34,7 +34,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "Report Code",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

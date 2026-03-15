@@ -7,11 +7,11 @@
     "div" : "<div xml:lang=\"lt\" lang=\"lt\"><hr/><p><b>Lithuanian</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide lt.hl7.fhir.eu</b></p><a name=\"lt-lt.hl7.fhir.eu\"> </a><a name=\"lt-hclt.hl7.fhir.eu\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>Hl7Eu</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu</pre><div><p>The copy of the Laboratory Report and Imaging Report Implementation Guide, to enable them for development of the Lithuanian Implementation Guides. The content is based on the HL7 Europe IGs. This IG should be removed after publication of the official IG-s.</p>\n</div></div>"
   },
   "url" : "https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "name" : "Hl7Eu",
   "title" : "HL7 Europe IG Snapshot",
   "status" : "draft",
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -45,6 +45,12 @@
     "version" : "5.2.0"
   },
   {
+    "id" : "hl7_terminology_r5",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r5",
+    "version" : "7.1.0"
+  },
+  {
     "id" : "hl7_fhir_eu_base_r5",
     "uri" : "http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5",
     "packageId" : "hl7.fhir.eu.base-r5",
@@ -55,12 +61,6 @@
     "uri" : "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions",
     "packageId" : "hl7.fhir.eu.extensions.r5",
     "version" : "1.2.0"
-  },
-  {
-    "id" : "hl7_terminology_r5",
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r5",
-    "version" : "7.1.0"
   }],
   "definition" : {
     "extension" : [{

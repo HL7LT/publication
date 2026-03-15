@@ -1,0 +1,79 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.653",
+    "2.16.840.1.113883.4.642.2.78",
+    "2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.653",
+    "2.16.840.1.113883.4.642.2.78",
+    "2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-ImImagingStudy.html" : "IM Imaging Study",
+    "StructureDefinition-ImKeyImageDocumentReference.html" : "IM Key Image Document Reference",
+    "StructureDefinition-ImProcedure.html" : "IM Imaging Procedure",
+    "StructureDefinition-ImImagingSelection.html" : "IM Imaging Selection",
+    "StructureDefinition-ConditionEu.html" : "EU Condition",
+    "StructureDefinition-ImOrder.html" : "IM Imaging Order",
+    "StructureDefinition-ImKeyImageImagingSelection.html" : "IM Key images represented as an ImagingSelection",
+    "StructureDefinition-Specimen-eu-lab.html" : "Specimen: Laboratory (Eu Lab)",
+    "StructureDefinition-DocumentReferenceEu.html" : "EU DocumentReference",
+    "StructureDefinition-ImFinding.html" : "IM Finding",
+    "StructureDefinition-ObservationEu.html" : "EU Observation",
+    "StructureDefinition-ProcedureEu.html" : "EU Procedure",
+    "StructureDefinition-ServiceRequest-eu-lab.html" : "ServiceRequest: Laboratory Order (Eu Lab)",
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)",
+    "StructureDefinition-medicalTestResult-eu-core.html" : "MedicalTestResult (EU core)"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/pregnancy-status-uv-ips",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "PregnancyStatusUvIps",
+    "title" : "Pregnancy Status - IPS",
+    "description" : "IPS pregnancy status codes value set.  This value set includes codes from SNOMED CT®: 77386006 \\|Pregnant\\|; 60001007 \\|Not pregnant\\|; 152231000119106 \\|Pregnancy not yet confirmed\\|; 146799005 \\|Possible pregnancy\\|\n\nSNOMED CT® ECL definition:\\\n77386006 \\|Pregnant\\| OR 60001007 \\|Not pregnant\\| OR 152231000119106 \\|Pregnancy not yet confirmed\\| OR 146799005 \\|Possible pregnancy\\|",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-ImOrder.html" : "IM Imaging Order"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "ResultsCodedValuesLaboratoryUvIps",
+    "title" : "Results Coded Values Laboratory - IPS",
+    "description" : "This value set is defined as the union of: (a) Blood group [Type]; (b) Presence/Absence Indicators (2.16.840.1.113883.11.22.52) (c) Microorganisms (2.16.840.1.113883.11.22.49)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "ResultsLaboratoryObservationUvIps",
+    "title" : "Results Laboratory Observation - IPS",
+    "description" : "Value Set Definition: LOINC {STATUS in {ACTIVE}, CLASSTYPE in {1}, CLASS exclude {CHALSKIN, H&P.HX.LAB, LABORDERS, NR STATS, PATH, PATH.\\*, MOLPATH, MOLPATH.\\*, CYTO, HL7.CYTOGEN, HL7.GENETICS}}",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-Observation-resultslab-eu-lab.html" : "Observation Results: laboratory (Eu Lab)"
+  },
+  {
+    "url" : "https://hl7.lt/fhir/eu/ValueSet/report-code",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "ReportCode",
+    "title" : "Report Code",
+    "description" : "Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself.",
+    "systems" : ["http://snomed.info/sct"]
+  }]
+}

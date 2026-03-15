@@ -1,4 +1,4 @@
-# Observation Results: laboratory (Eu Lab) - HL7 Europe IG Snapshot v0.0.1
+# Observation Results: laboratory (Eu Lab) - HL7 Europe IG Snapshot v0.0.2
 
 ## Resursų profilis: Observation Results: laboratory (Eu Lab) 
 
@@ -53,8 +53,8 @@ This structure refers to these other structures:
 * [CareTeam (http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0)](http://hl7.org/fhir/R5/careteam.html)
 * [RelatedPerson (http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0)](http://hl7.org/fhir/R5/relatedperson.html)
 * [Range (IPS) (http://hl7.org/fhir/uv/ips/StructureDefinition/Range-uv-ips|1.1.0)](StructureDefinition-Range-uv-ips.md)
-* [Ratio (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.1)](StructureDefinition-Ratio-eu-lab.md)
-* [Quantity (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.1)](StructureDefinition-Quantity-eu-lab.md)
+* [Ratio (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.2)](StructureDefinition-Ratio-eu-lab.md)
+* [Quantity (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.2)](StructureDefinition-Quantity-eu-lab.md)
 * [Specimen: Laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab|0.2.0-ci)](StructureDefinition-Specimen-eu-lab.md)
 * [Observation Results: laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab|0.2.0-ci)](StructureDefinition-Observation-resultslab-eu-lab.md)
 
@@ -113,8 +113,8 @@ This structure refers to these other structures:
 * [CareTeam (http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0)](http://hl7.org/fhir/R5/careteam.html)
 * [RelatedPerson (http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0)](http://hl7.org/fhir/R5/relatedperson.html)
 * [Range (IPS) (http://hl7.org/fhir/uv/ips/StructureDefinition/Range-uv-ips|1.1.0)](StructureDefinition-Range-uv-ips.md)
-* [Ratio (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.1)](StructureDefinition-Ratio-eu-lab.md)
-* [Quantity (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.1)](StructureDefinition-Quantity-eu-lab.md)
+* [Ratio (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.2)](StructureDefinition-Ratio-eu-lab.md)
+* [Quantity (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.2)](StructureDefinition-Quantity-eu-lab.md)
 * [Specimen: Laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab|0.2.0-ci)](StructureDefinition-Specimen-eu-lab.md)
 * [Observation Results: laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab|0.2.0-ci)](StructureDefinition-Observation-resultslab-eu-lab.md)
 
@@ -162,7 +162,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Observation-results
   "title" : "Observation Results: laboratory (Eu Lab)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -433,7 +433,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Observation-results
       "max" : "1",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.2"]
       }]
     },
     {
@@ -474,7 +474,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Observation-results
       "max" : "1",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.2"]
       }]
     },
     {
@@ -645,7 +645,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Observation-results
       "max" : "1",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.2"]
       }]
     },
     {
@@ -686,7 +686,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Observation-results
       "max" : "1",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.2"]
       }]
     },
     {

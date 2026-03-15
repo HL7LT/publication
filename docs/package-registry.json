@@ -21,20 +21,20 @@
   {
     "path" : "eu/package-list.json",
     "package-id" : "lt.hl7.fhir.eu",
-    "title" : "HL7 Europe General Implementation Guide",
-    "canonical" : "https://hl7.eu/fhir",
+    "title" : "HL7 Europe IG Snapshot",
+    "canonical" : "https://hl7.lt/fhir/eu",
     "category" : "Infrastructure",
     "ci-build" : "http://build.fhir.org/ig/HL7LT/ig-eu-ehds",
-    "version-count" : 1,
+    "version-count" : 2,
     "latest" : {
-      "version" : "0.0.1",
+      "version" : "0.0.2",
       "date" : "2026-03-15",
-      "path" : "https://hl7.eu/fhir/0.0.1"
+      "path" : "https://hl7.lt/fhir/eu/0.0.2"
     },
     "milestone" : {
-      "version" : "0.0.1",
+      "version" : "0.0.2",
       "date" : "2026-03-15",
-      "path" : "https://hl7.eu/fhir/0.0.1"
+      "path" : "https://hl7.lt/fhir/eu/0.0.2"
     }
   },
   {

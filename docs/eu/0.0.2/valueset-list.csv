@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+https://hl7.lt/fhir/eu/ValueSet/report-code,1.0.0,draft,,ReportCode,Report Code,"Diagnostic report codes including all subtypes of Clinical procedure report, excluding the root concept itself.",,"SCT"

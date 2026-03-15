@@ -1,0 +1,358 @@
+# DiagnosticReport: Laboratory Report (Eu Lab) - HL7 Europe IG Snapshot v0.0.2
+
+## Resursų profilis: DiagnosticReport: Laboratory Report (Eu Lab) 
+
+ 
+DiagnosticReport used to represent an entry of a Laboratory Report, including its context, for the scope of the HL7 Europe project. 
+
+**Usages:**
+
+* Refer to this Profile: [Composition: Laboratory Report (Eu Lab)](StructureDefinition-Composition-eu-lab.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/lt.hl7.fhir.eu|current/StructureDefinition/DiagnosticReport-eu-lab)
+
+### Profilio turinio formaliosios peržiūros
+
+ [Profilių, skirtumų rinkinių, momentinių kopijų aprašas ir jų reprezentacijos](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+*  [Pagrindinių elementų lentelė](#tabs-key) 
+*  [Skirtumų rinkinių lentelė](#tabs-diff) 
+*  [Momentinės kopijos lentelė](#tabs-snap) 
+*  [Statistika/Nuorodos](#tabs-summ) 
+*  [Viskas](#tabs-all) 
+
+#### Terminology Bindings
+
+#### Constraints
+
+#### Terminology Bindings (Differential)
+
+#### Terminology Bindings
+
+#### Constraints
+
+** Summary **
+
+Mandatory: 1 element
+ Prohibited: 1 element
+
+**Structures**
+
+This structure refers to these other structures:
+
+* [ServiceRequest: Laboratory Order (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab|0.2.0-ci)](StructureDefinition-ServiceRequest-eu-lab.md)
+* [Codeable Concept (IPS) (http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0)](StructureDefinition-CodeableConcept-uv-ips.md)
+* [Patient (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-patient-eu.html)
+* [Patient: Animal (EU core) (http://hl7.eu/fhir/base-r5/StructureDefinition/patient-animal-eu-core|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-patient-animal-eu-core.html)
+* [Group (http://hl7.org/fhir/StructureDefinition/Group|5.0.0)](http://hl7.org/fhir/R5/group.html)
+* [Location (http://hl7.org/fhir/StructureDefinition/Location|5.0.0)](http://hl7.org/fhir/R5/location.html)
+* [Device (http://hl7.org/fhir/StructureDefinition/Device|5.0.0)](http://hl7.org/fhir/R5/device.html)
+* [Specimen: Laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab|0.2.0-ci)](StructureDefinition-Specimen-eu-lab.md)
+* [Observation Results: laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab|0.2.0-ci)](StructureDefinition-Observation-resultslab-eu-lab.md)
+
+**Slices**
+
+This structure defines the following [Slices](http://hl7.org/fhir/R5/profiling.html#slices):
+
+* The element 1 is sliced based on the value of DiagnosticReport.category
+
+**[Maturity](http://hl7.org/fhir/versions.html#maturity)**: 2
+
+ **Pagrindinių elementų peržiūra** 
+
+#### Terminology Bindings
+
+#### Constraints
+
+ **Skirtumų rinkinių peržiūra** 
+
+#### Terminology Bindings (Differential)
+
+ **Momentinės kopijos peržiūraView** 
+
+#### Terminology Bindings
+
+#### Constraints
+
+** Summary **
+
+Mandatory: 1 element
+ Prohibited: 1 element
+
+**Structures**
+
+This structure refers to these other structures:
+
+* [ServiceRequest: Laboratory Order (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab|0.2.0-ci)](StructureDefinition-ServiceRequest-eu-lab.md)
+* [Codeable Concept (IPS) (http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0)](StructureDefinition-CodeableConcept-uv-ips.md)
+* [Patient (EU base) (http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-patient-eu.html)
+* [Patient: Animal (EU core) (http://hl7.eu/fhir/base-r5/StructureDefinition/patient-animal-eu-core|0.1.0)](http://hl7.eu/fhir/base-r5/0.1.0/StructureDefinition-patient-animal-eu-core.html)
+* [Group (http://hl7.org/fhir/StructureDefinition/Group|5.0.0)](http://hl7.org/fhir/R5/group.html)
+* [Location (http://hl7.org/fhir/StructureDefinition/Location|5.0.0)](http://hl7.org/fhir/R5/location.html)
+* [Device (http://hl7.org/fhir/StructureDefinition/Device|5.0.0)](http://hl7.org/fhir/R5/device.html)
+* [Specimen: Laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab|0.2.0-ci)](StructureDefinition-Specimen-eu-lab.md)
+* [Observation Results: laboratory (Eu Lab) (http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab|0.2.0-ci)](StructureDefinition-Observation-resultslab-eu-lab.md)
+
+**Slices**
+
+This structure defines the following [Slices](http://hl7.org/fhir/R5/profiling.html#slices):
+
+* The element 1 is sliced based on the value of DiagnosticReport.category
+
+**[Maturity](http://hl7.org/fhir/versions.html#maturity)**: 2
+
+ 
+
+Kitos profilio reprezentacijos: [CSV](../StructureDefinition-DiagnosticReport-eu-lab.csv), [Excel](../StructureDefinition-DiagnosticReport-eu-lab.xlsx), [Schematron](../StructureDefinition-DiagnosticReport-eu-lab.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "DiagnosticReport-eu-lab",
+  "language" : "en",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  }],
+  "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/DiagnosticReport-eu-lab",
+  "version" : "0.2.0-ci",
+  "name" : "DiagnosticReportLabEu",
+  "title" : "DiagnosticReport: Laboratory Report (Eu Lab)",
+  "status" : "draft",
+  "date" : "2026-03-15T21:19:00+02:00",
+  "publisher" : "Lithuanian Medical Library",
+  "contact" : [{
+    "name" : "Lithuanian Medical Library",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://medicinosnk.lt"
+    },
+    {
+      "system" : "email",
+      "value" : "info@medicinosnk.lt"
+    }]
+  }],
+  "description" : "DiagnosticReport used to represent an entry of a Laboratory Report, including its context, for the scope of the HL7 Europe project.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EU"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 Europe, all rights reserved Creative Commons License",
+  "fhirVersion" : "5.0.0",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 V2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "DiagnosticReport",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport|5.0.0",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "DiagnosticReport",
+      "path" : "DiagnosticReport",
+      "short" : "Laboratory Report DiagnosticReport",
+      "definition" : "Laboratory Report DiagnosticReport"
+    },
+    {
+      "id" : "DiagnosticReport.identifier",
+      "path" : "DiagnosticReport.identifier",
+      "short" : "Report identifier",
+      "definition" : "Identifiers assigned to this Laboratory Report by the performer or other systems. It shall be common to several report versions",
+      "comment" : "Composition.identifier SHALL be equal to one of the DiagnosticReport.identifier, if at least one exists"
+    },
+    {
+      "id" : "DiagnosticReport.basedOn",
+      "path" : "DiagnosticReport.basedOn",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/ServiceRequest-eu-lab|0.2.0-ci"]
+      }]
+    },
+    {
+      "id" : "DiagnosticReport.status",
+      "path" : "DiagnosticReport.status",
+      "short" : "Status of the Report",
+      "comment" : "DiagnosticReport.status and Composition.status shall be aligned, based on the http://hl7.eu/fhir/laboratory/ConceptMap/ConceptMap-eu-diagRptStatus2CompStatus mapping"
+    },
+    {
+      "id" : "DiagnosticReport.category",
+      "path" : "DiagnosticReport.category",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "pattern",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
+      "short" : "Report Category",
+      "definition" : "A code that classifies this laboratory report. Two basic categories has been selected in this guide: laboratory specialty and Study type. Laboratory specialty is characteristic of the laboratory that produced the test result while Study type is an arbitrary classificion of the test type.",
+      "comment" : "DiagnosticReport.category and Composition.category shall be aligned",
+      "type" : [{
+        "code" : "CodeableConcept",
+        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"]
+      }]
+    },
+    {
+      "id" : "DiagnosticReport.category:studyType",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "studyType",
+      "short" : "The way of grouping of the test results into clinically meaningful domains (e.g. hematology study, microbiology study, etc.)",
+      "definition" : "Laboratory services, i.e., results of tests performed, could be characterized using typology of services, commonly called study types. Study type could be seen as an attribute or grouping mechanism that assigns a common clinical sense to certain types of laboratory test results., e.g., Hemoglobin, Platelet count, etc. belongs to 'Hematology study'.",
+      "comment" : "In comparison to the laboratory specialty which is an attribute of laboratory, study type is a categorization of laboratory service. It needs to be mentioned that classification of test to study types in not standardized.",
+      "min" : 0,
+      "max" : "*",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab"
+      }
+    },
+    {
+      "id" : "DiagnosticReport.category:specialty",
+      "path" : "DiagnosticReport.category",
+      "sliceName" : "specialty",
+      "short" : "The clinical domain of the laboratory performing the observation (e.g. microbiology, toxicology, chemistry)",
+      "definition" : "Laboratory specialty is an attribute of any laboratory setting representing professional qualification of the laboratory to execute certain kind of laboratory tests.",
+      "comment" : "Specialty could be used as parameter for searching/querying of laboratory test results.",
+      "min" : 0,
+      "max" : "*",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-specialty-eu-lab"
+      }
+    },
+    {
+      "id" : "DiagnosticReport.code",
+      "path" : "DiagnosticReport.code",
+      "short" : "Type of (Laboratory) Report",
+      "definition" : "Specifies that it refers to a Laboratory Report",
+      "comment" : "At least one DiagnosticReport.code.coding and Composition.type.coding SHALL be equal",
+      "type" : [{
+        "code" : "CodeableConcept",
+        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"]
+      }],
+      "binding" : {
+        "strength" : "preferred",
+        "valueSet" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-reportType-eu-lab"
+      }
+    },
+    {
+      "id" : "DiagnosticReport.subject",
+      "path" : "DiagnosticReport.subject",
+      "short" : "Who and/or what this report is about",
+      "definition" : "Who or what this report is about. The report can be about a human patient, a living subject, a device (e.g. a machine), a location or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure).",
+      "comment" : "DiagnosticReport and Composition SHALL have the same subject",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.eu/fhir/base-r5/StructureDefinition/patient-eu|0.1.0",
+        "http://hl7.eu/fhir/base-r5/StructureDefinition/patient-animal-eu-core|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/Group|5.0.0",
+        "http://hl7.org/fhir/StructureDefinition/Location|5.0.0",
+        "http://hl7.org/fhir/StructureDefinition/Device|5.0.0"]
+      }]
+    },
+    {
+      "id" : "DiagnosticReport.encounter",
+      "path" : "DiagnosticReport.encounter",
+      "short" : "The healthcare event which this Laboratory Report is about (when test ordered).",
+      "definition" : "The healthcare event (e.g. a patient and healthcare provider interaction) which this DiagnosticReport is about.",
+      "comment" : "This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter (e.g. pre-admission laboratory tests).\n\n  DiagnosticReport and Composition SHALL have the same encounter."
+    },
+    {
+      "id" : "DiagnosticReport.effective[x]",
+      "path" : "DiagnosticReport.effective[x]",
+      "short" : "Clinically relevant time/time-period for report."
+    },
+    {
+      "id" : "DiagnosticReport.performer",
+      "path" : "DiagnosticReport.performer",
+      "short" : "Responsible Diagnostic Service.",
+      "comment" : "If a DiagnosticReport.resultsInterpreter exists this is expected to be a Composition.author; otherwise a DiagnosticReport.performer should be an author."
+    },
+    {
+      "id" : "DiagnosticReport.resultsInterpreter",
+      "path" : "DiagnosticReport.resultsInterpreter",
+      "comment" : "If a DiagnosticReport.resultsInterpreter exists this is expected to be a Composition.author; otherwise a DiagnosticReport.performer should be an author."
+    },
+    {
+      "id" : "DiagnosticReport.specimen",
+      "path" : "DiagnosticReport.specimen",
+      "short" : "Specimens this report is based on.",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Specimen-eu-lab|0.2.0-ci"]
+      }]
+    },
+    {
+      "id" : "DiagnosticReport.result",
+      "path" : "DiagnosticReport.result",
+      "short" : "results",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab|0.2.0-ci"]
+      }]
+    },
+    {
+      "id" : "DiagnosticReport.study",
+      "path" : "DiagnosticReport.study",
+      "max" : "0"
+    },
+    {
+      "id" : "DiagnosticReport.media",
+      "path" : "DiagnosticReport.media",
+      "short" : "Additional data (like images, diagrams or documents) associated with this report",
+      "definition" : "A list of additional data, other then presented form of the report, associated with this report. This data is generally created during the diagnostic process, and may be directly of the patient, or of treated specimens (i.e. slides of interest).",
+      "requirements" : "Some diagnostic reports may include additional data such as images, diagrams or documents that are relevant to the report. This additional information can provide further context and support for the findings presented in the report.",
+      "alias" : ["DICOM; Slides; Scans; Pictures; Documents; Diagrams",
+      "Slides",
+      "Scans"]
+    },
+    {
+      "id" : "DiagnosticReport.media.comment",
+      "path" : "DiagnosticReport.media.comment",
+      "definition" : "Allows for a comment about the image or data, such as an explanation of its significance or context within the diagnostic report.",
+      "requirements" : "The provider of the report should make a comment about each image or data included in the report. This comment can provide valuable context and help the reader understand the significance of the image or data in relation to the overall findings of the report."
+    },
+    {
+      "id" : "DiagnosticReport.media.link",
+      "path" : "DiagnosticReport.media.link",
+      "short" : "Reference to the image or data",
+      "definition" : "A reference to the image or data associated with this report."
+    },
+    {
+      "id" : "DiagnosticReport.presentedForm",
+      "path" : "DiagnosticReport.presentedForm",
+      "short" : "Entire report as issued (pdf recommended)"
+    }]
+  }
+}
+
+```

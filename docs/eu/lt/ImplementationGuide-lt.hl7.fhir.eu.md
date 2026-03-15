@@ -10,11 +10,11 @@
   "id" : "lt.hl7.fhir.eu",
   "language" : "en",
   "url" : "https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "name" : "Hl7Eu",
   "title" : "HL7 Europe IG Snapshot",
   "status" : "draft",
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -48,6 +48,12 @@
     "version" : "5.2.0"
   },
   {
+    "id" : "hl7_terminology_r5",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r5",
+    "version" : "7.1.0"
+  },
+  {
     "id" : "hl7_fhir_eu_base_r5",
     "uri" : "http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5",
     "packageId" : "hl7.fhir.eu.base-r5",
@@ -58,12 +64,6 @@
     "uri" : "http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions",
     "packageId" : "hl7.fhir.eu.extensions.r5",
     "version" : "1.2.0"
-  },
-  {
-    "id" : "hl7_terminology_r5",
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r5",
-    "version" : "7.1.0"
   }],
   "definition" : {
     "extension" : [{

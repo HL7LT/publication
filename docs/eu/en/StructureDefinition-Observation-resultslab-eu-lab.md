@@ -1,4 +1,4 @@
-# Observation Results: laboratory (Eu Lab) - HL7 Europe IG Snapshot v0.0.1
+# Observation Results: laboratory (Eu Lab) - HL7 Europe IG Snapshot v0.0.2
 
 ## Resource Profile: Observation Results: laboratory (Eu Lab) 
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-Observation-resul
   "title" : "Observation Results: laboratory (Eu Lab)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
@@ -313,7 +313,7 @@ Other representations of profile: [CSV](../StructureDefinition-Observation-resul
       "max" : "1",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.2"]
       }]
     },
     {
@@ -354,7 +354,7 @@ Other representations of profile: [CSV](../StructureDefinition-Observation-resul
       "max" : "1",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.2"]
       }]
     },
     {
@@ -525,7 +525,7 @@ Other representations of profile: [CSV](../StructureDefinition-Observation-resul
       "max" : "1",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Ratio-eu-lab|0.0.2"]
       }]
     },
     {
@@ -566,7 +566,7 @@ Other representations of profile: [CSV](../StructureDefinition-Observation-resul
       "max" : "1",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.1"]
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab|0.0.2"]
       }]
     },
     {

@@ -1,4 +1,4 @@
-# Quantity (IPS) - HL7 Europe IG Snapshot v0.0.1
+# Quantity (IPS) - HL7 Europe IG Snapshot v0.0.2
 
 ## Duomenų tipo profilis: Quantity (IPS) 
 
@@ -89,7 +89,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Quantity-uv-ips.csv
   "name" : "QuantityIPS",
   "title" : "Quantity (IPS)",
   "status" : "draft",
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

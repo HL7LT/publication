@@ -9,9 +9,9 @@
     "oids" : ["1.2.840.10008.2.16.4"],
     "uses" : {
     },
-    "http://tx.fhir.org/r5/ValueSet/dicom-cid-7010-KeyObjectSelectionDocumentTitle" : "KeyObjectSelectionDocumentTitle",
+    "http://tx.fhir.org/r5/ValueSet/dicom-cid-33-Modality" : "Modality",
     "http://hl7.org/fhir/R5/valueset-participation-role-type.html" : "Participation Role Type",
-    "http://tx.fhir.org/r5/ValueSet/dicom-cid-33-Modality" : "Modality"
+    "http://tx.fhir.org/r5/ValueSet/dicom-cid-7010-KeyObjectSelectionDocumentTitle" : "KeyObjectSelectionDocumentTitle"
   },
   {
     "url" : "http://hl7.org/fhir/composition-attestation-mode",
@@ -475,13 +475,13 @@
     "oids" : ["2.16.840.1.113883.6.1"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R5/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
+    "http://tx.hl7europe.eu/r5/ValueSet/results-laboratory-observations-uv-ips" : "Results Laboratory Observation - IPS",
+    "http://hl7.org/fhir/R5/valueset-doc-section-codes.html" : "Document Section Codes",
     "http://hl7.org/fhir/R5/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
     "http://hl7.org/fhir/R5/valueset-observation-codes.html" : "LOINC Codes",
-    "http://tx.hl7europe.eu/r5/ValueSet/results-laboratory-observations-uv-ips" : "Results Laboratory Observation - IPS",
+    "http://hl7.org/fhir/R5/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
     "http://tx.fhir.org/r5/ValueSet/loinc-rsna-radiology-playbook" : "LOINC/RSNA Radiology Playbook",
-    "http://hl7.org/fhir/R5/valueset-referenced-item-category.html" : "Referenced Item Category Value Set",
-    "http://hl7.org/fhir/R5/valueset-doc-section-codes.html" : "Document Section Codes"
+    "http://hl7.org/fhir/R5/valueset-referenced-item-category.html" : "Referenced Item Category Value Set"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
@@ -806,8 +806,8 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R5/valueset-device-type.html" : "Device Type",
+    "http://hl7.org/fhir/R5/valueset-device-specification-type.html" : "Device Specification Type",
     "http://hl7.org/fhir/R5/valueset-device-versiontype.html" : "Device Version Type",
-    "http://hl7.org/fhir/R5/valueset-device-property-type.html" : "Device Property Type",
-    "http://hl7.org/fhir/R5/valueset-device-specification-type.html" : "Device Specification Type"
+    "http://hl7.org/fhir/R5/valueset-device-property-type.html" : "Device Property Type"
   }]
 }

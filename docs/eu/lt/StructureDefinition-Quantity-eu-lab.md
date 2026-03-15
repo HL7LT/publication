@@ -1,4 +1,4 @@
-# Quantity (Eu Lab) - HL7 Europe IG Snapshot v0.0.1
+# Quantity (Eu Lab) - HL7 Europe IG Snapshot v0.0.2
 
 ## Duomenų tipo profilis: Quantity (Eu Lab) 
 
@@ -91,11 +91,11 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-Quantity-eu-lab.csv
     "valueCode" : "has-units"
   }],
   "url" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Quantity-eu-lab",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "name" : "QuantityEuLab",
   "title" : "Quantity (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",

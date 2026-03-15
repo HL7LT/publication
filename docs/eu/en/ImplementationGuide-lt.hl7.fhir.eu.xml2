@@ -8,11 +8,11 @@
 </div></div>
   </text>
   <url value="https://hl7.lt/fhir/eu/ImplementationGuide/lt.hl7.fhir.eu"/>
-  <version value="0.0.1"/>
+  <version value="0.0.2"/>
   <name value="Hl7Eu"/>
   <title value="HL7 Europe IG Snapshot"/>
   <status value="draft"/>
-  <date value="2026-03-15T18:11:06+02:00"/>
+  <date value="2026-03-15T21:22:52+02:00"/>
   <publisher value="Lithuanian Medical Library"/>
   <contact>
     <name value="Lithuanian Medical Library"/>
@@ -43,6 +43,11 @@
     <packageId value="hl7.fhir.uv.extensions.r5"/>
     <version value="5.2.0"/>
   </dependsOn>
+  <dependsOn id="hl7_terminology_r5">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r5"/>
+    <version value="7.1.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_eu_base_r5">
     <uri value="http://hl7.eu/fhir/base-r5/ImplementationGuide/hl7.fhir.eu.base-r5"/>
     <packageId value="hl7.fhir.eu.base-r5"/>
@@ -52,11 +57,6 @@
     <uri value="http://hl7.eu/fhir/extensions/ImplementationGuide/hl7.fhir.eu.extensions"/>
     <packageId value="hl7.fhir.eu.extensions.r5"/>
     <version value="1.2.0"/>
-  </dependsOn>
-  <dependsOn id="hl7_terminology_r5">
-    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
-    <packageId value="hl7.terminology.r5"/>
-    <version value="7.1.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">

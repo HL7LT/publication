@@ -1,4 +1,4 @@
-# Extension: Document DiagnosticReport Reference (Eu Lab) - HL7 Europe IG Snapshot v0.0.1
+# Extension: Document DiagnosticReport Reference (Eu Lab) - HL7 Europe IG Snapshot v0.0.2
 
 ## Pratęsimas: Extension: Document DiagnosticReport Reference (Eu Lab) 
 
@@ -61,7 +61,7 @@ Kitos profilio reprezentacijos: [CSV](../StructureDefinition-composition-diagnos
   "name" : "DiagnosticReportReference",
   "title" : "Extension: Document DiagnosticReport Reference (Eu Lab)",
   "status" : "draft",
-  "date" : "2026-03-15T18:11:06+02:00",
+  "date" : "2026-03-15T21:22:52+02:00",
   "publisher" : "Lithuanian Medical Library",
   "contact" : [{
     "name" : "Lithuanian Medical Library",
