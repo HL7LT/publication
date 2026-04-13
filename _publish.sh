@@ -24,13 +24,17 @@ java -jar "$BASE_DIR/publisher.jar" -go-publish \
 read -n 1 -s -r -p "Press any key to clean current files in docs/$IG_SUFFIX ..."
 echo
 
+# Keep version dirs, package-list.json, and root redirect pages (index.html, history.html, en/index.html, lt/index.html)
 find "docs/$IG_SUFFIX" -type d -name '[0-9]*.[0-9]*.[0-9]*' -prune \
-   -o -type f -not -name 'package-list.json' -exec rm -f {} \;
+   -o -type f \( -not -name 'package-list.json' -and -not -name 'index.html' -and -not -name 'history.html' \) -exec rm -f {} \;
 
 read -n 1 -s -r -p "Press any key to copy new files to docs/$IG_SUFFIX ..."
 echo
 
 rsync -a docs/fhir/ "docs/$IG_SUFFIX/"
+
+# Ensure root has index.html, history.html, en/lt redirects, and copies of package.tgz/full-ig.zip from latest
+"$PUB_DIR/_ensure_ig_root.sh" "$IG_SUFFIX"
 
 read -n 1 -s -r -p "Press any key to clean up docs/fhir ..."
 echo
